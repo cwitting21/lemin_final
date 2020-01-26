@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 19:06:28 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/20 19:17:00 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 01:16:35 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,7 @@ void				delete_intersections(t_map *map)
 {
 	int				i;
 	t_adj_list_node	*tmp;
+	t_adj_list_node	*del;
 
 	i = -1;
 	while (++i < map->rooms_count)
@@ -61,12 +62,13 @@ void				delete_intersections(t_map *map)
 		tmp = map->graph[i].head;
 		while (tmp)
 		{
-			if (point_to_one_another(map, i, tmp->data))
-			{
-				del_node(&map->graph[tmp->data].head, i);
-				del_node(&map->graph[i].head, tmp->data);
-			}
+			del = tmp;
 			tmp = tmp->next;
+			if (point_to_one_another(map, i, del->data))
+			{
+				del_node(&map->graph[del->data].head, i);
+				del_node(&map->graph[i].head, del->data);
+			}
 		}
 	}
 }

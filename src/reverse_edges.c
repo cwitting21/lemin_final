@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/17 13:53:18 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/26 22:30:10 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 01:20:31 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,7 @@ void			reverse_edges(t_map *map, int way_i)
 {
 	t_adj_list_node	*tmp1;
 	t_adj_list_node	*tmp2;
+	t_adj_list_node	*del;
 	int		src1;
 	int		dst1;
 	int		i;
@@ -49,20 +50,18 @@ void			reverse_edges(t_map *map, int way_i)
 	{
 		src1 = i;
 		tmp1 = map->ways[way_i].way[i].head;
-		// if (tmp1)
-		// {
 			while (tmp1)
 			{
 				dst1 = tmp1->data;
 				tmp2 = map->array[i].head;
 				while (tmp2)
 				{
-					if (tmp2->data == dst1)
-						del_node(&map->array[i].head, tmp2->data);
+					del = tmp2;
 					tmp2 = tmp2->next;
+					if (del->data == dst1)
+						del_node(&map->array[i].head, del->data);
 				}
 				tmp1 = tmp1->next;
 			}
-		// }
 	}
 }
