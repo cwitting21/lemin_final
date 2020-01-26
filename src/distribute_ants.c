@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 21:07:45 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/22 23:43:04 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/26 23:28:54 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ static void		copy_ways_to_sol_malloc(t_solution *sol, t_map *map)
 	}
 }
 
-t_solution		distribute_ants(t_map *map, int ants_n)
+t_solution		distribute_ants(t_map *map, int ants_n, t_solution curr)
 {
 	t_solution	solution;
 	int			ways_n;
@@ -55,6 +55,9 @@ t_solution		distribute_ants(t_map *map, int ants_n)
 	int			max;
 	int			sum;
 
+	curr.amount_ways += 0;
+	// if (curr.amount_lines > 0)
+		// del_sol(curr, map->rooms_count);
 	ft_bzero(&solution, sizeof(t_solution));
 	copy_ways_to_sol_malloc(&solution, map);
 	ways_n = 1;

@@ -6,74 +6,11 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 00:45:42 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/26 22:53:47 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/26 23:25:15 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
-
-// static void			print_solution(t_solution sol, t_map *map)
-// {
-// 	int				i = -1;
-// 	int				k;
-// 	int				c;
-// 	t_adj_list_node	*tmp;
-
-// 	printf("\n-----------------SOLUTION-------------------------\n");
-// 	while (++i < sol.amount_ways)
-// 	{
-// 		k = -1;
-// 		c = 0;
-// 		printf("\nWAY[%d]\n\n", i);
-// 		while (++k < map->rooms_count)
-// 		{
-// 			tmp = sol.ready_ways[i].way[k].head;
-// 			if (tmp && tmp->data)
-// 			{
-// 				printf("[%s] :", map->rooms[k]);
-// 				printf(" %s ", map->rooms[tmp->data]);
-// 				tmp = tmp->next;
-// 				c++;
-// 				if (!tmp)
-// 					printf("\n");
-// 			}
-// 		}
-// 		printf("---%d lines---\n", c);
-// 		printf("%d ants\n", sol.ready_ways[i].amount_ants);
-// 	}
-// }
-
-// static void			print_ready_ways(t_map *map)
-// {
-// 	t_adj_list_node	*tmp;
-// 	int				i = -1;
-// 	int				k;
-
-// 	while (++i < map->r_ways->n) // r_ways[60]
-// 	{
-// 		printf("-------------------\n");
-// 		printf("WAY[%d]\n", i);
-// 		k = -1;
-// 		if (!map->r_ways[i].deleted)
-// 		{
-// 			while (++k < map->rooms_count)
-// 			{
-// 				tmp = map->r_ways[i].way[k].head;
-// 				if (tmp)
-// 					printf("[%s] :", map->rooms[k]);
-// 				if (tmp)
-// 				{
-// 					printf(" %s ", map->rooms[tmp->data]);
-// 					tmp = tmp->next;
-// 					if (!tmp)
-// 						printf("\n");
-// 				}
-// 			}
-// 		}
-// 		else
-// 			printf("WAY[%d] is marked as deleted\n", i);
-// 	}
-// }
 
 static void			add_to_ready_way(t_map *map, int to, int from, int way_i)
 {
@@ -182,11 +119,11 @@ void			solve_map(t_map *map)
 			add_one_way(map, i);	// push found way to the new graph
 			delete_intersections(map);
 			get_ready_ways(map);
-			// if (current_solution.amount_lines != 0)
-				// del_sol(current_solution, map->rooms_count);
-			// ft_bzero(&current_solution, sizeof(t_solution));
 			// if (best_solution.amount_ways != current_solution.amount_ways)
-			current_solution = distribute_ants(map, map->ants);
+				// del_sol(current_solution, map->rooms_count);
+			// if (current_solution.amount_lines != 0)
+			// ft_bzero(&current_solution, sizeof(t_solution));
+			current_solution = distribute_ants(map, map->ants, current_solution);
 			reverse_edges(map, i);
 			free_r_ways(map);
 		}
