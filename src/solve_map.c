@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 00:45:42 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 06:24:16 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 06:30:45 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -108,8 +108,6 @@ void				solve_map(t_map *map)
 	{
 		if (best_sol.amount_lines > cur_sol.amount_lines || best_sol.amount_lines == 0)
 		{
-			// best_sol = cur_sol; // rewrite with malloc ???
-			// free cur sol
 			del_sol(best_sol, map->rooms_count);
 			create_best_sol(&best_sol, cur_sol, map->rooms_count);
 			del_sol(cur_sol, map->rooms_count);
@@ -119,11 +117,9 @@ void				solve_map(t_map *map)
 		if (bfs_found_smth)
 		{
 			map->r_ways->n = 0;
-			add_one_way(map, i);	// push found way to the new graph
+			add_one_way(map, i);
 			delete_intersections(map);
 			get_ready_ways(map);
-			// if (best_solution.amount_ways != current_solution.amount_ways)
-			// if (current_solution.amount_lines != 0)
 			del_sol(cur_sol, map->rooms_count);
 			ft_bzero(&cur_sol, sizeof(t_solution));
 			cur_sol = distribute_ants(map, map->ants);

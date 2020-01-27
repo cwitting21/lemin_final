@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 17:41:25 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 03:52:07 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 07:01:59 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -115,12 +115,10 @@ void		move_ants(t_solution sol, t_map *map)
 	int		*ants_way; // each ant has its own way
 	int		j;
 	int		ants_n;
-	int		ants_in_end = 0;
 	int		*occ_room; // occupied room
+	int		line_count = 0;
 
 	ants_n = sol.amount_ways;
-	map->rooms_count += 0;
-	sol.amount_lines += 0;
 	ants_room = (int*)ft_memalloc(sizeof(int) * map->ants);
 	ants_way = (int*)ft_memalloc(sizeof(int) * map->ants);
 	occ_room = (int*)ft_memalloc(sizeof(int) * map->rooms_count);
@@ -136,16 +134,16 @@ void		move_ants(t_solution sol, t_map *map)
 				occ_room[ants_room[j]] = 0;
 				ants_room[j] = sol.ready_ways[ants_way[j]].way[ants_room[j]].head->data; //
 				printf("L%d-%s ", j + 1, map->rooms[ants_room[j]]);
-				if (ants_room[j] == map->rooms_count - 1)
-					ants_in_end++;
-				else
+				if (ants_room[j] != map->rooms_count - 1)
 					occ_room[ants_room[j]] = 1;
 			}
 		}
 		printf("\n");
+		line_count++;
 		ants_n += get_amount_of_avail_ways(&sol);
 		ants_n -= get_amount_of_ants_in_end(ants_room, map->ants, map->rooms_count - 1);
 	}
+	// printf("%d lines\n", line_count);
 	ft_memdel((void**)&ants_room);
 	ft_memdel((void**)&ants_way);
 	ft_memdel((void**)&occ_room);
