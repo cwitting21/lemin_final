@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/07 18:01:58 by fculator          #+#    #+#             */
-/*   Updated: 2020/01/27 05:52:13 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 19:22:25 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,6 +69,7 @@ typedef struct	s_ways
 	t_adj_list	*way;
 	int			n; // number of ways
 	int			deleted;
+	int			n_del;
 	int			amount_ants;
 }				t_ways;
 
