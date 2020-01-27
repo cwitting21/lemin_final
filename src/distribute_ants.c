@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 21:07:45 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 04:52:14 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 18:11:27 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,8 @@ static void		copy_ways_to_sol_malloc(t_solution *sol, t_map *map)
 	while (++i < map->r_ways->n)
 	{
 		k = -1;
-		if (!map->r_ways[i].deleted)
-		{
+		// if (!map->r_ways[i].deleted)
+		// {
 			sol->ready_ways[j].way = (t_adj_list*)ft_memalloc(map->rooms_count * sizeof(t_adj_list));
 			while (++k < map->rooms_count)
 			{
@@ -43,7 +43,7 @@ static void		copy_ways_to_sol_malloc(t_solution *sol, t_map *map)
 			}
 			j++;
 			sol->amount_ways++;
-		}
+		// }
 	}
 }
 

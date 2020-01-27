@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 00:45:42 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 06:30:45 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 18:05:45 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -128,6 +128,7 @@ void				solve_map(t_map *map)
 		}
 		++i;
 	}
+	// print_solution(best_sol, map);
 	move_ants(best_sol, map);
 	del_sol(cur_sol, map->rooms_count);
 	del_sol(best_sol, map->rooms_count);
