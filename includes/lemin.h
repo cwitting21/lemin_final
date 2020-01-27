@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/07 18:01:58 by fculator          #+#    #+#             */
-/*   Updated: 2020/01/27 22:46:48 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 23:28:40 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -139,7 +139,6 @@ int				room_index(t_map *m, char *room_name, int start);
 void			good(t_map *m, char **line, char **r, int end);
 void			check_start_end(t_map *m, char **r, int end);
 void			is_valid(t_map *m, int i, char **r);
-void			bfs(t_map *map);
 void			part_validation_map(t_map *map);
 void			matrix_to_adj_list(t_map *map);
 int				bfs_adj_list(t_map *map, int way_i);
@@ -158,7 +157,6 @@ void			print_way(t_map *map, int way_i);
 void			print_name_index(t_map *map);
 void			free_all(t_map *map);
 void			print_map(t_map *map);
-void			bfs_2(t_map *map);
 void			solve_map(t_map *map);
 void			add_one_way(t_map *map, int way_i);
 void			delete_intersections(t_map *map);

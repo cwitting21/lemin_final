@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/10 16:59:33 by fculator          #+#    #+#             */
-/*   Updated: 2020/01/11 21:24:23 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 23:30:41 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,9 @@ int			is_empty(char *s)
 	return (0);
 }
 
-void	is_number(char **r, t_map *map, char *s)
+void		is_number(char **r, t_map *map, char *s)
 {
-	int i;
+	int		i;
 
 	i = 0;
 	if (s[0] == '-' || ft_isdigit(s[0]))
@@ -41,9 +41,9 @@ void	is_number(char **r, t_map *map, char *s)
 		free_array(r, map, 1);
 }
 
-void	free_array(char **array, t_map *map, int code)
+void		free_array(char **array, t_map *map, int code)
 {
-	int i;
+	int		i;
 
 	i = 0;
 	while (array[i])
@@ -55,7 +55,7 @@ void	free_array(char **array, t_map *map, int code)
 	array = NULL;
 }
 
-void	good(t_map *map, char **line, char **r, int end)
+void		good(t_map *map, char **line, char **r, int end)
 {
 	if (++(map->val->good[end]) > 1)
 	{
@@ -64,7 +64,7 @@ void	good(t_map *map, char **line, char **r, int end)
 	}
 }
 
-void	check_start_end(t_map *map, char **r, int end)
+void		check_start_end(t_map *map, char **r, int end)
 {
 	if (end)
 	{

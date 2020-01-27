@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/17 13:52:35 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 22:40:40 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 23:31:35 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,6 @@ int		main(void)
 	matrix_to_adj_list(map);
 	print_map(map);
 	solve_map(map);
-	// print_name_index(map);
 	free_all(map);
 	exit(EXIT_SUCCESS);
 }

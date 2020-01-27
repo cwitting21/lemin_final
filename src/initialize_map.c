@@ -6,17 +6,17 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/11 17:05:33 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 22:49:00 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 23:35:41 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-void	initialize_map(t_map *map)
+void		initialize_map(t_map *map)
 {
-	if (!(map->val = (t_valid *)ft_memalloc(sizeof(t_valid))))
+	if (!(map->val = (t_valid*)ft_memalloc(sizeof(t_valid))))
 		exit(1);
-	if (!(map->in = (t_input *)ft_memalloc(sizeof(t_input))))
+	if (!(map->in = (t_input*)ft_memalloc(sizeof(t_input))))
 		exit(1);
 	map->in->link_list = ft_strnew(1);
 	map->in->ants_list = ft_strnew(1);
@@ -34,10 +34,10 @@ void	initialize_map(t_map *map)
 	map->way = NULL;
 }
 
-void	initialize_map_2(t_map *map)
+void		initialize_map_2(t_map *map)
 {
-	int i;
-	int j;
+	int		i;
+	int		j;
 
 	i = -1;
 	map->val->init_2 = 1;
@@ -45,7 +45,7 @@ void	initialize_map_2(t_map *map)
 	map->rooms = (char**)ft_memalloc(sizeof(char*) * (map->rooms_count + 1));
 	map->in_way = (int*)ft_memalloc(sizeof(int) * map->rooms_count);
 	if (!(map->ways = (t_ways*)ft_memalloc(sizeof(t_ways) * 60)))
-			ft_exit("map->ways");
+		ft_exit("map->ways");
 	while (++i < map->rooms_count)
 	{
 		map->rooms[i] = NULL;
@@ -57,10 +57,9 @@ void	initialize_map_2(t_map *map)
 	map->rooms[i] = NULL;
 }
 
-
-void	free_map(t_map *map, int code)
+void		free_map(t_map *map, int code)
 {
-	int i;
+	int		i;
 
 	free(map->in->link_list);
 	free(map->in->ants_list);

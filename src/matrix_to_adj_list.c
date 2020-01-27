@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 12:16:24 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 20:52:13 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 23:37:04 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,10 @@ static t_al_node	*create_node(t_map *map, int from, int to)
 	return (new);
 }
 
-void					matrix_to_adj_list(t_map *map)
+void				matrix_to_adj_list(t_map *map)
 {
-	int					i;
-	int					j;
+	int				i;
+	int				j;
 
 	i = -1;
 	if (!(map->array = (t_al*)ft_memalloc(map->rooms_count *

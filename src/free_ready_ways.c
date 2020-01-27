@@ -6,19 +6,19 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 19:32:23 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 21:23:26 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 23:29:43 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-void				free_ready_ways(t_map *map)
+void			free_ready_ways(t_map *map)
 {
 	t_al		*way_del;
 	t_al_node	*del;
 	t_al_node	*tmp;
-	int				i;
-	int				k;
+	int			i;
+	int			k;
 
 	i = -1;
 	while (++i < map->r_ways->n)
