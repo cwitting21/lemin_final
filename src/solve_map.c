@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 00:45:42 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 05:51:40 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 06:24:16 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -110,7 +110,10 @@ void				solve_map(t_map *map)
 		{
 			// best_sol = cur_sol; // rewrite with malloc ???
 			// free cur sol
+			del_sol(best_sol, map->rooms_count);
 			create_best_sol(&best_sol, cur_sol, map->rooms_count);
+			del_sol(cur_sol, map->rooms_count);
+			ft_bzero(&cur_sol, sizeof(t_solution));
 		}
 		bfs_found_smth = bfs_adj_list(map, i);
 		if (bfs_found_smth)
@@ -120,9 +123,9 @@ void				solve_map(t_map *map)
 			delete_intersections(map);
 			get_ready_ways(map);
 			// if (best_solution.amount_ways != current_solution.amount_ways)
-			// del_sol(cur_sol, map->rooms_count);
 			// if (current_solution.amount_lines != 0)
-			// ft_bzero(&current_solution, sizeof(t_solution));
+			del_sol(cur_sol, map->rooms_count);
+			ft_bzero(&cur_sol, sizeof(t_solution));
 			cur_sol = distribute_ants(map, map->ants);
 			reverse_edges(map, i);
 			free_r_ways(map);
@@ -130,5 +133,6 @@ void				solve_map(t_map *map)
 		++i;
 	}
 	move_ants(best_sol, map);
+	del_sol(cur_sol, map->rooms_count);
 	del_sol(best_sol, map->rooms_count);
 }
