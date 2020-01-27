@@ -80,6 +80,9 @@ void	free_map(t_map *map, int code)
 		free(map->matrix);
 	}
 	free(map->val);
+	free(map->in);
+	free(map->ways);
+	free(map->in_way);
 	free(map);
 	if (code)
 	{

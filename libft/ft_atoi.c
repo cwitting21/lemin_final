@@ -12,9 +12,9 @@
 
 #include "libft.h"
 
-int	ft_atoi(const char *str)
+long long	ft_atoi(const char *str)
 {
-	long int	nb;
+	long long	nb;
 	int			sign;
 
 	nb = 0;
@@ -33,5 +33,5 @@ int	ft_atoi(const char *str)
 		else
 			return (-1);
 	}
-	return ((int)nb * sign);
+	return ((long)nb * sign);
 }

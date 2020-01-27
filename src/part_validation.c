@@ -15,6 +15,22 @@
 int		start = 0;
 int		end = 0;
 
+void	check_links_start_end(t_map *map)
+{
+	int i = -1;
+	int code_s = 0;
+	int code_e = 0;
+	while (++i < map->rooms_count)
+	{
+		if (map->matrix[0][i] == 1)
+			code_s++;
+		if (map->matrix[map->rooms_count - 1][i] == 1)
+			code_e++;
+	}
+	if (!code_s || !code_e)
+		free_map(map, 1);
+}
+
 void		start_end_val(char **r)
 {
 	if (ft_strcmp(r[0], "##start") == 0)
@@ -42,6 +58,7 @@ void	part_validation_map(t_map *map)
 		free_array(line, map, 1);
 	free_array(line, map, 0);
 	part_validation_map_2(map);
+	check_links_start_end(map);
 }
 
 void	part_validation_map_2(t_map *map)

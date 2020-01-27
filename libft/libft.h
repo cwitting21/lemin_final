@@ -35,7 +35,7 @@ typedef	struct		s_list
 int					ft_isspace(int c);
 void				ft_quick_sort(int *arry, int element);
 int					get_next_line(const int fd, char **line);
-int					ft_atoi(const char *str);
+long long			ft_atoi(const char *str);
 int					ft_atoi_base(const char *str, int base);
 int					ft_power(int n, int power);
 int					ft_isalnum(int c);

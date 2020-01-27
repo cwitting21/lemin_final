@@ -25,6 +25,7 @@ int		main(void)
 	initialize_map_2(map);
 	room_table(map);
 	connectivity_matrix(map);
+	print_matrix(map);
 	part_validation_map(map);
 	matrix_to_adj_list(map);
 	print_map(map);

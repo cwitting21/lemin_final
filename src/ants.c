@@ -14,8 +14,9 @@
 
 void	ants(t_map *map, char *line)
 {
-	int		i;
-	char	*str;
+	int			i;
+	char		*str;
+	long long 	d;
 
 	i = 0;
 	map->val->part = 1;
@@ -23,8 +24,10 @@ void	ants(t_map *map, char *line)
 	if (line[0] == '#')
 		return ;
 	str = ft_strtrim(line);
-	if ((map->ants = ft_atoi(str)) <= 0)
+	d = ft_atoi(str);
+	if (d <= 0 || d > INT_MAX)
 		free_map(map, 1);
+	map->ants = d;
 	while (str[i] != '\n' && str[i] != 0)
 	{
 		if (!ft_isdigit(str[i++]))

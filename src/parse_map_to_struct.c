@@ -16,8 +16,8 @@ void	parse_map_to_struct(t_map *map)
 {
 	char	*line;
 
-	// int fd = open("maps/invalid/test.txt", O_RDONLY);
-	while (get_next_line(0, &line) > 0)
+	int fd = open("../maps/invalid/empty_map", O_RDONLY);
+	while (get_next_line(fd, &line) > 0)
 	{
 		if (map->ants == 0)
 			ants(map, line);
@@ -26,7 +26,11 @@ void	parse_map_to_struct(t_map *map)
 		else if ((map->val->part == 1 || map->val->part == 2) && !is_empty(line))
 			add_room_list(map, line);
 		else
+		{
+			free(line);
 			free_map(map, 1);
+		}
+		free(line);
 	}
 	if (map->ants == 0 || map->in->link_list[0] == '\0')
 		free_map(map, 1);
