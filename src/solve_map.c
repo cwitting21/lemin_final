@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 00:45:42 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 20:10:21 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 20:22:43 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -119,6 +119,12 @@ static void			get_ready_ways(t_map *map)
 	}
 }
 
+static void			help_func4(t_solution *best, t_solution cur, int size)
+{
+	del_sol(*best, size);
+	create_best_sol(best, cur, size);
+}
+
 void				solve_map(t_map *map)
 {
 	int				i;
@@ -128,21 +134,14 @@ void				solve_map(t_map *map)
 
 	i = 0;
 	bfs_found_way = 1;
-	ft_bzero(&cur_sol, sizeof(t_solution));
-	ft_bzero(&best_sol, sizeof(t_solution));
+	ft_bzero(&cur_sol, sizeof(t_solution) * 2);
 	if (!(map->graph = (t_adj_list*)ft_memalloc(map->rooms_count * sizeof(t_adj_list))))
 		exit(1);
 	while (bfs_found_way)
 	{
 		if (best_sol.amount_lines > cur_sol.amount_lines || best_sol.amount_lines == 0)
-		{
-			del_sol(best_sol, map->rooms_count);
-			create_best_sol(&best_sol, cur_sol, map->rooms_count);
-			del_sol(cur_sol, map->rooms_count);
-			ft_bzero(&cur_sol, sizeof(t_solution));
-		}
-		bfs_found_way = bfs_adj_list(map, i);
-		if (bfs_found_way)
+			help_func4(&best_sol, cur_sol, map->rooms_count);
+		if ((bfs_found_way = bfs_adj_list(map, i)))
 		{
 			map->r_ways->n = 0;
 			map->r_ways->n_del = 0;
