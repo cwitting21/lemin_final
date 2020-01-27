@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 17:41:25 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/26 23:04:00 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 03:52:07 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -135,14 +135,14 @@ void		move_ants(t_solution sol, t_map *map)
 			{
 				occ_room[ants_room[j]] = 0;
 				ants_room[j] = sol.ready_ways[ants_way[j]].way[ants_room[j]].head->data; //
-				// printf("L%d-%s ", j + 1, map->rooms[ants_room[j]]);
+				printf("L%d-%s ", j + 1, map->rooms[ants_room[j]]);
 				if (ants_room[j] == map->rooms_count - 1)
 					ants_in_end++;
 				else
 					occ_room[ants_room[j]] = 1;
 			}
 		}
-		// printf("\n");
+		printf("\n");
 		ants_n += get_amount_of_avail_ways(&sol);
 		ants_n -= get_amount_of_ants_in_end(ants_room, map->ants, map->rooms_count - 1);
 	}

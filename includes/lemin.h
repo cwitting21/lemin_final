@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/07 18:01:58 by fculator          #+#    #+#             */
-/*   Updated: 2020/01/26 23:25:24 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 05:52:13 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -161,7 +161,7 @@ void			solve_map(t_map *map);
 void			add_one_way(t_map *map, int way_i);
 void			delete_intersections(t_map *map);
 void			print_graph(t_map *map);
-t_solution		distribute_ants(t_map *map, int ants_n, t_solution curr);
+t_solution		distribute_ants(t_map *map, int ants_n);
 void			del_q(t_q *q);
 void			move_ants(t_solution sol, t_map *map);
 void			free_r_ways(t_map *map);
@@ -169,6 +169,7 @@ void			del_sol(t_solution sol, int rooms_n);
 void			part_validation_map_2(t_map *map);
 void			print_ready_ways(t_map *map);
 void			print_solution(t_solution sol, t_map *map);
+void			create_best_sol(t_solution *best, t_solution cur, int size);
 
 
 # endif

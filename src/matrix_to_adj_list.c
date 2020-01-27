@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 12:16:24 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/26 22:21:27 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 04:43:25 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 static t_adj_list_node	*create_node(t_map *map, int from, int to)
 {
-	t_adj_list_node	*new;
+	t_adj_list_node		*new;
 
 	if (!(new = (t_adj_list_node*)ft_memalloc(sizeof(t_adj_list_node))))
 		return (NULL);
@@ -24,13 +24,14 @@ static t_adj_list_node	*create_node(t_map *map, int from, int to)
 	return (new);
 }
 
-void		matrix_to_adj_list(t_map *map)
+void					matrix_to_adj_list(t_map *map)
 {
-	int		i;
-	int		j;
+	int					i;
+	int					j;
 
 	i = -1;
-	if (!(map->array = (t_adj_list*)ft_memalloc(map->rooms_count * sizeof(t_adj_list))))
+	if (!(map->array = (t_adj_list*)ft_memalloc(map->rooms_count *
+						sizeof(t_adj_list))))
 		exit(1);
 	while (++i < map->rooms_count)
 	{
@@ -38,7 +39,7 @@ void		matrix_to_adj_list(t_map *map)
 		while (++j < map->rooms_count)
 		{
 			if (map->matrix[i][j] == 1)
-			create_node(map, i, j);
+				create_node(map, i, j);
 		}
 	}
 }

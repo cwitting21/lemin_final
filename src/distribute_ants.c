@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 21:07:45 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/26 23:28:54 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 04:52:14 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,35 +47,32 @@ static void		copy_ways_to_sol_malloc(t_solution *sol, t_map *map)
 	}
 }
 
-t_solution		distribute_ants(t_map *map, int ants_n, t_solution curr)
+t_solution		distribute_ants(t_map *map, int ants_n)
 {
-	t_solution	solution;
+	t_solution	sol;
 	int			ways_n;
 	int			i;
 	int			max;
 	int			sum;
 
-	curr.amount_ways += 0;
-	// if (curr.amount_lines > 0)
-		// del_sol(curr, map->rooms_count);
-	ft_bzero(&solution, sizeof(t_solution));
-	copy_ways_to_sol_malloc(&solution, map);
+	ft_bzero(&sol, sizeof(t_solution));
+	copy_ways_to_sol_malloc(&sol, map);
 	ways_n = 1;
-	if (ways_n >= solution.amount_ways)
-    	max = solution.ready_ways[0].way->rooms_n - 1;
+	if (ways_n >= sol.amount_ways)
+    	max = sol.ready_ways[0].way->rooms_n - 1;
 	else
-		max = solution.ready_ways[ways_n].way->rooms_n - 1;
-	while (ants_n != 0 && ways_n <= solution.amount_ways)
+		max = sol.ready_ways[ways_n].way->rooms_n - 1;
+	while (ants_n != 0 && ways_n <= sol.amount_ways)
 	{
 		i = 0;
 		while (i < ways_n && ants_n != 0)
 		{
-			sum = solution.ready_ways[i].way->rooms_n - 1 + 
-						solution.ready_ways[i].amount_ants;
+			sum = sol.ready_ways[i].way->rooms_n - 1 + 
+						sol.ready_ways[i].amount_ants;
 			if (sum < max)
 			{
 				// recalculate(&sum, &ants_n, &);
-				++solution.ready_ways[i].amount_ants;
+				++sol.ready_ways[i].amount_ants;
 				++sum;
 				--ants_n;
 			}
@@ -83,15 +80,15 @@ t_solution		distribute_ants(t_map *map, int ants_n, t_solution curr)
 				i = 0;
 		}
 		ways_n++;
-		if (ways_n >= solution.amount_ways)
+		if (ways_n >= sol.amount_ways)
 		{
 			++max;
-			if (ways_n > solution.amount_ways)
+			if (ways_n > sol.amount_ways)
 				--ways_n;
 		}
 		else
-			max = solution.ready_ways[ways_n].n - 1;
+			max = sol.ready_ways[ways_n].n - 1;
 	}
-	get_amount_lines(&solution);
-	return (solution);
+	get_amount_lines(&sol);
+	return (sol);
 }

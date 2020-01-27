@@ -22,7 +22,7 @@ SRC_FILES = lem-in.c initialize_map.c \
 			add_ways_to_graph.c solve_map.c add_one_way.c \
 			delete_intersections.c print_graph.c distribute_ants.c \
 			del_q.c move_ants.c free_r_ways.c del_sol.c part_validation.c \
-			print_ready_ways.c print_solution.c
+			print_ready_ways.c print_solution.c create_best_sol.c
 
 H_PATH = includes/
 

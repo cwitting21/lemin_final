@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 00:45:42 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/26 23:25:15 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 05:51:40 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,8 @@ static t_adj_list	*create_ready_way(t_map *map)
 {
 	t_adj_list		*new_way;
 
-	if (!(new_way = (t_adj_list*)ft_memalloc(sizeof(t_adj_list) * map->rooms_count)))
+	if (!(new_way = (t_adj_list*)ft_memalloc(sizeof(t_adj_list) *
+					map->rooms_count)))
 		return (NULL);
 	map->r_ways->n++;
 	return (new_way);
@@ -43,12 +44,10 @@ static void			get_ready_ways(t_map *map)
 	int				tmp;
 	int				j;
 	int				tmp2;
-	int				start_edges[60];
 	int				in_way[map->rooms_count];
 
 	i = 0;
 	ft_bzero(in_way, map->rooms_count * sizeof(int));
-	ft_bzero(&start_edges, sizeof(int) * 60);
 	start = map->graph[0].head;
 	while (start) 
 	{
@@ -92,25 +91,26 @@ static void			get_ready_ways(t_map *map)
 	}
 }
 
-void			solve_map(t_map *map)
+void				solve_map(t_map *map)
 {
-	int			i;
-	int			bfs_found_smth = 1;
-	t_solution	best_solution;
-	t_solution	current_solution;
+	int				i;
+	int				bfs_found_smth;
+	t_solution		best_sol;
+	t_solution		cur_sol;
 
 	i = 0;
-	ft_bzero(&current_solution, sizeof(t_solution));
-	ft_bzero(&best_solution, sizeof(t_solution));
+	bfs_found_smth = 1;
+	ft_bzero(&cur_sol, sizeof(t_solution));
+	ft_bzero(&best_sol, sizeof(t_solution));
 	if (!(map->graph = (t_adj_list*)ft_memalloc(map->rooms_count * sizeof(t_adj_list))))
 		exit(1);
 	while (bfs_found_smth)
 	{
-		if (best_solution.amount_lines > current_solution.amount_lines ||
-				best_solution.amount_lines == 0)
+		if (best_sol.amount_lines > cur_sol.amount_lines || best_sol.amount_lines == 0)
 		{
-			best_solution = current_solution; // rewrite with malloc ???
+			// best_sol = cur_sol; // rewrite with malloc ???
 			// free cur sol
+			create_best_sol(&best_sol, cur_sol, map->rooms_count);
 		}
 		bfs_found_smth = bfs_adj_list(map, i);
 		if (bfs_found_smth)
@@ -120,14 +120,15 @@ void			solve_map(t_map *map)
 			delete_intersections(map);
 			get_ready_ways(map);
 			// if (best_solution.amount_ways != current_solution.amount_ways)
-				// del_sol(current_solution, map->rooms_count);
+			// del_sol(cur_sol, map->rooms_count);
 			// if (current_solution.amount_lines != 0)
 			// ft_bzero(&current_solution, sizeof(t_solution));
-			current_solution = distribute_ants(map, map->ants, current_solution);
+			cur_sol = distribute_ants(map, map->ants);
 			reverse_edges(map, i);
 			free_r_ways(map);
 		}
 		++i;
 	}
-	move_ants(best_solution, map);
+	move_ants(best_sol, map);
+	del_sol(best_sol, map->rooms_count);
 }
