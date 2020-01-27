@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/07 18:01:58 by fculator          #+#    #+#             */
-/*   Updated: 2020/01/27 21:52:24 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 22:46:48 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -159,7 +159,6 @@ void			print_name_index(t_map *map);
 void			free_all(t_map *map);
 void			print_map(t_map *map);
 void			bfs_2(t_map *map);
-void			add_ways_to_graph(t_map *map);
 void			solve_map(t_map *map);
 void			add_one_way(t_map *map, int way_i);
 void			delete_intersections(t_map *map);

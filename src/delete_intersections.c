@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 19:06:28 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 20:52:13 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 22:45:07 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,12 +28,13 @@ static int			point_to_one_another(t_map *map, int key, int data)
 
 static void			del_node(t_al_node **head, int key)
 {
-	t_al_node	*tmp;
-	t_al_node	*prev;
-	int				code = 0;
+	t_al_node		*tmp;
+	t_al_node		*prev;
+	int				code;
 
 	tmp = *head;
 	prev = tmp;
+	code = 0;
 	while (tmp && tmp->data != key)
 	{
 		prev = tmp;
@@ -53,8 +54,8 @@ static void			del_node(t_al_node **head, int key)
 void				delete_intersections(t_map *map)
 {
 	int				i;
-	t_al_node	*tmp;
-	t_al_node	*del;
+	t_al_node		*tmp;
+	t_al_node		*del;
 
 	i = -1;
 	while (++i < map->rooms_count)

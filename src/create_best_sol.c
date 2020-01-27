@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/27 05:38:07 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 21:22:51 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 22:43:47 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,8 @@ void		create_best_sol(t_solution *best, t_solution cur, int size)
 		k = -1;
 		while (++k < size)
 		{
-			best->rw[i].way[k].head = (t_al_node*)ft_memalloc(sizeof(t_al_node));
+			best->rw[i].way[k].head =
+							(t_al_node*)ft_memalloc(sizeof(t_al_node));
 			best->rw[i].way[k].rooms_n = cur.rw[i].way[k].rooms_n;
 			best->rw[i].way[k].head->data = cur.rw[i].way[k].head->data;
 			best->rw[i].way[k].head->next = cur.rw[i].way[k].head->next;

@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   lem-in.c                                           :+:      :+:    :+:   */
+/*   lemin.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/17 13:52:35 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 18:05:49 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 22:40:40 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int		main(void)
 	parse_map_to_struct(map);
 	initialize_map_2(map);
 	room_table(map);
-	connectivity_matrix(map);
+	connectivity_matrix(map); // adj matrix created here?
 	part_validation_map(map);
 	matrix_to_adj_list(map);
 	print_map(map);

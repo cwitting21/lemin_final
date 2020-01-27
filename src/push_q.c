@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/17 00:17:17 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/17 00:17:44 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 22:33:00 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ void		push_q(t_q *q, int index)
 	{
 		q->head->next = new;
 		q->end = new;
-		new->next = NULL; // mojno delete
+		new->next = NULL;
 	}
 	else
 	{
