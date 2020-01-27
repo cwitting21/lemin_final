@@ -6,52 +6,13 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 17:41:25 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 07:01:59 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 22:04:03 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-// static void	print_ants_way(int *ants_way, int size)
-// {
-// 	int		i;
-
-// 	i = -1;
-// 	printf("\n");
-// 	while (++i < size)
-// 		printf(" %d ", ants_way[i]);
-// 	printf("\n");
-// }
-
-static void	set_ways(int *ants_way, t_solution sol, int size)
-{
-	int		i;
-	int		*tmp; // for storing amount of ants for each way
-	int		tmp_i;
-
-	tmp_i = -1;
-	i = 0;
-	tmp = (int*)ft_memalloc(sizeof(int) * sol.amount_ways);
-	while (++tmp_i < sol.amount_ways)
-		tmp[tmp_i] = sol.ready_ways[tmp_i].amount_ants;
-	while (i < size)
-	{
-		tmp_i = 0;
-		while (tmp_i < sol.amount_ways)
-		{
-			if (tmp[tmp_i] > 0)
-				ants_way[i] = tmp_i;
-			else
-				i--;
-			tmp[tmp_i]--;
-			tmp_i++;
-			i++;
-		}
-	}
-	ft_memdel((void**)&tmp);
-}
-
-static int	get_amount_of_ants_in_end(int *ants_room, int size, int end_index)
+static int		get_ants_n_in_end(int *ants_room, int size, int end_index)
 {
 	int		i;
 	int		count;
@@ -66,7 +27,7 @@ static int	get_amount_of_ants_in_end(int *ants_room, int size, int end_index)
 	return (count);
 }
 
-static int	all_ants_in_end(int *ants_room, int size, int end_index)
+static int		all_ants_in_end(int *ants_room, int size, int end_index)
 {
 	int		i;
 
@@ -79,8 +40,10 @@ static int	all_ants_in_end(int *ants_room, int size, int end_index)
 	return (1);
 }
 
-static void	adjust_starting_pos(int *j, int *ants_n, int *ants_room, int end_index)
+static void		adjust_starting_pos(int *j, int *ants_n, int *ants_room,
+								int end_index)
 {
+	*j = -1;
 	++(*j);
 	if (ants_room[*j] == end_index)
 	{
@@ -91,60 +54,78 @@ static void	adjust_starting_pos(int *j, int *ants_n, int *ants_room, int end_ind
 	--(*j);
 }
 
-static int	get_amount_of_avail_ways(t_solution *sol)
+static int		get_amount_of_avail_ways(t_solution sol)
 {
-	int		i;
-	int		av_ways;
+	int			i;
+	int			av_ways;
 
 	i = -1;
 	av_ways = 0;
-	while (++i < sol->amount_ways)
+	while (++i < sol.amount_ways)
 	{
-		if (sol->ready_ways[i].amount_ants > 0)
+		if (sol.rw[i].amount_ants > 0)
 		{
-			sol->ready_ways[i].amount_ants--;
+			sol.rw[i].amount_ants--;
 			av_ways++;
 		}
 	}
 	return (av_ways);
 }
 
-void		move_ants(t_solution sol, t_map *map)
+static void		malloc_stuff_and_set_ways(t_ants *a, t_map *map, t_solution sol)
 {
-	int		*ants_room; // current room of each ant
-	int		*ants_way; // each ant has its own way
-	int		j;
-	int		ants_n;
-	int		*occ_room; // occupied room
-	int		line_count = 0;
+	a->ants_room = (int*)ft_memalloc(sizeof(int) * map->ants);
+	a->ants_way = (int*)ft_memalloc(sizeof(int) * map->ants);
+	a->occ_room = (int*)ft_memalloc(sizeof(int) * map->rooms_count);
+	set_ways(a->ants_way, sol, map->ants);
+}
 
-	ants_n = sol.amount_ways;
-	ants_room = (int*)ft_memalloc(sizeof(int) * map->ants);
-	ants_way = (int*)ft_memalloc(sizeof(int) * map->ants);
-	occ_room = (int*)ft_memalloc(sizeof(int) * map->rooms_count);
-	set_ways(ants_way, sol, map->ants);
-	while (!all_ants_in_end(ants_room, map->ants, map->rooms_count - 1))
+static void		del_stuff(t_ants a)
+{
+	ft_memdel((void**)&a.ants_room);
+	ft_memdel((void**)&a.ants_way);
+	ft_memdel((void**)&a.occ_room);
+}
+
+static void		adjust_ants_n_and_print_nl(int *ants_n, t_solution sol,
+											t_map *map, t_ants a)
+{
+	ft_printf("\n");
+	*ants_n += get_amount_of_avail_ways(sol);
+	*ants_n -= get_ants_n_in_end(a.ants_room, map->ants, map->rooms_count - 1);
+}
+
+/*
+**	ants_room - current_room of each ant
+**	ants_way - each ant hast its own way
+**	occ_room - occupied room (1 or 0)
+*/
+
+void			move_ants(t_solution s, t_map *map)
+{
+	int			j;
+	int			ants_n;
+	t_ants		a;
+
+	ants_n = s.amount_ways;
+	ft_bzero(&a, sizeof(t_ants));
+	malloc_stuff_and_set_ways(&a, map, s);
+	while (!all_ants_in_end(a.ants_room, map->ants, map->rooms_count - 1))
 	{
-		j = -1;
-		adjust_starting_pos(&j, &ants_n, ants_room, map->rooms_count - 1);
+		adjust_starting_pos(&j, &ants_n, a.ants_room, map->rooms_count - 1);
 		while (++j < map->ants)
 		{
-			if (ants_room[j] != map->rooms_count - 1 && !occ_room[sol.ready_ways[ants_way[j]].way[ants_room[j]].head->data]) // if an ant is not at the end, move it
+			if (a.ants_room[j] != map->rooms_count - 1 &&
+			!a.occ_room[s.rw[a.ants_way[j]].way[a.ants_room[j]].head->data])
 			{
-				occ_room[ants_room[j]] = 0;
-				ants_room[j] = sol.ready_ways[ants_way[j]].way[ants_room[j]].head->data; //
-				printf("L%d-%s ", j + 1, map->rooms[ants_room[j]]);
-				if (ants_room[j] != map->rooms_count - 1)
-					occ_room[ants_room[j]] = 1;
+				a.occ_room[a.ants_room[j]] = 0;
+				a.ants_room[j] = s.rw[a.ants_way[j]].way[a.ants_room[j]].head->data;
+				ft_printf("L%d-%s ", j + 1, map->rooms[a.ants_room[j]]);
+				if (a.ants_room[j] != map->rooms_count - 1)
+					a.occ_room[a.ants_room[j]] = 1;
 			}
 		}
-		printf("\n");
-		line_count++;
-		ants_n += get_amount_of_avail_ways(&sol);
-		ants_n -= get_amount_of_ants_in_end(ants_room, map->ants, map->rooms_count - 1);
+		adjust_ants_n_and_print_nl(&ants_n, s, map, a);
 	}
-	// printf("%d lines\n", line_count);
-	ft_memdel((void**)&ants_room);
-	ft_memdel((void**)&ants_way);
-	ft_memdel((void**)&occ_room);
+	del_stuff(a);
 }

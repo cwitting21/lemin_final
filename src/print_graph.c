@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 19:11:09 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/20 19:11:39 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 20:52:13 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 void		print_graph(t_map *map)
 {
 	int			i = -1;
-	t_adj_list_node	*tmp;
-	t_adj_list_node	*tmp2;
+	t_al_node	*tmp;
+	t_al_node	*tmp2;
 
 	printf("\n\nGRAPH\n\n");
 	while (++i < map->rooms_count)

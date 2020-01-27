@@ -6,17 +6,17 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/17 03:02:28 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/20 03:30:42 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 20:52:13 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-// static t_adj_list_node	*create_node(t_map *map, int i, int j)
+// static t_al_node	*create_node(t_map *map, int i, int j)
 // {
-// 	t_adj_list_node		*new;
+// 	t_al_node		*new;
 
-// 	if (!(new = (t_adj_list_node*)ft_memalloc(sizeof(t_adj_list_node))))
+// 	if (!(new = (t_al_node*)ft_memalloc(sizeof(t_al_node))))
 // 		return (NULL);
 // 	// new->visited = False;
 // 	new->data = j;
@@ -28,7 +28,7 @@
 // static int	to_room_to_dup(int key, int *arr)
 // {
 	
-// 	t_adj_list_node	*tmp;
+// 	t_al_node	*tmp;
 // 	int			i;
 
 // 	i = -1;
@@ -71,13 +71,13 @@
 // void		duplicate_rooms(t_map *map)
 // {
 // 	int		i;
-// 	t_adj_list_node	*tmp;
+// 	t_al_node	*tmp;
 // 	int		arr[10]; // array of room indexes at map->array that need to be duplicated
 // 	int		arr_i = 0;
 
 	// map->rooms_count += 0;
 // 	ft_bzero(arr, 10 * 4);
-// 	if (!(map->dup_arr = (t_adj_list*)ft_memalloc(sizeof(t_adj_list))))
+// 	if (!(map->dup_arr = (t_al*)ft_memalloc(sizeof(t_al))))
 // 		exit(1);
 // 	i = -1;
 // 	while (++i < map->rooms_count)

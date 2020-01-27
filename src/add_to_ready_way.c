@@ -1,32 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   print_al.c                                   :+:      :+:    :+:   */
+/*   add_to_ready_way.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/16 23:49:17 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/18 22:17:02 by cwitting         ###   ########.fr       */
+/*   Created: 2020/01/27 21:01:07 by cwitting          #+#    #+#             */
+/*   Updated: 2020/01/27 21:01:37 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-void		print_adj_list(t_map *map)
+void			add_to_ready_way(t_map *map, int to, int from, int way_i)
 {
-	int			i = -1;
-	t_al_node	*tmp;
+	t_al_node	*new;
 
-	printf("ADJ LIST\n\n");
-	while (++i < map->rooms_count)
-	{
-		printf("[%s-%d] :", map->rooms[i], i);
-		tmp = map->array[i].head;
-		while (tmp)
-		{
-			printf(" %s ", map->rooms[tmp->data]);
-			tmp = tmp->next;
-		}
-		printf("\n");
-	}
+	if (!(new = (t_al_node*)ft_memalloc(sizeof(t_al_node))))
+		exit(1);
+	new->data = to;
+	map->r_ways[way_i].way[from].head = new;
+	new->next = NULL;
+	map->r_ways[way_i].way->rooms_n++;
 }

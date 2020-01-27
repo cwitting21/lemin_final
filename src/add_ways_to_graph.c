@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/19 06:11:13 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/19 07:33:28 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 20:52:13 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 static void		test_print(t_map *map)
 {
 	int			i = -1;
-	t_adj_list_node	*tmp;
-	t_adj_list_node	*tmp2;
+	t_al_node	*tmp;
+	t_al_node	*tmp2;
 
 	printf("\n\nGRAPH\n\n");
 	while (++i < map->rooms_count)
@@ -37,9 +37,9 @@ static void		test_print(t_map *map)
 
 static void			create_node(t_map *map, int from, int to)
 {
-	t_adj_list_node	*new;
+	t_al_node	*new;
 
-	if (!(new = (t_adj_list_node*)ft_memalloc(sizeof(t_adj_list_node))))
+	if (!(new = (t_al_node*)ft_memalloc(sizeof(t_al_node))))
 		exit(1);
 	new->data = to;
 	new->next = map->graph[from].head;
@@ -48,7 +48,7 @@ static void			create_node(t_map *map, int from, int to)
 
 static int			point_to_one_another(t_map *map, int key, int data)
 {
-	t_adj_list_node		*tmp;
+	t_al_node		*tmp;
 
 	tmp = map->graph[data].head;
 	while (tmp)
@@ -60,10 +60,10 @@ static int			point_to_one_another(t_map *map, int key, int data)
 	return (0);
 }
 
-static void			del_node(t_adj_list_node **head, int key)
+static void			del_node(t_al_node **head, int key)
 {
-	t_adj_list_node	*tmp;
-	t_adj_list_node	*prev;
+	t_al_node	*tmp;
+	t_al_node	*prev;
 	int				code = 0;
 
 	tmp = *head;
@@ -88,10 +88,10 @@ void				add_ways_to_graph(t_map *map)
 {
 	int				i;
 	int				k;
-	t_adj_list_node	*tmp;
+	t_al_node	*tmp;
 
 	i = -1;
-	if (!(map->graph = (t_adj_list*)ft_memalloc(map->rooms_count * sizeof(t_adj_list))))
+	if (!(map->graph = (t_al*)ft_memalloc(map->rooms_count * sizeof(t_al))))
 		exit(1);
 	while (++i < map->ways->n) // creating a new graph
 	{

@@ -6,19 +6,19 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/17 00:16:31 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/21 03:44:25 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 20:52:13 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-t_adj_list_node			*add_to_way(t_ways *ways, int from, int to, int way_i)
+t_al_node			*add_to_way(t_ways *ways, int from, int to, int way_i)
 {
-	t_adj_list_node		*new;
-	t_adj_list_node		*tmp;
-	t_adj_list_node		*prev;
+	t_al_node		*new;
+	t_al_node		*tmp;
+	t_al_node		*prev;
 
-	if (!(new = (t_adj_list_node*)ft_memalloc(sizeof(t_adj_list_node))))
+	if (!(new = (t_al_node*)ft_memalloc(sizeof(t_al_node))))
 		return (NULL);
 	new->data = to;
 	if (!ways[way_i].way[from].head)

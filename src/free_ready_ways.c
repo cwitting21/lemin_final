@@ -1,32 +1,40 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   print_al.c                                   :+:      :+:    :+:   */
+/*   free_ready_ways.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/16 23:49:17 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/18 22:17:02 by cwitting         ###   ########.fr       */
+/*   Created: 2020/01/22 19:32:23 by cwitting          #+#    #+#             */
+/*   Updated: 2020/01/27 21:23:26 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-void		print_adj_list(t_map *map)
+void				free_ready_ways(t_map *map)
 {
-	int			i = -1;
+	t_al		*way_del;
+	t_al_node	*del;
 	t_al_node	*tmp;
+	int				i;
+	int				k;
 
-	printf("ADJ LIST\n\n");
-	while (++i < map->rooms_count)
+	i = -1;
+	while (++i < map->r_ways->n)
 	{
-		printf("[%s-%d] :", map->rooms[i], i);
-		tmp = map->array[i].head;
-		while (tmp)
+		way_del = map->r_ways[i].way;
+		k = -1;
+		while (++k < map->rooms_count)
 		{
-			printf(" %s ", map->rooms[tmp->data]);
-			tmp = tmp->next;
+			tmp = map->r_ways[i].way[k].head;
+			while (tmp)
+			{
+				del = tmp;
+				tmp = tmp->next;
+				ft_memdel((void**)&del);
+			}
 		}
-		printf("\n");
+		ft_memdel((void**)&way_del);
 	}
 }

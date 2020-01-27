@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/17 03:11:45 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/17 07:03:47 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 20:52:13 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void				print_name_index(t_map *map)
 {
 	int				i;
-	t_adj_list_node	*tmp;
+	t_al_node	*tmp;
 
 	i = -1;
 	printf("\n");

@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 19:42:11 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/22 19:44:49 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 21:22:51 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@ void				del_sol(t_solution sol, int rooms_n)
 {
 	int				del_i;
 	int				k;
-	t_adj_list_node	*tmp;
-	t_adj_list_node	*del;
+	t_al_node	*tmp;
+	t_al_node	*del;
 
 
 	del_i = -1;
@@ -26,7 +26,7 @@ void				del_sol(t_solution sol, int rooms_n)
 		k = -1;
 		while (++k < rooms_n)
 		{
-			tmp = sol.ready_ways[del_i].way[k].head;
+			tmp = sol.rw[del_i].way[k].head;
 			while (tmp)
 			{
 				del = tmp;
@@ -34,7 +34,7 @@ void				del_sol(t_solution sol, int rooms_n)
 				ft_memdel((void**)&del);
 			}
 		}
-		ft_memdel((void**)&sol.ready_ways[del_i]);
+		ft_memdel((void**)&sol.rw[del_i]);
 	}
 	ft_memdel((void**)&sol);
 }

@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/26 23:14:48 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/26 23:15:03 by cwitting         ###   ########.fr       */
+/*   Created: 2020/01/27 21:25:26 by cwitting          #+#    #+#             */
+/*   Updated: 2020/01/27 21:25:30 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void			print_ready_ways(t_map *map)
 {
-	t_adj_list_node	*tmp;
+	t_al_node	*tmp;
 	int				i = -1;
 	int				k;
 

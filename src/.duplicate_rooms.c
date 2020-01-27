@@ -1,22 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   duplicate_rooms.c                                  :+:      :+:    :+:   */
+/*   .duplicate_rooms.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/17 03:02:28 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/19 05:29:09 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 20:52:13 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-static void			create_node(int data, t_adj_list_node **from)
+static void			create_node(int data, t_al_node **from)
 {
-	t_adj_list_node	*new;
+	t_al_node	*new;
 
-	if (!(new = (t_adj_list_node*)ft_memalloc(sizeof(t_adj_list_node))))
+	if (!(new = (t_al_node*)ft_memalloc(sizeof(t_al_node))))
 		exit(1);
 	new->data = data;
 	new->next = *from;
@@ -49,11 +49,11 @@ static int			to_room_to_dup2(int *arr, int key)
 	return (0);
 }
 
-static void			create_in_to_out(t_adj_list_node **from, int data)
+static void			create_in_to_out(t_al_node **from, int data)
 {
-	t_adj_list_node	*new;
+	t_al_node	*new;
 
-	if (!(new = (t_adj_list_node*)ft_memalloc(sizeof(t_adj_list_node))))
+	if (!(new = (t_al_node*)ft_memalloc(sizeof(t_al_node))))
 		exit(1);
 	new->data = data;
 	new->next = *from;
@@ -62,7 +62,7 @@ static void			create_in_to_out(t_adj_list_node **from, int data)
 
 static void			duplicate_one_room(int index, t_map *map, int *arr)
 {
-	t_adj_list_node	*tmp;
+	t_al_node	*tmp;
 
 	tmp = map->array[index].head;
 	create_in_to_out(&map->array[index].in, index);
@@ -81,7 +81,7 @@ static void			duplicate_one_room(int index, t_map *map, int *arr)
 
 static int			get_index_in_m_array(int key, t_map *map)
 {
-	t_adj_list_node	*tmp;
+	t_al_node	*tmp;
 	int				i;
 
 	i = -1;
@@ -100,7 +100,7 @@ static int			get_index_in_m_array(int key, t_map *map)
 
 static int			room_to_dup1(int key, t_map *map)
 {
-	t_adj_list_node	*tmp;
+	t_al_node	*tmp;
 	int				i;
 
 	i = -1;
@@ -144,9 +144,9 @@ void				duplicate_rooms(t_map *map)
 	int				arr[map->rooms_count]; // array of room indexes at map->array that need to be reversed
 	int				arr_i;
 	int				i;
-	t_adj_list_node	*tmp;
-	t_adj_list_node	*tmp_in;
-	t_adj_list_node	*tmp_out;
+	t_al_node	*tmp;
+	t_al_node	*tmp_in;
+	t_al_node	*tmp_out;
 	int				index = 0;
 
 	arr_i = 0;

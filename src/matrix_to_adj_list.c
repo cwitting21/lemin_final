@@ -6,17 +6,17 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 12:16:24 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 04:43:25 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 20:52:13 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-static t_adj_list_node	*create_node(t_map *map, int from, int to)
+static t_al_node	*create_node(t_map *map, int from, int to)
 {
-	t_adj_list_node		*new;
+	t_al_node		*new;
 
-	if (!(new = (t_adj_list_node*)ft_memalloc(sizeof(t_adj_list_node))))
+	if (!(new = (t_al_node*)ft_memalloc(sizeof(t_al_node))))
 		return (NULL);
 	new->data = to;
 	new->next = map->array[from].head;
@@ -30,8 +30,8 @@ void					matrix_to_adj_list(t_map *map)
 	int					j;
 
 	i = -1;
-	if (!(map->array = (t_adj_list*)ft_memalloc(map->rooms_count *
-						sizeof(t_adj_list))))
+	if (!(map->array = (t_al*)ft_memalloc(map->rooms_count *
+						sizeof(t_al))))
 		exit(1);
 	while (++i < map->rooms_count)
 	{

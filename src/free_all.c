@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/17 07:52:21 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/26 22:50:37 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 20:52:13 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@ void		free_all(t_map *map)
 {
 	int		i;
 	int		k;
-	t_adj_list_node	*tmp;
-	t_adj_list_node	*del;
+	t_al_node	*tmp;
+	t_al_node	*del;
 
 	i = -1;
 	while (++i < map->rooms_count)
