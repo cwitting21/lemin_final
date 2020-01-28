@@ -24,7 +24,7 @@ SRC_FILES = lemin.c initialize_map.c \
 			part_validation.c print_solution.c del_way.c \
 			solve_map_help1.c create_ready_way.c add_to_ready_way.c \
 			create_best_sol.c set_ways.c copy_ways_to_sol.c move_ants_help1.c \
-			get_options.c
+			get_options.c check_coord.c
 
 H_PATH = includes/
 

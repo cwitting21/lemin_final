@@ -52,7 +52,7 @@ libft/libft.h
 stdarg.h
 -
 
-/Users/fculator/lemin_final/src/check_coord.c
+/Users/fculator/lemin_final/src/parse_map_to_struct.c
 lemin.h
 /Users/fculator/lemin_final/src/lemin.h
 
