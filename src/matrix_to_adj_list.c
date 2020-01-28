@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 12:16:24 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 23:37:04 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 16:40:52 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,5 +41,10 @@ void				matrix_to_adj_list(t_map *map)
 			if (map->matrix[i][j] == 1)
 				create_node(map, i, j);
 		}
+	}
+	if (map->options[1])
+	{
+		print_adj_list(map);
+		exit(0);
 	}
 }

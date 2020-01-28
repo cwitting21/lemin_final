@@ -6,13 +6,13 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/11 17:05:33 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/28 14:38:21 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 16:21:39 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-void		free_rooms(char **array, t_map *map)
+void		free_rooms(char **array)
 {
 	int		i;
 
@@ -82,7 +82,7 @@ void		free_map(t_map *map, int code)
 	free(map->in->rooms_list);
 	if (map->val->init_2)
 	{
-		free_rooms(map->rooms, map);
+		free_rooms(map->rooms);
 		free(map->way);
 		i = -1;
 		while (++i < map->rooms_count)

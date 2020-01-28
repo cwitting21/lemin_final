@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cwitting <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/10 13:49:46 by cwitting          #+#    #+#             */
-/*   Updated: 2019/11/10 13:50:23 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 16:19:26 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ char				*ft_strstr(const char *haystack, const char *needle);
 char				*ft_strnstr(const char *h, const char *n, size_t len);
 int					ft_strcmp(const char *s1, const char *s2);
 int					ft_strncmp(const char *s1, const char *s2, size_t n);
-int					ft_atoi(const char *str);
+long long			ft_atoi(const char *str);
 int					ft_isalpha(int c);
 int					ft_isdigit(int c);
 int					ft_isalnum(int c);
@@ -90,6 +90,7 @@ int					**ft_getindex(char *s, char c);
 void				*ft_swap(void **a, void **b);
 int					ft_lstcount(t_list *lst);
 int					ft_isblank(char c);
+int					ft_isspace(char c);
 void				ft_printbits(unsigned long long int bits, int lenbit);
 
 #endif
