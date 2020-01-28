@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/17 00:18:21 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/17 00:19:20 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 22:47:56 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,11 @@
 
 int		pop_q(t_q *q)
 {
-	t_qnode		*del = NULL;
+	t_qnode		*del;
 	int			i;
 
 	i = 0;
+	del = NULL;
 	if (!q->head || !q->end)
 		ft_exit("pop_q");
 	else if (q->head && q->head == q->end)

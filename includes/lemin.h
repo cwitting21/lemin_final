@@ -6,17 +6,14 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/07 18:01:58 by fculator          #+#    #+#             */
-/*   Updated: 2020/01/27 05:52:13 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 14:39:01 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LEM_IN_H
-# define LEM_IN_H
+#ifndef LEMIN_H
+# define LEMIN_H
 
-// REMOVE!!!
-#include <stdio.h>
-
-// # include "../libprintf/includes/ft_printf.h"
+# include <stdio.h>
 # include <limits.h>
 # include <unistd.h>
 # include <fcntl.h>
@@ -25,13 +22,13 @@
 # include <sys/types.h>
 # include <errno.h>
 # include "libft.h"
-# include "libftprintf.h"
+# include "../libftprintf/libftprintf.h"
 
-typedef enum    e_bool
-{
-    True = 1,
-    False = !True
-}               t_bool;
+/*
+** t_al - adjacency list
+** t_al_node - adjacency list node
+** rw - ready_ways
+*/
 
 typedef struct	s_valid
 {
@@ -41,36 +38,49 @@ typedef struct	s_valid
 	int			init_2;
 }				t_valid;
 
-typedef struct 	s_input
+typedef struct	s_input
 {
 	char		*rooms_list;
 	char		*ants_list;
 	char		*link_list;
-	// char		**refact_split; // test
 }				t_input;
 
-typedef struct	s_adj_list_node
+typedef struct	s_al_node
 {
 	int						data;
-	// t_bool					dup;
-	struct s_adj_list_node	*next;
-}				t_adj_list_node;
+	struct s_al_node		*next;
+}				t_al_node;
 
-typedef struct	s_adj_list
+/*
+**	rooms_n - number of rooms in a way
+*/
+
+typedef struct	s_al
 {
-	t_adj_list_node			*head;
-	// t_adj_list_node			*in;
-	// t_adj_list_node			*out;
-	int						rooms_n; // number of rooms in a way
-}				t_adj_list;
+	t_al_node	*head;
+	int			rooms_n;
+}				t_al;
+
+/*
+**	n - number of ways
+*/
 
 typedef struct	s_ways
 {
-	t_adj_list	*way;
-	int			n; // number of ways
+	t_al		*way;
+	int			n;
 	int			deleted;
 	int			amount_ants;
 }				t_ways;
+
+/*
+**	array - adjacency list. initial graph
+**	graph - adjacency list. end graph
+**	ways - stores all found ways
+**	r_ways - ready ways
+**	options[0] - number of lines
+**	options[1] - adjacency list
+*/
 
 typedef struct	s_map
 {
@@ -78,25 +88,26 @@ typedef struct	s_map
 	int			rooms_count;
 	int			ants;
 	int			curr_room;
+	int			options[2];
+	int			lines_count;
 	int			w_ind;
 	int			*way;
 	int			**matrix;
 	t_valid		*val;
-	t_input 	*in;
+	t_input		*in;
 	int			*in_way;
-	t_adj_list	*array;		// adjacency list. initial graph
-	t_adj_list	*graph;		// adjacency list. end graph
-	t_ways		*ways;		// stores all found ways
-	t_ways		r_ways[60];	// ready ways
-	t_bool		dup_arr[10000]; // change 100 later. array of room indexes that are duplicated
+	t_al		*array;
+	t_al		*graph;
+	t_ways		*ways;
+	t_ways		r_ways[60];
 }				t_map;
 
 typedef struct	s_solution
 {
-	t_ways		ready_ways[60];
+	t_ways		rw[60];
 	int			amount_ways;
 	int			good_ways;
-	int			amount_lines;
+	int			lines_n;
 }				t_solution;
 
 typedef struct	s_qnode
@@ -111,9 +122,11 @@ typedef struct	s_q
 	t_qnode		*end;
 }				t_q;
 
-typedef	struct	s_ants
+typedef struct	s_ants
 {
-	int			*arr;
+	int			*ants_room;
+	int			*ants_way;
+	int			*occ_room;
 }				t_ants;
 
 int				get_next_line(const int fd, char **line);
@@ -122,7 +135,7 @@ void			free_map(t_map *map, int code);
 void			free_array(char **array, t_map *m, int code);
 void			parse_map_to_struct(t_map *map);
 void			ants(t_map *map, char *line);
-void			add_room_list(t_map *map,char *line);
+void			add_room_list(t_map *map, char *line);
 void			room_table(t_map *m);
 int				is_empty(char *s);
 void			add_link_list(t_map *map, char *line);
@@ -135,15 +148,14 @@ int				room_index(t_map *m, char *room_name, int start);
 void			good(t_map *m, char **line, char **r, int end);
 void			check_start_end(t_map *m, char **r, int end);
 void			is_valid(t_map *m, int i, char **r);
-void			bfs(t_map *map);
 void			part_validation_map(t_map *map);
 void			matrix_to_adj_list(t_map *map);
 int				bfs_adj_list(t_map *map, int way_i);
 void			reverse_edges(t_map *map, int i);
-t_adj_list_node	*add_to_way(t_ways *ways, int from, int to, int way_i);
+t_al_node		*add_to_way(t_ways *ways, int from, int to, int way_i);
 void			ft_exit(char *msg);
 void			print_adj_list(t_map *map);
-void		    print_matrix(t_map *m);
+void			print_matrix(t_map *m);
 void			push_q(t_q *q, int index);
 int				pop_q(t_q *q);
 int				empty_q(t_q *q);
@@ -151,12 +163,9 @@ void			print_parents(t_map *map, int *parent);
 void			print_shortest_path(t_map *map, int *parent, int i);
 void			create_way(t_map *map, int i, int *parent, int way_i);
 void			print_way(t_map *map, int way_i);
-// void			duplicate_rooms(t_map *map);
 void			print_name_index(t_map *map);
 void			free_all(t_map *map);
 void			print_map(t_map *map);
-void			bfs_2(t_map *map);
-void			add_ways_to_graph(t_map *map);
 void			solve_map(t_map *map);
 void			add_one_way(t_map *map, int way_i);
 void			delete_intersections(t_map *map);
@@ -164,12 +173,27 @@ void			print_graph(t_map *map);
 t_solution		distribute_ants(t_map *map, int ants_n);
 void			del_q(t_q *q);
 void			move_ants(t_solution sol, t_map *map);
-void			free_r_ways(t_map *map);
+void			free_ready_ways(t_map *map);
 void			del_sol(t_solution sol, int rooms_n);
 void			part_validation_map_2(t_map *map);
 void			print_ready_ways(t_map *map);
 void			print_solution(t_solution sol, t_map *map);
 void			create_best_sol(t_solution *best, t_solution cur, int size);
+void			init_data1(int *i, int *bfs_found_way);
+void			help_func2(int *in_way, t_map *map, int *tmp, int i);
+void			help_func3(t_map *map, int *tmp, int i);
+void			recalculate_data1(int *tmp2, int *tmp, int data);
+void			recalculate_data2(int *i, t_al_node **start);
+t_al			*create_ready_way(t_map *map);
+void			add_to_ready_way(t_map *map, int to, int from, int way_i);
+void			del_way(t_map *map, int *i);
+void			set_ways(int *ants_way, t_solution sol, int size);
+void			copy_ways_to_sol(t_solution *sol, t_map *map);
+int				get_ants_n_in_end(int *ants_room, int size, int end_index);
+int				all_ants_in_end(int *ants_room, int size, int end_index);
+void			adjust_ants_n_and_print_nl(int *ants_n, t_solution sol,
+													t_map *map, t_ants a);
+int				get_amount_of_avail_ways(t_solution sol);
+void			get_options(t_map *map, int ac, char **av);
 
-
-# endif
+#endif

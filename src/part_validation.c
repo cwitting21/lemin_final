@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/17 13:52:35 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/24 21:42:19 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/27 22:34:36 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ void		start_end_val(char **r)
 		end++;
 }
 
-void	part_validation_map(t_map *map)
+void		part_validation_map(t_map *map)
 {
 	int		i;
 	char	**line;
@@ -61,7 +61,7 @@ void	part_validation_map(t_map *map)
 	check_links_start_end(map);
 }
 
-void	part_validation_map_2(t_map *map)
+void		part_validation_map_2(t_map *map)
 {
 	int		i;
 	int		start;

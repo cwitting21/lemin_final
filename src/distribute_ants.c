@@ -6,89 +6,72 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 21:07:45 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 04:52:14 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 10:09:13 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-static void		get_amount_lines(t_solution *sol)
+static void		get_lines_n(t_solution *sol)
 {
-	sol->amount_lines = (sol->ready_ways[0].way->rooms_n - 1) +
-		(sol->ready_ways[0].amount_ants - 1);
+	sol->lines_n = (sol->rw[0].way->rooms_n - 1) +
+		(sol->rw[0].amount_ants - 1);
 }
 
-static void		copy_ways_to_sol_malloc(t_solution *sol, t_map *map)
+static void		norm_func1(int *sum, int *sol_ants_n, int *ants_n, int max)
 {
-	int			i;
-	int			j;
-	int			k;
-
-	i = -1;
-	j = 0;
-	while (++i < map->r_ways->n)
+	if (*sum < max)
 	{
-		k = -1;
-		if (!map->r_ways[i].deleted)
-		{
-			sol->ready_ways[j].way = (t_adj_list*)ft_memalloc(map->rooms_count * sizeof(t_adj_list));
-			while (++k < map->rooms_count)
-			{
-				sol->ready_ways[j].way[k].head = (t_adj_list_node*)ft_memalloc(sizeof(t_adj_list_node));
-				if (map->r_ways[i].way[k].head)
-				{
-					sol->ready_ways[j].way[k].head->data = map->r_ways[i].way[k].head->data;
-					sol->ready_ways[j].way->rooms_n++;
-				}
-			}
-			j++;
-			sol->amount_ways++;
-		}
+		++(*sol_ants_n);
+		++(*sum);
+		--(*ants_n);
 	}
 }
+
+static void		norm_func2(int *i, int ways_n, int sum, int max)
+{
+	if (++(*i) >= ways_n && sum < max)
+		*i = 0;
+}
+
+static void		norm_func3(int *max, int *ways_n, int sol_ways_n)
+{
+	++(*max);
+	if (*ways_n > sol_ways_n)
+		--(*ways_n);
+}
+
+/*
+**	i - i[0]
+**	max - i[1]
+**	sum - i[2]
+*/
 
 t_solution		distribute_ants(t_map *map, int ants_n)
 {
 	t_solution	sol;
 	int			ways_n;
-	int			i;
-	int			max;
-	int			sum;
+	int			i[3];
 
 	ft_bzero(&sol, sizeof(t_solution));
-	copy_ways_to_sol_malloc(&sol, map);
+	copy_ways_to_sol(&sol, map);
 	ways_n = 1;
-	if (ways_n >= sol.amount_ways)
-    	max = sol.ready_ways[0].way->rooms_n - 1;
-	else
-		max = sol.ready_ways[ways_n].way->rooms_n - 1;
+	i[1] = (ways_n >= sol.amount_ways ? sol.rw[0].way->rooms_n - 1 :
+										sol.rw[ways_n].way->rooms_n - 1);
 	while (ants_n != 0 && ways_n <= sol.amount_ways)
 	{
-		i = 0;
-		while (i < ways_n && ants_n != 0)
+		i[0] = 0;
+		while (i[0] < ways_n && ants_n != 0)
 		{
-			sum = sol.ready_ways[i].way->rooms_n - 1 + 
-						sol.ready_ways[i].amount_ants;
-			if (sum < max)
-			{
-				// recalculate(&sum, &ants_n, &);
-				++sol.ready_ways[i].amount_ants;
-				++sum;
-				--ants_n;
-			}
-			if (++i >= ways_n && sum < max)
-				i = 0;
+			i[2] = sol.rw[i[0]].way->rooms_n - 1 + sol.rw[i[0]].amount_ants;
+			norm_func1(&i[2], &sol.rw[i[0]].amount_ants, &ants_n, i[1]);
+			norm_func2(&i[0], ways_n, i[2], i[1]);
 		}
-		ways_n++;
-		if (ways_n >= sol.amount_ways)
-		{
-			++max;
-			if (ways_n > sol.amount_ways)
-				--ways_n;
-		}
+		if (++ways_n >= sol.amount_ways)
+			norm_func3(&i[1], &ways_n, sol.amount_ways);
 		else
-			max = sol.ready_ways[ways_n].n - 1;
+			i[1] = sol.rw[ways_n].n - 1;
 	}
-	get_amount_lines(&sol);
+	get_lines_n(&sol);
 	return (sol);
 }

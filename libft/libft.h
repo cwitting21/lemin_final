@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/02 13:15:59 by mwuckert          #+#    #+#             */
-/*   Updated: 2020/01/15 19:47:09 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 10:34:26 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,6 @@
 
 # define BUFF_SIZE_GNL  1024
 # define MAX_FD     10240
-# define UL unsigned long int
 
 typedef	struct		s_list
 {
@@ -101,7 +100,7 @@ char				*ft_strjoin(char const *s1, char const *s2);
 char				*ft_strtrim(char const *s);
 char				*ft_itoa(int n);
 char				**ft_strsplit(char const *s, char c);
-char    			*ft_join(char *s1, char *s2, int clean);
+char				*ft_join(char *s1, char *s2, int clean);
 size_t				ft_strlcat(char *dst, const char *src, size_t size);
 size_t				ft_strlen(const char *s);
 size_t				ft_strnlen(const char *s, int n);

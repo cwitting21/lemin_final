@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lemin_final"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/fculator/lemin_final/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/fculator/lemin_final/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/fculator/lemin_final/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lemin_final">
+				<Option output="/Users/fculator/lemin_final/cmake-build-debug/lemin_final" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fculator/lemin_final/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/fculator/lemin_final/includes"/>
+					<Add directory="/Users/fculator/lemin_final/libft"/>
+					<Add directory="/Users/fculator/lemin_final/libftprintf"/>
+					<Add directory="/Users/fculator/lemin_final/libftprintf/float"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 lemin_final"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lemin_final/fast">
+				<Option output="/Users/fculator/lemin_final/cmake-build-debug/lemin_final" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/fculator/lemin_final/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/fculator/lemin_final/includes"/>
+					<Add directory="/Users/fculator/lemin_final/libft"/>
+					<Add directory="/Users/fculator/lemin_final/libftprintf"/>
+					<Add directory="/Users/fculator/lemin_final/libftprintf/float"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 lemin_final/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/fculator/lemin_final/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/fculator/lemin_final/includes/lemin.h">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_atoi.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_atoi_base.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_base_len.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_bzero.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_countchar.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_countwordc.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_delelemofarray.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_isalnum.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_isalpha.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_isascii.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_isdigit.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_isprint.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_isspace.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_itoa.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_join.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_lstadd.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_lstdel.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_lstdelcontent.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_lstdelone.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_lstiter.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_lstmap.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_lstnew.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_memalloc.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_memccpy.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_memchr.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_memcmp.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_memcpy.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_memdel.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_memmove.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_memset.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_power.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_printbits.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_putchar.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_putchar_fd.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_putendl.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_putendl_fd.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_putnbr.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_putnbr_fd.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_putstr.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_putstr_fd.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_quick_sort.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_sqrt.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strcat.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strchr.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strchri.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strclr.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strcmp.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strcpy.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strdel.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strdup.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strequ.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_striter.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_striteri.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strjoin.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strlcat.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strlen.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strlenc.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strmap.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strmapi.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strncat.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strncmp.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strncpy.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strnequ.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strnew.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strnlen.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strnstr.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strrchr.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strsplit.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strstr.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strsub.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_strtrim.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_swap.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_swap_point.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_tolower.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_toupper.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/ft_twodarraydel.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/get_next_line.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libft/libft.h">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_addition_num.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_conversion_powers.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_create_tieee754.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_create_treal.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_delete_tieee754.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_delete_treal.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_get_frac_part.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_get_integer_part.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_get_real_number.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_move_digit.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_normalize_num.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_parse_double.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_parse_float.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_parse_ldouble.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_parse_parts_ieee754.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_parse_power_mantis.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_print_tparts.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_print_tpowers.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/ft_rounding_treal.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/float/libftfloat.h">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_add_full_format_to_buf.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_add_num_to_buf.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_add_real_num_to_buf.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_add_sign_to_buf.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_add_space_to_buf.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_add_str_to_buf.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_add_strn_to_buf.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_add_to_buf.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_add_zero_to_buf.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_calculate_precision.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_calculate_width.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_format.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_format_b.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_format_basic.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_format_c.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_format_d.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_format_f.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_format_o.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_format_p.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_format_s.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_format_specifer.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_format_u.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_format_x.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_get_t_real.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_handling.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_is_specifer.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_parse.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_parse_flags.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_parse_precision.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_parse_print.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_parse_size.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_parse_types.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_parse_width.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_printf.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_skip_undefined_behavior.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_varg_c.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_varg_i.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_varg_l.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_varg_ll.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_varg_s.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_varg_u.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_varg_uc.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_varg_ul.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_varg_ull.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_varg_us.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/ft_write_buf.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/libftprintf/libftprintf.h">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/add_one_way.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/add_to_way.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/add_ways_to_graph.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/ants.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/bfs.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/bfs_2.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/bfs_adj_list.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/connectivity_matrix.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/create_best_sol.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/create_way.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/del_q.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/del_sol.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/delete_intersections.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/distribute_ants.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/empty_q.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/free_all.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/free_r_ways.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/ft_exit.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/functions.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/initialize_map.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/lem-in.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/links.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/matrix_to_adj_list.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/move_ants.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/parse_map_to_struct.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/part_validation.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/pop_q.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/print_adj_list.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/print_graph.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/print_map.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/print_matrix.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/print_name_index.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/print_parents.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/print_ready_ways.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/print_shortest_path.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/print_solution.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/print_way.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/push_q.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/reverse_edges.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/rooms.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/solve_map.c">
+			<Option target="lemin_final"/>
+		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

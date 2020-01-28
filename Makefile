@@ -12,17 +12,19 @@
 
 NAME = lem-in
 
-SRC_FILES = lem-in.c initialize_map.c \
+SRC_FILES = lemin.c initialize_map.c \
 			parse_map_to_struct.c ants.c connectivity_matrix.c functions.c \
-			links.c rooms.c bfs.c matrix_to_adj_list.c bfs_adj_list.c \
+			links.c rooms.c matrix_to_adj_list.c bfs_adj_list.c \
 			reverse_edges.c ft_exit.c print_adj_list.c print_matrix.c \
-			push_q.c pop_q.c add_to_way.c empty_q.c print_parents.c \
-			print_shortest_path.c create_way.c print_way.c \
-			print_name_index.c free_all.c print_map.c bfs_2.c \
-			add_ways_to_graph.c solve_map.c add_one_way.c \
-			delete_intersections.c print_graph.c distribute_ants.c \
-			del_q.c move_ants.c free_r_ways.c del_sol.c part_validation.c \
-			print_ready_ways.c print_solution.c create_best_sol.c
+			push_q.c pop_q.c add_to_way.c empty_q.c \
+			print_shortest_path.c create_way.c print_way.c solve_map.c \
+			free_all.c print_map.c add_one_way.c \
+			delete_intersections.c print_graph.c \
+			distribute_ants.c del_q.c move_ants.c free_ready_ways.c del_sol.c \
+			part_validation.c print_solution.c del_way.c \
+			solve_map_help1.c create_ready_way.c add_to_ready_way.c \
+			create_best_sol.c set_ways.c copy_ways_to_sol.c move_ants_help1.c \
+			get_options.c
 
 H_PATH = includes/
 
