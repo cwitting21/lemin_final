@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/07 18:01:58 by fculator          #+#    #+#             */
-/*   Updated: 2020/01/28 10:31:58 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 11:31:22 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
 # include <sys/types.h>
 # include <errno.h>
 # include "libft.h"
-# include "libftprintf.h"
+# include "../libftprintf/libftprintf.h"
 
 /*
 ** t_al - adjacency list

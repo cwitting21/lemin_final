@@ -1,32 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   print_adj_list.c                                   :+:      :+:    :+:   */
+/*   check_if_need_zeroes.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/28 08:54:52 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/28 11:51:16 by cwitting         ###   ########.fr       */
+/*   Created: 2019/10/25 19:29:02 by cwitting          #+#    #+#             */
+/*   Updated: 2020/01/28 11:28:04 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "lemin.h"
+#include "../libftprintf.h"
 
-void		print_adj_list(t_map *map)
+int					check_if_need_zeroes(t_float *obj_flt, int power)
 {
-	int			i = -1;
-	t_al_node	*tmp;
+	int				i;
 
-	ft_printf("ADJ LIST\n\n");
-	while (++i < map->rooms_count)
-	{
-		ft_printf("[%s-%d] :", map->rooms[i], i);
-		tmp = map->array[i].head;
-		while (tmp)
-		{
-			ft_printf(" %s ", map->rooms[tmp->data]);
-			tmp = tmp->next;
-		}
-		ft_printf("\n");
-	}
+	i = SIZE - 1;
+	while (obj_flt->parts.fr_buf[i] != '0' && i >= 0)
+		i--;
+	if (i == power)
+		return (0);
+	else
+		return (1);
 }

@@ -1,32 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   print_adj_list.c                                   :+:      :+:    :+:   */
+/*   normalise_frac.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/28 08:54:52 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/28 11:51:16 by cwitting         ###   ########.fr       */
+/*   Created: 2019/10/25 19:27:09 by cwitting          #+#    #+#             */
+/*   Updated: 2020/01/28 11:28:56 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "lemin.h"
+#include "../libftprintf.h"
 
-void		print_adj_list(t_map *map)
+void		normalise_frac(char *str)
 {
-	int			i = -1;
-	t_al_node	*tmp;
+	int		i;
 
-	ft_printf("ADJ LIST\n\n");
-	while (++i < map->rooms_count)
+	i = SIZE - 1;
+	while (i >= 0)
 	{
-		ft_printf("[%s-%d] :", map->rooms[i], i);
-		tmp = map->array[i].head;
-		while (tmp)
+		if (str[i] / 10 > 0)
 		{
-			ft_printf(" %s ", map->rooms[tmp->data]);
-			tmp = tmp->next;
+			str[i - 1] += str[i] % 10;
+			str[i] = str[i] / 10;
 		}
-		ft_printf("\n");
+		--i;
 	}
 }

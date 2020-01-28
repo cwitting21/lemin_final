@@ -1,32 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   print_adj_list.c                                   :+:      :+:    :+:   */
+/*   parse_prec.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/28 08:54:52 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/28 11:51:16 by cwitting         ###   ########.fr       */
+/*   Created: 2019/06/21 22:53:31 by cwitting          #+#    #+#             */
+/*   Updated: 2020/01/28 11:29:09 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "lemin.h"
+#include "../libftprintf.h"
 
-void		print_adj_list(t_map *map)
+void	parse_prec(t_print *obj)
 {
-	int			i = -1;
-	t_al_node	*tmp;
-
-	ft_printf("ADJ LIST\n\n");
-	while (++i < map->rooms_count)
+	if (*obj->end == '.')
 	{
-		ft_printf("[%s-%d] :", map->rooms[i], i);
-		tmp = map->array[i].head;
-		while (tmp)
+		++obj->end;
+		if (ft_isdigit(*obj->end))
 		{
-			ft_printf(" %s ", map->rooms[tmp->data]);
-			tmp = tmp->next;
+			obj->fmt.prec = ft_atoi(obj->end);
+			while (ft_isdigit(*obj->end) && *obj->end)
+				++obj->end;
 		}
-		ft_printf("\n");
+		else if (*obj->end == '*')
+		{
+			++obj->end;
+			obj->fmt.prec = va_arg(obj->ap, int);
+		}
+		else
+			obj->fmt.prec = 0;
 	}
 }

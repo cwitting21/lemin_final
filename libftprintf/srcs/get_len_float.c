@@ -1,32 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   print_adj_list.c                                   :+:      :+:    :+:   */
+/*   get_len_float.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/28 08:54:52 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/28 11:51:16 by cwitting         ###   ########.fr       */
+/*   Created: 2019/11/10 16:41:57 by cwitting          #+#    #+#             */
+/*   Updated: 2020/01/28 11:28:40 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "lemin.h"
+#include "../libftprintf.h"
 
-void		print_adj_list(t_map *map)
+int			get_len_float(t_float *obj_flt, t_print *obj)
 {
-	int			i = -1;
-	t_al_node	*tmp;
+	int		ret;
+	int		i;
 
-	ft_printf("ADJ LIST\n\n");
-	while (++i < map->rooms_count)
-	{
-		ft_printf("[%s-%d] :", map->rooms[i], i);
-		tmp = map->array[i].head;
-		while (tmp)
-		{
-			ft_printf(" %s ", map->rooms[tmp->data]);
-			tmp = tmp->next;
-		}
-		ft_printf("\n");
-	}
+	ret = 0;
+	i = SIZE;
+	while (obj_flt->parts.whole[i] < 1 && i >= 0)
+		--i;
+	obj->flt.whole_len = i + 1;
+	ret = obj->flt.whole_len + obj->fmt.prec;
+	return (ret);
 }

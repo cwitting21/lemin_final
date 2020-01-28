@@ -1,32 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   print_adj_list.c                                   :+:      :+:    :+:   */
+/*   print_binary.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/28 08:54:52 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/28 11:51:16 by cwitting         ###   ########.fr       */
+/*   Created: 2019/10/28 11:57:52 by cwitting          #+#    #+#             */
+/*   Updated: 2020/01/28 11:29:22 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "lemin.h"
+#include "../libftprintf.h"
 
-void		print_adj_list(t_map *map)
+int			print_binary(t_print *obj)
 {
-	int			i = -1;
-	t_al_node	*tmp;
+	int		bin;
+	char	res[32];
+	int		i;
 
-	ft_printf("ADJ LIST\n\n");
-	while (++i < map->rooms_count)
+	i = 31;
+	bin = (int)va_arg(obj->ap, int);
+	ft_bzero(&res, 32);
+	while (bin > 0)
 	{
-		ft_printf("[%s-%d] :", map->rooms[i], i);
-		tmp = map->array[i].head;
-		while (tmp)
-		{
-			ft_printf(" %s ", map->rooms[tmp->data]);
-			tmp = tmp->next;
-		}
-		ft_printf("\n");
+		res[i--] = bin % 2 + '0';
+		bin /= 2;
 	}
+	obj->ret += 0;
+	write(1, &res, 32);
+	write(1, "\n", 1);
+	return (0);
 }

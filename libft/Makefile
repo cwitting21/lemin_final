@@ -6,7 +6,7 @@
 #    By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/22 15:15:48 by mwuckert          #+#    #+#              #
-#    Updated: 2020/01/17 06:42:17 by cwitting         ###   ########.fr        #
+#    Updated: 2020/01/28 12:15:49 by cwitting         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,7 +34,7 @@ SRC =	ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c \
 
 OBJECTS = $(SRC:.c=.o)
 
-FLAGS = -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror -O3
 
 .PHONY: fclean all re print_comp
 

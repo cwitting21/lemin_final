@@ -1,32 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   print_adj_list.c                                   :+:      :+:    :+:   */
+/*   parse_type.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/28 08:54:52 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/28 11:51:16 by cwitting         ###   ########.fr       */
+/*   Created: 2019/11/10 15:37:27 by cwitting          #+#    #+#             */
+/*   Updated: 2020/01/28 11:29:15 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "lemin.h"
+#include "../libftprintf.h"
 
-void		print_adj_list(t_map *map)
+void	parse_type(t_print *obj)
 {
-	int			i = -1;
-	t_al_node	*tmp;
+	char	*types;
 
-	ft_printf("ADJ LIST\n\n");
-	while (++i < map->rooms_count)
+	types = TYPES;
+	while (*types)
 	{
-		ft_printf("[%s-%d] :", map->rooms[i], i);
-		tmp = map->array[i].head;
-		while (tmp)
+		if (*types == *obj->end)
 		{
-			ft_printf(" %s ", map->rooms[tmp->data]);
-			tmp = tmp->next;
+			obj->fmt.type = *obj->end;
+			++obj->end;
+			return ;
 		}
-		ft_printf("\n");
+		++types;
 	}
 }
