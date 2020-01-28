@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/17 13:52:42 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 23:32:44 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 15:05:51 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	parse_map_to_struct(t_map *map)
 {
 	char	*line;
 
-	// int fd = open("test.txt", O_RDONLY);
+	// int fd = open("sub.txt", O_RDONLY);
 	while (get_next_line(0, &line) > 0)
 	{
 		if (map->ants == 0)
