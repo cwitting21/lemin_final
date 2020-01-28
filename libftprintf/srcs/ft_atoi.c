@@ -3,21 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cwitting <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/10 16:44:57 by cwitting          #+#    #+#             */
-/*   Updated: 2019/11/10 16:44:58 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 16:20:43 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-static int			lead_sign(int sign)
-{
-	if (sign > 0)
-		return (-1);
-	return (0);
-}
 
 long long			ft_atoi(const char *str)
 {

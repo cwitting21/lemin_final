@@ -1,37 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_atoi.c                                          :+:      :+:    :+:   */
+/*   ft_isspace.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/11/10 13:26:23 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/28 16:20:47 by cwitting         ###   ########.fr       */
+/*   Created: 2020/01/28 16:19:45 by cwitting          #+#    #+#             */
+/*   Updated: 2020/01/28 16:19:47 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft/includes/libft.h"
 
-long long			ft_atoi(const char *str)
+int		ft_isblank(char c)
 {
-	long long	nb;
-	int			sign;
-
-	nb = 0;
-	sign = 1;
-	while (ft_isspace((int)(*str)))
-		str++;
-	if (*str == '-' || *str == '+')
-		if (*str++ == '-')
-			sign = -1;
-	while (ft_isdigit((int)(*str)))
-	{
-		if ((nb * 10 + *str - '0') / 10 == nb)
-			nb = nb * 10 + *str++ - '0';
-		else if (sign == -1)
-			return (0);
-		else
-			return (-1);
-	}
-	return ((long)nb * sign);
+	if (c == ' ' || c == '\t' || c == '\n' \
+			|| c == '\v' || c == '\r' || c == '\f')
+		return (1);
+	return (0);
 }
