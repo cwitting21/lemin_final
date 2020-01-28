@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/11 17:05:33 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/28 16:21:39 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 17:40:15 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,6 +88,8 @@ void		free_map(t_map *map, int code)
 		while (++i < map->rooms_count)
 			free(map->matrix[i]);
 		free(map->matrix);
+			ft_memdel((void**)&map->matrix[i]);
+		ft_memdel((void**)&map->matrix);
 	}
 	free(map->val);
 	free(map->in);

@@ -1,35 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   lemin.c                                            :+:      :+:    :+:   */
+/*   print_parents.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/17 13:52:35 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/28 17:42:32 by cwitting         ###   ########.fr       */
+/*   Created: 2020/01/17 00:32:56 by cwitting          #+#    #+#             */
+/*   Updated: 2020/01/28 08:56:08 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-int		main(int ac, char **av)
+void		print_parents(t_map *map, int *parent)
 {
-	t_map	*map;
+	int		b;
 
-	if (!(map = (t_map *)ft_memalloc(sizeof(t_map))))
-		exit(EXIT_FAILURE);
-	initialize_map(map);
-	parse_map_to_struct(map);
-	initialize_map_2(map);
-	if (ac > 1)
-		get_options(map, ac, av);
-	// check_coord(map);
-	room_table(map);
-	connectivity_matrix(map);
-	part_validation_map(map);
-	matrix_to_adj_list(map);
-	print_map(map);
-	solve_map(map);
-	free_all(map);
-	exit(EXIT_SUCCESS);
+	b = -1;
+	ft_printf("\nPARENTS:\n\n");
+	while (++b < map->rooms_count)
+		ft_printf("room->[%s] = parent->%s\n", map->rooms[b], map->rooms[parent[b]]);
 }

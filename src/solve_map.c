@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 00:45:42 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 21:24:44 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 18:08:35 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ static void			help_func1(int *tmp, int data, t_map *map, int i)
 		add_to_ready_way(map, tmp[0], tmp[1], i);
 }
 
-static void			get_rw(t_map *map)
+static void			get_ready_ways(t_map *map)
 {
 	int				i;
 	int				tmp[2];
@@ -55,7 +55,7 @@ static void			help_func5(t_map *map, int i, t_solution cur_sol)
 	map->r_ways->n = 0;
 	add_one_way(map, i);
 	delete_intersections(map);
-	get_rw(map);
+	get_ready_ways(map);
 	del_sol(cur_sol, map->rooms_count);
 }
 

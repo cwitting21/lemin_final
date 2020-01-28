@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/17 07:52:21 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 20:52:13 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 19:04:15 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,14 @@ void		free_all(t_map *map)
 	i = -1;
 	while (++i < map->rooms_count)
 		ft_memdel((void**)&map->rooms[i]);
+	k = -1;
+	while (++k < map->r_ways->n)
+	{
+		ft_memdel((void**)&map->r_ways[k]);
+	// 	i = -1;
+	// 	while (++i < map->rooms_count)
+	// 		ft_memdel((void**)&)
+	}
 	ft_memdel((void**)&map->rooms);
 	ft_memdel((void**)&map->in->ants_list);
 	ft_memdel((void**)&map->in->link_list);
