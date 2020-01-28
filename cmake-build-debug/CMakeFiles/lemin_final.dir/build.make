@@ -57,22 +57,9 @@ include CMakeFiles/lemin_final.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lemin_final.dir/flags.make
 
-CMakeFiles/lemin_final.dir/libft/ft_atoi.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lemin_final.dir/libft/ft_atoi.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_atoi.c.o   -c /Users/fculator/lemin_final/libft/ft_atoi.c
-
-CMakeFiles/lemin_final.dir/libft/ft_atoi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libft/ft_atoi.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libft/ft_atoi.c > CMakeFiles/lemin_final.dir/libft/ft_atoi.c.i
-
-CMakeFiles/lemin_final.dir/libft/ft_atoi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libft/ft_atoi.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libft/ft_atoi.c -o CMakeFiles/lemin_final.dir/libft/ft_atoi.c.s
-
 CMakeFiles/lemin_final.dir/libft/ft_atoi_base.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_atoi_base.c.o: ../libft/ft_atoi_base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lemin_final.dir/libft/ft_atoi_base.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lemin_final.dir/libft/ft_atoi_base.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_atoi_base.c.o   -c /Users/fculator/lemin_final/libft/ft_atoi_base.c
 
 CMakeFiles/lemin_final.dir/libft/ft_atoi_base.c.i: cmake_force
@@ -85,7 +72,7 @@ CMakeFiles/lemin_final.dir/libft/ft_atoi_base.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_base_len.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_base_len.c.o: ../libft/ft_base_len.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lemin_final.dir/libft/ft_base_len.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/lemin_final.dir/libft/ft_base_len.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_base_len.c.o   -c /Users/fculator/lemin_final/libft/ft_base_len.c
 
 CMakeFiles/lemin_final.dir/libft/ft_base_len.c.i: cmake_force
@@ -96,22 +83,9 @@ CMakeFiles/lemin_final.dir/libft/ft_base_len.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libft/ft_base_len.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libft/ft_base_len.c -o CMakeFiles/lemin_final.dir/libft/ft_base_len.c.s
 
-CMakeFiles/lemin_final.dir/libft/ft_bzero.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libft/ft_bzero.c.o: ../libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lemin_final.dir/libft/ft_bzero.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_bzero.c.o   -c /Users/fculator/lemin_final/libft/ft_bzero.c
-
-CMakeFiles/lemin_final.dir/libft/ft_bzero.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libft/ft_bzero.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libft/ft_bzero.c > CMakeFiles/lemin_final.dir/libft/ft_bzero.c.i
-
-CMakeFiles/lemin_final.dir/libft/ft_bzero.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libft/ft_bzero.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libft/ft_bzero.c -o CMakeFiles/lemin_final.dir/libft/ft_bzero.c.s
-
 CMakeFiles/lemin_final.dir/libft/ft_countchar.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_countchar.c.o: ../libft/ft_countchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lemin_final.dir/libft/ft_countchar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/lemin_final.dir/libft/ft_countchar.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_countchar.c.o   -c /Users/fculator/lemin_final/libft/ft_countchar.c
 
 CMakeFiles/lemin_final.dir/libft/ft_countchar.c.i: cmake_force
@@ -124,7 +98,7 @@ CMakeFiles/lemin_final.dir/libft/ft_countchar.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_countwordc.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_countwordc.c.o: ../libft/ft_countwordc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lemin_final.dir/libft/ft_countwordc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/lemin_final.dir/libft/ft_countwordc.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_countwordc.c.o   -c /Users/fculator/lemin_final/libft/ft_countwordc.c
 
 CMakeFiles/lemin_final.dir/libft/ft_countwordc.c.i: cmake_force
@@ -137,7 +111,7 @@ CMakeFiles/lemin_final.dir/libft/ft_countwordc.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_delelemofarray.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_delelemofarray.c.o: ../libft/ft_delelemofarray.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/lemin_final.dir/libft/ft_delelemofarray.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/lemin_final.dir/libft/ft_delelemofarray.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_delelemofarray.c.o   -c /Users/fculator/lemin_final/libft/ft_delelemofarray.c
 
 CMakeFiles/lemin_final.dir/libft/ft_delelemofarray.c.i: cmake_force
@@ -150,7 +124,7 @@ CMakeFiles/lemin_final.dir/libft/ft_delelemofarray.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_isalnum.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_isalnum.c.o: ../libft/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/lemin_final.dir/libft/ft_isalnum.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/lemin_final.dir/libft/ft_isalnum.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_isalnum.c.o   -c /Users/fculator/lemin_final/libft/ft_isalnum.c
 
 CMakeFiles/lemin_final.dir/libft/ft_isalnum.c.i: cmake_force
@@ -163,7 +137,7 @@ CMakeFiles/lemin_final.dir/libft/ft_isalnum.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_isalpha.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_isalpha.c.o: ../libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/lemin_final.dir/libft/ft_isalpha.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/lemin_final.dir/libft/ft_isalpha.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_isalpha.c.o   -c /Users/fculator/lemin_final/libft/ft_isalpha.c
 
 CMakeFiles/lemin_final.dir/libft/ft_isalpha.c.i: cmake_force
@@ -176,7 +150,7 @@ CMakeFiles/lemin_final.dir/libft/ft_isalpha.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_isascii.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_isascii.c.o: ../libft/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lemin_final.dir/libft/ft_isascii.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/lemin_final.dir/libft/ft_isascii.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_isascii.c.o   -c /Users/fculator/lemin_final/libft/ft_isascii.c
 
 CMakeFiles/lemin_final.dir/libft/ft_isascii.c.i: cmake_force
@@ -187,22 +161,9 @@ CMakeFiles/lemin_final.dir/libft/ft_isascii.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libft/ft_isascii.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libft/ft_isascii.c -o CMakeFiles/lemin_final.dir/libft/ft_isascii.c.s
 
-CMakeFiles/lemin_final.dir/libft/ft_isdigit.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libft/ft_isdigit.c.o: ../libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/lemin_final.dir/libft/ft_isdigit.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_isdigit.c.o   -c /Users/fculator/lemin_final/libft/ft_isdigit.c
-
-CMakeFiles/lemin_final.dir/libft/ft_isdigit.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libft/ft_isdigit.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libft/ft_isdigit.c > CMakeFiles/lemin_final.dir/libft/ft_isdigit.c.i
-
-CMakeFiles/lemin_final.dir/libft/ft_isdigit.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libft/ft_isdigit.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libft/ft_isdigit.c -o CMakeFiles/lemin_final.dir/libft/ft_isdigit.c.s
-
 CMakeFiles/lemin_final.dir/libft/ft_isprint.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_isprint.c.o: ../libft/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/lemin_final.dir/libft/ft_isprint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/lemin_final.dir/libft/ft_isprint.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_isprint.c.o   -c /Users/fculator/lemin_final/libft/ft_isprint.c
 
 CMakeFiles/lemin_final.dir/libft/ft_isprint.c.i: cmake_force
@@ -215,7 +176,7 @@ CMakeFiles/lemin_final.dir/libft/ft_isprint.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_isspace.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_isspace.c.o: ../libft/ft_isspace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/lemin_final.dir/libft/ft_isspace.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/lemin_final.dir/libft/ft_isspace.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_isspace.c.o   -c /Users/fculator/lemin_final/libft/ft_isspace.c
 
 CMakeFiles/lemin_final.dir/libft/ft_isspace.c.i: cmake_force
@@ -228,7 +189,7 @@ CMakeFiles/lemin_final.dir/libft/ft_isspace.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_itoa.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_itoa.c.o: ../libft/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lemin_final.dir/libft/ft_itoa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/lemin_final.dir/libft/ft_itoa.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_itoa.c.o   -c /Users/fculator/lemin_final/libft/ft_itoa.c
 
 CMakeFiles/lemin_final.dir/libft/ft_itoa.c.i: cmake_force
@@ -241,7 +202,7 @@ CMakeFiles/lemin_final.dir/libft/ft_itoa.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_join.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_join.c.o: ../libft/ft_join.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/lemin_final.dir/libft/ft_join.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/lemin_final.dir/libft/ft_join.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_join.c.o   -c /Users/fculator/lemin_final/libft/ft_join.c
 
 CMakeFiles/lemin_final.dir/libft/ft_join.c.i: cmake_force
@@ -254,7 +215,7 @@ CMakeFiles/lemin_final.dir/libft/ft_join.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_lstadd.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_lstadd.c.o: ../libft/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/lemin_final.dir/libft/ft_lstadd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/lemin_final.dir/libft/ft_lstadd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_lstadd.c.o   -c /Users/fculator/lemin_final/libft/ft_lstadd.c
 
 CMakeFiles/lemin_final.dir/libft/ft_lstadd.c.i: cmake_force
@@ -267,7 +228,7 @@ CMakeFiles/lemin_final.dir/libft/ft_lstadd.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_lstdel.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_lstdel.c.o: ../libft/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/lemin_final.dir/libft/ft_lstdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/lemin_final.dir/libft/ft_lstdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_lstdel.c.o   -c /Users/fculator/lemin_final/libft/ft_lstdel.c
 
 CMakeFiles/lemin_final.dir/libft/ft_lstdel.c.i: cmake_force
@@ -280,7 +241,7 @@ CMakeFiles/lemin_final.dir/libft/ft_lstdel.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_lstdelcontent.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_lstdelcontent.c.o: ../libft/ft_lstdelcontent.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/lemin_final.dir/libft/ft_lstdelcontent.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/lemin_final.dir/libft/ft_lstdelcontent.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_lstdelcontent.c.o   -c /Users/fculator/lemin_final/libft/ft_lstdelcontent.c
 
 CMakeFiles/lemin_final.dir/libft/ft_lstdelcontent.c.i: cmake_force
@@ -293,7 +254,7 @@ CMakeFiles/lemin_final.dir/libft/ft_lstdelcontent.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_lstdelone.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_lstdelone.c.o: ../libft/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/lemin_final.dir/libft/ft_lstdelone.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/lemin_final.dir/libft/ft_lstdelone.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_lstdelone.c.o   -c /Users/fculator/lemin_final/libft/ft_lstdelone.c
 
 CMakeFiles/lemin_final.dir/libft/ft_lstdelone.c.i: cmake_force
@@ -306,7 +267,7 @@ CMakeFiles/lemin_final.dir/libft/ft_lstdelone.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_lstiter.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_lstiter.c.o: ../libft/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/lemin_final.dir/libft/ft_lstiter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/lemin_final.dir/libft/ft_lstiter.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_lstiter.c.o   -c /Users/fculator/lemin_final/libft/ft_lstiter.c
 
 CMakeFiles/lemin_final.dir/libft/ft_lstiter.c.i: cmake_force
@@ -319,7 +280,7 @@ CMakeFiles/lemin_final.dir/libft/ft_lstiter.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_lstmap.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_lstmap.c.o: ../libft/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/lemin_final.dir/libft/ft_lstmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/lemin_final.dir/libft/ft_lstmap.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_lstmap.c.o   -c /Users/fculator/lemin_final/libft/ft_lstmap.c
 
 CMakeFiles/lemin_final.dir/libft/ft_lstmap.c.i: cmake_force
@@ -332,7 +293,7 @@ CMakeFiles/lemin_final.dir/libft/ft_lstmap.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_lstnew.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_lstnew.c.o: ../libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/lemin_final.dir/libft/ft_lstnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/lemin_final.dir/libft/ft_lstnew.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_lstnew.c.o   -c /Users/fculator/lemin_final/libft/ft_lstnew.c
 
 CMakeFiles/lemin_final.dir/libft/ft_lstnew.c.i: cmake_force
@@ -345,7 +306,7 @@ CMakeFiles/lemin_final.dir/libft/ft_lstnew.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_memalloc.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_memalloc.c.o: ../libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/lemin_final.dir/libft/ft_memalloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/lemin_final.dir/libft/ft_memalloc.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_memalloc.c.o   -c /Users/fculator/lemin_final/libft/ft_memalloc.c
 
 CMakeFiles/lemin_final.dir/libft/ft_memalloc.c.i: cmake_force
@@ -358,7 +319,7 @@ CMakeFiles/lemin_final.dir/libft/ft_memalloc.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_memccpy.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_memccpy.c.o: ../libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/lemin_final.dir/libft/ft_memccpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/lemin_final.dir/libft/ft_memccpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_memccpy.c.o   -c /Users/fculator/lemin_final/libft/ft_memccpy.c
 
 CMakeFiles/lemin_final.dir/libft/ft_memccpy.c.i: cmake_force
@@ -371,7 +332,7 @@ CMakeFiles/lemin_final.dir/libft/ft_memccpy.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_memchr.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_memchr.c.o: ../libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/lemin_final.dir/libft/ft_memchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/lemin_final.dir/libft/ft_memchr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_memchr.c.o   -c /Users/fculator/lemin_final/libft/ft_memchr.c
 
 CMakeFiles/lemin_final.dir/libft/ft_memchr.c.i: cmake_force
@@ -384,7 +345,7 @@ CMakeFiles/lemin_final.dir/libft/ft_memchr.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_memcmp.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_memcmp.c.o: ../libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/lemin_final.dir/libft/ft_memcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/lemin_final.dir/libft/ft_memcmp.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_memcmp.c.o   -c /Users/fculator/lemin_final/libft/ft_memcmp.c
 
 CMakeFiles/lemin_final.dir/libft/ft_memcmp.c.i: cmake_force
@@ -397,7 +358,7 @@ CMakeFiles/lemin_final.dir/libft/ft_memcmp.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_memcpy.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_memcpy.c.o: ../libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/lemin_final.dir/libft/ft_memcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/lemin_final.dir/libft/ft_memcpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_memcpy.c.o   -c /Users/fculator/lemin_final/libft/ft_memcpy.c
 
 CMakeFiles/lemin_final.dir/libft/ft_memcpy.c.i: cmake_force
@@ -410,7 +371,7 @@ CMakeFiles/lemin_final.dir/libft/ft_memcpy.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_memdel.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_memdel.c.o: ../libft/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/lemin_final.dir/libft/ft_memdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/lemin_final.dir/libft/ft_memdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_memdel.c.o   -c /Users/fculator/lemin_final/libft/ft_memdel.c
 
 CMakeFiles/lemin_final.dir/libft/ft_memdel.c.i: cmake_force
@@ -423,7 +384,7 @@ CMakeFiles/lemin_final.dir/libft/ft_memdel.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_memmove.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_memmove.c.o: ../libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/lemin_final.dir/libft/ft_memmove.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/lemin_final.dir/libft/ft_memmove.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_memmove.c.o   -c /Users/fculator/lemin_final/libft/ft_memmove.c
 
 CMakeFiles/lemin_final.dir/libft/ft_memmove.c.i: cmake_force
@@ -434,22 +395,9 @@ CMakeFiles/lemin_final.dir/libft/ft_memmove.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libft/ft_memmove.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libft/ft_memmove.c -o CMakeFiles/lemin_final.dir/libft/ft_memmove.c.s
 
-CMakeFiles/lemin_final.dir/libft/ft_memset.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libft/ft_memset.c.o: ../libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/lemin_final.dir/libft/ft_memset.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_memset.c.o   -c /Users/fculator/lemin_final/libft/ft_memset.c
-
-CMakeFiles/lemin_final.dir/libft/ft_memset.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libft/ft_memset.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libft/ft_memset.c > CMakeFiles/lemin_final.dir/libft/ft_memset.c.i
-
-CMakeFiles/lemin_final.dir/libft/ft_memset.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libft/ft_memset.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libft/ft_memset.c -o CMakeFiles/lemin_final.dir/libft/ft_memset.c.s
-
 CMakeFiles/lemin_final.dir/libft/ft_power.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_power.c.o: ../libft/ft_power.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/lemin_final.dir/libft/ft_power.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/lemin_final.dir/libft/ft_power.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_power.c.o   -c /Users/fculator/lemin_final/libft/ft_power.c
 
 CMakeFiles/lemin_final.dir/libft/ft_power.c.i: cmake_force
@@ -462,7 +410,7 @@ CMakeFiles/lemin_final.dir/libft/ft_power.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_printbits.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_printbits.c.o: ../libft/ft_printbits.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/lemin_final.dir/libft/ft_printbits.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/lemin_final.dir/libft/ft_printbits.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_printbits.c.o   -c /Users/fculator/lemin_final/libft/ft_printbits.c
 
 CMakeFiles/lemin_final.dir/libft/ft_printbits.c.i: cmake_force
@@ -473,22 +421,9 @@ CMakeFiles/lemin_final.dir/libft/ft_printbits.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libft/ft_printbits.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libft/ft_printbits.c -o CMakeFiles/lemin_final.dir/libft/ft_printbits.c.s
 
-CMakeFiles/lemin_final.dir/libft/ft_putchar.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libft/ft_putchar.c.o: ../libft/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/lemin_final.dir/libft/ft_putchar.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_putchar.c.o   -c /Users/fculator/lemin_final/libft/ft_putchar.c
-
-CMakeFiles/lemin_final.dir/libft/ft_putchar.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libft/ft_putchar.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libft/ft_putchar.c > CMakeFiles/lemin_final.dir/libft/ft_putchar.c.i
-
-CMakeFiles/lemin_final.dir/libft/ft_putchar.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libft/ft_putchar.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libft/ft_putchar.c -o CMakeFiles/lemin_final.dir/libft/ft_putchar.c.s
-
 CMakeFiles/lemin_final.dir/libft/ft_putchar_fd.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_putchar_fd.c.o: ../libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/lemin_final.dir/libft/ft_putchar_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/lemin_final.dir/libft/ft_putchar_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_putchar_fd.c.o   -c /Users/fculator/lemin_final/libft/ft_putchar_fd.c
 
 CMakeFiles/lemin_final.dir/libft/ft_putchar_fd.c.i: cmake_force
@@ -501,7 +436,7 @@ CMakeFiles/lemin_final.dir/libft/ft_putchar_fd.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_putendl.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_putendl.c.o: ../libft/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/lemin_final.dir/libft/ft_putendl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/lemin_final.dir/libft/ft_putendl.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_putendl.c.o   -c /Users/fculator/lemin_final/libft/ft_putendl.c
 
 CMakeFiles/lemin_final.dir/libft/ft_putendl.c.i: cmake_force
@@ -514,7 +449,7 @@ CMakeFiles/lemin_final.dir/libft/ft_putendl.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_putendl_fd.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_putendl_fd.c.o: ../libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/lemin_final.dir/libft/ft_putendl_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/lemin_final.dir/libft/ft_putendl_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_putendl_fd.c.o   -c /Users/fculator/lemin_final/libft/ft_putendl_fd.c
 
 CMakeFiles/lemin_final.dir/libft/ft_putendl_fd.c.i: cmake_force
@@ -525,22 +460,9 @@ CMakeFiles/lemin_final.dir/libft/ft_putendl_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libft/ft_putendl_fd.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libft/ft_putendl_fd.c -o CMakeFiles/lemin_final.dir/libft/ft_putendl_fd.c.s
 
-CMakeFiles/lemin_final.dir/libft/ft_putnbr.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libft/ft_putnbr.c.o: ../libft/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/lemin_final.dir/libft/ft_putnbr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_putnbr.c.o   -c /Users/fculator/lemin_final/libft/ft_putnbr.c
-
-CMakeFiles/lemin_final.dir/libft/ft_putnbr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libft/ft_putnbr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libft/ft_putnbr.c > CMakeFiles/lemin_final.dir/libft/ft_putnbr.c.i
-
-CMakeFiles/lemin_final.dir/libft/ft_putnbr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libft/ft_putnbr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libft/ft_putnbr.c -o CMakeFiles/lemin_final.dir/libft/ft_putnbr.c.s
-
 CMakeFiles/lemin_final.dir/libft/ft_putnbr_fd.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_putnbr_fd.c.o: ../libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/lemin_final.dir/libft/ft_putnbr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/lemin_final.dir/libft/ft_putnbr_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_putnbr_fd.c.o   -c /Users/fculator/lemin_final/libft/ft_putnbr_fd.c
 
 CMakeFiles/lemin_final.dir/libft/ft_putnbr_fd.c.i: cmake_force
@@ -551,22 +473,9 @@ CMakeFiles/lemin_final.dir/libft/ft_putnbr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libft/ft_putnbr_fd.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libft/ft_putnbr_fd.c -o CMakeFiles/lemin_final.dir/libft/ft_putnbr_fd.c.s
 
-CMakeFiles/lemin_final.dir/libft/ft_putstr.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libft/ft_putstr.c.o: ../libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/lemin_final.dir/libft/ft_putstr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_putstr.c.o   -c /Users/fculator/lemin_final/libft/ft_putstr.c
-
-CMakeFiles/lemin_final.dir/libft/ft_putstr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libft/ft_putstr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libft/ft_putstr.c > CMakeFiles/lemin_final.dir/libft/ft_putstr.c.i
-
-CMakeFiles/lemin_final.dir/libft/ft_putstr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libft/ft_putstr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libft/ft_putstr.c -o CMakeFiles/lemin_final.dir/libft/ft_putstr.c.s
-
 CMakeFiles/lemin_final.dir/libft/ft_putstr_fd.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_putstr_fd.c.o: ../libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/lemin_final.dir/libft/ft_putstr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/lemin_final.dir/libft/ft_putstr_fd.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_putstr_fd.c.o   -c /Users/fculator/lemin_final/libft/ft_putstr_fd.c
 
 CMakeFiles/lemin_final.dir/libft/ft_putstr_fd.c.i: cmake_force
@@ -579,7 +488,7 @@ CMakeFiles/lemin_final.dir/libft/ft_putstr_fd.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_quick_sort.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_quick_sort.c.o: ../libft/ft_quick_sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/lemin_final.dir/libft/ft_quick_sort.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/lemin_final.dir/libft/ft_quick_sort.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_quick_sort.c.o   -c /Users/fculator/lemin_final/libft/ft_quick_sort.c
 
 CMakeFiles/lemin_final.dir/libft/ft_quick_sort.c.i: cmake_force
@@ -592,7 +501,7 @@ CMakeFiles/lemin_final.dir/libft/ft_quick_sort.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_sqrt.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_sqrt.c.o: ../libft/ft_sqrt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/lemin_final.dir/libft/ft_sqrt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/lemin_final.dir/libft/ft_sqrt.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_sqrt.c.o   -c /Users/fculator/lemin_final/libft/ft_sqrt.c
 
 CMakeFiles/lemin_final.dir/libft/ft_sqrt.c.i: cmake_force
@@ -605,7 +514,7 @@ CMakeFiles/lemin_final.dir/libft/ft_sqrt.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strcat.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strcat.c.o: ../libft/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strcat.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strcat.c.o   -c /Users/fculator/lemin_final/libft/ft_strcat.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strcat.c.i: cmake_force
@@ -618,7 +527,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strcat.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strchr.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strchr.c.o: ../libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strchr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strchr.c.o   -c /Users/fculator/lemin_final/libft/ft_strchr.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strchr.c.i: cmake_force
@@ -631,7 +540,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strchr.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strchri.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strchri.c.o: ../libft/ft_strchri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strchri.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strchri.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strchri.c.o   -c /Users/fculator/lemin_final/libft/ft_strchri.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strchri.c.i: cmake_force
@@ -644,7 +553,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strchri.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strclr.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strclr.c.o: ../libft/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strclr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strclr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strclr.c.o   -c /Users/fculator/lemin_final/libft/ft_strclr.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strclr.c.i: cmake_force
@@ -657,7 +566,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strclr.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strcmp.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strcmp.c.o: ../libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strcmp.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strcmp.c.o   -c /Users/fculator/lemin_final/libft/ft_strcmp.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strcmp.c.i: cmake_force
@@ -670,7 +579,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strcmp.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strcpy.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strcpy.c.o: ../libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strcpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strcpy.c.o   -c /Users/fculator/lemin_final/libft/ft_strcpy.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strcpy.c.i: cmake_force
@@ -683,7 +592,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strcpy.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strdel.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strdel.c.o: ../libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strdel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strdel.c.o   -c /Users/fculator/lemin_final/libft/ft_strdel.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strdel.c.i: cmake_force
@@ -696,7 +605,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strdel.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strdup.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strdup.c.o: ../libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strdup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strdup.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strdup.c.o   -c /Users/fculator/lemin_final/libft/ft_strdup.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strdup.c.i: cmake_force
@@ -709,7 +618,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strdup.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strequ.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strequ.c.o: ../libft/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strequ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strequ.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strequ.c.o   -c /Users/fculator/lemin_final/libft/ft_strequ.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strequ.c.i: cmake_force
@@ -722,7 +631,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strequ.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_striter.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_striter.c.o: ../libft/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/lemin_final.dir/libft/ft_striter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/lemin_final.dir/libft/ft_striter.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_striter.c.o   -c /Users/fculator/lemin_final/libft/ft_striter.c
 
 CMakeFiles/lemin_final.dir/libft/ft_striter.c.i: cmake_force
@@ -735,7 +644,7 @@ CMakeFiles/lemin_final.dir/libft/ft_striter.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_striteri.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_striteri.c.o: ../libft/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/lemin_final.dir/libft/ft_striteri.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/lemin_final.dir/libft/ft_striteri.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_striteri.c.o   -c /Users/fculator/lemin_final/libft/ft_striteri.c
 
 CMakeFiles/lemin_final.dir/libft/ft_striteri.c.i: cmake_force
@@ -748,7 +657,7 @@ CMakeFiles/lemin_final.dir/libft/ft_striteri.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strjoin.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strjoin.c.o: ../libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strjoin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strjoin.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strjoin.c.o   -c /Users/fculator/lemin_final/libft/ft_strjoin.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strjoin.c.i: cmake_force
@@ -761,7 +670,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strjoin.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strlcat.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strlcat.c.o: ../libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strlcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strlcat.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strlcat.c.o   -c /Users/fculator/lemin_final/libft/ft_strlcat.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strlcat.c.i: cmake_force
@@ -772,22 +681,9 @@ CMakeFiles/lemin_final.dir/libft/ft_strlcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libft/ft_strlcat.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libft/ft_strlcat.c -o CMakeFiles/lemin_final.dir/libft/ft_strlcat.c.s
 
-CMakeFiles/lemin_final.dir/libft/ft_strlen.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libft/ft_strlen.c.o: ../libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strlen.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strlen.c.o   -c /Users/fculator/lemin_final/libft/ft_strlen.c
-
-CMakeFiles/lemin_final.dir/libft/ft_strlen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libft/ft_strlen.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libft/ft_strlen.c > CMakeFiles/lemin_final.dir/libft/ft_strlen.c.i
-
-CMakeFiles/lemin_final.dir/libft/ft_strlen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libft/ft_strlen.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libft/ft_strlen.c -o CMakeFiles/lemin_final.dir/libft/ft_strlen.c.s
-
 CMakeFiles/lemin_final.dir/libft/ft_strlenc.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strlenc.c.o: ../libft/ft_strlenc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strlenc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strlenc.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strlenc.c.o   -c /Users/fculator/lemin_final/libft/ft_strlenc.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strlenc.c.i: cmake_force
@@ -800,7 +696,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strlenc.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strmap.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strmap.c.o: ../libft/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strmap.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strmap.c.o   -c /Users/fculator/lemin_final/libft/ft_strmap.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strmap.c.i: cmake_force
@@ -813,7 +709,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strmap.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strmapi.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strmapi.c.o: ../libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strmapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strmapi.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strmapi.c.o   -c /Users/fculator/lemin_final/libft/ft_strmapi.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strmapi.c.i: cmake_force
@@ -826,7 +722,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strmapi.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strncat.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strncat.c.o: ../libft/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strncat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strncat.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strncat.c.o   -c /Users/fculator/lemin_final/libft/ft_strncat.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strncat.c.i: cmake_force
@@ -839,7 +735,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strncat.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strncmp.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strncmp.c.o: ../libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strncmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strncmp.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strncmp.c.o   -c /Users/fculator/lemin_final/libft/ft_strncmp.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strncmp.c.i: cmake_force
@@ -852,7 +748,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strncmp.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strncpy.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strncpy.c.o: ../libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strncpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strncpy.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strncpy.c.o   -c /Users/fculator/lemin_final/libft/ft_strncpy.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strncpy.c.i: cmake_force
@@ -865,7 +761,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strncpy.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strnequ.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strnequ.c.o: ../libft/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strnequ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strnequ.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strnequ.c.o   -c /Users/fculator/lemin_final/libft/ft_strnequ.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strnequ.c.i: cmake_force
@@ -878,7 +774,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strnequ.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strnew.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strnew.c.o: ../libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strnew.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strnew.c.o   -c /Users/fculator/lemin_final/libft/ft_strnew.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strnew.c.i: cmake_force
@@ -891,7 +787,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strnew.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strnlen.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strnlen.c.o: ../libft/ft_strnlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strnlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strnlen.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strnlen.c.o   -c /Users/fculator/lemin_final/libft/ft_strnlen.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strnlen.c.i: cmake_force
@@ -904,7 +800,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strnlen.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strnstr.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strnstr.c.o: ../libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strnstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strnstr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strnstr.c.o   -c /Users/fculator/lemin_final/libft/ft_strnstr.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strnstr.c.i: cmake_force
@@ -917,7 +813,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strnstr.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strrchr.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strrchr.c.o: ../libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strrchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strrchr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strrchr.c.o   -c /Users/fculator/lemin_final/libft/ft_strrchr.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strrchr.c.i: cmake_force
@@ -930,7 +826,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strrchr.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strsplit.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strsplit.c.o: ../libft/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strsplit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strsplit.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strsplit.c.o   -c /Users/fculator/lemin_final/libft/ft_strsplit.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strsplit.c.i: cmake_force
@@ -943,7 +839,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strsplit.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strstr.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strstr.c.o: ../libft/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strstr.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strstr.c.o   -c /Users/fculator/lemin_final/libft/ft_strstr.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strstr.c.i: cmake_force
@@ -956,7 +852,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strstr.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strsub.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strsub.c.o: ../libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strsub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strsub.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strsub.c.o   -c /Users/fculator/lemin_final/libft/ft_strsub.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strsub.c.i: cmake_force
@@ -969,7 +865,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strsub.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_strtrim.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_strtrim.c.o: ../libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strtrim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/lemin_final.dir/libft/ft_strtrim.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_strtrim.c.o   -c /Users/fculator/lemin_final/libft/ft_strtrim.c
 
 CMakeFiles/lemin_final.dir/libft/ft_strtrim.c.i: cmake_force
@@ -982,7 +878,7 @@ CMakeFiles/lemin_final.dir/libft/ft_strtrim.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_swap.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_swap.c.o: ../libft/ft_swap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/lemin_final.dir/libft/ft_swap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/lemin_final.dir/libft/ft_swap.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_swap.c.o   -c /Users/fculator/lemin_final/libft/ft_swap.c
 
 CMakeFiles/lemin_final.dir/libft/ft_swap.c.i: cmake_force
@@ -995,7 +891,7 @@ CMakeFiles/lemin_final.dir/libft/ft_swap.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_swap_point.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_swap_point.c.o: ../libft/ft_swap_point.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/lemin_final.dir/libft/ft_swap_point.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/lemin_final.dir/libft/ft_swap_point.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_swap_point.c.o   -c /Users/fculator/lemin_final/libft/ft_swap_point.c
 
 CMakeFiles/lemin_final.dir/libft/ft_swap_point.c.i: cmake_force
@@ -1008,7 +904,7 @@ CMakeFiles/lemin_final.dir/libft/ft_swap_point.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_tolower.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_tolower.c.o: ../libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/lemin_final.dir/libft/ft_tolower.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/lemin_final.dir/libft/ft_tolower.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_tolower.c.o   -c /Users/fculator/lemin_final/libft/ft_tolower.c
 
 CMakeFiles/lemin_final.dir/libft/ft_tolower.c.i: cmake_force
@@ -1021,7 +917,7 @@ CMakeFiles/lemin_final.dir/libft/ft_tolower.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_toupper.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_toupper.c.o: ../libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/lemin_final.dir/libft/ft_toupper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/lemin_final.dir/libft/ft_toupper.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_toupper.c.o   -c /Users/fculator/lemin_final/libft/ft_toupper.c
 
 CMakeFiles/lemin_final.dir/libft/ft_toupper.c.i: cmake_force
@@ -1034,7 +930,7 @@ CMakeFiles/lemin_final.dir/libft/ft_toupper.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/ft_twodarraydel.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/ft_twodarraydel.c.o: ../libft/ft_twodarraydel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/lemin_final.dir/libft/ft_twodarraydel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/lemin_final.dir/libft/ft_twodarraydel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/ft_twodarraydel.c.o   -c /Users/fculator/lemin_final/libft/ft_twodarraydel.c
 
 CMakeFiles/lemin_final.dir/libft/ft_twodarraydel.c.i: cmake_force
@@ -1047,7 +943,7 @@ CMakeFiles/lemin_final.dir/libft/ft_twodarraydel.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/libft/get_next_line.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/libft/get_next_line.c.o: ../libft/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/lemin_final.dir/libft/get_next_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/lemin_final.dir/libft/get_next_line.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libft/get_next_line.c.o   -c /Users/fculator/lemin_final/libft/get_next_line.c
 
 CMakeFiles/lemin_final.dir/libft/get_next_line.c.i: cmake_force
@@ -1058,854 +954,659 @@ CMakeFiles/lemin_final.dir/libft/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libft/get_next_line.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libft/get_next_line.c -o CMakeFiles/lemin_final.dir/libft/get_next_line.c.s
 
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_addition_num.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_addition_num.c.o: ../libftprintf/float/ft_addition_num.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_addition_num.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_addition_num.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_addition_num.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_addition_num.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_addition_num.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_addition_num.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_addition_num.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_addition_num.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_addition_num.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_addition_num.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_addition_num.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_conversion_powers.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_conversion_powers.c.o: ../libftprintf/float/ft_conversion_powers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_conversion_powers.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_conversion_powers.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_conversion_powers.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_conversion_powers.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_conversion_powers.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_conversion_powers.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_conversion_powers.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_conversion_powers.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_conversion_powers.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_conversion_powers.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_conversion_powers.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_tieee754.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_tieee754.c.o: ../libftprintf/float/ft_create_tieee754.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_tieee754.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_tieee754.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_create_tieee754.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_tieee754.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_tieee754.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_create_tieee754.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_tieee754.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_tieee754.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_tieee754.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_create_tieee754.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_tieee754.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_treal.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_treal.c.o: ../libftprintf/float/ft_create_treal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_treal.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_treal.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_create_treal.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_treal.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_treal.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_create_treal.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_treal.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_treal.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_treal.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_create_treal.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_treal.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_tieee754.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_tieee754.c.o: ../libftprintf/float/ft_delete_tieee754.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_tieee754.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_tieee754.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_delete_tieee754.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_tieee754.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_tieee754.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_delete_tieee754.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_tieee754.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_tieee754.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_tieee754.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_delete_tieee754.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_tieee754.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_treal.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_treal.c.o: ../libftprintf/float/ft_delete_treal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_treal.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_treal.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_delete_treal.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_treal.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_treal.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_delete_treal.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_treal.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_treal.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_treal.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_delete_treal.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_treal.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_frac_part.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_frac_part.c.o: ../libftprintf/float/ft_get_frac_part.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_frac_part.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_frac_part.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_get_frac_part.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_frac_part.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_frac_part.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_get_frac_part.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_frac_part.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_frac_part.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_frac_part.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_get_frac_part.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_frac_part.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_integer_part.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_integer_part.c.o: ../libftprintf/float/ft_get_integer_part.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_integer_part.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_integer_part.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_get_integer_part.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_integer_part.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_integer_part.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_get_integer_part.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_integer_part.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_integer_part.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_integer_part.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_get_integer_part.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_integer_part.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_real_number.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_real_number.c.o: ../libftprintf/float/ft_get_real_number.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_real_number.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_real_number.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_get_real_number.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_real_number.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_real_number.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_get_real_number.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_real_number.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_real_number.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_real_number.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_get_real_number.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_real_number.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_move_digit.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_move_digit.c.o: ../libftprintf/float/ft_move_digit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_move_digit.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_move_digit.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_move_digit.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_move_digit.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_move_digit.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_move_digit.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_move_digit.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_move_digit.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_move_digit.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_move_digit.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_move_digit.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_normalize_num.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_normalize_num.c.o: ../libftprintf/float/ft_normalize_num.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_normalize_num.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_normalize_num.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_normalize_num.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_normalize_num.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_normalize_num.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_normalize_num.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_normalize_num.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_normalize_num.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_normalize_num.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_normalize_num.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_normalize_num.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_double.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_double.c.o: ../libftprintf/float/ft_parse_double.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_double.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_double.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_parse_double.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_double.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_double.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_parse_double.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_double.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_double.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_double.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_parse_double.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_double.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_float.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_float.c.o: ../libftprintf/float/ft_parse_float.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_float.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_float.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_parse_float.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_float.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_float.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_parse_float.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_float.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_float.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_float.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_parse_float.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_float.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_ldouble.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_ldouble.c.o: ../libftprintf/float/ft_parse_ldouble.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_ldouble.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_ldouble.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_parse_ldouble.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_ldouble.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_ldouble.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_parse_ldouble.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_ldouble.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_ldouble.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_ldouble.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_parse_ldouble.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_ldouble.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_parts_ieee754.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_parts_ieee754.c.o: ../libftprintf/float/ft_parse_parts_ieee754.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_parts_ieee754.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_parts_ieee754.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_parse_parts_ieee754.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_parts_ieee754.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_parts_ieee754.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_parse_parts_ieee754.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_parts_ieee754.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_parts_ieee754.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_parts_ieee754.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_parse_parts_ieee754.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_parts_ieee754.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_power_mantis.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_power_mantis.c.o: ../libftprintf/float/ft_parse_power_mantis.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_power_mantis.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_power_mantis.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_parse_power_mantis.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_power_mantis.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_power_mantis.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_parse_power_mantis.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_power_mantis.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_power_mantis.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_power_mantis.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_parse_power_mantis.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_power_mantis.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tparts.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tparts.c.o: ../libftprintf/float/ft_print_tparts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tparts.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tparts.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_print_tparts.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tparts.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tparts.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_print_tparts.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tparts.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tparts.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tparts.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_print_tparts.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tparts.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tpowers.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tpowers.c.o: ../libftprintf/float/ft_print_tpowers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tpowers.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tpowers.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_print_tpowers.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tpowers.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tpowers.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_print_tpowers.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tpowers.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tpowers.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tpowers.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_print_tpowers.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tpowers.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_rounding_treal.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_rounding_treal.c.o: ../libftprintf/float/ft_rounding_treal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/lemin_final.dir/libftprintf/float/ft_rounding_treal.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_rounding_treal.c.o   -c /Users/fculator/lemin_final/libftprintf/float/ft_rounding_treal.c
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_rounding_treal.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/float/ft_rounding_treal.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/float/ft_rounding_treal.c > CMakeFiles/lemin_final.dir/libftprintf/float/ft_rounding_treal.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/float/ft_rounding_treal.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/float/ft_rounding_treal.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/float/ft_rounding_treal.c -o CMakeFiles/lemin_final.dir/libftprintf/float/ft_rounding_treal.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_full_format_to_buf.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_full_format_to_buf.c.o: ../libftprintf/ft_add_full_format_to_buf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_add_full_format_to_buf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_add_full_format_to_buf.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_add_full_format_to_buf.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_full_format_to_buf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_add_full_format_to_buf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_add_full_format_to_buf.c > CMakeFiles/lemin_final.dir/libftprintf/ft_add_full_format_to_buf.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_full_format_to_buf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_add_full_format_to_buf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_add_full_format_to_buf.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_add_full_format_to_buf.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_num_to_buf.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_num_to_buf.c.o: ../libftprintf/ft_add_num_to_buf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_add_num_to_buf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_add_num_to_buf.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_add_num_to_buf.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_num_to_buf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_add_num_to_buf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_add_num_to_buf.c > CMakeFiles/lemin_final.dir/libftprintf/ft_add_num_to_buf.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_num_to_buf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_add_num_to_buf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_add_num_to_buf.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_add_num_to_buf.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_real_num_to_buf.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_real_num_to_buf.c.o: ../libftprintf/ft_add_real_num_to_buf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_add_real_num_to_buf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_add_real_num_to_buf.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_add_real_num_to_buf.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_real_num_to_buf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_add_real_num_to_buf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_add_real_num_to_buf.c > CMakeFiles/lemin_final.dir/libftprintf/ft_add_real_num_to_buf.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_real_num_to_buf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_add_real_num_to_buf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_add_real_num_to_buf.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_add_real_num_to_buf.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_sign_to_buf.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_sign_to_buf.c.o: ../libftprintf/ft_add_sign_to_buf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_add_sign_to_buf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_add_sign_to_buf.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_add_sign_to_buf.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_sign_to_buf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_add_sign_to_buf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_add_sign_to_buf.c > CMakeFiles/lemin_final.dir/libftprintf/ft_add_sign_to_buf.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_sign_to_buf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_add_sign_to_buf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_add_sign_to_buf.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_add_sign_to_buf.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_space_to_buf.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_space_to_buf.c.o: ../libftprintf/ft_add_space_to_buf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_add_space_to_buf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_add_space_to_buf.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_add_space_to_buf.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_space_to_buf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_add_space_to_buf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_add_space_to_buf.c > CMakeFiles/lemin_final.dir/libftprintf/ft_add_space_to_buf.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_space_to_buf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_add_space_to_buf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_add_space_to_buf.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_add_space_to_buf.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_str_to_buf.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_str_to_buf.c.o: ../libftprintf/ft_add_str_to_buf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_add_str_to_buf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_add_str_to_buf.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_add_str_to_buf.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_str_to_buf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_add_str_to_buf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_add_str_to_buf.c > CMakeFiles/lemin_final.dir/libftprintf/ft_add_str_to_buf.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_str_to_buf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_add_str_to_buf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_add_str_to_buf.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_add_str_to_buf.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_strn_to_buf.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_strn_to_buf.c.o: ../libftprintf/ft_add_strn_to_buf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_add_strn_to_buf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_add_strn_to_buf.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_add_strn_to_buf.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_strn_to_buf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_add_strn_to_buf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_add_strn_to_buf.c > CMakeFiles/lemin_final.dir/libftprintf/ft_add_strn_to_buf.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_strn_to_buf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_add_strn_to_buf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_add_strn_to_buf.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_add_strn_to_buf.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_to_buf.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_to_buf.c.o: ../libftprintf/ft_add_to_buf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_add_to_buf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_add_to_buf.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_add_to_buf.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_to_buf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_add_to_buf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_add_to_buf.c > CMakeFiles/lemin_final.dir/libftprintf/ft_add_to_buf.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_to_buf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_add_to_buf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_add_to_buf.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_add_to_buf.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_zero_to_buf.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_zero_to_buf.c.o: ../libftprintf/ft_add_zero_to_buf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_add_zero_to_buf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_add_zero_to_buf.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_add_zero_to_buf.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_zero_to_buf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_add_zero_to_buf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_add_zero_to_buf.c > CMakeFiles/lemin_final.dir/libftprintf/ft_add_zero_to_buf.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_add_zero_to_buf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_add_zero_to_buf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_add_zero_to_buf.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_add_zero_to_buf.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_precision.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_precision.c.o: ../libftprintf/ft_calculate_precision.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_precision.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_precision.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_calculate_precision.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_precision.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_precision.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_calculate_precision.c > CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_precision.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_precision.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_precision.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_calculate_precision.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_precision.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_width.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_width.c.o: ../libftprintf/ft_calculate_width.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_width.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_width.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_calculate_width.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_width.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_width.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_calculate_width.c > CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_width.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_width.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_width.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_calculate_width.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_width.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_format.c.o: ../libftprintf/ft_format.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_format.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_format.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_format.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_format.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_format.c > CMakeFiles/lemin_final.dir/libftprintf/ft_format.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_format.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_format.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_format.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_b.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_b.c.o: ../libftprintf/ft_format_b.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_format_b.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_b.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_format_b.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_b.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_format_b.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_format_b.c > CMakeFiles/lemin_final.dir/libftprintf/ft_format_b.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_b.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_format_b.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_format_b.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_b.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_basic.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_basic.c.o: ../libftprintf/ft_format_basic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_format_basic.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_basic.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_format_basic.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_basic.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_format_basic.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_format_basic.c > CMakeFiles/lemin_final.dir/libftprintf/ft_format_basic.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_basic.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_format_basic.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_format_basic.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_basic.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_c.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_c.c.o: ../libftprintf/ft_format_c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_format_c.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_c.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_format_c.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_c.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_format_c.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_format_c.c > CMakeFiles/lemin_final.dir/libftprintf/ft_format_c.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_c.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_format_c.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_format_c.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_c.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_d.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_d.c.o: ../libftprintf/ft_format_d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_format_d.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_d.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_format_d.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_d.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_format_d.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_format_d.c > CMakeFiles/lemin_final.dir/libftprintf/ft_format_d.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_d.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_format_d.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_format_d.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_d.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_f.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_f.c.o: ../libftprintf/ft_format_f.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_format_f.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_f.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_format_f.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_f.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_format_f.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_format_f.c > CMakeFiles/lemin_final.dir/libftprintf/ft_format_f.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_f.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_format_f.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_format_f.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_f.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_o.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_o.c.o: ../libftprintf/ft_format_o.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_format_o.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_o.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_format_o.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_o.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_format_o.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_format_o.c > CMakeFiles/lemin_final.dir/libftprintf/ft_format_o.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_o.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_format_o.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_format_o.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_o.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_p.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_p.c.o: ../libftprintf/ft_format_p.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_format_p.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_p.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_format_p.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_p.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_format_p.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_format_p.c > CMakeFiles/lemin_final.dir/libftprintf/ft_format_p.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_p.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_format_p.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_format_p.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_p.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_s.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_s.c.o: ../libftprintf/ft_format_s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_format_s.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_s.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_format_s.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_format_s.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_format_s.c > CMakeFiles/lemin_final.dir/libftprintf/ft_format_s.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_format_s.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_format_s.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_s.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_specifer.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_specifer.c.o: ../libftprintf/ft_format_specifer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_format_specifer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_specifer.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_format_specifer.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_specifer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_format_specifer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_format_specifer.c > CMakeFiles/lemin_final.dir/libftprintf/ft_format_specifer.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_specifer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_format_specifer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_format_specifer.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_specifer.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_u.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_u.c.o: ../libftprintf/ft_format_u.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_format_u.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_u.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_format_u.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_u.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_format_u.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_format_u.c > CMakeFiles/lemin_final.dir/libftprintf/ft_format_u.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_u.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_format_u.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_format_u.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_u.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_x.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_x.c.o: ../libftprintf/ft_format_x.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_format_x.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_x.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_format_x.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_x.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_format_x.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_format_x.c > CMakeFiles/lemin_final.dir/libftprintf/ft_format_x.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_format_x.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_format_x.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_format_x.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_format_x.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_get_t_real.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_get_t_real.c.o: ../libftprintf/ft_get_t_real.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_get_t_real.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_get_t_real.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_get_t_real.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_get_t_real.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_get_t_real.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_get_t_real.c > CMakeFiles/lemin_final.dir/libftprintf/ft_get_t_real.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_get_t_real.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_get_t_real.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_get_t_real.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_get_t_real.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_handling.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_handling.c.o: ../libftprintf/ft_handling.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_handling.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_handling.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_handling.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_handling.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_handling.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_handling.c > CMakeFiles/lemin_final.dir/libftprintf/ft_handling.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_handling.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_handling.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_handling.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_handling.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_is_specifer.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_is_specifer.c.o: ../libftprintf/ft_is_specifer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_is_specifer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_is_specifer.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_is_specifer.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_is_specifer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_is_specifer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_is_specifer.c > CMakeFiles/lemin_final.dir/libftprintf/ft_is_specifer.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_is_specifer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_is_specifer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_is_specifer.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_is_specifer.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse.c.o: ../libftprintf/ft_parse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_parse.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_parse.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_parse.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_parse.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_parse.c > CMakeFiles/lemin_final.dir/libftprintf/ft_parse.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_parse.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_parse.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_parse.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_flags.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_flags.c.o: ../libftprintf/ft_parse_flags.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_parse_flags.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_parse_flags.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_parse_flags.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_flags.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_parse_flags.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_parse_flags.c > CMakeFiles/lemin_final.dir/libftprintf/ft_parse_flags.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_flags.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_parse_flags.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_parse_flags.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_parse_flags.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_precision.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_precision.c.o: ../libftprintf/ft_parse_precision.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_parse_precision.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_parse_precision.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_parse_precision.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_precision.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_parse_precision.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_parse_precision.c > CMakeFiles/lemin_final.dir/libftprintf/ft_parse_precision.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_precision.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_parse_precision.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_parse_precision.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_parse_precision.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_print.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_print.c.o: ../libftprintf/ft_parse_print.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_parse_print.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_parse_print.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_parse_print.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_print.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_parse_print.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_parse_print.c > CMakeFiles/lemin_final.dir/libftprintf/ft_parse_print.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_print.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_parse_print.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_parse_print.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_parse_print.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_size.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_size.c.o: ../libftprintf/ft_parse_size.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_parse_size.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_parse_size.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_parse_size.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_size.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_parse_size.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_parse_size.c > CMakeFiles/lemin_final.dir/libftprintf/ft_parse_size.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_size.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_parse_size.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_parse_size.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_parse_size.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_types.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_types.c.o: ../libftprintf/ft_parse_types.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_parse_types.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_parse_types.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_parse_types.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_types.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_parse_types.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_parse_types.c > CMakeFiles/lemin_final.dir/libftprintf/ft_parse_types.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_types.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_parse_types.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_parse_types.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_parse_types.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_width.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_width.c.o: ../libftprintf/ft_parse_width.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_parse_width.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_parse_width.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_parse_width.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_width.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_parse_width.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_parse_width.c > CMakeFiles/lemin_final.dir/libftprintf/ft_parse_width.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_parse_width.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_parse_width.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_parse_width.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_parse_width.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_printf.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_printf.c.o: ../libftprintf/ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_printf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_printf.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_printf.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_printf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_printf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_printf.c > CMakeFiles/lemin_final.dir/libftprintf/ft_printf.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_printf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_printf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_printf.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_printf.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_skip_undefined_behavior.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_skip_undefined_behavior.c.o: ../libftprintf/ft_skip_undefined_behavior.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_skip_undefined_behavior.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_skip_undefined_behavior.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_skip_undefined_behavior.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_skip_undefined_behavior.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_skip_undefined_behavior.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_skip_undefined_behavior.c > CMakeFiles/lemin_final.dir/libftprintf/ft_skip_undefined_behavior.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_skip_undefined_behavior.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_skip_undefined_behavior.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_skip_undefined_behavior.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_skip_undefined_behavior.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_c.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_c.c.o: ../libftprintf/ft_varg_c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_varg_c.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_c.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_varg_c.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_c.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_varg_c.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_varg_c.c > CMakeFiles/lemin_final.dir/libftprintf/ft_varg_c.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_c.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_varg_c.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_varg_c.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_c.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_i.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_i.c.o: ../libftprintf/ft_varg_i.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_varg_i.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_i.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_varg_i.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_i.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_varg_i.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_varg_i.c > CMakeFiles/lemin_final.dir/libftprintf/ft_varg_i.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_i.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_varg_i.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_varg_i.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_i.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_l.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_l.c.o: ../libftprintf/ft_varg_l.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_varg_l.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_l.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_varg_l.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_l.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_varg_l.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_varg_l.c > CMakeFiles/lemin_final.dir/libftprintf/ft_varg_l.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_l.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_varg_l.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_varg_l.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_l.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ll.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ll.c.o: ../libftprintf/ft_varg_ll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ll.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ll.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_varg_ll.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ll.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_varg_ll.c > CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ll.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ll.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_varg_ll.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ll.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_s.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_s.c.o: ../libftprintf/ft_varg_s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_varg_s.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_s.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_varg_s.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_varg_s.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_varg_s.c > CMakeFiles/lemin_final.dir/libftprintf/ft_varg_s.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_varg_s.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_varg_s.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_s.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_u.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_u.c.o: ../libftprintf/ft_varg_u.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_varg_u.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_u.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_varg_u.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_u.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_varg_u.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_varg_u.c > CMakeFiles/lemin_final.dir/libftprintf/ft_varg_u.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_u.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_varg_u.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_varg_u.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_u.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_uc.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_uc.c.o: ../libftprintf/ft_varg_uc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_varg_uc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_uc.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_varg_uc.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_uc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_varg_uc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_varg_uc.c > CMakeFiles/lemin_final.dir/libftprintf/ft_varg_uc.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_uc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_varg_uc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_varg_uc.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_uc.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ul.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ul.c.o: ../libftprintf/ft_varg_ul.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ul.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ul.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_varg_ul.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ul.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ul.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_varg_ul.c > CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ul.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ul.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ul.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_varg_ul.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ul.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ull.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ull.c.o: ../libftprintf/ft_varg_ull.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ull.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ull.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_varg_ull.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ull.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ull.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_varg_ull.c > CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ull.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ull.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ull.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_varg_ull.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ull.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_us.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_us.c.o: ../libftprintf/ft_varg_us.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_varg_us.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_us.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_varg_us.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_us.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_varg_us.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_varg_us.c > CMakeFiles/lemin_final.dir/libftprintf/ft_varg_us.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_varg_us.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_varg_us.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_varg_us.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_varg_us.c.s
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_write_buf.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/libftprintf/ft_write_buf.c.o: ../libftprintf/ft_write_buf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/lemin_final.dir/libftprintf/ft_write_buf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/ft_write_buf.c.o   -c /Users/fculator/lemin_final/libftprintf/ft_write_buf.c
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_write_buf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/ft_write_buf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/ft_write_buf.c > CMakeFiles/lemin_final.dir/libftprintf/ft_write_buf.c.i
-
-CMakeFiles/lemin_final.dir/libftprintf/ft_write_buf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/ft_write_buf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/ft_write_buf.c -o CMakeFiles/lemin_final.dir/libftprintf/ft_write_buf.c.s
+CMakeFiles/lemin_final.dir/libftprintf/srcs/add_zeroes.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/add_zeroes.c.o: ../libftprintf/srcs/add_zeroes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/add_zeroes.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/add_zeroes.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/add_zeroes.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/add_zeroes.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/add_zeroes.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/add_zeroes.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/add_zeroes.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/add_zeroes.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/add_zeroes.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/add_zeroes.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/add_zeroes.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/check_if_need_zeroes.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/check_if_need_zeroes.c.o: ../libftprintf/srcs/check_if_need_zeroes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/check_if_need_zeroes.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/check_if_need_zeroes.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/check_if_need_zeroes.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/check_if_need_zeroes.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/check_if_need_zeroes.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/check_if_need_zeroes.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/check_if_need_zeroes.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/check_if_need_zeroes.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/check_if_need_zeroes.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/check_if_need_zeroes.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/check_if_need_zeroes.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/clean.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/clean.c.o: ../libftprintf/srcs/clean.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/clean.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/clean.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/clean.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/clean.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/clean.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/clean.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/clean.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/clean.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/clean.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/clean.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/clean.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/extract_float.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/extract_float.c.o: ../libftprintf/srcs/extract_float.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/extract_float.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/extract_float.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/extract_float.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/extract_float.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/extract_float.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/extract_float.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/extract_float.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/extract_float.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/extract_float.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/extract_float.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/extract_float.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/format_output.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/format_output.c.o: ../libftprintf/srcs/format_output.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/format_output.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/format_output.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/format_output.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/format_output.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/format_output.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/format_output.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/format_output.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/format_output.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/format_output.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/format_output.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/format_output.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_atoi.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_atoi.c.o: ../libftprintf/srcs/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_atoi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_atoi.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/ft_atoi.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_atoi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_atoi.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/ft_atoi.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_atoi.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_atoi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_atoi.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/ft_atoi.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_atoi.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_bzero.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_bzero.c.o: ../libftprintf/srcs/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_bzero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_bzero.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/ft_bzero.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_bzero.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_bzero.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/ft_bzero.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_bzero.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_bzero.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_bzero.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/ft_bzero.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_bzero.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isblank.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isblank.c.o: ../libftprintf/srcs/ft_isblank.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isblank.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isblank.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/ft_isblank.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isblank.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isblank.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/ft_isblank.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isblank.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isblank.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isblank.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/ft_isblank.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isblank.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isdigit.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isdigit.c.o: ../libftprintf/srcs/ft_isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isdigit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isdigit.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/ft_isdigit.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isdigit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isdigit.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/ft_isdigit.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isdigit.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isdigit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isdigit.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/ft_isdigit.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isdigit.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_memset.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_memset.c.o: ../libftprintf/srcs/ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_memset.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_memset.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/ft_memset.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_memset.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_memset.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/ft_memset.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_memset.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_memset.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_memset.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/ft_memset.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_memset.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_print_zero_o.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_print_zero_o.c.o: ../libftprintf/srcs/ft_print_zero_o.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_print_zero_o.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_print_zero_o.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/ft_print_zero_o.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_print_zero_o.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_print_zero_o.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/ft_print_zero_o.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_print_zero_o.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_print_zero_o.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_print_zero_o.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/ft_print_zero_o.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_print_zero_o.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_printf.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_printf.c.o: ../libftprintf/srcs/ft_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_printf.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_printf.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/ft_printf.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_printf.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/ft_printf.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_printf.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_printf.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/ft_printf.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_printf.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putchar.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putchar.c.o: ../libftprintf/srcs/ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putchar.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putchar.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/ft_putchar.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putchar.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putchar.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/ft_putchar.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putchar.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putchar.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putchar.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/ft_putchar.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putchar.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putnbr.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putnbr.c.o: ../libftprintf/srcs/ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putnbr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putnbr.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/ft_putnbr.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putnbr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putnbr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/ft_putnbr.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putnbr.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putnbr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putnbr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/ft_putnbr.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putnbr.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putstr.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putstr.c.o: ../libftprintf/srcs/ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putstr.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/ft_putstr.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putstr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putstr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/ft_putstr.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putstr.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putstr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putstr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/ft_putstr.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putstr.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_strlen.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_strlen.c.o: ../libftprintf/srcs/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_strlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_strlen.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/ft_strlen.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_strlen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_strlen.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/ft_strlen.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_strlen.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_strlen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_strlen.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/ft_strlen.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_strlen.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/get_len_float.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/get_len_float.c.o: ../libftprintf/srcs/get_len_float.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/get_len_float.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/get_len_float.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/get_len_float.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/get_len_float.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/get_len_float.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/get_len_float.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/get_len_float.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/get_len_float.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/get_len_float.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/get_len_float.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/get_len_float.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/get_num_type.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/get_num_type.c.o: ../libftprintf/srcs/get_num_type.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/get_num_type.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/get_num_type.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/get_num_type.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/get_num_type.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/get_num_type.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/get_num_type.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/get_num_type.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/get_num_type.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/get_num_type.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/get_num_type.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/get_num_type.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_float.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_float.c.o: ../libftprintf/srcs/handle_float.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_float.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_float.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/handle_float.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_float.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_float.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/handle_float.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_float.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_float.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_float.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/handle_float.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_float.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_fractional.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_fractional.c.o: ../libftprintf/srcs/handle_fractional.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_fractional.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_fractional.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/handle_fractional.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_fractional.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_fractional.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/handle_fractional.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_fractional.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_fractional.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_fractional.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/handle_fractional.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_fractional.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_whole.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_whole.c.o: ../libftprintf/srcs/handle_whole.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_whole.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_whole.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/handle_whole.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_whole.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_whole.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/handle_whole.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_whole.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_whole.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_whole.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/handle_whole.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_whole.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/len_num_base.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/len_num_base.c.o: ../libftprintf/srcs/len_num_base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/len_num_base.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/len_num_base.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/len_num_base.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/len_num_base.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/len_num_base.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/len_num_base.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/len_num_base.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/len_num_base.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/len_num_base.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/len_num_base.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/len_num_base.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_frac_part.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_frac_part.c.o: ../libftprintf/srcs/nbr_has_frac_part.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_frac_part.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_frac_part.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/nbr_has_frac_part.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_frac_part.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_frac_part.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/nbr_has_frac_part.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_frac_part.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_frac_part.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_frac_part.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/nbr_has_frac_part.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_frac_part.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_whole_part.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_whole_part.c.o: ../libftprintf/srcs/nbr_has_whole_part.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_whole_part.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_whole_part.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/nbr_has_whole_part.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_whole_part.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_whole_part.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/nbr_has_whole_part.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_whole_part.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_whole_part.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_whole_part.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/nbr_has_whole_part.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_whole_part.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_frac.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_frac.c.o: ../libftprintf/srcs/normalise_frac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_frac.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_frac.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/normalise_frac.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_frac.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_frac.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/normalise_frac.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_frac.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_frac.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_frac.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/normalise_frac.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_frac.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_whole.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_whole.c.o: ../libftprintf/srcs/normalise_whole.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_whole.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_whole.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/normalise_whole.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_whole.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_whole.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/normalise_whole.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_whole.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_whole.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_whole.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/normalise_whole.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_whole.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/output_float.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/output_float.c.o: ../libftprintf/srcs/output_float.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/output_float.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/output_float.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/output_float.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/output_float.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/output_float.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/output_float.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/output_float.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/output_float.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/output_float.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/output_float.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/output_float.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse.c.o: ../libftprintf/srcs/parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/parse.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/parse.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/parse.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/parse.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/parse.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/parse.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/parse.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/parse.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/parse.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_flags.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_flags.c.o: ../libftprintf/srcs/parse_flags.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_flags.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_flags.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/parse_flags.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_flags.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_flags.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/parse_flags.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_flags.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_flags.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_flags.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/parse_flags.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_flags.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_prec.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_prec.c.o: ../libftprintf/srcs/parse_prec.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_prec.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_prec.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/parse_prec.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_prec.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_prec.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/parse_prec.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_prec.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_prec.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_prec.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/parse_prec.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_prec.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_size.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_size.c.o: ../libftprintf/srcs/parse_size.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_size.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_size.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/parse_size.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_size.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_size.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/parse_size.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_size.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_size.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_size.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/parse_size.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_size.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_type.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_type.c.o: ../libftprintf/srcs/parse_type.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_type.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_type.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/parse_type.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_type.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_type.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/parse_type.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_type.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_type.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_type.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/parse_type.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_type.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_width.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_width.c.o: ../libftprintf/srcs/parse_width.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_width.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_width.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/parse_width.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_width.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_width.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/parse_width.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_width.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_width.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_width.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/parse_width.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_width.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print.c.o: ../libftprintf/srcs/print.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/print.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/print.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/print.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/print.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/print.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/print.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/print.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_binary.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_binary.c.o: ../libftprintf/srcs/print_binary.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/print_binary.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_binary.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/print_binary.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_binary.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/print_binary.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/print_binary.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/print_binary.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_binary.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/print_binary.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/print_binary.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_binary.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_c.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_c.c.o: ../libftprintf/srcs/print_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/print_c.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_c.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/print_c.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/print_c.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/print_c.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/print_c.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/print_c.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/print_c.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_c.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_d.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_d.c.o: ../libftprintf/srcs/print_d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/print_d.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_d.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/print_d.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_d.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/print_d.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/print_d.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/print_d.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_d.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/print_d.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/print_d.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_d.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_o.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_o.c.o: ../libftprintf/srcs/print_o.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/print_o.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_o.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/print_o.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_o.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/print_o.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/print_o.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/print_o.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_o.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/print_o.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/print_o.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_o.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_p.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_p.c.o: ../libftprintf/srcs/print_p.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/print_p.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_p.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/print_p.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_p.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/print_p.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/print_p.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/print_p.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_p.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/print_p.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/print_p.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_p.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_percentage.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_percentage.c.o: ../libftprintf/srcs/print_percentage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/print_percentage.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_percentage.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/print_percentage.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_percentage.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/print_percentage.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/print_percentage.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/print_percentage.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_percentage.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/print_percentage.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/print_percentage.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_percentage.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_s.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_s.c.o: ../libftprintf/srcs/print_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/print_s.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_s.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/print_s.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/print_s.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/print_s.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/print_s.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/print_s.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/print_s.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_s.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space.c.o: ../libftprintf/srcs/print_space.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/print_space.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/print_space.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/print_space.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space_o.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space_o.c.o: ../libftprintf/srcs/print_space_o.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space_o.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space_o.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/print_space_o.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space_o.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space_o.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/print_space_o.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space_o.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space_o.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space_o.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/print_space_o.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space_o.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_u.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_u.c.o: ../libftprintf/srcs/print_u.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/print_u.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_u.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/print_u.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_u.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/print_u.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/print_u.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/print_u.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_u.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/print_u.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/print_u.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_u.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_x.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_x.c.o: ../libftprintf/srcs/print_x.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/print_x.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_x.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/print_x.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_x.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/print_x.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/print_x.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/print_x.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_x.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/print_x.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/print_x.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_x.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_zero.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_zero.c.o: ../libftprintf/srcs/print_zero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/print_zero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_zero.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/print_zero.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_zero.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/print_zero.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/print_zero.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/print_zero.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/print_zero.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/print_zero.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/print_zero.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/print_zero.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_base.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_base.c.o: ../libftprintf/srcs/putnbr_base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_base.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_base.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/putnbr_base.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_base.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_base.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/putnbr_base.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_base.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_base.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_base.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/putnbr_base.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_base.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_float.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_float.c.o: ../libftprintf/srcs/putnbr_float.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_float.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_float.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/putnbr_float.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_float.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_float.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/putnbr_float.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_float.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_float.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_float.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/putnbr_float.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_float.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/round_float.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/round_float.c.o: ../libftprintf/srcs/round_float.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/round_float.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/round_float.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/round_float.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/round_float.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/round_float.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/round_float.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/round_float.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/round_float.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/round_float.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/round_float.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/round_float.c.s
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/sum_arr.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/libftprintf/srcs/sum_arr.c.o: ../libftprintf/srcs/sum_arr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/lemin_final.dir/libftprintf/srcs/sum_arr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/libftprintf/srcs/sum_arr.c.o   -c /Users/fculator/lemin_final/libftprintf/srcs/sum_arr.c
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/sum_arr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/libftprintf/srcs/sum_arr.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/libftprintf/srcs/sum_arr.c > CMakeFiles/lemin_final.dir/libftprintf/srcs/sum_arr.c.i
+
+CMakeFiles/lemin_final.dir/libftprintf/srcs/sum_arr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/libftprintf/srcs/sum_arr.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/libftprintf/srcs/sum_arr.c -o CMakeFiles/lemin_final.dir/libftprintf/srcs/sum_arr.c.s
 
 CMakeFiles/lemin_final.dir/src/add_one_way.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/add_one_way.c.o: ../src/add_one_way.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/lemin_final.dir/src/add_one_way.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/lemin_final.dir/src/add_one_way.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/add_one_way.c.o   -c /Users/fculator/lemin_final/src/add_one_way.c
 
 CMakeFiles/lemin_final.dir/src/add_one_way.c.i: cmake_force
@@ -1916,9 +1617,22 @@ CMakeFiles/lemin_final.dir/src/add_one_way.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/add_one_way.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/add_one_way.c -o CMakeFiles/lemin_final.dir/src/add_one_way.c.s
 
+CMakeFiles/lemin_final.dir/src/add_to_ready_way.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/src/add_to_ready_way.c.o: ../src/add_to_ready_way.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/lemin_final.dir/src/add_to_ready_way.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/add_to_ready_way.c.o   -c /Users/fculator/lemin_final/src/add_to_ready_way.c
+
+CMakeFiles/lemin_final.dir/src/add_to_ready_way.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/src/add_to_ready_way.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/src/add_to_ready_way.c > CMakeFiles/lemin_final.dir/src/add_to_ready_way.c.i
+
+CMakeFiles/lemin_final.dir/src/add_to_ready_way.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/add_to_ready_way.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/add_to_ready_way.c -o CMakeFiles/lemin_final.dir/src/add_to_ready_way.c.s
+
 CMakeFiles/lemin_final.dir/src/add_to_way.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/add_to_way.c.o: ../src/add_to_way.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/lemin_final.dir/src/add_to_way.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/lemin_final.dir/src/add_to_way.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/add_to_way.c.o   -c /Users/fculator/lemin_final/src/add_to_way.c
 
 CMakeFiles/lemin_final.dir/src/add_to_way.c.i: cmake_force
@@ -1929,22 +1643,9 @@ CMakeFiles/lemin_final.dir/src/add_to_way.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/add_to_way.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/add_to_way.c -o CMakeFiles/lemin_final.dir/src/add_to_way.c.s
 
-CMakeFiles/lemin_final.dir/src/add_ways_to_graph.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/src/add_ways_to_graph.c.o: ../src/add_ways_to_graph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/lemin_final.dir/src/add_ways_to_graph.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/add_ways_to_graph.c.o   -c /Users/fculator/lemin_final/src/add_ways_to_graph.c
-
-CMakeFiles/lemin_final.dir/src/add_ways_to_graph.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/src/add_ways_to_graph.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/src/add_ways_to_graph.c > CMakeFiles/lemin_final.dir/src/add_ways_to_graph.c.i
-
-CMakeFiles/lemin_final.dir/src/add_ways_to_graph.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/add_ways_to_graph.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/add_ways_to_graph.c -o CMakeFiles/lemin_final.dir/src/add_ways_to_graph.c.s
-
 CMakeFiles/lemin_final.dir/src/ants.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/ants.c.o: ../src/ants.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/lemin_final.dir/src/ants.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/lemin_final.dir/src/ants.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/ants.c.o   -c /Users/fculator/lemin_final/src/ants.c
 
 CMakeFiles/lemin_final.dir/src/ants.c.i: cmake_force
@@ -1955,35 +1656,9 @@ CMakeFiles/lemin_final.dir/src/ants.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/ants.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/ants.c -o CMakeFiles/lemin_final.dir/src/ants.c.s
 
-CMakeFiles/lemin_final.dir/src/bfs.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/src/bfs.c.o: ../src/bfs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/lemin_final.dir/src/bfs.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/bfs.c.o   -c /Users/fculator/lemin_final/src/bfs.c
-
-CMakeFiles/lemin_final.dir/src/bfs.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/src/bfs.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/src/bfs.c > CMakeFiles/lemin_final.dir/src/bfs.c.i
-
-CMakeFiles/lemin_final.dir/src/bfs.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/bfs.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/bfs.c -o CMakeFiles/lemin_final.dir/src/bfs.c.s
-
-CMakeFiles/lemin_final.dir/src/bfs_2.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/src/bfs_2.c.o: ../src/bfs_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/lemin_final.dir/src/bfs_2.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/bfs_2.c.o   -c /Users/fculator/lemin_final/src/bfs_2.c
-
-CMakeFiles/lemin_final.dir/src/bfs_2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/src/bfs_2.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/src/bfs_2.c > CMakeFiles/lemin_final.dir/src/bfs_2.c.i
-
-CMakeFiles/lemin_final.dir/src/bfs_2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/bfs_2.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/bfs_2.c -o CMakeFiles/lemin_final.dir/src/bfs_2.c.s
-
 CMakeFiles/lemin_final.dir/src/bfs_adj_list.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/bfs_adj_list.c.o: ../src/bfs_adj_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/lemin_final.dir/src/bfs_adj_list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/lemin_final.dir/src/bfs_adj_list.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/bfs_adj_list.c.o   -c /Users/fculator/lemin_final/src/bfs_adj_list.c
 
 CMakeFiles/lemin_final.dir/src/bfs_adj_list.c.i: cmake_force
@@ -1996,7 +1671,7 @@ CMakeFiles/lemin_final.dir/src/bfs_adj_list.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/connectivity_matrix.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/connectivity_matrix.c.o: ../src/connectivity_matrix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/lemin_final.dir/src/connectivity_matrix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/lemin_final.dir/src/connectivity_matrix.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/connectivity_matrix.c.o   -c /Users/fculator/lemin_final/src/connectivity_matrix.c
 
 CMakeFiles/lemin_final.dir/src/connectivity_matrix.c.i: cmake_force
@@ -2007,9 +1682,22 @@ CMakeFiles/lemin_final.dir/src/connectivity_matrix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/connectivity_matrix.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/connectivity_matrix.c -o CMakeFiles/lemin_final.dir/src/connectivity_matrix.c.s
 
+CMakeFiles/lemin_final.dir/src/copy_ways_to_sol.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/src/copy_ways_to_sol.c.o: ../src/copy_ways_to_sol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/lemin_final.dir/src/copy_ways_to_sol.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/copy_ways_to_sol.c.o   -c /Users/fculator/lemin_final/src/copy_ways_to_sol.c
+
+CMakeFiles/lemin_final.dir/src/copy_ways_to_sol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/src/copy_ways_to_sol.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/src/copy_ways_to_sol.c > CMakeFiles/lemin_final.dir/src/copy_ways_to_sol.c.i
+
+CMakeFiles/lemin_final.dir/src/copy_ways_to_sol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/copy_ways_to_sol.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/copy_ways_to_sol.c -o CMakeFiles/lemin_final.dir/src/copy_ways_to_sol.c.s
+
 CMakeFiles/lemin_final.dir/src/create_best_sol.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/create_best_sol.c.o: ../src/create_best_sol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/lemin_final.dir/src/create_best_sol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/lemin_final.dir/src/create_best_sol.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/create_best_sol.c.o   -c /Users/fculator/lemin_final/src/create_best_sol.c
 
 CMakeFiles/lemin_final.dir/src/create_best_sol.c.i: cmake_force
@@ -2020,9 +1708,22 @@ CMakeFiles/lemin_final.dir/src/create_best_sol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/create_best_sol.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/create_best_sol.c -o CMakeFiles/lemin_final.dir/src/create_best_sol.c.s
 
+CMakeFiles/lemin_final.dir/src/create_ready_way.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/src/create_ready_way.c.o: ../src/create_ready_way.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/lemin_final.dir/src/create_ready_way.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/create_ready_way.c.o   -c /Users/fculator/lemin_final/src/create_ready_way.c
+
+CMakeFiles/lemin_final.dir/src/create_ready_way.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/src/create_ready_way.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/src/create_ready_way.c > CMakeFiles/lemin_final.dir/src/create_ready_way.c.i
+
+CMakeFiles/lemin_final.dir/src/create_ready_way.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/create_ready_way.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/create_ready_way.c -o CMakeFiles/lemin_final.dir/src/create_ready_way.c.s
+
 CMakeFiles/lemin_final.dir/src/create_way.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/create_way.c.o: ../src/create_way.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/lemin_final.dir/src/create_way.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/lemin_final.dir/src/create_way.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/create_way.c.o   -c /Users/fculator/lemin_final/src/create_way.c
 
 CMakeFiles/lemin_final.dir/src/create_way.c.i: cmake_force
@@ -2035,7 +1736,7 @@ CMakeFiles/lemin_final.dir/src/create_way.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/del_q.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/del_q.c.o: ../src/del_q.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/lemin_final.dir/src/del_q.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/lemin_final.dir/src/del_q.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/del_q.c.o   -c /Users/fculator/lemin_final/src/del_q.c
 
 CMakeFiles/lemin_final.dir/src/del_q.c.i: cmake_force
@@ -2048,7 +1749,7 @@ CMakeFiles/lemin_final.dir/src/del_q.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/del_sol.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/del_sol.c.o: ../src/del_sol.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/lemin_final.dir/src/del_sol.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/lemin_final.dir/src/del_sol.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/del_sol.c.o   -c /Users/fculator/lemin_final/src/del_sol.c
 
 CMakeFiles/lemin_final.dir/src/del_sol.c.i: cmake_force
@@ -2059,9 +1760,22 @@ CMakeFiles/lemin_final.dir/src/del_sol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/del_sol.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/del_sol.c -o CMakeFiles/lemin_final.dir/src/del_sol.c.s
 
+CMakeFiles/lemin_final.dir/src/del_way.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/src/del_way.c.o: ../src/del_way.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/lemin_final.dir/src/del_way.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/del_way.c.o   -c /Users/fculator/lemin_final/src/del_way.c
+
+CMakeFiles/lemin_final.dir/src/del_way.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/src/del_way.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/src/del_way.c > CMakeFiles/lemin_final.dir/src/del_way.c.i
+
+CMakeFiles/lemin_final.dir/src/del_way.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/del_way.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/del_way.c -o CMakeFiles/lemin_final.dir/src/del_way.c.s
+
 CMakeFiles/lemin_final.dir/src/delete_intersections.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/delete_intersections.c.o: ../src/delete_intersections.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/lemin_final.dir/src/delete_intersections.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/lemin_final.dir/src/delete_intersections.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/delete_intersections.c.o   -c /Users/fculator/lemin_final/src/delete_intersections.c
 
 CMakeFiles/lemin_final.dir/src/delete_intersections.c.i: cmake_force
@@ -2074,7 +1788,7 @@ CMakeFiles/lemin_final.dir/src/delete_intersections.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/distribute_ants.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/distribute_ants.c.o: ../src/distribute_ants.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/lemin_final.dir/src/distribute_ants.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/lemin_final.dir/src/distribute_ants.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/distribute_ants.c.o   -c /Users/fculator/lemin_final/src/distribute_ants.c
 
 CMakeFiles/lemin_final.dir/src/distribute_ants.c.i: cmake_force
@@ -2087,7 +1801,7 @@ CMakeFiles/lemin_final.dir/src/distribute_ants.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/empty_q.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/empty_q.c.o: ../src/empty_q.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/lemin_final.dir/src/empty_q.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/lemin_final.dir/src/empty_q.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/empty_q.c.o   -c /Users/fculator/lemin_final/src/empty_q.c
 
 CMakeFiles/lemin_final.dir/src/empty_q.c.i: cmake_force
@@ -2100,7 +1814,7 @@ CMakeFiles/lemin_final.dir/src/empty_q.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/free_all.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/free_all.c.o: ../src/free_all.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/lemin_final.dir/src/free_all.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/lemin_final.dir/src/free_all.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/free_all.c.o   -c /Users/fculator/lemin_final/src/free_all.c
 
 CMakeFiles/lemin_final.dir/src/free_all.c.i: cmake_force
@@ -2111,22 +1825,22 @@ CMakeFiles/lemin_final.dir/src/free_all.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/free_all.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/free_all.c -o CMakeFiles/lemin_final.dir/src/free_all.c.s
 
-CMakeFiles/lemin_final.dir/src/free_r_ways.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/src/free_r_ways.c.o: ../src/free_r_ways.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/lemin_final.dir/src/free_r_ways.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/free_r_ways.c.o   -c /Users/fculator/lemin_final/src/free_r_ways.c
+CMakeFiles/lemin_final.dir/src/free_ready_ways.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/src/free_ready_ways.c.o: ../src/free_ready_ways.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/lemin_final.dir/src/free_ready_ways.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/free_ready_ways.c.o   -c /Users/fculator/lemin_final/src/free_ready_ways.c
 
-CMakeFiles/lemin_final.dir/src/free_r_ways.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/src/free_r_ways.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/src/free_r_ways.c > CMakeFiles/lemin_final.dir/src/free_r_ways.c.i
+CMakeFiles/lemin_final.dir/src/free_ready_ways.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/src/free_ready_ways.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/src/free_ready_ways.c > CMakeFiles/lemin_final.dir/src/free_ready_ways.c.i
 
-CMakeFiles/lemin_final.dir/src/free_r_ways.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/free_r_ways.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/free_r_ways.c -o CMakeFiles/lemin_final.dir/src/free_r_ways.c.s
+CMakeFiles/lemin_final.dir/src/free_ready_ways.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/free_ready_ways.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/free_ready_ways.c -o CMakeFiles/lemin_final.dir/src/free_ready_ways.c.s
 
 CMakeFiles/lemin_final.dir/src/ft_exit.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/ft_exit.c.o: ../src/ft_exit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/lemin_final.dir/src/ft_exit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/lemin_final.dir/src/ft_exit.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/ft_exit.c.o   -c /Users/fculator/lemin_final/src/ft_exit.c
 
 CMakeFiles/lemin_final.dir/src/ft_exit.c.i: cmake_force
@@ -2139,7 +1853,7 @@ CMakeFiles/lemin_final.dir/src/ft_exit.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/functions.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/functions.c.o: ../src/functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/lemin_final.dir/src/functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/lemin_final.dir/src/functions.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/functions.c.o   -c /Users/fculator/lemin_final/src/functions.c
 
 CMakeFiles/lemin_final.dir/src/functions.c.i: cmake_force
@@ -2150,9 +1864,22 @@ CMakeFiles/lemin_final.dir/src/functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/functions.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/functions.c -o CMakeFiles/lemin_final.dir/src/functions.c.s
 
+CMakeFiles/lemin_final.dir/src/get_options.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/src/get_options.c.o: ../src/get_options.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/lemin_final.dir/src/get_options.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/get_options.c.o   -c /Users/fculator/lemin_final/src/get_options.c
+
+CMakeFiles/lemin_final.dir/src/get_options.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/src/get_options.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/src/get_options.c > CMakeFiles/lemin_final.dir/src/get_options.c.i
+
+CMakeFiles/lemin_final.dir/src/get_options.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/get_options.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/get_options.c -o CMakeFiles/lemin_final.dir/src/get_options.c.s
+
 CMakeFiles/lemin_final.dir/src/initialize_map.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/initialize_map.c.o: ../src/initialize_map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/lemin_final.dir/src/initialize_map.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/lemin_final.dir/src/initialize_map.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/initialize_map.c.o   -c /Users/fculator/lemin_final/src/initialize_map.c
 
 CMakeFiles/lemin_final.dir/src/initialize_map.c.i: cmake_force
@@ -2163,22 +1890,22 @@ CMakeFiles/lemin_final.dir/src/initialize_map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/initialize_map.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/initialize_map.c -o CMakeFiles/lemin_final.dir/src/initialize_map.c.s
 
-CMakeFiles/lemin_final.dir/src/lem-in.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/src/lem-in.c.o: ../src/lem-in.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/lemin_final.dir/src/lem-in.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/lem-in.c.o   -c /Users/fculator/lemin_final/src/lem-in.c
+CMakeFiles/lemin_final.dir/src/lemin.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/src/lemin.c.o: ../src/lemin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/lemin_final.dir/src/lemin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/lemin.c.o   -c /Users/fculator/lemin_final/src/lemin.c
 
-CMakeFiles/lemin_final.dir/src/lem-in.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/src/lem-in.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/src/lem-in.c > CMakeFiles/lemin_final.dir/src/lem-in.c.i
+CMakeFiles/lemin_final.dir/src/lemin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/src/lemin.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/src/lemin.c > CMakeFiles/lemin_final.dir/src/lemin.c.i
 
-CMakeFiles/lemin_final.dir/src/lem-in.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/lem-in.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/lem-in.c -o CMakeFiles/lemin_final.dir/src/lem-in.c.s
+CMakeFiles/lemin_final.dir/src/lemin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/lemin.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/lemin.c -o CMakeFiles/lemin_final.dir/src/lemin.c.s
 
 CMakeFiles/lemin_final.dir/src/links.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/links.c.o: ../src/links.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/lemin_final.dir/src/links.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/lemin_final.dir/src/links.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/links.c.o   -c /Users/fculator/lemin_final/src/links.c
 
 CMakeFiles/lemin_final.dir/src/links.c.i: cmake_force
@@ -2191,7 +1918,7 @@ CMakeFiles/lemin_final.dir/src/links.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/matrix_to_adj_list.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/matrix_to_adj_list.c.o: ../src/matrix_to_adj_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/lemin_final.dir/src/matrix_to_adj_list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/lemin_final.dir/src/matrix_to_adj_list.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/matrix_to_adj_list.c.o   -c /Users/fculator/lemin_final/src/matrix_to_adj_list.c
 
 CMakeFiles/lemin_final.dir/src/matrix_to_adj_list.c.i: cmake_force
@@ -2204,7 +1931,7 @@ CMakeFiles/lemin_final.dir/src/matrix_to_adj_list.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/move_ants.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/move_ants.c.o: ../src/move_ants.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/lemin_final.dir/src/move_ants.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/lemin_final.dir/src/move_ants.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/move_ants.c.o   -c /Users/fculator/lemin_final/src/move_ants.c
 
 CMakeFiles/lemin_final.dir/src/move_ants.c.i: cmake_force
@@ -2215,9 +1942,22 @@ CMakeFiles/lemin_final.dir/src/move_ants.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/move_ants.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/move_ants.c -o CMakeFiles/lemin_final.dir/src/move_ants.c.s
 
+CMakeFiles/lemin_final.dir/src/move_ants_help1.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/src/move_ants_help1.c.o: ../src/move_ants_help1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/lemin_final.dir/src/move_ants_help1.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/move_ants_help1.c.o   -c /Users/fculator/lemin_final/src/move_ants_help1.c
+
+CMakeFiles/lemin_final.dir/src/move_ants_help1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/src/move_ants_help1.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/src/move_ants_help1.c > CMakeFiles/lemin_final.dir/src/move_ants_help1.c.i
+
+CMakeFiles/lemin_final.dir/src/move_ants_help1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/move_ants_help1.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/move_ants_help1.c -o CMakeFiles/lemin_final.dir/src/move_ants_help1.c.s
+
 CMakeFiles/lemin_final.dir/src/parse_map_to_struct.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/parse_map_to_struct.c.o: ../src/parse_map_to_struct.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/lemin_final.dir/src/parse_map_to_struct.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/lemin_final.dir/src/parse_map_to_struct.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/parse_map_to_struct.c.o   -c /Users/fculator/lemin_final/src/parse_map_to_struct.c
 
 CMakeFiles/lemin_final.dir/src/parse_map_to_struct.c.i: cmake_force
@@ -2230,7 +1970,7 @@ CMakeFiles/lemin_final.dir/src/parse_map_to_struct.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/part_validation.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/part_validation.c.o: ../src/part_validation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/lemin_final.dir/src/part_validation.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/lemin_final.dir/src/part_validation.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/part_validation.c.o   -c /Users/fculator/lemin_final/src/part_validation.c
 
 CMakeFiles/lemin_final.dir/src/part_validation.c.i: cmake_force
@@ -2243,7 +1983,7 @@ CMakeFiles/lemin_final.dir/src/part_validation.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/pop_q.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/pop_q.c.o: ../src/pop_q.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/lemin_final.dir/src/pop_q.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/lemin_final.dir/src/pop_q.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/pop_q.c.o   -c /Users/fculator/lemin_final/src/pop_q.c
 
 CMakeFiles/lemin_final.dir/src/pop_q.c.i: cmake_force
@@ -2256,7 +1996,7 @@ CMakeFiles/lemin_final.dir/src/pop_q.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/print_adj_list.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/print_adj_list.c.o: ../src/print_adj_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/lemin_final.dir/src/print_adj_list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/lemin_final.dir/src/print_adj_list.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/print_adj_list.c.o   -c /Users/fculator/lemin_final/src/print_adj_list.c
 
 CMakeFiles/lemin_final.dir/src/print_adj_list.c.i: cmake_force
@@ -2269,7 +2009,7 @@ CMakeFiles/lemin_final.dir/src/print_adj_list.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/print_graph.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/print_graph.c.o: ../src/print_graph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/lemin_final.dir/src/print_graph.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/lemin_final.dir/src/print_graph.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/print_graph.c.o   -c /Users/fculator/lemin_final/src/print_graph.c
 
 CMakeFiles/lemin_final.dir/src/print_graph.c.i: cmake_force
@@ -2282,7 +2022,7 @@ CMakeFiles/lemin_final.dir/src/print_graph.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/print_map.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/print_map.c.o: ../src/print_map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/lemin_final.dir/src/print_map.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/lemin_final.dir/src/print_map.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/print_map.c.o   -c /Users/fculator/lemin_final/src/print_map.c
 
 CMakeFiles/lemin_final.dir/src/print_map.c.i: cmake_force
@@ -2295,7 +2035,7 @@ CMakeFiles/lemin_final.dir/src/print_map.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/print_matrix.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/print_matrix.c.o: ../src/print_matrix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/lemin_final.dir/src/print_matrix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/lemin_final.dir/src/print_matrix.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/print_matrix.c.o   -c /Users/fculator/lemin_final/src/print_matrix.c
 
 CMakeFiles/lemin_final.dir/src/print_matrix.c.i: cmake_force
@@ -2306,48 +2046,9 @@ CMakeFiles/lemin_final.dir/src/print_matrix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/print_matrix.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/print_matrix.c -o CMakeFiles/lemin_final.dir/src/print_matrix.c.s
 
-CMakeFiles/lemin_final.dir/src/print_name_index.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/src/print_name_index.c.o: ../src/print_name_index.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/lemin_final.dir/src/print_name_index.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/print_name_index.c.o   -c /Users/fculator/lemin_final/src/print_name_index.c
-
-CMakeFiles/lemin_final.dir/src/print_name_index.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/src/print_name_index.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/src/print_name_index.c > CMakeFiles/lemin_final.dir/src/print_name_index.c.i
-
-CMakeFiles/lemin_final.dir/src/print_name_index.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/print_name_index.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/print_name_index.c -o CMakeFiles/lemin_final.dir/src/print_name_index.c.s
-
-CMakeFiles/lemin_final.dir/src/print_parents.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/src/print_parents.c.o: ../src/print_parents.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/lemin_final.dir/src/print_parents.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/print_parents.c.o   -c /Users/fculator/lemin_final/src/print_parents.c
-
-CMakeFiles/lemin_final.dir/src/print_parents.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/src/print_parents.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/src/print_parents.c > CMakeFiles/lemin_final.dir/src/print_parents.c.i
-
-CMakeFiles/lemin_final.dir/src/print_parents.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/print_parents.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/print_parents.c -o CMakeFiles/lemin_final.dir/src/print_parents.c.s
-
-CMakeFiles/lemin_final.dir/src/print_ready_ways.c.o: CMakeFiles/lemin_final.dir/flags.make
-CMakeFiles/lemin_final.dir/src/print_ready_ways.c.o: ../src/print_ready_ways.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/lemin_final.dir/src/print_ready_ways.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/print_ready_ways.c.o   -c /Users/fculator/lemin_final/src/print_ready_ways.c
-
-CMakeFiles/lemin_final.dir/src/print_ready_ways.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/src/print_ready_ways.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/src/print_ready_ways.c > CMakeFiles/lemin_final.dir/src/print_ready_ways.c.i
-
-CMakeFiles/lemin_final.dir/src/print_ready_ways.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/print_ready_ways.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/print_ready_ways.c -o CMakeFiles/lemin_final.dir/src/print_ready_ways.c.s
-
 CMakeFiles/lemin_final.dir/src/print_shortest_path.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/print_shortest_path.c.o: ../src/print_shortest_path.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/lemin_final.dir/src/print_shortest_path.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/lemin_final.dir/src/print_shortest_path.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/print_shortest_path.c.o   -c /Users/fculator/lemin_final/src/print_shortest_path.c
 
 CMakeFiles/lemin_final.dir/src/print_shortest_path.c.i: cmake_force
@@ -2360,7 +2061,7 @@ CMakeFiles/lemin_final.dir/src/print_shortest_path.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/print_solution.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/print_solution.c.o: ../src/print_solution.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/lemin_final.dir/src/print_solution.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/lemin_final.dir/src/print_solution.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/print_solution.c.o   -c /Users/fculator/lemin_final/src/print_solution.c
 
 CMakeFiles/lemin_final.dir/src/print_solution.c.i: cmake_force
@@ -2373,7 +2074,7 @@ CMakeFiles/lemin_final.dir/src/print_solution.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/print_way.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/print_way.c.o: ../src/print_way.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/lemin_final.dir/src/print_way.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/lemin_final.dir/src/print_way.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/print_way.c.o   -c /Users/fculator/lemin_final/src/print_way.c
 
 CMakeFiles/lemin_final.dir/src/print_way.c.i: cmake_force
@@ -2386,7 +2087,7 @@ CMakeFiles/lemin_final.dir/src/print_way.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/push_q.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/push_q.c.o: ../src/push_q.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/lemin_final.dir/src/push_q.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/lemin_final.dir/src/push_q.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/push_q.c.o   -c /Users/fculator/lemin_final/src/push_q.c
 
 CMakeFiles/lemin_final.dir/src/push_q.c.i: cmake_force
@@ -2399,7 +2100,7 @@ CMakeFiles/lemin_final.dir/src/push_q.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/reverse_edges.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/reverse_edges.c.o: ../src/reverse_edges.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/lemin_final.dir/src/reverse_edges.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/lemin_final.dir/src/reverse_edges.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/reverse_edges.c.o   -c /Users/fculator/lemin_final/src/reverse_edges.c
 
 CMakeFiles/lemin_final.dir/src/reverse_edges.c.i: cmake_force
@@ -2412,7 +2113,7 @@ CMakeFiles/lemin_final.dir/src/reverse_edges.c.s: cmake_force
 
 CMakeFiles/lemin_final.dir/src/rooms.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/rooms.c.o: ../src/rooms.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/lemin_final.dir/src/rooms.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/lemin_final.dir/src/rooms.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/rooms.c.o   -c /Users/fculator/lemin_final/src/rooms.c
 
 CMakeFiles/lemin_final.dir/src/rooms.c.i: cmake_force
@@ -2423,9 +2124,22 @@ CMakeFiles/lemin_final.dir/src/rooms.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/rooms.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/rooms.c -o CMakeFiles/lemin_final.dir/src/rooms.c.s
 
+CMakeFiles/lemin_final.dir/src/set_ways.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/src/set_ways.c.o: ../src/set_ways.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/lemin_final.dir/src/set_ways.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/set_ways.c.o   -c /Users/fculator/lemin_final/src/set_ways.c
+
+CMakeFiles/lemin_final.dir/src/set_ways.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/src/set_ways.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/src/set_ways.c > CMakeFiles/lemin_final.dir/src/set_ways.c.i
+
+CMakeFiles/lemin_final.dir/src/set_ways.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/set_ways.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/set_ways.c -o CMakeFiles/lemin_final.dir/src/set_ways.c.s
+
 CMakeFiles/lemin_final.dir/src/solve_map.c.o: CMakeFiles/lemin_final.dir/flags.make
 CMakeFiles/lemin_final.dir/src/solve_map.c.o: ../src/solve_map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/lemin_final.dir/src/solve_map.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/lemin_final.dir/src/solve_map.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/solve_map.c.o   -c /Users/fculator/lemin_final/src/solve_map.c
 
 CMakeFiles/lemin_final.dir/src/solve_map.c.i: cmake_force
@@ -2436,19 +2150,29 @@ CMakeFiles/lemin_final.dir/src/solve_map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/solve_map.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/solve_map.c -o CMakeFiles/lemin_final.dir/src/solve_map.c.s
 
+CMakeFiles/lemin_final.dir/src/solve_map_help1.c.o: CMakeFiles/lemin_final.dir/flags.make
+CMakeFiles/lemin_final.dir/src/solve_map_help1.c.o: ../src/solve_map_help1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/lemin_final.dir/src/solve_map_help1.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lemin_final.dir/src/solve_map_help1.c.o   -c /Users/fculator/lemin_final/src/solve_map_help1.c
+
+CMakeFiles/lemin_final.dir/src/solve_map_help1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lemin_final.dir/src/solve_map_help1.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fculator/lemin_final/src/solve_map_help1.c > CMakeFiles/lemin_final.dir/src/solve_map_help1.c.i
+
+CMakeFiles/lemin_final.dir/src/solve_map_help1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lemin_final.dir/src/solve_map_help1.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fculator/lemin_final/src/solve_map_help1.c -o CMakeFiles/lemin_final.dir/src/solve_map_help1.c.s
+
 # Object files for target lemin_final
 lemin_final_OBJECTS = \
-"CMakeFiles/lemin_final.dir/libft/ft_atoi.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_atoi_base.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_base_len.c.o" \
-"CMakeFiles/lemin_final.dir/libft/ft_bzero.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_countchar.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_countwordc.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_delelemofarray.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_isalnum.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_isalpha.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_isascii.c.o" \
-"CMakeFiles/lemin_final.dir/libft/ft_isdigit.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_isprint.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_isspace.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_itoa.c.o" \
@@ -2467,16 +2191,12 @@ lemin_final_OBJECTS = \
 "CMakeFiles/lemin_final.dir/libft/ft_memcpy.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_memdel.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_memmove.c.o" \
-"CMakeFiles/lemin_final.dir/libft/ft_memset.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_power.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_printbits.c.o" \
-"CMakeFiles/lemin_final.dir/libft/ft_putchar.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_putchar_fd.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_putendl.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_putendl_fd.c.o" \
-"CMakeFiles/lemin_final.dir/libft/ft_putnbr.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_putnbr_fd.c.o" \
-"CMakeFiles/lemin_final.dir/libft/ft_putstr.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_putstr_fd.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_quick_sort.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_sqrt.c.o" \
@@ -2493,7 +2213,6 @@ lemin_final_OBJECTS = \
 "CMakeFiles/lemin_final.dir/libft/ft_striteri.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_strjoin.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_strlcat.c.o" \
-"CMakeFiles/lemin_final.dir/libft/ft_strlen.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_strlenc.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_strmap.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_strmapi.c.o" \
@@ -2515,95 +2234,83 @@ lemin_final_OBJECTS = \
 "CMakeFiles/lemin_final.dir/libft/ft_toupper.c.o" \
 "CMakeFiles/lemin_final.dir/libft/ft_twodarraydel.c.o" \
 "CMakeFiles/lemin_final.dir/libft/get_next_line.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_addition_num.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_conversion_powers.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_tieee754.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_treal.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_tieee754.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_treal.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_frac_part.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_integer_part.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_real_number.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_move_digit.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_normalize_num.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_double.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_float.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_ldouble.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_parts_ieee754.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_power_mantis.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tparts.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tpowers.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/float/ft_rounding_treal.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_add_full_format_to_buf.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_add_num_to_buf.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_add_real_num_to_buf.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_add_sign_to_buf.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_add_space_to_buf.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_add_str_to_buf.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_add_strn_to_buf.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_add_to_buf.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_add_zero_to_buf.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_precision.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_width.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_format.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_format_b.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_format_basic.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_format_c.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_format_d.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_format_f.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_format_o.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_format_p.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_format_s.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_format_specifer.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_format_u.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_format_x.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_get_t_real.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_handling.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_is_specifer.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_parse.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_parse_flags.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_parse_precision.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_parse_print.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_parse_size.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_parse_types.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_parse_width.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_printf.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_skip_undefined_behavior.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_varg_c.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_varg_i.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_varg_l.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ll.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_varg_s.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_varg_u.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_varg_uc.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ul.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ull.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_varg_us.c.o" \
-"CMakeFiles/lemin_final.dir/libftprintf/ft_write_buf.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/add_zeroes.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/check_if_need_zeroes.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/clean.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/extract_float.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/format_output.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_atoi.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_bzero.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isblank.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isdigit.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_memset.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_print_zero_o.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_printf.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putchar.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putnbr.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putstr.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_strlen.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/get_len_float.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/get_num_type.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_float.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_fractional.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_whole.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/len_num_base.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_frac_part.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_whole_part.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_frac.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_whole.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/output_float.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/parse.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_flags.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_prec.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_size.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_type.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_width.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/print.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/print_binary.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/print_c.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/print_d.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/print_o.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/print_p.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/print_percentage.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/print_s.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space_o.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/print_u.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/print_x.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/print_zero.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_base.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_float.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/round_float.c.o" \
+"CMakeFiles/lemin_final.dir/libftprintf/srcs/sum_arr.c.o" \
 "CMakeFiles/lemin_final.dir/src/add_one_way.c.o" \
+"CMakeFiles/lemin_final.dir/src/add_to_ready_way.c.o" \
 "CMakeFiles/lemin_final.dir/src/add_to_way.c.o" \
-"CMakeFiles/lemin_final.dir/src/add_ways_to_graph.c.o" \
 "CMakeFiles/lemin_final.dir/src/ants.c.o" \
-"CMakeFiles/lemin_final.dir/src/bfs.c.o" \
-"CMakeFiles/lemin_final.dir/src/bfs_2.c.o" \
 "CMakeFiles/lemin_final.dir/src/bfs_adj_list.c.o" \
 "CMakeFiles/lemin_final.dir/src/connectivity_matrix.c.o" \
+"CMakeFiles/lemin_final.dir/src/copy_ways_to_sol.c.o" \
 "CMakeFiles/lemin_final.dir/src/create_best_sol.c.o" \
+"CMakeFiles/lemin_final.dir/src/create_ready_way.c.o" \
 "CMakeFiles/lemin_final.dir/src/create_way.c.o" \
 "CMakeFiles/lemin_final.dir/src/del_q.c.o" \
 "CMakeFiles/lemin_final.dir/src/del_sol.c.o" \
+"CMakeFiles/lemin_final.dir/src/del_way.c.o" \
 "CMakeFiles/lemin_final.dir/src/delete_intersections.c.o" \
 "CMakeFiles/lemin_final.dir/src/distribute_ants.c.o" \
 "CMakeFiles/lemin_final.dir/src/empty_q.c.o" \
 "CMakeFiles/lemin_final.dir/src/free_all.c.o" \
-"CMakeFiles/lemin_final.dir/src/free_r_ways.c.o" \
+"CMakeFiles/lemin_final.dir/src/free_ready_ways.c.o" \
 "CMakeFiles/lemin_final.dir/src/ft_exit.c.o" \
 "CMakeFiles/lemin_final.dir/src/functions.c.o" \
+"CMakeFiles/lemin_final.dir/src/get_options.c.o" \
 "CMakeFiles/lemin_final.dir/src/initialize_map.c.o" \
-"CMakeFiles/lemin_final.dir/src/lem-in.c.o" \
+"CMakeFiles/lemin_final.dir/src/lemin.c.o" \
 "CMakeFiles/lemin_final.dir/src/links.c.o" \
 "CMakeFiles/lemin_final.dir/src/matrix_to_adj_list.c.o" \
 "CMakeFiles/lemin_final.dir/src/move_ants.c.o" \
+"CMakeFiles/lemin_final.dir/src/move_ants_help1.c.o" \
 "CMakeFiles/lemin_final.dir/src/parse_map_to_struct.c.o" \
 "CMakeFiles/lemin_final.dir/src/part_validation.c.o" \
 "CMakeFiles/lemin_final.dir/src/pop_q.c.o" \
@@ -2611,31 +2318,27 @@ lemin_final_OBJECTS = \
 "CMakeFiles/lemin_final.dir/src/print_graph.c.o" \
 "CMakeFiles/lemin_final.dir/src/print_map.c.o" \
 "CMakeFiles/lemin_final.dir/src/print_matrix.c.o" \
-"CMakeFiles/lemin_final.dir/src/print_name_index.c.o" \
-"CMakeFiles/lemin_final.dir/src/print_parents.c.o" \
-"CMakeFiles/lemin_final.dir/src/print_ready_ways.c.o" \
 "CMakeFiles/lemin_final.dir/src/print_shortest_path.c.o" \
 "CMakeFiles/lemin_final.dir/src/print_solution.c.o" \
 "CMakeFiles/lemin_final.dir/src/print_way.c.o" \
 "CMakeFiles/lemin_final.dir/src/push_q.c.o" \
 "CMakeFiles/lemin_final.dir/src/reverse_edges.c.o" \
 "CMakeFiles/lemin_final.dir/src/rooms.c.o" \
-"CMakeFiles/lemin_final.dir/src/solve_map.c.o"
+"CMakeFiles/lemin_final.dir/src/set_ways.c.o" \
+"CMakeFiles/lemin_final.dir/src/solve_map.c.o" \
+"CMakeFiles/lemin_final.dir/src/solve_map_help1.c.o"
 
 # External object files for target lemin_final
 lemin_final_EXTERNAL_OBJECTS =
 
-lemin_final: CMakeFiles/lemin_final.dir/libft/ft_atoi.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_atoi_base.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_base_len.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libft/ft_bzero.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_countchar.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_countwordc.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_delelemofarray.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_isalnum.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_isalpha.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_isascii.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libft/ft_isdigit.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_isprint.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_isspace.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_itoa.c.o
@@ -2654,16 +2357,12 @@ lemin_final: CMakeFiles/lemin_final.dir/libft/ft_memcmp.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_memcpy.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_memdel.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_memmove.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libft/ft_memset.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_power.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_printbits.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libft/ft_putchar.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_putchar_fd.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_putendl.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_putendl_fd.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libft/ft_putnbr.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_putnbr_fd.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libft/ft_putstr.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_putstr_fd.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_quick_sort.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_sqrt.c.o
@@ -2680,7 +2379,6 @@ lemin_final: CMakeFiles/lemin_final.dir/libft/ft_striter.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_striteri.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_strjoin.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_strlcat.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libft/ft_strlen.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_strlenc.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_strmap.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_strmapi.c.o
@@ -2702,95 +2400,83 @@ lemin_final: CMakeFiles/lemin_final.dir/libft/ft_tolower.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_toupper.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/ft_twodarraydel.c.o
 lemin_final: CMakeFiles/lemin_final.dir/libft/get_next_line.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_addition_num.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_conversion_powers.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_tieee754.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_treal.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_tieee754.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_treal.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_frac_part.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_integer_part.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_real_number.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_move_digit.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_normalize_num.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_double.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_float.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_ldouble.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_parts_ieee754.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_power_mantis.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tparts.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tpowers.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/float/ft_rounding_treal.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_add_full_format_to_buf.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_add_num_to_buf.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_add_real_num_to_buf.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_add_sign_to_buf.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_add_space_to_buf.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_add_str_to_buf.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_add_strn_to_buf.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_add_to_buf.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_add_zero_to_buf.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_precision.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_width.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_format.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_format_b.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_format_basic.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_format_c.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_format_d.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_format_f.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_format_o.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_format_p.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_format_s.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_format_specifer.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_format_u.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_format_x.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_get_t_real.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_handling.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_is_specifer.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_parse.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_parse_flags.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_parse_precision.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_parse_print.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_parse_size.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_parse_types.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_parse_width.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_printf.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_skip_undefined_behavior.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_varg_c.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_varg_i.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_varg_l.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ll.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_varg_s.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_varg_u.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_varg_uc.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ul.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ull.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_varg_us.c.o
-lemin_final: CMakeFiles/lemin_final.dir/libftprintf/ft_write_buf.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/add_zeroes.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/check_if_need_zeroes.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/clean.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/extract_float.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/format_output.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_atoi.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_bzero.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isblank.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isdigit.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_memset.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_print_zero_o.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_printf.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putchar.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putnbr.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putstr.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_strlen.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/get_len_float.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/get_num_type.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_float.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_fractional.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_whole.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/len_num_base.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_frac_part.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_whole_part.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_frac.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_whole.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/output_float.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/parse.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_flags.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_prec.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_size.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_type.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_width.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/print.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/print_binary.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/print_c.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/print_d.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/print_o.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/print_p.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/print_percentage.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/print_s.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space_o.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/print_u.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/print_x.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/print_zero.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_base.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_float.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/round_float.c.o
+lemin_final: CMakeFiles/lemin_final.dir/libftprintf/srcs/sum_arr.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/add_one_way.c.o
+lemin_final: CMakeFiles/lemin_final.dir/src/add_to_ready_way.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/add_to_way.c.o
-lemin_final: CMakeFiles/lemin_final.dir/src/add_ways_to_graph.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/ants.c.o
-lemin_final: CMakeFiles/lemin_final.dir/src/bfs.c.o
-lemin_final: CMakeFiles/lemin_final.dir/src/bfs_2.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/bfs_adj_list.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/connectivity_matrix.c.o
+lemin_final: CMakeFiles/lemin_final.dir/src/copy_ways_to_sol.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/create_best_sol.c.o
+lemin_final: CMakeFiles/lemin_final.dir/src/create_ready_way.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/create_way.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/del_q.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/del_sol.c.o
+lemin_final: CMakeFiles/lemin_final.dir/src/del_way.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/delete_intersections.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/distribute_ants.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/empty_q.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/free_all.c.o
-lemin_final: CMakeFiles/lemin_final.dir/src/free_r_ways.c.o
+lemin_final: CMakeFiles/lemin_final.dir/src/free_ready_ways.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/ft_exit.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/functions.c.o
+lemin_final: CMakeFiles/lemin_final.dir/src/get_options.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/initialize_map.c.o
-lemin_final: CMakeFiles/lemin_final.dir/src/lem-in.c.o
+lemin_final: CMakeFiles/lemin_final.dir/src/lemin.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/links.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/matrix_to_adj_list.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/move_ants.c.o
+lemin_final: CMakeFiles/lemin_final.dir/src/move_ants_help1.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/parse_map_to_struct.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/part_validation.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/pop_q.c.o
@@ -2798,19 +2484,18 @@ lemin_final: CMakeFiles/lemin_final.dir/src/print_adj_list.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/print_graph.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/print_map.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/print_matrix.c.o
-lemin_final: CMakeFiles/lemin_final.dir/src/print_name_index.c.o
-lemin_final: CMakeFiles/lemin_final.dir/src/print_parents.c.o
-lemin_final: CMakeFiles/lemin_final.dir/src/print_ready_ways.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/print_shortest_path.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/print_solution.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/print_way.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/push_q.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/reverse_edges.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/rooms.c.o
+lemin_final: CMakeFiles/lemin_final.dir/src/set_ways.c.o
 lemin_final: CMakeFiles/lemin_final.dir/src/solve_map.c.o
+lemin_final: CMakeFiles/lemin_final.dir/src/solve_map_help1.c.o
 lemin_final: CMakeFiles/lemin_final.dir/build.make
 lemin_final: CMakeFiles/lemin_final.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Linking C executable lemin_final"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/fculator/lemin_final/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Linking C executable lemin_final"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lemin_final.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

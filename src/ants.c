@@ -21,12 +21,15 @@ void	ants(t_map *map, char *line)
 	i = 0;
 	map->val->part = 1;
 	map->in->ants_list = ft_join(map->in->ants_list, line, 0);
-	if (line[0] == '#')
+	if (line[0] == '#' && line[1] != '#')
 		return ;
 	str = ft_strtrim(line);
 	d = ft_atoi(str);
 	if (d <= 0 || d > INT_MAX)
+	{
+		ft_memdel((void**)&line);
 		free_map(map, 1);
+	}
 	map->ants = d;
 	while (str[i] != '\n' && str[i] != 0)
 	{

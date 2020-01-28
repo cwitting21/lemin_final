@@ -50,9 +50,9 @@ void		free_array(char **array, t_map *map, int code)
 		(array[i]) ? free(array[i++]) : 0;
 	if (array && *array)
 		free(array);
+	array = NULL;
 	if (code && map)
 		free_map(map, 1);
-	array = NULL;
 }
 
 void		good(t_map *map, char **line, char **r, int end)

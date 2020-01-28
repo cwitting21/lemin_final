@@ -25,8 +25,8 @@ errno.h
 -
 libft.h
 ../includes/libft.h
-libftprintf.h
-../includes/libftprintf.h
+../libftprintf/libftprintf.h
+../libftprintf/libftprintf.h
 
 ../libft/libft.h
 string.h
@@ -40,21 +40,23 @@ fcntl.h
 stdlib.h
 -
 
-../libftprintf/float/libftfloat.h
+../libftprintf/libft/libft.h
+unistd.h
+-
 stdlib.h
 -
 
 ../libftprintf/libftprintf.h
-unistd.h
--
+libft/libft.h
+../libftprintf/libft/libft.h
 stdarg.h
 -
-libft.h
-../libftprintf/libft.h
-./float/libftfloat.h
-../libftprintf/float/libftfloat.h
 
-/Users/fculator/lemin_final/src/parse_map_to_struct.c
+/Users/fculator/lemin_final/src/functions.c
+lemin.h
+/Users/fculator/lemin_final/src/lemin.h
+
+/Users/fculator/lemin_final/src/initialize_map.c
 lemin.h
 /Users/fculator/lemin_final/src/lemin.h
 

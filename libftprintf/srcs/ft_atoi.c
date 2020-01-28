@@ -19,29 +19,26 @@ static int			lead_sign(int sign)
 	return (0);
 }
 
-int					ft_atoi(const char *str)
+long long			ft_atoi(const char *str)
 {
-	long int		res;
-	int				sign;
-	int				i;
-	long int		check;
+	long long	nb;
+	int			sign;
 
+	nb = 0;
 	sign = 1;
-	res = 0;
-	i = 0;
-	check = 0;
-	while (ft_isblank(str[i]))
-		i++;
-	if (str[i] == '-' || str[i] == '+')
-		if (str[i++] == '-')
+	while (ft_isspace((int)(*str)))
+		str++;
+	if (*str == '-' || *str == '+')
+		if (*str++ == '-')
 			sign = -1;
-	while (str[i] >= '0' && str[i] <= '9')
+	while (ft_isdigit((int)(*str)))
 	{
-		check = res;
-		res = res * 10 + (str[i] - '0');
-		if (res / 10 != check)
-			return (lead_sign(sign));
-		i++;
+		if ((nb * 10 + *str - '0') / 10 == nb)
+			nb = nb * 10 + *str++ - '0';
+		else if (sign == -1)
+			return (0);
+		else
+			return (-1);
 	}
-	return ((int)res * sign);
+	return ((long)nb * sign);
 }

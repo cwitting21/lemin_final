@@ -123,33 +123,6 @@ lemin_final/fast:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/build
 .PHONY : lemin_final/fast
 
-libft/ft_atoi.o: libft/ft_atoi.c.o
-
-.PHONY : libft/ft_atoi.o
-
-# target to build an object file
-libft/ft_atoi.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_atoi.c.o
-.PHONY : libft/ft_atoi.c.o
-
-libft/ft_atoi.i: libft/ft_atoi.c.i
-
-.PHONY : libft/ft_atoi.i
-
-# target to preprocess a source file
-libft/ft_atoi.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_atoi.c.i
-.PHONY : libft/ft_atoi.c.i
-
-libft/ft_atoi.s: libft/ft_atoi.c.s
-
-.PHONY : libft/ft_atoi.s
-
-# target to generate assembly for a file
-libft/ft_atoi.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_atoi.c.s
-.PHONY : libft/ft_atoi.c.s
-
 libft/ft_atoi_base.o: libft/ft_atoi_base.c.o
 
 .PHONY : libft/ft_atoi_base.o
@@ -203,33 +176,6 @@ libft/ft_base_len.s: libft/ft_base_len.c.s
 libft/ft_base_len.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_base_len.c.s
 .PHONY : libft/ft_base_len.c.s
-
-libft/ft_bzero.o: libft/ft_bzero.c.o
-
-.PHONY : libft/ft_bzero.o
-
-# target to build an object file
-libft/ft_bzero.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_bzero.c.o
-.PHONY : libft/ft_bzero.c.o
-
-libft/ft_bzero.i: libft/ft_bzero.c.i
-
-.PHONY : libft/ft_bzero.i
-
-# target to preprocess a source file
-libft/ft_bzero.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_bzero.c.i
-.PHONY : libft/ft_bzero.c.i
-
-libft/ft_bzero.s: libft/ft_bzero.c.s
-
-.PHONY : libft/ft_bzero.s
-
-# target to generate assembly for a file
-libft/ft_bzero.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_bzero.c.s
-.PHONY : libft/ft_bzero.c.s
 
 libft/ft_countchar.o: libft/ft_countchar.c.o
 
@@ -392,33 +338,6 @@ libft/ft_isascii.s: libft/ft_isascii.c.s
 libft/ft_isascii.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_isascii.c.s
 .PHONY : libft/ft_isascii.c.s
-
-libft/ft_isdigit.o: libft/ft_isdigit.c.o
-
-.PHONY : libft/ft_isdigit.o
-
-# target to build an object file
-libft/ft_isdigit.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_isdigit.c.o
-.PHONY : libft/ft_isdigit.c.o
-
-libft/ft_isdigit.i: libft/ft_isdigit.c.i
-
-.PHONY : libft/ft_isdigit.i
-
-# target to preprocess a source file
-libft/ft_isdigit.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_isdigit.c.i
-.PHONY : libft/ft_isdigit.c.i
-
-libft/ft_isdigit.s: libft/ft_isdigit.c.s
-
-.PHONY : libft/ft_isdigit.s
-
-# target to generate assembly for a file
-libft/ft_isdigit.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_isdigit.c.s
-.PHONY : libft/ft_isdigit.c.s
 
 libft/ft_isprint.o: libft/ft_isprint.c.o
 
@@ -906,33 +825,6 @@ libft/ft_memmove.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_memmove.c.s
 .PHONY : libft/ft_memmove.c.s
 
-libft/ft_memset.o: libft/ft_memset.c.o
-
-.PHONY : libft/ft_memset.o
-
-# target to build an object file
-libft/ft_memset.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_memset.c.o
-.PHONY : libft/ft_memset.c.o
-
-libft/ft_memset.i: libft/ft_memset.c.i
-
-.PHONY : libft/ft_memset.i
-
-# target to preprocess a source file
-libft/ft_memset.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_memset.c.i
-.PHONY : libft/ft_memset.c.i
-
-libft/ft_memset.s: libft/ft_memset.c.s
-
-.PHONY : libft/ft_memset.s
-
-# target to generate assembly for a file
-libft/ft_memset.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_memset.c.s
-.PHONY : libft/ft_memset.c.s
-
 libft/ft_power.o: libft/ft_power.c.o
 
 .PHONY : libft/ft_power.o
@@ -986,33 +878,6 @@ libft/ft_printbits.s: libft/ft_printbits.c.s
 libft/ft_printbits.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_printbits.c.s
 .PHONY : libft/ft_printbits.c.s
-
-libft/ft_putchar.o: libft/ft_putchar.c.o
-
-.PHONY : libft/ft_putchar.o
-
-# target to build an object file
-libft/ft_putchar.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_putchar.c.o
-.PHONY : libft/ft_putchar.c.o
-
-libft/ft_putchar.i: libft/ft_putchar.c.i
-
-.PHONY : libft/ft_putchar.i
-
-# target to preprocess a source file
-libft/ft_putchar.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_putchar.c.i
-.PHONY : libft/ft_putchar.c.i
-
-libft/ft_putchar.s: libft/ft_putchar.c.s
-
-.PHONY : libft/ft_putchar.s
-
-# target to generate assembly for a file
-libft/ft_putchar.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_putchar.c.s
-.PHONY : libft/ft_putchar.c.s
 
 libft/ft_putchar_fd.o: libft/ft_putchar_fd.c.o
 
@@ -1095,33 +960,6 @@ libft/ft_putendl_fd.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_putendl_fd.c.s
 .PHONY : libft/ft_putendl_fd.c.s
 
-libft/ft_putnbr.o: libft/ft_putnbr.c.o
-
-.PHONY : libft/ft_putnbr.o
-
-# target to build an object file
-libft/ft_putnbr.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_putnbr.c.o
-.PHONY : libft/ft_putnbr.c.o
-
-libft/ft_putnbr.i: libft/ft_putnbr.c.i
-
-.PHONY : libft/ft_putnbr.i
-
-# target to preprocess a source file
-libft/ft_putnbr.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_putnbr.c.i
-.PHONY : libft/ft_putnbr.c.i
-
-libft/ft_putnbr.s: libft/ft_putnbr.c.s
-
-.PHONY : libft/ft_putnbr.s
-
-# target to generate assembly for a file
-libft/ft_putnbr.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_putnbr.c.s
-.PHONY : libft/ft_putnbr.c.s
-
 libft/ft_putnbr_fd.o: libft/ft_putnbr_fd.c.o
 
 .PHONY : libft/ft_putnbr_fd.o
@@ -1148,33 +986,6 @@ libft/ft_putnbr_fd.s: libft/ft_putnbr_fd.c.s
 libft/ft_putnbr_fd.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_putnbr_fd.c.s
 .PHONY : libft/ft_putnbr_fd.c.s
-
-libft/ft_putstr.o: libft/ft_putstr.c.o
-
-.PHONY : libft/ft_putstr.o
-
-# target to build an object file
-libft/ft_putstr.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_putstr.c.o
-.PHONY : libft/ft_putstr.c.o
-
-libft/ft_putstr.i: libft/ft_putstr.c.i
-
-.PHONY : libft/ft_putstr.i
-
-# target to preprocess a source file
-libft/ft_putstr.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_putstr.c.i
-.PHONY : libft/ft_putstr.c.i
-
-libft/ft_putstr.s: libft/ft_putstr.c.s
-
-.PHONY : libft/ft_putstr.s
-
-# target to generate assembly for a file
-libft/ft_putstr.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_putstr.c.s
-.PHONY : libft/ft_putstr.c.s
 
 libft/ft_putstr_fd.o: libft/ft_putstr_fd.c.o
 
@@ -1607,33 +1418,6 @@ libft/ft_strlcat.s: libft/ft_strlcat.c.s
 libft/ft_strlcat.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_strlcat.c.s
 .PHONY : libft/ft_strlcat.c.s
-
-libft/ft_strlen.o: libft/ft_strlen.c.o
-
-.PHONY : libft/ft_strlen.o
-
-# target to build an object file
-libft/ft_strlen.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_strlen.c.o
-.PHONY : libft/ft_strlen.c.o
-
-libft/ft_strlen.i: libft/ft_strlen.c.i
-
-.PHONY : libft/ft_strlen.i
-
-# target to preprocess a source file
-libft/ft_strlen.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_strlen.c.i
-.PHONY : libft/ft_strlen.c.i
-
-libft/ft_strlen.s: libft/ft_strlen.c.s
-
-.PHONY : libft/ft_strlen.s
-
-# target to generate assembly for a file
-libft/ft_strlen.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/ft_strlen.c.s
-.PHONY : libft/ft_strlen.c.s
 
 libft/ft_strlenc.o: libft/ft_strlenc.c.o
 
@@ -2202,1760 +1986,1355 @@ libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libft/get_next_line.c.s
 .PHONY : libft/get_next_line.c.s
 
-libftprintf/float/ft_addition_num.o: libftprintf/float/ft_addition_num.c.o
+libftprintf/srcs/add_zeroes.o: libftprintf/srcs/add_zeroes.c.o
 
-.PHONY : libftprintf/float/ft_addition_num.o
+.PHONY : libftprintf/srcs/add_zeroes.o
 
 # target to build an object file
-libftprintf/float/ft_addition_num.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_addition_num.c.o
-.PHONY : libftprintf/float/ft_addition_num.c.o
+libftprintf/srcs/add_zeroes.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/add_zeroes.c.o
+.PHONY : libftprintf/srcs/add_zeroes.c.o
 
-libftprintf/float/ft_addition_num.i: libftprintf/float/ft_addition_num.c.i
+libftprintf/srcs/add_zeroes.i: libftprintf/srcs/add_zeroes.c.i
 
-.PHONY : libftprintf/float/ft_addition_num.i
+.PHONY : libftprintf/srcs/add_zeroes.i
 
 # target to preprocess a source file
-libftprintf/float/ft_addition_num.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_addition_num.c.i
-.PHONY : libftprintf/float/ft_addition_num.c.i
+libftprintf/srcs/add_zeroes.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/add_zeroes.c.i
+.PHONY : libftprintf/srcs/add_zeroes.c.i
 
-libftprintf/float/ft_addition_num.s: libftprintf/float/ft_addition_num.c.s
+libftprintf/srcs/add_zeroes.s: libftprintf/srcs/add_zeroes.c.s
 
-.PHONY : libftprintf/float/ft_addition_num.s
+.PHONY : libftprintf/srcs/add_zeroes.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_addition_num.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_addition_num.c.s
-.PHONY : libftprintf/float/ft_addition_num.c.s
+libftprintf/srcs/add_zeroes.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/add_zeroes.c.s
+.PHONY : libftprintf/srcs/add_zeroes.c.s
 
-libftprintf/float/ft_conversion_powers.o: libftprintf/float/ft_conversion_powers.c.o
+libftprintf/srcs/check_if_need_zeroes.o: libftprintf/srcs/check_if_need_zeroes.c.o
 
-.PHONY : libftprintf/float/ft_conversion_powers.o
+.PHONY : libftprintf/srcs/check_if_need_zeroes.o
 
 # target to build an object file
-libftprintf/float/ft_conversion_powers.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_conversion_powers.c.o
-.PHONY : libftprintf/float/ft_conversion_powers.c.o
+libftprintf/srcs/check_if_need_zeroes.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/check_if_need_zeroes.c.o
+.PHONY : libftprintf/srcs/check_if_need_zeroes.c.o
 
-libftprintf/float/ft_conversion_powers.i: libftprintf/float/ft_conversion_powers.c.i
+libftprintf/srcs/check_if_need_zeroes.i: libftprintf/srcs/check_if_need_zeroes.c.i
 
-.PHONY : libftprintf/float/ft_conversion_powers.i
+.PHONY : libftprintf/srcs/check_if_need_zeroes.i
 
 # target to preprocess a source file
-libftprintf/float/ft_conversion_powers.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_conversion_powers.c.i
-.PHONY : libftprintf/float/ft_conversion_powers.c.i
+libftprintf/srcs/check_if_need_zeroes.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/check_if_need_zeroes.c.i
+.PHONY : libftprintf/srcs/check_if_need_zeroes.c.i
 
-libftprintf/float/ft_conversion_powers.s: libftprintf/float/ft_conversion_powers.c.s
+libftprintf/srcs/check_if_need_zeroes.s: libftprintf/srcs/check_if_need_zeroes.c.s
 
-.PHONY : libftprintf/float/ft_conversion_powers.s
+.PHONY : libftprintf/srcs/check_if_need_zeroes.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_conversion_powers.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_conversion_powers.c.s
-.PHONY : libftprintf/float/ft_conversion_powers.c.s
+libftprintf/srcs/check_if_need_zeroes.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/check_if_need_zeroes.c.s
+.PHONY : libftprintf/srcs/check_if_need_zeroes.c.s
 
-libftprintf/float/ft_create_tieee754.o: libftprintf/float/ft_create_tieee754.c.o
+libftprintf/srcs/clean.o: libftprintf/srcs/clean.c.o
 
-.PHONY : libftprintf/float/ft_create_tieee754.o
+.PHONY : libftprintf/srcs/clean.o
 
 # target to build an object file
-libftprintf/float/ft_create_tieee754.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_tieee754.c.o
-.PHONY : libftprintf/float/ft_create_tieee754.c.o
+libftprintf/srcs/clean.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/clean.c.o
+.PHONY : libftprintf/srcs/clean.c.o
 
-libftprintf/float/ft_create_tieee754.i: libftprintf/float/ft_create_tieee754.c.i
+libftprintf/srcs/clean.i: libftprintf/srcs/clean.c.i
 
-.PHONY : libftprintf/float/ft_create_tieee754.i
+.PHONY : libftprintf/srcs/clean.i
 
 # target to preprocess a source file
-libftprintf/float/ft_create_tieee754.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_tieee754.c.i
-.PHONY : libftprintf/float/ft_create_tieee754.c.i
+libftprintf/srcs/clean.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/clean.c.i
+.PHONY : libftprintf/srcs/clean.c.i
 
-libftprintf/float/ft_create_tieee754.s: libftprintf/float/ft_create_tieee754.c.s
+libftprintf/srcs/clean.s: libftprintf/srcs/clean.c.s
 
-.PHONY : libftprintf/float/ft_create_tieee754.s
+.PHONY : libftprintf/srcs/clean.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_create_tieee754.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_tieee754.c.s
-.PHONY : libftprintf/float/ft_create_tieee754.c.s
+libftprintf/srcs/clean.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/clean.c.s
+.PHONY : libftprintf/srcs/clean.c.s
 
-libftprintf/float/ft_create_treal.o: libftprintf/float/ft_create_treal.c.o
+libftprintf/srcs/extract_float.o: libftprintf/srcs/extract_float.c.o
 
-.PHONY : libftprintf/float/ft_create_treal.o
+.PHONY : libftprintf/srcs/extract_float.o
 
 # target to build an object file
-libftprintf/float/ft_create_treal.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_treal.c.o
-.PHONY : libftprintf/float/ft_create_treal.c.o
+libftprintf/srcs/extract_float.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/extract_float.c.o
+.PHONY : libftprintf/srcs/extract_float.c.o
 
-libftprintf/float/ft_create_treal.i: libftprintf/float/ft_create_treal.c.i
+libftprintf/srcs/extract_float.i: libftprintf/srcs/extract_float.c.i
 
-.PHONY : libftprintf/float/ft_create_treal.i
+.PHONY : libftprintf/srcs/extract_float.i
 
 # target to preprocess a source file
-libftprintf/float/ft_create_treal.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_treal.c.i
-.PHONY : libftprintf/float/ft_create_treal.c.i
+libftprintf/srcs/extract_float.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/extract_float.c.i
+.PHONY : libftprintf/srcs/extract_float.c.i
 
-libftprintf/float/ft_create_treal.s: libftprintf/float/ft_create_treal.c.s
+libftprintf/srcs/extract_float.s: libftprintf/srcs/extract_float.c.s
 
-.PHONY : libftprintf/float/ft_create_treal.s
+.PHONY : libftprintf/srcs/extract_float.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_create_treal.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_create_treal.c.s
-.PHONY : libftprintf/float/ft_create_treal.c.s
+libftprintf/srcs/extract_float.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/extract_float.c.s
+.PHONY : libftprintf/srcs/extract_float.c.s
 
-libftprintf/float/ft_delete_tieee754.o: libftprintf/float/ft_delete_tieee754.c.o
+libftprintf/srcs/format_output.o: libftprintf/srcs/format_output.c.o
 
-.PHONY : libftprintf/float/ft_delete_tieee754.o
+.PHONY : libftprintf/srcs/format_output.o
 
 # target to build an object file
-libftprintf/float/ft_delete_tieee754.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_tieee754.c.o
-.PHONY : libftprintf/float/ft_delete_tieee754.c.o
+libftprintf/srcs/format_output.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/format_output.c.o
+.PHONY : libftprintf/srcs/format_output.c.o
 
-libftprintf/float/ft_delete_tieee754.i: libftprintf/float/ft_delete_tieee754.c.i
+libftprintf/srcs/format_output.i: libftprintf/srcs/format_output.c.i
 
-.PHONY : libftprintf/float/ft_delete_tieee754.i
+.PHONY : libftprintf/srcs/format_output.i
 
 # target to preprocess a source file
-libftprintf/float/ft_delete_tieee754.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_tieee754.c.i
-.PHONY : libftprintf/float/ft_delete_tieee754.c.i
+libftprintf/srcs/format_output.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/format_output.c.i
+.PHONY : libftprintf/srcs/format_output.c.i
 
-libftprintf/float/ft_delete_tieee754.s: libftprintf/float/ft_delete_tieee754.c.s
+libftprintf/srcs/format_output.s: libftprintf/srcs/format_output.c.s
 
-.PHONY : libftprintf/float/ft_delete_tieee754.s
+.PHONY : libftprintf/srcs/format_output.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_delete_tieee754.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_tieee754.c.s
-.PHONY : libftprintf/float/ft_delete_tieee754.c.s
+libftprintf/srcs/format_output.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/format_output.c.s
+.PHONY : libftprintf/srcs/format_output.c.s
 
-libftprintf/float/ft_delete_treal.o: libftprintf/float/ft_delete_treal.c.o
+libftprintf/srcs/ft_atoi.o: libftprintf/srcs/ft_atoi.c.o
 
-.PHONY : libftprintf/float/ft_delete_treal.o
+.PHONY : libftprintf/srcs/ft_atoi.o
 
 # target to build an object file
-libftprintf/float/ft_delete_treal.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_treal.c.o
-.PHONY : libftprintf/float/ft_delete_treal.c.o
+libftprintf/srcs/ft_atoi.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_atoi.c.o
+.PHONY : libftprintf/srcs/ft_atoi.c.o
 
-libftprintf/float/ft_delete_treal.i: libftprintf/float/ft_delete_treal.c.i
+libftprintf/srcs/ft_atoi.i: libftprintf/srcs/ft_atoi.c.i
 
-.PHONY : libftprintf/float/ft_delete_treal.i
+.PHONY : libftprintf/srcs/ft_atoi.i
 
 # target to preprocess a source file
-libftprintf/float/ft_delete_treal.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_treal.c.i
-.PHONY : libftprintf/float/ft_delete_treal.c.i
+libftprintf/srcs/ft_atoi.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_atoi.c.i
+.PHONY : libftprintf/srcs/ft_atoi.c.i
 
-libftprintf/float/ft_delete_treal.s: libftprintf/float/ft_delete_treal.c.s
+libftprintf/srcs/ft_atoi.s: libftprintf/srcs/ft_atoi.c.s
 
-.PHONY : libftprintf/float/ft_delete_treal.s
+.PHONY : libftprintf/srcs/ft_atoi.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_delete_treal.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_delete_treal.c.s
-.PHONY : libftprintf/float/ft_delete_treal.c.s
+libftprintf/srcs/ft_atoi.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_atoi.c.s
+.PHONY : libftprintf/srcs/ft_atoi.c.s
 
-libftprintf/float/ft_get_frac_part.o: libftprintf/float/ft_get_frac_part.c.o
+libftprintf/srcs/ft_bzero.o: libftprintf/srcs/ft_bzero.c.o
 
-.PHONY : libftprintf/float/ft_get_frac_part.o
+.PHONY : libftprintf/srcs/ft_bzero.o
 
 # target to build an object file
-libftprintf/float/ft_get_frac_part.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_frac_part.c.o
-.PHONY : libftprintf/float/ft_get_frac_part.c.o
+libftprintf/srcs/ft_bzero.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_bzero.c.o
+.PHONY : libftprintf/srcs/ft_bzero.c.o
 
-libftprintf/float/ft_get_frac_part.i: libftprintf/float/ft_get_frac_part.c.i
+libftprintf/srcs/ft_bzero.i: libftprintf/srcs/ft_bzero.c.i
 
-.PHONY : libftprintf/float/ft_get_frac_part.i
+.PHONY : libftprintf/srcs/ft_bzero.i
 
 # target to preprocess a source file
-libftprintf/float/ft_get_frac_part.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_frac_part.c.i
-.PHONY : libftprintf/float/ft_get_frac_part.c.i
+libftprintf/srcs/ft_bzero.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_bzero.c.i
+.PHONY : libftprintf/srcs/ft_bzero.c.i
 
-libftprintf/float/ft_get_frac_part.s: libftprintf/float/ft_get_frac_part.c.s
+libftprintf/srcs/ft_bzero.s: libftprintf/srcs/ft_bzero.c.s
 
-.PHONY : libftprintf/float/ft_get_frac_part.s
+.PHONY : libftprintf/srcs/ft_bzero.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_get_frac_part.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_frac_part.c.s
-.PHONY : libftprintf/float/ft_get_frac_part.c.s
+libftprintf/srcs/ft_bzero.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_bzero.c.s
+.PHONY : libftprintf/srcs/ft_bzero.c.s
 
-libftprintf/float/ft_get_integer_part.o: libftprintf/float/ft_get_integer_part.c.o
+libftprintf/srcs/ft_isblank.o: libftprintf/srcs/ft_isblank.c.o
 
-.PHONY : libftprintf/float/ft_get_integer_part.o
+.PHONY : libftprintf/srcs/ft_isblank.o
 
 # target to build an object file
-libftprintf/float/ft_get_integer_part.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_integer_part.c.o
-.PHONY : libftprintf/float/ft_get_integer_part.c.o
+libftprintf/srcs/ft_isblank.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isblank.c.o
+.PHONY : libftprintf/srcs/ft_isblank.c.o
 
-libftprintf/float/ft_get_integer_part.i: libftprintf/float/ft_get_integer_part.c.i
+libftprintf/srcs/ft_isblank.i: libftprintf/srcs/ft_isblank.c.i
 
-.PHONY : libftprintf/float/ft_get_integer_part.i
+.PHONY : libftprintf/srcs/ft_isblank.i
 
 # target to preprocess a source file
-libftprintf/float/ft_get_integer_part.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_integer_part.c.i
-.PHONY : libftprintf/float/ft_get_integer_part.c.i
+libftprintf/srcs/ft_isblank.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isblank.c.i
+.PHONY : libftprintf/srcs/ft_isblank.c.i
 
-libftprintf/float/ft_get_integer_part.s: libftprintf/float/ft_get_integer_part.c.s
+libftprintf/srcs/ft_isblank.s: libftprintf/srcs/ft_isblank.c.s
 
-.PHONY : libftprintf/float/ft_get_integer_part.s
+.PHONY : libftprintf/srcs/ft_isblank.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_get_integer_part.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_integer_part.c.s
-.PHONY : libftprintf/float/ft_get_integer_part.c.s
+libftprintf/srcs/ft_isblank.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isblank.c.s
+.PHONY : libftprintf/srcs/ft_isblank.c.s
 
-libftprintf/float/ft_get_real_number.o: libftprintf/float/ft_get_real_number.c.o
+libftprintf/srcs/ft_isdigit.o: libftprintf/srcs/ft_isdigit.c.o
 
-.PHONY : libftprintf/float/ft_get_real_number.o
+.PHONY : libftprintf/srcs/ft_isdigit.o
 
 # target to build an object file
-libftprintf/float/ft_get_real_number.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_real_number.c.o
-.PHONY : libftprintf/float/ft_get_real_number.c.o
+libftprintf/srcs/ft_isdigit.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isdigit.c.o
+.PHONY : libftprintf/srcs/ft_isdigit.c.o
 
-libftprintf/float/ft_get_real_number.i: libftprintf/float/ft_get_real_number.c.i
+libftprintf/srcs/ft_isdigit.i: libftprintf/srcs/ft_isdigit.c.i
 
-.PHONY : libftprintf/float/ft_get_real_number.i
+.PHONY : libftprintf/srcs/ft_isdigit.i
 
 # target to preprocess a source file
-libftprintf/float/ft_get_real_number.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_real_number.c.i
-.PHONY : libftprintf/float/ft_get_real_number.c.i
+libftprintf/srcs/ft_isdigit.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isdigit.c.i
+.PHONY : libftprintf/srcs/ft_isdigit.c.i
 
-libftprintf/float/ft_get_real_number.s: libftprintf/float/ft_get_real_number.c.s
+libftprintf/srcs/ft_isdigit.s: libftprintf/srcs/ft_isdigit.c.s
 
-.PHONY : libftprintf/float/ft_get_real_number.s
+.PHONY : libftprintf/srcs/ft_isdigit.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_get_real_number.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_get_real_number.c.s
-.PHONY : libftprintf/float/ft_get_real_number.c.s
+libftprintf/srcs/ft_isdigit.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_isdigit.c.s
+.PHONY : libftprintf/srcs/ft_isdigit.c.s
 
-libftprintf/float/ft_move_digit.o: libftprintf/float/ft_move_digit.c.o
+libftprintf/srcs/ft_memset.o: libftprintf/srcs/ft_memset.c.o
 
-.PHONY : libftprintf/float/ft_move_digit.o
+.PHONY : libftprintf/srcs/ft_memset.o
 
 # target to build an object file
-libftprintf/float/ft_move_digit.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_move_digit.c.o
-.PHONY : libftprintf/float/ft_move_digit.c.o
+libftprintf/srcs/ft_memset.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_memset.c.o
+.PHONY : libftprintf/srcs/ft_memset.c.o
 
-libftprintf/float/ft_move_digit.i: libftprintf/float/ft_move_digit.c.i
+libftprintf/srcs/ft_memset.i: libftprintf/srcs/ft_memset.c.i
 
-.PHONY : libftprintf/float/ft_move_digit.i
+.PHONY : libftprintf/srcs/ft_memset.i
 
 # target to preprocess a source file
-libftprintf/float/ft_move_digit.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_move_digit.c.i
-.PHONY : libftprintf/float/ft_move_digit.c.i
+libftprintf/srcs/ft_memset.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_memset.c.i
+.PHONY : libftprintf/srcs/ft_memset.c.i
 
-libftprintf/float/ft_move_digit.s: libftprintf/float/ft_move_digit.c.s
+libftprintf/srcs/ft_memset.s: libftprintf/srcs/ft_memset.c.s
 
-.PHONY : libftprintf/float/ft_move_digit.s
+.PHONY : libftprintf/srcs/ft_memset.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_move_digit.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_move_digit.c.s
-.PHONY : libftprintf/float/ft_move_digit.c.s
+libftprintf/srcs/ft_memset.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_memset.c.s
+.PHONY : libftprintf/srcs/ft_memset.c.s
 
-libftprintf/float/ft_normalize_num.o: libftprintf/float/ft_normalize_num.c.o
+libftprintf/srcs/ft_print_zero_o.o: libftprintf/srcs/ft_print_zero_o.c.o
 
-.PHONY : libftprintf/float/ft_normalize_num.o
+.PHONY : libftprintf/srcs/ft_print_zero_o.o
 
 # target to build an object file
-libftprintf/float/ft_normalize_num.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_normalize_num.c.o
-.PHONY : libftprintf/float/ft_normalize_num.c.o
+libftprintf/srcs/ft_print_zero_o.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_print_zero_o.c.o
+.PHONY : libftprintf/srcs/ft_print_zero_o.c.o
 
-libftprintf/float/ft_normalize_num.i: libftprintf/float/ft_normalize_num.c.i
+libftprintf/srcs/ft_print_zero_o.i: libftprintf/srcs/ft_print_zero_o.c.i
 
-.PHONY : libftprintf/float/ft_normalize_num.i
+.PHONY : libftprintf/srcs/ft_print_zero_o.i
 
 # target to preprocess a source file
-libftprintf/float/ft_normalize_num.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_normalize_num.c.i
-.PHONY : libftprintf/float/ft_normalize_num.c.i
+libftprintf/srcs/ft_print_zero_o.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_print_zero_o.c.i
+.PHONY : libftprintf/srcs/ft_print_zero_o.c.i
 
-libftprintf/float/ft_normalize_num.s: libftprintf/float/ft_normalize_num.c.s
+libftprintf/srcs/ft_print_zero_o.s: libftprintf/srcs/ft_print_zero_o.c.s
 
-.PHONY : libftprintf/float/ft_normalize_num.s
+.PHONY : libftprintf/srcs/ft_print_zero_o.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_normalize_num.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_normalize_num.c.s
-.PHONY : libftprintf/float/ft_normalize_num.c.s
+libftprintf/srcs/ft_print_zero_o.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_print_zero_o.c.s
+.PHONY : libftprintf/srcs/ft_print_zero_o.c.s
 
-libftprintf/float/ft_parse_double.o: libftprintf/float/ft_parse_double.c.o
+libftprintf/srcs/ft_printf.o: libftprintf/srcs/ft_printf.c.o
 
-.PHONY : libftprintf/float/ft_parse_double.o
+.PHONY : libftprintf/srcs/ft_printf.o
 
 # target to build an object file
-libftprintf/float/ft_parse_double.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_double.c.o
-.PHONY : libftprintf/float/ft_parse_double.c.o
+libftprintf/srcs/ft_printf.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_printf.c.o
+.PHONY : libftprintf/srcs/ft_printf.c.o
 
-libftprintf/float/ft_parse_double.i: libftprintf/float/ft_parse_double.c.i
+libftprintf/srcs/ft_printf.i: libftprintf/srcs/ft_printf.c.i
 
-.PHONY : libftprintf/float/ft_parse_double.i
+.PHONY : libftprintf/srcs/ft_printf.i
 
 # target to preprocess a source file
-libftprintf/float/ft_parse_double.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_double.c.i
-.PHONY : libftprintf/float/ft_parse_double.c.i
+libftprintf/srcs/ft_printf.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_printf.c.i
+.PHONY : libftprintf/srcs/ft_printf.c.i
 
-libftprintf/float/ft_parse_double.s: libftprintf/float/ft_parse_double.c.s
+libftprintf/srcs/ft_printf.s: libftprintf/srcs/ft_printf.c.s
 
-.PHONY : libftprintf/float/ft_parse_double.s
+.PHONY : libftprintf/srcs/ft_printf.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_parse_double.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_double.c.s
-.PHONY : libftprintf/float/ft_parse_double.c.s
+libftprintf/srcs/ft_printf.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_printf.c.s
+.PHONY : libftprintf/srcs/ft_printf.c.s
 
-libftprintf/float/ft_parse_float.o: libftprintf/float/ft_parse_float.c.o
+libftprintf/srcs/ft_putchar.o: libftprintf/srcs/ft_putchar.c.o
 
-.PHONY : libftprintf/float/ft_parse_float.o
+.PHONY : libftprintf/srcs/ft_putchar.o
 
 # target to build an object file
-libftprintf/float/ft_parse_float.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_float.c.o
-.PHONY : libftprintf/float/ft_parse_float.c.o
+libftprintf/srcs/ft_putchar.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putchar.c.o
+.PHONY : libftprintf/srcs/ft_putchar.c.o
 
-libftprintf/float/ft_parse_float.i: libftprintf/float/ft_parse_float.c.i
+libftprintf/srcs/ft_putchar.i: libftprintf/srcs/ft_putchar.c.i
 
-.PHONY : libftprintf/float/ft_parse_float.i
+.PHONY : libftprintf/srcs/ft_putchar.i
 
 # target to preprocess a source file
-libftprintf/float/ft_parse_float.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_float.c.i
-.PHONY : libftprintf/float/ft_parse_float.c.i
+libftprintf/srcs/ft_putchar.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putchar.c.i
+.PHONY : libftprintf/srcs/ft_putchar.c.i
 
-libftprintf/float/ft_parse_float.s: libftprintf/float/ft_parse_float.c.s
+libftprintf/srcs/ft_putchar.s: libftprintf/srcs/ft_putchar.c.s
 
-.PHONY : libftprintf/float/ft_parse_float.s
+.PHONY : libftprintf/srcs/ft_putchar.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_parse_float.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_float.c.s
-.PHONY : libftprintf/float/ft_parse_float.c.s
+libftprintf/srcs/ft_putchar.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putchar.c.s
+.PHONY : libftprintf/srcs/ft_putchar.c.s
 
-libftprintf/float/ft_parse_ldouble.o: libftprintf/float/ft_parse_ldouble.c.o
+libftprintf/srcs/ft_putnbr.o: libftprintf/srcs/ft_putnbr.c.o
 
-.PHONY : libftprintf/float/ft_parse_ldouble.o
+.PHONY : libftprintf/srcs/ft_putnbr.o
 
 # target to build an object file
-libftprintf/float/ft_parse_ldouble.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_ldouble.c.o
-.PHONY : libftprintf/float/ft_parse_ldouble.c.o
+libftprintf/srcs/ft_putnbr.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putnbr.c.o
+.PHONY : libftprintf/srcs/ft_putnbr.c.o
 
-libftprintf/float/ft_parse_ldouble.i: libftprintf/float/ft_parse_ldouble.c.i
+libftprintf/srcs/ft_putnbr.i: libftprintf/srcs/ft_putnbr.c.i
 
-.PHONY : libftprintf/float/ft_parse_ldouble.i
+.PHONY : libftprintf/srcs/ft_putnbr.i
 
 # target to preprocess a source file
-libftprintf/float/ft_parse_ldouble.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_ldouble.c.i
-.PHONY : libftprintf/float/ft_parse_ldouble.c.i
+libftprintf/srcs/ft_putnbr.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putnbr.c.i
+.PHONY : libftprintf/srcs/ft_putnbr.c.i
 
-libftprintf/float/ft_parse_ldouble.s: libftprintf/float/ft_parse_ldouble.c.s
+libftprintf/srcs/ft_putnbr.s: libftprintf/srcs/ft_putnbr.c.s
 
-.PHONY : libftprintf/float/ft_parse_ldouble.s
+.PHONY : libftprintf/srcs/ft_putnbr.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_parse_ldouble.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_ldouble.c.s
-.PHONY : libftprintf/float/ft_parse_ldouble.c.s
+libftprintf/srcs/ft_putnbr.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putnbr.c.s
+.PHONY : libftprintf/srcs/ft_putnbr.c.s
 
-libftprintf/float/ft_parse_parts_ieee754.o: libftprintf/float/ft_parse_parts_ieee754.c.o
+libftprintf/srcs/ft_putstr.o: libftprintf/srcs/ft_putstr.c.o
 
-.PHONY : libftprintf/float/ft_parse_parts_ieee754.o
+.PHONY : libftprintf/srcs/ft_putstr.o
 
 # target to build an object file
-libftprintf/float/ft_parse_parts_ieee754.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_parts_ieee754.c.o
-.PHONY : libftprintf/float/ft_parse_parts_ieee754.c.o
+libftprintf/srcs/ft_putstr.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putstr.c.o
+.PHONY : libftprintf/srcs/ft_putstr.c.o
 
-libftprintf/float/ft_parse_parts_ieee754.i: libftprintf/float/ft_parse_parts_ieee754.c.i
+libftprintf/srcs/ft_putstr.i: libftprintf/srcs/ft_putstr.c.i
 
-.PHONY : libftprintf/float/ft_parse_parts_ieee754.i
+.PHONY : libftprintf/srcs/ft_putstr.i
 
 # target to preprocess a source file
-libftprintf/float/ft_parse_parts_ieee754.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_parts_ieee754.c.i
-.PHONY : libftprintf/float/ft_parse_parts_ieee754.c.i
+libftprintf/srcs/ft_putstr.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putstr.c.i
+.PHONY : libftprintf/srcs/ft_putstr.c.i
 
-libftprintf/float/ft_parse_parts_ieee754.s: libftprintf/float/ft_parse_parts_ieee754.c.s
+libftprintf/srcs/ft_putstr.s: libftprintf/srcs/ft_putstr.c.s
 
-.PHONY : libftprintf/float/ft_parse_parts_ieee754.s
+.PHONY : libftprintf/srcs/ft_putstr.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_parse_parts_ieee754.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_parts_ieee754.c.s
-.PHONY : libftprintf/float/ft_parse_parts_ieee754.c.s
+libftprintf/srcs/ft_putstr.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_putstr.c.s
+.PHONY : libftprintf/srcs/ft_putstr.c.s
 
-libftprintf/float/ft_parse_power_mantis.o: libftprintf/float/ft_parse_power_mantis.c.o
+libftprintf/srcs/ft_strlen.o: libftprintf/srcs/ft_strlen.c.o
 
-.PHONY : libftprintf/float/ft_parse_power_mantis.o
+.PHONY : libftprintf/srcs/ft_strlen.o
 
 # target to build an object file
-libftprintf/float/ft_parse_power_mantis.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_power_mantis.c.o
-.PHONY : libftprintf/float/ft_parse_power_mantis.c.o
+libftprintf/srcs/ft_strlen.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_strlen.c.o
+.PHONY : libftprintf/srcs/ft_strlen.c.o
 
-libftprintf/float/ft_parse_power_mantis.i: libftprintf/float/ft_parse_power_mantis.c.i
+libftprintf/srcs/ft_strlen.i: libftprintf/srcs/ft_strlen.c.i
 
-.PHONY : libftprintf/float/ft_parse_power_mantis.i
+.PHONY : libftprintf/srcs/ft_strlen.i
 
 # target to preprocess a source file
-libftprintf/float/ft_parse_power_mantis.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_power_mantis.c.i
-.PHONY : libftprintf/float/ft_parse_power_mantis.c.i
+libftprintf/srcs/ft_strlen.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_strlen.c.i
+.PHONY : libftprintf/srcs/ft_strlen.c.i
 
-libftprintf/float/ft_parse_power_mantis.s: libftprintf/float/ft_parse_power_mantis.c.s
+libftprintf/srcs/ft_strlen.s: libftprintf/srcs/ft_strlen.c.s
 
-.PHONY : libftprintf/float/ft_parse_power_mantis.s
+.PHONY : libftprintf/srcs/ft_strlen.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_parse_power_mantis.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_parse_power_mantis.c.s
-.PHONY : libftprintf/float/ft_parse_power_mantis.c.s
+libftprintf/srcs/ft_strlen.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/ft_strlen.c.s
+.PHONY : libftprintf/srcs/ft_strlen.c.s
 
-libftprintf/float/ft_print_tparts.o: libftprintf/float/ft_print_tparts.c.o
+libftprintf/srcs/get_len_float.o: libftprintf/srcs/get_len_float.c.o
 
-.PHONY : libftprintf/float/ft_print_tparts.o
+.PHONY : libftprintf/srcs/get_len_float.o
 
 # target to build an object file
-libftprintf/float/ft_print_tparts.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tparts.c.o
-.PHONY : libftprintf/float/ft_print_tparts.c.o
+libftprintf/srcs/get_len_float.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/get_len_float.c.o
+.PHONY : libftprintf/srcs/get_len_float.c.o
 
-libftprintf/float/ft_print_tparts.i: libftprintf/float/ft_print_tparts.c.i
+libftprintf/srcs/get_len_float.i: libftprintf/srcs/get_len_float.c.i
 
-.PHONY : libftprintf/float/ft_print_tparts.i
+.PHONY : libftprintf/srcs/get_len_float.i
 
 # target to preprocess a source file
-libftprintf/float/ft_print_tparts.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tparts.c.i
-.PHONY : libftprintf/float/ft_print_tparts.c.i
+libftprintf/srcs/get_len_float.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/get_len_float.c.i
+.PHONY : libftprintf/srcs/get_len_float.c.i
 
-libftprintf/float/ft_print_tparts.s: libftprintf/float/ft_print_tparts.c.s
+libftprintf/srcs/get_len_float.s: libftprintf/srcs/get_len_float.c.s
 
-.PHONY : libftprintf/float/ft_print_tparts.s
+.PHONY : libftprintf/srcs/get_len_float.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_print_tparts.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tparts.c.s
-.PHONY : libftprintf/float/ft_print_tparts.c.s
+libftprintf/srcs/get_len_float.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/get_len_float.c.s
+.PHONY : libftprintf/srcs/get_len_float.c.s
 
-libftprintf/float/ft_print_tpowers.o: libftprintf/float/ft_print_tpowers.c.o
+libftprintf/srcs/get_num_type.o: libftprintf/srcs/get_num_type.c.o
 
-.PHONY : libftprintf/float/ft_print_tpowers.o
+.PHONY : libftprintf/srcs/get_num_type.o
 
 # target to build an object file
-libftprintf/float/ft_print_tpowers.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tpowers.c.o
-.PHONY : libftprintf/float/ft_print_tpowers.c.o
+libftprintf/srcs/get_num_type.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/get_num_type.c.o
+.PHONY : libftprintf/srcs/get_num_type.c.o
 
-libftprintf/float/ft_print_tpowers.i: libftprintf/float/ft_print_tpowers.c.i
+libftprintf/srcs/get_num_type.i: libftprintf/srcs/get_num_type.c.i
 
-.PHONY : libftprintf/float/ft_print_tpowers.i
+.PHONY : libftprintf/srcs/get_num_type.i
 
 # target to preprocess a source file
-libftprintf/float/ft_print_tpowers.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tpowers.c.i
-.PHONY : libftprintf/float/ft_print_tpowers.c.i
+libftprintf/srcs/get_num_type.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/get_num_type.c.i
+.PHONY : libftprintf/srcs/get_num_type.c.i
 
-libftprintf/float/ft_print_tpowers.s: libftprintf/float/ft_print_tpowers.c.s
+libftprintf/srcs/get_num_type.s: libftprintf/srcs/get_num_type.c.s
 
-.PHONY : libftprintf/float/ft_print_tpowers.s
+.PHONY : libftprintf/srcs/get_num_type.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_print_tpowers.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_print_tpowers.c.s
-.PHONY : libftprintf/float/ft_print_tpowers.c.s
+libftprintf/srcs/get_num_type.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/get_num_type.c.s
+.PHONY : libftprintf/srcs/get_num_type.c.s
 
-libftprintf/float/ft_rounding_treal.o: libftprintf/float/ft_rounding_treal.c.o
+libftprintf/srcs/handle_float.o: libftprintf/srcs/handle_float.c.o
 
-.PHONY : libftprintf/float/ft_rounding_treal.o
+.PHONY : libftprintf/srcs/handle_float.o
 
 # target to build an object file
-libftprintf/float/ft_rounding_treal.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_rounding_treal.c.o
-.PHONY : libftprintf/float/ft_rounding_treal.c.o
+libftprintf/srcs/handle_float.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_float.c.o
+.PHONY : libftprintf/srcs/handle_float.c.o
 
-libftprintf/float/ft_rounding_treal.i: libftprintf/float/ft_rounding_treal.c.i
+libftprintf/srcs/handle_float.i: libftprintf/srcs/handle_float.c.i
 
-.PHONY : libftprintf/float/ft_rounding_treal.i
+.PHONY : libftprintf/srcs/handle_float.i
 
 # target to preprocess a source file
-libftprintf/float/ft_rounding_treal.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_rounding_treal.c.i
-.PHONY : libftprintf/float/ft_rounding_treal.c.i
+libftprintf/srcs/handle_float.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_float.c.i
+.PHONY : libftprintf/srcs/handle_float.c.i
 
-libftprintf/float/ft_rounding_treal.s: libftprintf/float/ft_rounding_treal.c.s
+libftprintf/srcs/handle_float.s: libftprintf/srcs/handle_float.c.s
 
-.PHONY : libftprintf/float/ft_rounding_treal.s
+.PHONY : libftprintf/srcs/handle_float.s
 
 # target to generate assembly for a file
-libftprintf/float/ft_rounding_treal.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/float/ft_rounding_treal.c.s
-.PHONY : libftprintf/float/ft_rounding_treal.c.s
+libftprintf/srcs/handle_float.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_float.c.s
+.PHONY : libftprintf/srcs/handle_float.c.s
 
-libftprintf/ft_add_full_format_to_buf.o: libftprintf/ft_add_full_format_to_buf.c.o
+libftprintf/srcs/handle_fractional.o: libftprintf/srcs/handle_fractional.c.o
 
-.PHONY : libftprintf/ft_add_full_format_to_buf.o
+.PHONY : libftprintf/srcs/handle_fractional.o
 
 # target to build an object file
-libftprintf/ft_add_full_format_to_buf.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_full_format_to_buf.c.o
-.PHONY : libftprintf/ft_add_full_format_to_buf.c.o
+libftprintf/srcs/handle_fractional.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_fractional.c.o
+.PHONY : libftprintf/srcs/handle_fractional.c.o
 
-libftprintf/ft_add_full_format_to_buf.i: libftprintf/ft_add_full_format_to_buf.c.i
+libftprintf/srcs/handle_fractional.i: libftprintf/srcs/handle_fractional.c.i
 
-.PHONY : libftprintf/ft_add_full_format_to_buf.i
+.PHONY : libftprintf/srcs/handle_fractional.i
 
 # target to preprocess a source file
-libftprintf/ft_add_full_format_to_buf.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_full_format_to_buf.c.i
-.PHONY : libftprintf/ft_add_full_format_to_buf.c.i
+libftprintf/srcs/handle_fractional.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_fractional.c.i
+.PHONY : libftprintf/srcs/handle_fractional.c.i
 
-libftprintf/ft_add_full_format_to_buf.s: libftprintf/ft_add_full_format_to_buf.c.s
+libftprintf/srcs/handle_fractional.s: libftprintf/srcs/handle_fractional.c.s
 
-.PHONY : libftprintf/ft_add_full_format_to_buf.s
+.PHONY : libftprintf/srcs/handle_fractional.s
 
 # target to generate assembly for a file
-libftprintf/ft_add_full_format_to_buf.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_full_format_to_buf.c.s
-.PHONY : libftprintf/ft_add_full_format_to_buf.c.s
+libftprintf/srcs/handle_fractional.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_fractional.c.s
+.PHONY : libftprintf/srcs/handle_fractional.c.s
 
-libftprintf/ft_add_num_to_buf.o: libftprintf/ft_add_num_to_buf.c.o
+libftprintf/srcs/handle_whole.o: libftprintf/srcs/handle_whole.c.o
 
-.PHONY : libftprintf/ft_add_num_to_buf.o
+.PHONY : libftprintf/srcs/handle_whole.o
 
 # target to build an object file
-libftprintf/ft_add_num_to_buf.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_num_to_buf.c.o
-.PHONY : libftprintf/ft_add_num_to_buf.c.o
+libftprintf/srcs/handle_whole.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_whole.c.o
+.PHONY : libftprintf/srcs/handle_whole.c.o
 
-libftprintf/ft_add_num_to_buf.i: libftprintf/ft_add_num_to_buf.c.i
+libftprintf/srcs/handle_whole.i: libftprintf/srcs/handle_whole.c.i
 
-.PHONY : libftprintf/ft_add_num_to_buf.i
+.PHONY : libftprintf/srcs/handle_whole.i
 
 # target to preprocess a source file
-libftprintf/ft_add_num_to_buf.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_num_to_buf.c.i
-.PHONY : libftprintf/ft_add_num_to_buf.c.i
+libftprintf/srcs/handle_whole.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_whole.c.i
+.PHONY : libftprintf/srcs/handle_whole.c.i
 
-libftprintf/ft_add_num_to_buf.s: libftprintf/ft_add_num_to_buf.c.s
+libftprintf/srcs/handle_whole.s: libftprintf/srcs/handle_whole.c.s
 
-.PHONY : libftprintf/ft_add_num_to_buf.s
+.PHONY : libftprintf/srcs/handle_whole.s
 
 # target to generate assembly for a file
-libftprintf/ft_add_num_to_buf.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_num_to_buf.c.s
-.PHONY : libftprintf/ft_add_num_to_buf.c.s
+libftprintf/srcs/handle_whole.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/handle_whole.c.s
+.PHONY : libftprintf/srcs/handle_whole.c.s
 
-libftprintf/ft_add_real_num_to_buf.o: libftprintf/ft_add_real_num_to_buf.c.o
+libftprintf/srcs/len_num_base.o: libftprintf/srcs/len_num_base.c.o
 
-.PHONY : libftprintf/ft_add_real_num_to_buf.o
+.PHONY : libftprintf/srcs/len_num_base.o
 
 # target to build an object file
-libftprintf/ft_add_real_num_to_buf.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_real_num_to_buf.c.o
-.PHONY : libftprintf/ft_add_real_num_to_buf.c.o
+libftprintf/srcs/len_num_base.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/len_num_base.c.o
+.PHONY : libftprintf/srcs/len_num_base.c.o
 
-libftprintf/ft_add_real_num_to_buf.i: libftprintf/ft_add_real_num_to_buf.c.i
+libftprintf/srcs/len_num_base.i: libftprintf/srcs/len_num_base.c.i
 
-.PHONY : libftprintf/ft_add_real_num_to_buf.i
+.PHONY : libftprintf/srcs/len_num_base.i
 
 # target to preprocess a source file
-libftprintf/ft_add_real_num_to_buf.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_real_num_to_buf.c.i
-.PHONY : libftprintf/ft_add_real_num_to_buf.c.i
+libftprintf/srcs/len_num_base.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/len_num_base.c.i
+.PHONY : libftprintf/srcs/len_num_base.c.i
 
-libftprintf/ft_add_real_num_to_buf.s: libftprintf/ft_add_real_num_to_buf.c.s
+libftprintf/srcs/len_num_base.s: libftprintf/srcs/len_num_base.c.s
 
-.PHONY : libftprintf/ft_add_real_num_to_buf.s
+.PHONY : libftprintf/srcs/len_num_base.s
 
 # target to generate assembly for a file
-libftprintf/ft_add_real_num_to_buf.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_real_num_to_buf.c.s
-.PHONY : libftprintf/ft_add_real_num_to_buf.c.s
+libftprintf/srcs/len_num_base.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/len_num_base.c.s
+.PHONY : libftprintf/srcs/len_num_base.c.s
 
-libftprintf/ft_add_sign_to_buf.o: libftprintf/ft_add_sign_to_buf.c.o
+libftprintf/srcs/nbr_has_frac_part.o: libftprintf/srcs/nbr_has_frac_part.c.o
 
-.PHONY : libftprintf/ft_add_sign_to_buf.o
+.PHONY : libftprintf/srcs/nbr_has_frac_part.o
 
 # target to build an object file
-libftprintf/ft_add_sign_to_buf.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_sign_to_buf.c.o
-.PHONY : libftprintf/ft_add_sign_to_buf.c.o
+libftprintf/srcs/nbr_has_frac_part.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_frac_part.c.o
+.PHONY : libftprintf/srcs/nbr_has_frac_part.c.o
 
-libftprintf/ft_add_sign_to_buf.i: libftprintf/ft_add_sign_to_buf.c.i
+libftprintf/srcs/nbr_has_frac_part.i: libftprintf/srcs/nbr_has_frac_part.c.i
 
-.PHONY : libftprintf/ft_add_sign_to_buf.i
+.PHONY : libftprintf/srcs/nbr_has_frac_part.i
 
 # target to preprocess a source file
-libftprintf/ft_add_sign_to_buf.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_sign_to_buf.c.i
-.PHONY : libftprintf/ft_add_sign_to_buf.c.i
+libftprintf/srcs/nbr_has_frac_part.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_frac_part.c.i
+.PHONY : libftprintf/srcs/nbr_has_frac_part.c.i
 
-libftprintf/ft_add_sign_to_buf.s: libftprintf/ft_add_sign_to_buf.c.s
+libftprintf/srcs/nbr_has_frac_part.s: libftprintf/srcs/nbr_has_frac_part.c.s
 
-.PHONY : libftprintf/ft_add_sign_to_buf.s
+.PHONY : libftprintf/srcs/nbr_has_frac_part.s
 
 # target to generate assembly for a file
-libftprintf/ft_add_sign_to_buf.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_sign_to_buf.c.s
-.PHONY : libftprintf/ft_add_sign_to_buf.c.s
+libftprintf/srcs/nbr_has_frac_part.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_frac_part.c.s
+.PHONY : libftprintf/srcs/nbr_has_frac_part.c.s
 
-libftprintf/ft_add_space_to_buf.o: libftprintf/ft_add_space_to_buf.c.o
+libftprintf/srcs/nbr_has_whole_part.o: libftprintf/srcs/nbr_has_whole_part.c.o
 
-.PHONY : libftprintf/ft_add_space_to_buf.o
+.PHONY : libftprintf/srcs/nbr_has_whole_part.o
 
 # target to build an object file
-libftprintf/ft_add_space_to_buf.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_space_to_buf.c.o
-.PHONY : libftprintf/ft_add_space_to_buf.c.o
+libftprintf/srcs/nbr_has_whole_part.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_whole_part.c.o
+.PHONY : libftprintf/srcs/nbr_has_whole_part.c.o
 
-libftprintf/ft_add_space_to_buf.i: libftprintf/ft_add_space_to_buf.c.i
+libftprintf/srcs/nbr_has_whole_part.i: libftprintf/srcs/nbr_has_whole_part.c.i
 
-.PHONY : libftprintf/ft_add_space_to_buf.i
+.PHONY : libftprintf/srcs/nbr_has_whole_part.i
 
 # target to preprocess a source file
-libftprintf/ft_add_space_to_buf.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_space_to_buf.c.i
-.PHONY : libftprintf/ft_add_space_to_buf.c.i
+libftprintf/srcs/nbr_has_whole_part.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_whole_part.c.i
+.PHONY : libftprintf/srcs/nbr_has_whole_part.c.i
 
-libftprintf/ft_add_space_to_buf.s: libftprintf/ft_add_space_to_buf.c.s
+libftprintf/srcs/nbr_has_whole_part.s: libftprintf/srcs/nbr_has_whole_part.c.s
 
-.PHONY : libftprintf/ft_add_space_to_buf.s
+.PHONY : libftprintf/srcs/nbr_has_whole_part.s
 
 # target to generate assembly for a file
-libftprintf/ft_add_space_to_buf.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_space_to_buf.c.s
-.PHONY : libftprintf/ft_add_space_to_buf.c.s
+libftprintf/srcs/nbr_has_whole_part.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/nbr_has_whole_part.c.s
+.PHONY : libftprintf/srcs/nbr_has_whole_part.c.s
 
-libftprintf/ft_add_str_to_buf.o: libftprintf/ft_add_str_to_buf.c.o
+libftprintf/srcs/normalise_frac.o: libftprintf/srcs/normalise_frac.c.o
 
-.PHONY : libftprintf/ft_add_str_to_buf.o
+.PHONY : libftprintf/srcs/normalise_frac.o
 
 # target to build an object file
-libftprintf/ft_add_str_to_buf.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_str_to_buf.c.o
-.PHONY : libftprintf/ft_add_str_to_buf.c.o
+libftprintf/srcs/normalise_frac.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_frac.c.o
+.PHONY : libftprintf/srcs/normalise_frac.c.o
 
-libftprintf/ft_add_str_to_buf.i: libftprintf/ft_add_str_to_buf.c.i
+libftprintf/srcs/normalise_frac.i: libftprintf/srcs/normalise_frac.c.i
 
-.PHONY : libftprintf/ft_add_str_to_buf.i
+.PHONY : libftprintf/srcs/normalise_frac.i
 
 # target to preprocess a source file
-libftprintf/ft_add_str_to_buf.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_str_to_buf.c.i
-.PHONY : libftprintf/ft_add_str_to_buf.c.i
+libftprintf/srcs/normalise_frac.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_frac.c.i
+.PHONY : libftprintf/srcs/normalise_frac.c.i
 
-libftprintf/ft_add_str_to_buf.s: libftprintf/ft_add_str_to_buf.c.s
+libftprintf/srcs/normalise_frac.s: libftprintf/srcs/normalise_frac.c.s
 
-.PHONY : libftprintf/ft_add_str_to_buf.s
+.PHONY : libftprintf/srcs/normalise_frac.s
 
 # target to generate assembly for a file
-libftprintf/ft_add_str_to_buf.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_str_to_buf.c.s
-.PHONY : libftprintf/ft_add_str_to_buf.c.s
+libftprintf/srcs/normalise_frac.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_frac.c.s
+.PHONY : libftprintf/srcs/normalise_frac.c.s
 
-libftprintf/ft_add_strn_to_buf.o: libftprintf/ft_add_strn_to_buf.c.o
+libftprintf/srcs/normalise_whole.o: libftprintf/srcs/normalise_whole.c.o
 
-.PHONY : libftprintf/ft_add_strn_to_buf.o
+.PHONY : libftprintf/srcs/normalise_whole.o
 
 # target to build an object file
-libftprintf/ft_add_strn_to_buf.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_strn_to_buf.c.o
-.PHONY : libftprintf/ft_add_strn_to_buf.c.o
+libftprintf/srcs/normalise_whole.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_whole.c.o
+.PHONY : libftprintf/srcs/normalise_whole.c.o
 
-libftprintf/ft_add_strn_to_buf.i: libftprintf/ft_add_strn_to_buf.c.i
+libftprintf/srcs/normalise_whole.i: libftprintf/srcs/normalise_whole.c.i
 
-.PHONY : libftprintf/ft_add_strn_to_buf.i
+.PHONY : libftprintf/srcs/normalise_whole.i
 
 # target to preprocess a source file
-libftprintf/ft_add_strn_to_buf.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_strn_to_buf.c.i
-.PHONY : libftprintf/ft_add_strn_to_buf.c.i
+libftprintf/srcs/normalise_whole.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_whole.c.i
+.PHONY : libftprintf/srcs/normalise_whole.c.i
 
-libftprintf/ft_add_strn_to_buf.s: libftprintf/ft_add_strn_to_buf.c.s
+libftprintf/srcs/normalise_whole.s: libftprintf/srcs/normalise_whole.c.s
 
-.PHONY : libftprintf/ft_add_strn_to_buf.s
+.PHONY : libftprintf/srcs/normalise_whole.s
 
 # target to generate assembly for a file
-libftprintf/ft_add_strn_to_buf.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_strn_to_buf.c.s
-.PHONY : libftprintf/ft_add_strn_to_buf.c.s
+libftprintf/srcs/normalise_whole.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/normalise_whole.c.s
+.PHONY : libftprintf/srcs/normalise_whole.c.s
 
-libftprintf/ft_add_to_buf.o: libftprintf/ft_add_to_buf.c.o
+libftprintf/srcs/output_float.o: libftprintf/srcs/output_float.c.o
 
-.PHONY : libftprintf/ft_add_to_buf.o
+.PHONY : libftprintf/srcs/output_float.o
 
 # target to build an object file
-libftprintf/ft_add_to_buf.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_to_buf.c.o
-.PHONY : libftprintf/ft_add_to_buf.c.o
+libftprintf/srcs/output_float.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/output_float.c.o
+.PHONY : libftprintf/srcs/output_float.c.o
 
-libftprintf/ft_add_to_buf.i: libftprintf/ft_add_to_buf.c.i
+libftprintf/srcs/output_float.i: libftprintf/srcs/output_float.c.i
 
-.PHONY : libftprintf/ft_add_to_buf.i
+.PHONY : libftprintf/srcs/output_float.i
 
 # target to preprocess a source file
-libftprintf/ft_add_to_buf.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_to_buf.c.i
-.PHONY : libftprintf/ft_add_to_buf.c.i
+libftprintf/srcs/output_float.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/output_float.c.i
+.PHONY : libftprintf/srcs/output_float.c.i
 
-libftprintf/ft_add_to_buf.s: libftprintf/ft_add_to_buf.c.s
+libftprintf/srcs/output_float.s: libftprintf/srcs/output_float.c.s
 
-.PHONY : libftprintf/ft_add_to_buf.s
+.PHONY : libftprintf/srcs/output_float.s
 
 # target to generate assembly for a file
-libftprintf/ft_add_to_buf.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_to_buf.c.s
-.PHONY : libftprintf/ft_add_to_buf.c.s
+libftprintf/srcs/output_float.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/output_float.c.s
+.PHONY : libftprintf/srcs/output_float.c.s
 
-libftprintf/ft_add_zero_to_buf.o: libftprintf/ft_add_zero_to_buf.c.o
+libftprintf/srcs/parse.o: libftprintf/srcs/parse.c.o
 
-.PHONY : libftprintf/ft_add_zero_to_buf.o
+.PHONY : libftprintf/srcs/parse.o
 
 # target to build an object file
-libftprintf/ft_add_zero_to_buf.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_zero_to_buf.c.o
-.PHONY : libftprintf/ft_add_zero_to_buf.c.o
+libftprintf/srcs/parse.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/parse.c.o
+.PHONY : libftprintf/srcs/parse.c.o
 
-libftprintf/ft_add_zero_to_buf.i: libftprintf/ft_add_zero_to_buf.c.i
+libftprintf/srcs/parse.i: libftprintf/srcs/parse.c.i
 
-.PHONY : libftprintf/ft_add_zero_to_buf.i
+.PHONY : libftprintf/srcs/parse.i
 
 # target to preprocess a source file
-libftprintf/ft_add_zero_to_buf.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_zero_to_buf.c.i
-.PHONY : libftprintf/ft_add_zero_to_buf.c.i
+libftprintf/srcs/parse.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/parse.c.i
+.PHONY : libftprintf/srcs/parse.c.i
 
-libftprintf/ft_add_zero_to_buf.s: libftprintf/ft_add_zero_to_buf.c.s
+libftprintf/srcs/parse.s: libftprintf/srcs/parse.c.s
 
-.PHONY : libftprintf/ft_add_zero_to_buf.s
+.PHONY : libftprintf/srcs/parse.s
 
 # target to generate assembly for a file
-libftprintf/ft_add_zero_to_buf.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_add_zero_to_buf.c.s
-.PHONY : libftprintf/ft_add_zero_to_buf.c.s
+libftprintf/srcs/parse.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/parse.c.s
+.PHONY : libftprintf/srcs/parse.c.s
 
-libftprintf/ft_calculate_precision.o: libftprintf/ft_calculate_precision.c.o
+libftprintf/srcs/parse_flags.o: libftprintf/srcs/parse_flags.c.o
 
-.PHONY : libftprintf/ft_calculate_precision.o
+.PHONY : libftprintf/srcs/parse_flags.o
 
 # target to build an object file
-libftprintf/ft_calculate_precision.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_precision.c.o
-.PHONY : libftprintf/ft_calculate_precision.c.o
+libftprintf/srcs/parse_flags.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_flags.c.o
+.PHONY : libftprintf/srcs/parse_flags.c.o
 
-libftprintf/ft_calculate_precision.i: libftprintf/ft_calculate_precision.c.i
+libftprintf/srcs/parse_flags.i: libftprintf/srcs/parse_flags.c.i
 
-.PHONY : libftprintf/ft_calculate_precision.i
+.PHONY : libftprintf/srcs/parse_flags.i
 
 # target to preprocess a source file
-libftprintf/ft_calculate_precision.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_precision.c.i
-.PHONY : libftprintf/ft_calculate_precision.c.i
+libftprintf/srcs/parse_flags.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_flags.c.i
+.PHONY : libftprintf/srcs/parse_flags.c.i
 
-libftprintf/ft_calculate_precision.s: libftprintf/ft_calculate_precision.c.s
+libftprintf/srcs/parse_flags.s: libftprintf/srcs/parse_flags.c.s
 
-.PHONY : libftprintf/ft_calculate_precision.s
+.PHONY : libftprintf/srcs/parse_flags.s
 
 # target to generate assembly for a file
-libftprintf/ft_calculate_precision.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_precision.c.s
-.PHONY : libftprintf/ft_calculate_precision.c.s
+libftprintf/srcs/parse_flags.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_flags.c.s
+.PHONY : libftprintf/srcs/parse_flags.c.s
 
-libftprintf/ft_calculate_width.o: libftprintf/ft_calculate_width.c.o
+libftprintf/srcs/parse_prec.o: libftprintf/srcs/parse_prec.c.o
 
-.PHONY : libftprintf/ft_calculate_width.o
+.PHONY : libftprintf/srcs/parse_prec.o
 
 # target to build an object file
-libftprintf/ft_calculate_width.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_width.c.o
-.PHONY : libftprintf/ft_calculate_width.c.o
+libftprintf/srcs/parse_prec.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_prec.c.o
+.PHONY : libftprintf/srcs/parse_prec.c.o
 
-libftprintf/ft_calculate_width.i: libftprintf/ft_calculate_width.c.i
+libftprintf/srcs/parse_prec.i: libftprintf/srcs/parse_prec.c.i
 
-.PHONY : libftprintf/ft_calculate_width.i
+.PHONY : libftprintf/srcs/parse_prec.i
 
 # target to preprocess a source file
-libftprintf/ft_calculate_width.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_width.c.i
-.PHONY : libftprintf/ft_calculate_width.c.i
+libftprintf/srcs/parse_prec.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_prec.c.i
+.PHONY : libftprintf/srcs/parse_prec.c.i
 
-libftprintf/ft_calculate_width.s: libftprintf/ft_calculate_width.c.s
+libftprintf/srcs/parse_prec.s: libftprintf/srcs/parse_prec.c.s
 
-.PHONY : libftprintf/ft_calculate_width.s
+.PHONY : libftprintf/srcs/parse_prec.s
 
 # target to generate assembly for a file
-libftprintf/ft_calculate_width.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_calculate_width.c.s
-.PHONY : libftprintf/ft_calculate_width.c.s
+libftprintf/srcs/parse_prec.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_prec.c.s
+.PHONY : libftprintf/srcs/parse_prec.c.s
 
-libftprintf/ft_format.o: libftprintf/ft_format.c.o
+libftprintf/srcs/parse_size.o: libftprintf/srcs/parse_size.c.o
 
-.PHONY : libftprintf/ft_format.o
+.PHONY : libftprintf/srcs/parse_size.o
 
 # target to build an object file
-libftprintf/ft_format.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format.c.o
-.PHONY : libftprintf/ft_format.c.o
+libftprintf/srcs/parse_size.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_size.c.o
+.PHONY : libftprintf/srcs/parse_size.c.o
 
-libftprintf/ft_format.i: libftprintf/ft_format.c.i
+libftprintf/srcs/parse_size.i: libftprintf/srcs/parse_size.c.i
 
-.PHONY : libftprintf/ft_format.i
+.PHONY : libftprintf/srcs/parse_size.i
 
 # target to preprocess a source file
-libftprintf/ft_format.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format.c.i
-.PHONY : libftprintf/ft_format.c.i
+libftprintf/srcs/parse_size.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_size.c.i
+.PHONY : libftprintf/srcs/parse_size.c.i
 
-libftprintf/ft_format.s: libftprintf/ft_format.c.s
+libftprintf/srcs/parse_size.s: libftprintf/srcs/parse_size.c.s
 
-.PHONY : libftprintf/ft_format.s
+.PHONY : libftprintf/srcs/parse_size.s
 
 # target to generate assembly for a file
-libftprintf/ft_format.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format.c.s
-.PHONY : libftprintf/ft_format.c.s
+libftprintf/srcs/parse_size.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_size.c.s
+.PHONY : libftprintf/srcs/parse_size.c.s
 
-libftprintf/ft_format_b.o: libftprintf/ft_format_b.c.o
+libftprintf/srcs/parse_type.o: libftprintf/srcs/parse_type.c.o
 
-.PHONY : libftprintf/ft_format_b.o
+.PHONY : libftprintf/srcs/parse_type.o
 
 # target to build an object file
-libftprintf/ft_format_b.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_b.c.o
-.PHONY : libftprintf/ft_format_b.c.o
+libftprintf/srcs/parse_type.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_type.c.o
+.PHONY : libftprintf/srcs/parse_type.c.o
 
-libftprintf/ft_format_b.i: libftprintf/ft_format_b.c.i
+libftprintf/srcs/parse_type.i: libftprintf/srcs/parse_type.c.i
 
-.PHONY : libftprintf/ft_format_b.i
+.PHONY : libftprintf/srcs/parse_type.i
 
 # target to preprocess a source file
-libftprintf/ft_format_b.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_b.c.i
-.PHONY : libftprintf/ft_format_b.c.i
+libftprintf/srcs/parse_type.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_type.c.i
+.PHONY : libftprintf/srcs/parse_type.c.i
 
-libftprintf/ft_format_b.s: libftprintf/ft_format_b.c.s
+libftprintf/srcs/parse_type.s: libftprintf/srcs/parse_type.c.s
 
-.PHONY : libftprintf/ft_format_b.s
+.PHONY : libftprintf/srcs/parse_type.s
 
 # target to generate assembly for a file
-libftprintf/ft_format_b.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_b.c.s
-.PHONY : libftprintf/ft_format_b.c.s
+libftprintf/srcs/parse_type.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_type.c.s
+.PHONY : libftprintf/srcs/parse_type.c.s
 
-libftprintf/ft_format_basic.o: libftprintf/ft_format_basic.c.o
+libftprintf/srcs/parse_width.o: libftprintf/srcs/parse_width.c.o
 
-.PHONY : libftprintf/ft_format_basic.o
+.PHONY : libftprintf/srcs/parse_width.o
 
 # target to build an object file
-libftprintf/ft_format_basic.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_basic.c.o
-.PHONY : libftprintf/ft_format_basic.c.o
+libftprintf/srcs/parse_width.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_width.c.o
+.PHONY : libftprintf/srcs/parse_width.c.o
 
-libftprintf/ft_format_basic.i: libftprintf/ft_format_basic.c.i
+libftprintf/srcs/parse_width.i: libftprintf/srcs/parse_width.c.i
 
-.PHONY : libftprintf/ft_format_basic.i
+.PHONY : libftprintf/srcs/parse_width.i
 
 # target to preprocess a source file
-libftprintf/ft_format_basic.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_basic.c.i
-.PHONY : libftprintf/ft_format_basic.c.i
+libftprintf/srcs/parse_width.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_width.c.i
+.PHONY : libftprintf/srcs/parse_width.c.i
 
-libftprintf/ft_format_basic.s: libftprintf/ft_format_basic.c.s
+libftprintf/srcs/parse_width.s: libftprintf/srcs/parse_width.c.s
 
-.PHONY : libftprintf/ft_format_basic.s
+.PHONY : libftprintf/srcs/parse_width.s
 
 # target to generate assembly for a file
-libftprintf/ft_format_basic.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_basic.c.s
-.PHONY : libftprintf/ft_format_basic.c.s
+libftprintf/srcs/parse_width.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/parse_width.c.s
+.PHONY : libftprintf/srcs/parse_width.c.s
 
-libftprintf/ft_format_c.o: libftprintf/ft_format_c.c.o
+libftprintf/srcs/print.o: libftprintf/srcs/print.c.o
 
-.PHONY : libftprintf/ft_format_c.o
+.PHONY : libftprintf/srcs/print.o
 
 # target to build an object file
-libftprintf/ft_format_c.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_c.c.o
-.PHONY : libftprintf/ft_format_c.c.o
+libftprintf/srcs/print.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print.c.o
+.PHONY : libftprintf/srcs/print.c.o
 
-libftprintf/ft_format_c.i: libftprintf/ft_format_c.c.i
+libftprintf/srcs/print.i: libftprintf/srcs/print.c.i
 
-.PHONY : libftprintf/ft_format_c.i
+.PHONY : libftprintf/srcs/print.i
 
 # target to preprocess a source file
-libftprintf/ft_format_c.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_c.c.i
-.PHONY : libftprintf/ft_format_c.c.i
+libftprintf/srcs/print.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print.c.i
+.PHONY : libftprintf/srcs/print.c.i
 
-libftprintf/ft_format_c.s: libftprintf/ft_format_c.c.s
+libftprintf/srcs/print.s: libftprintf/srcs/print.c.s
 
-.PHONY : libftprintf/ft_format_c.s
+.PHONY : libftprintf/srcs/print.s
 
 # target to generate assembly for a file
-libftprintf/ft_format_c.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_c.c.s
-.PHONY : libftprintf/ft_format_c.c.s
+libftprintf/srcs/print.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print.c.s
+.PHONY : libftprintf/srcs/print.c.s
 
-libftprintf/ft_format_d.o: libftprintf/ft_format_d.c.o
+libftprintf/srcs/print_binary.o: libftprintf/srcs/print_binary.c.o
 
-.PHONY : libftprintf/ft_format_d.o
+.PHONY : libftprintf/srcs/print_binary.o
 
 # target to build an object file
-libftprintf/ft_format_d.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_d.c.o
-.PHONY : libftprintf/ft_format_d.c.o
+libftprintf/srcs/print_binary.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_binary.c.o
+.PHONY : libftprintf/srcs/print_binary.c.o
 
-libftprintf/ft_format_d.i: libftprintf/ft_format_d.c.i
+libftprintf/srcs/print_binary.i: libftprintf/srcs/print_binary.c.i
 
-.PHONY : libftprintf/ft_format_d.i
+.PHONY : libftprintf/srcs/print_binary.i
 
 # target to preprocess a source file
-libftprintf/ft_format_d.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_d.c.i
-.PHONY : libftprintf/ft_format_d.c.i
+libftprintf/srcs/print_binary.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_binary.c.i
+.PHONY : libftprintf/srcs/print_binary.c.i
 
-libftprintf/ft_format_d.s: libftprintf/ft_format_d.c.s
+libftprintf/srcs/print_binary.s: libftprintf/srcs/print_binary.c.s
 
-.PHONY : libftprintf/ft_format_d.s
+.PHONY : libftprintf/srcs/print_binary.s
 
 # target to generate assembly for a file
-libftprintf/ft_format_d.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_d.c.s
-.PHONY : libftprintf/ft_format_d.c.s
+libftprintf/srcs/print_binary.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_binary.c.s
+.PHONY : libftprintf/srcs/print_binary.c.s
 
-libftprintf/ft_format_f.o: libftprintf/ft_format_f.c.o
+libftprintf/srcs/print_c.o: libftprintf/srcs/print_c.c.o
 
-.PHONY : libftprintf/ft_format_f.o
+.PHONY : libftprintf/srcs/print_c.o
 
 # target to build an object file
-libftprintf/ft_format_f.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_f.c.o
-.PHONY : libftprintf/ft_format_f.c.o
+libftprintf/srcs/print_c.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_c.c.o
+.PHONY : libftprintf/srcs/print_c.c.o
 
-libftprintf/ft_format_f.i: libftprintf/ft_format_f.c.i
+libftprintf/srcs/print_c.i: libftprintf/srcs/print_c.c.i
 
-.PHONY : libftprintf/ft_format_f.i
+.PHONY : libftprintf/srcs/print_c.i
 
 # target to preprocess a source file
-libftprintf/ft_format_f.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_f.c.i
-.PHONY : libftprintf/ft_format_f.c.i
+libftprintf/srcs/print_c.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_c.c.i
+.PHONY : libftprintf/srcs/print_c.c.i
 
-libftprintf/ft_format_f.s: libftprintf/ft_format_f.c.s
+libftprintf/srcs/print_c.s: libftprintf/srcs/print_c.c.s
 
-.PHONY : libftprintf/ft_format_f.s
+.PHONY : libftprintf/srcs/print_c.s
 
 # target to generate assembly for a file
-libftprintf/ft_format_f.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_f.c.s
-.PHONY : libftprintf/ft_format_f.c.s
+libftprintf/srcs/print_c.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_c.c.s
+.PHONY : libftprintf/srcs/print_c.c.s
 
-libftprintf/ft_format_o.o: libftprintf/ft_format_o.c.o
+libftprintf/srcs/print_d.o: libftprintf/srcs/print_d.c.o
 
-.PHONY : libftprintf/ft_format_o.o
+.PHONY : libftprintf/srcs/print_d.o
 
 # target to build an object file
-libftprintf/ft_format_o.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_o.c.o
-.PHONY : libftprintf/ft_format_o.c.o
+libftprintf/srcs/print_d.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_d.c.o
+.PHONY : libftprintf/srcs/print_d.c.o
 
-libftprintf/ft_format_o.i: libftprintf/ft_format_o.c.i
+libftprintf/srcs/print_d.i: libftprintf/srcs/print_d.c.i
 
-.PHONY : libftprintf/ft_format_o.i
+.PHONY : libftprintf/srcs/print_d.i
 
 # target to preprocess a source file
-libftprintf/ft_format_o.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_o.c.i
-.PHONY : libftprintf/ft_format_o.c.i
+libftprintf/srcs/print_d.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_d.c.i
+.PHONY : libftprintf/srcs/print_d.c.i
 
-libftprintf/ft_format_o.s: libftprintf/ft_format_o.c.s
+libftprintf/srcs/print_d.s: libftprintf/srcs/print_d.c.s
 
-.PHONY : libftprintf/ft_format_o.s
+.PHONY : libftprintf/srcs/print_d.s
 
 # target to generate assembly for a file
-libftprintf/ft_format_o.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_o.c.s
-.PHONY : libftprintf/ft_format_o.c.s
+libftprintf/srcs/print_d.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_d.c.s
+.PHONY : libftprintf/srcs/print_d.c.s
 
-libftprintf/ft_format_p.o: libftprintf/ft_format_p.c.o
+libftprintf/srcs/print_o.o: libftprintf/srcs/print_o.c.o
 
-.PHONY : libftprintf/ft_format_p.o
+.PHONY : libftprintf/srcs/print_o.o
 
 # target to build an object file
-libftprintf/ft_format_p.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_p.c.o
-.PHONY : libftprintf/ft_format_p.c.o
+libftprintf/srcs/print_o.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_o.c.o
+.PHONY : libftprintf/srcs/print_o.c.o
 
-libftprintf/ft_format_p.i: libftprintf/ft_format_p.c.i
+libftprintf/srcs/print_o.i: libftprintf/srcs/print_o.c.i
 
-.PHONY : libftprintf/ft_format_p.i
+.PHONY : libftprintf/srcs/print_o.i
 
 # target to preprocess a source file
-libftprintf/ft_format_p.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_p.c.i
-.PHONY : libftprintf/ft_format_p.c.i
+libftprintf/srcs/print_o.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_o.c.i
+.PHONY : libftprintf/srcs/print_o.c.i
 
-libftprintf/ft_format_p.s: libftprintf/ft_format_p.c.s
+libftprintf/srcs/print_o.s: libftprintf/srcs/print_o.c.s
 
-.PHONY : libftprintf/ft_format_p.s
+.PHONY : libftprintf/srcs/print_o.s
 
 # target to generate assembly for a file
-libftprintf/ft_format_p.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_p.c.s
-.PHONY : libftprintf/ft_format_p.c.s
+libftprintf/srcs/print_o.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_o.c.s
+.PHONY : libftprintf/srcs/print_o.c.s
 
-libftprintf/ft_format_s.o: libftprintf/ft_format_s.c.o
+libftprintf/srcs/print_p.o: libftprintf/srcs/print_p.c.o
 
-.PHONY : libftprintf/ft_format_s.o
+.PHONY : libftprintf/srcs/print_p.o
 
 # target to build an object file
-libftprintf/ft_format_s.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_s.c.o
-.PHONY : libftprintf/ft_format_s.c.o
+libftprintf/srcs/print_p.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_p.c.o
+.PHONY : libftprintf/srcs/print_p.c.o
 
-libftprintf/ft_format_s.i: libftprintf/ft_format_s.c.i
+libftprintf/srcs/print_p.i: libftprintf/srcs/print_p.c.i
 
-.PHONY : libftprintf/ft_format_s.i
+.PHONY : libftprintf/srcs/print_p.i
 
 # target to preprocess a source file
-libftprintf/ft_format_s.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_s.c.i
-.PHONY : libftprintf/ft_format_s.c.i
+libftprintf/srcs/print_p.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_p.c.i
+.PHONY : libftprintf/srcs/print_p.c.i
 
-libftprintf/ft_format_s.s: libftprintf/ft_format_s.c.s
+libftprintf/srcs/print_p.s: libftprintf/srcs/print_p.c.s
 
-.PHONY : libftprintf/ft_format_s.s
+.PHONY : libftprintf/srcs/print_p.s
 
 # target to generate assembly for a file
-libftprintf/ft_format_s.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_s.c.s
-.PHONY : libftprintf/ft_format_s.c.s
+libftprintf/srcs/print_p.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_p.c.s
+.PHONY : libftprintf/srcs/print_p.c.s
 
-libftprintf/ft_format_specifer.o: libftprintf/ft_format_specifer.c.o
+libftprintf/srcs/print_percentage.o: libftprintf/srcs/print_percentage.c.o
 
-.PHONY : libftprintf/ft_format_specifer.o
+.PHONY : libftprintf/srcs/print_percentage.o
 
 # target to build an object file
-libftprintf/ft_format_specifer.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_specifer.c.o
-.PHONY : libftprintf/ft_format_specifer.c.o
+libftprintf/srcs/print_percentage.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_percentage.c.o
+.PHONY : libftprintf/srcs/print_percentage.c.o
 
-libftprintf/ft_format_specifer.i: libftprintf/ft_format_specifer.c.i
+libftprintf/srcs/print_percentage.i: libftprintf/srcs/print_percentage.c.i
 
-.PHONY : libftprintf/ft_format_specifer.i
+.PHONY : libftprintf/srcs/print_percentage.i
 
 # target to preprocess a source file
-libftprintf/ft_format_specifer.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_specifer.c.i
-.PHONY : libftprintf/ft_format_specifer.c.i
+libftprintf/srcs/print_percentage.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_percentage.c.i
+.PHONY : libftprintf/srcs/print_percentage.c.i
 
-libftprintf/ft_format_specifer.s: libftprintf/ft_format_specifer.c.s
+libftprintf/srcs/print_percentage.s: libftprintf/srcs/print_percentage.c.s
 
-.PHONY : libftprintf/ft_format_specifer.s
+.PHONY : libftprintf/srcs/print_percentage.s
 
 # target to generate assembly for a file
-libftprintf/ft_format_specifer.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_specifer.c.s
-.PHONY : libftprintf/ft_format_specifer.c.s
+libftprintf/srcs/print_percentage.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_percentage.c.s
+.PHONY : libftprintf/srcs/print_percentage.c.s
 
-libftprintf/ft_format_u.o: libftprintf/ft_format_u.c.o
+libftprintf/srcs/print_s.o: libftprintf/srcs/print_s.c.o
 
-.PHONY : libftprintf/ft_format_u.o
+.PHONY : libftprintf/srcs/print_s.o
 
 # target to build an object file
-libftprintf/ft_format_u.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_u.c.o
-.PHONY : libftprintf/ft_format_u.c.o
+libftprintf/srcs/print_s.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_s.c.o
+.PHONY : libftprintf/srcs/print_s.c.o
 
-libftprintf/ft_format_u.i: libftprintf/ft_format_u.c.i
+libftprintf/srcs/print_s.i: libftprintf/srcs/print_s.c.i
 
-.PHONY : libftprintf/ft_format_u.i
+.PHONY : libftprintf/srcs/print_s.i
 
 # target to preprocess a source file
-libftprintf/ft_format_u.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_u.c.i
-.PHONY : libftprintf/ft_format_u.c.i
+libftprintf/srcs/print_s.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_s.c.i
+.PHONY : libftprintf/srcs/print_s.c.i
 
-libftprintf/ft_format_u.s: libftprintf/ft_format_u.c.s
+libftprintf/srcs/print_s.s: libftprintf/srcs/print_s.c.s
 
-.PHONY : libftprintf/ft_format_u.s
+.PHONY : libftprintf/srcs/print_s.s
 
 # target to generate assembly for a file
-libftprintf/ft_format_u.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_u.c.s
-.PHONY : libftprintf/ft_format_u.c.s
+libftprintf/srcs/print_s.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_s.c.s
+.PHONY : libftprintf/srcs/print_s.c.s
 
-libftprintf/ft_format_x.o: libftprintf/ft_format_x.c.o
+libftprintf/srcs/print_space.o: libftprintf/srcs/print_space.c.o
 
-.PHONY : libftprintf/ft_format_x.o
+.PHONY : libftprintf/srcs/print_space.o
 
 # target to build an object file
-libftprintf/ft_format_x.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_x.c.o
-.PHONY : libftprintf/ft_format_x.c.o
+libftprintf/srcs/print_space.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space.c.o
+.PHONY : libftprintf/srcs/print_space.c.o
 
-libftprintf/ft_format_x.i: libftprintf/ft_format_x.c.i
+libftprintf/srcs/print_space.i: libftprintf/srcs/print_space.c.i
 
-.PHONY : libftprintf/ft_format_x.i
+.PHONY : libftprintf/srcs/print_space.i
 
 # target to preprocess a source file
-libftprintf/ft_format_x.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_x.c.i
-.PHONY : libftprintf/ft_format_x.c.i
+libftprintf/srcs/print_space.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space.c.i
+.PHONY : libftprintf/srcs/print_space.c.i
 
-libftprintf/ft_format_x.s: libftprintf/ft_format_x.c.s
+libftprintf/srcs/print_space.s: libftprintf/srcs/print_space.c.s
 
-.PHONY : libftprintf/ft_format_x.s
+.PHONY : libftprintf/srcs/print_space.s
 
 # target to generate assembly for a file
-libftprintf/ft_format_x.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_format_x.c.s
-.PHONY : libftprintf/ft_format_x.c.s
+libftprintf/srcs/print_space.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space.c.s
+.PHONY : libftprintf/srcs/print_space.c.s
 
-libftprintf/ft_get_t_real.o: libftprintf/ft_get_t_real.c.o
+libftprintf/srcs/print_space_o.o: libftprintf/srcs/print_space_o.c.o
 
-.PHONY : libftprintf/ft_get_t_real.o
+.PHONY : libftprintf/srcs/print_space_o.o
 
 # target to build an object file
-libftprintf/ft_get_t_real.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_get_t_real.c.o
-.PHONY : libftprintf/ft_get_t_real.c.o
+libftprintf/srcs/print_space_o.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space_o.c.o
+.PHONY : libftprintf/srcs/print_space_o.c.o
 
-libftprintf/ft_get_t_real.i: libftprintf/ft_get_t_real.c.i
+libftprintf/srcs/print_space_o.i: libftprintf/srcs/print_space_o.c.i
 
-.PHONY : libftprintf/ft_get_t_real.i
+.PHONY : libftprintf/srcs/print_space_o.i
 
 # target to preprocess a source file
-libftprintf/ft_get_t_real.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_get_t_real.c.i
-.PHONY : libftprintf/ft_get_t_real.c.i
+libftprintf/srcs/print_space_o.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space_o.c.i
+.PHONY : libftprintf/srcs/print_space_o.c.i
 
-libftprintf/ft_get_t_real.s: libftprintf/ft_get_t_real.c.s
+libftprintf/srcs/print_space_o.s: libftprintf/srcs/print_space_o.c.s
 
-.PHONY : libftprintf/ft_get_t_real.s
+.PHONY : libftprintf/srcs/print_space_o.s
 
 # target to generate assembly for a file
-libftprintf/ft_get_t_real.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_get_t_real.c.s
-.PHONY : libftprintf/ft_get_t_real.c.s
+libftprintf/srcs/print_space_o.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_space_o.c.s
+.PHONY : libftprintf/srcs/print_space_o.c.s
 
-libftprintf/ft_handling.o: libftprintf/ft_handling.c.o
+libftprintf/srcs/print_u.o: libftprintf/srcs/print_u.c.o
 
-.PHONY : libftprintf/ft_handling.o
+.PHONY : libftprintf/srcs/print_u.o
 
 # target to build an object file
-libftprintf/ft_handling.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_handling.c.o
-.PHONY : libftprintf/ft_handling.c.o
+libftprintf/srcs/print_u.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_u.c.o
+.PHONY : libftprintf/srcs/print_u.c.o
 
-libftprintf/ft_handling.i: libftprintf/ft_handling.c.i
+libftprintf/srcs/print_u.i: libftprintf/srcs/print_u.c.i
 
-.PHONY : libftprintf/ft_handling.i
+.PHONY : libftprintf/srcs/print_u.i
 
 # target to preprocess a source file
-libftprintf/ft_handling.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_handling.c.i
-.PHONY : libftprintf/ft_handling.c.i
+libftprintf/srcs/print_u.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_u.c.i
+.PHONY : libftprintf/srcs/print_u.c.i
 
-libftprintf/ft_handling.s: libftprintf/ft_handling.c.s
+libftprintf/srcs/print_u.s: libftprintf/srcs/print_u.c.s
 
-.PHONY : libftprintf/ft_handling.s
+.PHONY : libftprintf/srcs/print_u.s
 
 # target to generate assembly for a file
-libftprintf/ft_handling.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_handling.c.s
-.PHONY : libftprintf/ft_handling.c.s
+libftprintf/srcs/print_u.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_u.c.s
+.PHONY : libftprintf/srcs/print_u.c.s
 
-libftprintf/ft_is_specifer.o: libftprintf/ft_is_specifer.c.o
+libftprintf/srcs/print_x.o: libftprintf/srcs/print_x.c.o
 
-.PHONY : libftprintf/ft_is_specifer.o
+.PHONY : libftprintf/srcs/print_x.o
 
 # target to build an object file
-libftprintf/ft_is_specifer.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_is_specifer.c.o
-.PHONY : libftprintf/ft_is_specifer.c.o
+libftprintf/srcs/print_x.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_x.c.o
+.PHONY : libftprintf/srcs/print_x.c.o
 
-libftprintf/ft_is_specifer.i: libftprintf/ft_is_specifer.c.i
+libftprintf/srcs/print_x.i: libftprintf/srcs/print_x.c.i
 
-.PHONY : libftprintf/ft_is_specifer.i
+.PHONY : libftprintf/srcs/print_x.i
 
 # target to preprocess a source file
-libftprintf/ft_is_specifer.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_is_specifer.c.i
-.PHONY : libftprintf/ft_is_specifer.c.i
+libftprintf/srcs/print_x.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_x.c.i
+.PHONY : libftprintf/srcs/print_x.c.i
 
-libftprintf/ft_is_specifer.s: libftprintf/ft_is_specifer.c.s
+libftprintf/srcs/print_x.s: libftprintf/srcs/print_x.c.s
 
-.PHONY : libftprintf/ft_is_specifer.s
+.PHONY : libftprintf/srcs/print_x.s
 
 # target to generate assembly for a file
-libftprintf/ft_is_specifer.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_is_specifer.c.s
-.PHONY : libftprintf/ft_is_specifer.c.s
+libftprintf/srcs/print_x.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_x.c.s
+.PHONY : libftprintf/srcs/print_x.c.s
 
-libftprintf/ft_parse.o: libftprintf/ft_parse.c.o
+libftprintf/srcs/print_zero.o: libftprintf/srcs/print_zero.c.o
 
-.PHONY : libftprintf/ft_parse.o
+.PHONY : libftprintf/srcs/print_zero.o
 
 # target to build an object file
-libftprintf/ft_parse.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse.c.o
-.PHONY : libftprintf/ft_parse.c.o
+libftprintf/srcs/print_zero.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_zero.c.o
+.PHONY : libftprintf/srcs/print_zero.c.o
 
-libftprintf/ft_parse.i: libftprintf/ft_parse.c.i
+libftprintf/srcs/print_zero.i: libftprintf/srcs/print_zero.c.i
 
-.PHONY : libftprintf/ft_parse.i
+.PHONY : libftprintf/srcs/print_zero.i
 
 # target to preprocess a source file
-libftprintf/ft_parse.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse.c.i
-.PHONY : libftprintf/ft_parse.c.i
+libftprintf/srcs/print_zero.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_zero.c.i
+.PHONY : libftprintf/srcs/print_zero.c.i
 
-libftprintf/ft_parse.s: libftprintf/ft_parse.c.s
+libftprintf/srcs/print_zero.s: libftprintf/srcs/print_zero.c.s
 
-.PHONY : libftprintf/ft_parse.s
+.PHONY : libftprintf/srcs/print_zero.s
 
 # target to generate assembly for a file
-libftprintf/ft_parse.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse.c.s
-.PHONY : libftprintf/ft_parse.c.s
+libftprintf/srcs/print_zero.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/print_zero.c.s
+.PHONY : libftprintf/srcs/print_zero.c.s
 
-libftprintf/ft_parse_flags.o: libftprintf/ft_parse_flags.c.o
+libftprintf/srcs/putnbr_base.o: libftprintf/srcs/putnbr_base.c.o
 
-.PHONY : libftprintf/ft_parse_flags.o
+.PHONY : libftprintf/srcs/putnbr_base.o
 
 # target to build an object file
-libftprintf/ft_parse_flags.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse_flags.c.o
-.PHONY : libftprintf/ft_parse_flags.c.o
+libftprintf/srcs/putnbr_base.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_base.c.o
+.PHONY : libftprintf/srcs/putnbr_base.c.o
 
-libftprintf/ft_parse_flags.i: libftprintf/ft_parse_flags.c.i
+libftprintf/srcs/putnbr_base.i: libftprintf/srcs/putnbr_base.c.i
 
-.PHONY : libftprintf/ft_parse_flags.i
+.PHONY : libftprintf/srcs/putnbr_base.i
 
 # target to preprocess a source file
-libftprintf/ft_parse_flags.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse_flags.c.i
-.PHONY : libftprintf/ft_parse_flags.c.i
+libftprintf/srcs/putnbr_base.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_base.c.i
+.PHONY : libftprintf/srcs/putnbr_base.c.i
 
-libftprintf/ft_parse_flags.s: libftprintf/ft_parse_flags.c.s
+libftprintf/srcs/putnbr_base.s: libftprintf/srcs/putnbr_base.c.s
 
-.PHONY : libftprintf/ft_parse_flags.s
+.PHONY : libftprintf/srcs/putnbr_base.s
 
 # target to generate assembly for a file
-libftprintf/ft_parse_flags.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse_flags.c.s
-.PHONY : libftprintf/ft_parse_flags.c.s
+libftprintf/srcs/putnbr_base.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_base.c.s
+.PHONY : libftprintf/srcs/putnbr_base.c.s
 
-libftprintf/ft_parse_precision.o: libftprintf/ft_parse_precision.c.o
+libftprintf/srcs/putnbr_float.o: libftprintf/srcs/putnbr_float.c.o
 
-.PHONY : libftprintf/ft_parse_precision.o
+.PHONY : libftprintf/srcs/putnbr_float.o
 
 # target to build an object file
-libftprintf/ft_parse_precision.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse_precision.c.o
-.PHONY : libftprintf/ft_parse_precision.c.o
+libftprintf/srcs/putnbr_float.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_float.c.o
+.PHONY : libftprintf/srcs/putnbr_float.c.o
 
-libftprintf/ft_parse_precision.i: libftprintf/ft_parse_precision.c.i
+libftprintf/srcs/putnbr_float.i: libftprintf/srcs/putnbr_float.c.i
 
-.PHONY : libftprintf/ft_parse_precision.i
+.PHONY : libftprintf/srcs/putnbr_float.i
 
 # target to preprocess a source file
-libftprintf/ft_parse_precision.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse_precision.c.i
-.PHONY : libftprintf/ft_parse_precision.c.i
+libftprintf/srcs/putnbr_float.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_float.c.i
+.PHONY : libftprintf/srcs/putnbr_float.c.i
 
-libftprintf/ft_parse_precision.s: libftprintf/ft_parse_precision.c.s
+libftprintf/srcs/putnbr_float.s: libftprintf/srcs/putnbr_float.c.s
 
-.PHONY : libftprintf/ft_parse_precision.s
+.PHONY : libftprintf/srcs/putnbr_float.s
 
 # target to generate assembly for a file
-libftprintf/ft_parse_precision.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse_precision.c.s
-.PHONY : libftprintf/ft_parse_precision.c.s
+libftprintf/srcs/putnbr_float.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/putnbr_float.c.s
+.PHONY : libftprintf/srcs/putnbr_float.c.s
 
-libftprintf/ft_parse_print.o: libftprintf/ft_parse_print.c.o
+libftprintf/srcs/round_float.o: libftprintf/srcs/round_float.c.o
 
-.PHONY : libftprintf/ft_parse_print.o
+.PHONY : libftprintf/srcs/round_float.o
 
 # target to build an object file
-libftprintf/ft_parse_print.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse_print.c.o
-.PHONY : libftprintf/ft_parse_print.c.o
+libftprintf/srcs/round_float.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/round_float.c.o
+.PHONY : libftprintf/srcs/round_float.c.o
 
-libftprintf/ft_parse_print.i: libftprintf/ft_parse_print.c.i
+libftprintf/srcs/round_float.i: libftprintf/srcs/round_float.c.i
 
-.PHONY : libftprintf/ft_parse_print.i
+.PHONY : libftprintf/srcs/round_float.i
 
 # target to preprocess a source file
-libftprintf/ft_parse_print.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse_print.c.i
-.PHONY : libftprintf/ft_parse_print.c.i
+libftprintf/srcs/round_float.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/round_float.c.i
+.PHONY : libftprintf/srcs/round_float.c.i
 
-libftprintf/ft_parse_print.s: libftprintf/ft_parse_print.c.s
+libftprintf/srcs/round_float.s: libftprintf/srcs/round_float.c.s
 
-.PHONY : libftprintf/ft_parse_print.s
+.PHONY : libftprintf/srcs/round_float.s
 
 # target to generate assembly for a file
-libftprintf/ft_parse_print.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse_print.c.s
-.PHONY : libftprintf/ft_parse_print.c.s
+libftprintf/srcs/round_float.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/round_float.c.s
+.PHONY : libftprintf/srcs/round_float.c.s
 
-libftprintf/ft_parse_size.o: libftprintf/ft_parse_size.c.o
+libftprintf/srcs/sum_arr.o: libftprintf/srcs/sum_arr.c.o
 
-.PHONY : libftprintf/ft_parse_size.o
+.PHONY : libftprintf/srcs/sum_arr.o
 
 # target to build an object file
-libftprintf/ft_parse_size.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse_size.c.o
-.PHONY : libftprintf/ft_parse_size.c.o
+libftprintf/srcs/sum_arr.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/sum_arr.c.o
+.PHONY : libftprintf/srcs/sum_arr.c.o
 
-libftprintf/ft_parse_size.i: libftprintf/ft_parse_size.c.i
+libftprintf/srcs/sum_arr.i: libftprintf/srcs/sum_arr.c.i
 
-.PHONY : libftprintf/ft_parse_size.i
+.PHONY : libftprintf/srcs/sum_arr.i
 
 # target to preprocess a source file
-libftprintf/ft_parse_size.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse_size.c.i
-.PHONY : libftprintf/ft_parse_size.c.i
+libftprintf/srcs/sum_arr.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/sum_arr.c.i
+.PHONY : libftprintf/srcs/sum_arr.c.i
 
-libftprintf/ft_parse_size.s: libftprintf/ft_parse_size.c.s
+libftprintf/srcs/sum_arr.s: libftprintf/srcs/sum_arr.c.s
 
-.PHONY : libftprintf/ft_parse_size.s
+.PHONY : libftprintf/srcs/sum_arr.s
 
 # target to generate assembly for a file
-libftprintf/ft_parse_size.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse_size.c.s
-.PHONY : libftprintf/ft_parse_size.c.s
-
-libftprintf/ft_parse_types.o: libftprintf/ft_parse_types.c.o
-
-.PHONY : libftprintf/ft_parse_types.o
-
-# target to build an object file
-libftprintf/ft_parse_types.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse_types.c.o
-.PHONY : libftprintf/ft_parse_types.c.o
-
-libftprintf/ft_parse_types.i: libftprintf/ft_parse_types.c.i
-
-.PHONY : libftprintf/ft_parse_types.i
-
-# target to preprocess a source file
-libftprintf/ft_parse_types.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse_types.c.i
-.PHONY : libftprintf/ft_parse_types.c.i
-
-libftprintf/ft_parse_types.s: libftprintf/ft_parse_types.c.s
-
-.PHONY : libftprintf/ft_parse_types.s
-
-# target to generate assembly for a file
-libftprintf/ft_parse_types.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse_types.c.s
-.PHONY : libftprintf/ft_parse_types.c.s
-
-libftprintf/ft_parse_width.o: libftprintf/ft_parse_width.c.o
-
-.PHONY : libftprintf/ft_parse_width.o
-
-# target to build an object file
-libftprintf/ft_parse_width.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse_width.c.o
-.PHONY : libftprintf/ft_parse_width.c.o
-
-libftprintf/ft_parse_width.i: libftprintf/ft_parse_width.c.i
-
-.PHONY : libftprintf/ft_parse_width.i
-
-# target to preprocess a source file
-libftprintf/ft_parse_width.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse_width.c.i
-.PHONY : libftprintf/ft_parse_width.c.i
-
-libftprintf/ft_parse_width.s: libftprintf/ft_parse_width.c.s
-
-.PHONY : libftprintf/ft_parse_width.s
-
-# target to generate assembly for a file
-libftprintf/ft_parse_width.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_parse_width.c.s
-.PHONY : libftprintf/ft_parse_width.c.s
-
-libftprintf/ft_printf.o: libftprintf/ft_printf.c.o
-
-.PHONY : libftprintf/ft_printf.o
-
-# target to build an object file
-libftprintf/ft_printf.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_printf.c.o
-.PHONY : libftprintf/ft_printf.c.o
-
-libftprintf/ft_printf.i: libftprintf/ft_printf.c.i
-
-.PHONY : libftprintf/ft_printf.i
-
-# target to preprocess a source file
-libftprintf/ft_printf.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_printf.c.i
-.PHONY : libftprintf/ft_printf.c.i
-
-libftprintf/ft_printf.s: libftprintf/ft_printf.c.s
-
-.PHONY : libftprintf/ft_printf.s
-
-# target to generate assembly for a file
-libftprintf/ft_printf.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_printf.c.s
-.PHONY : libftprintf/ft_printf.c.s
-
-libftprintf/ft_skip_undefined_behavior.o: libftprintf/ft_skip_undefined_behavior.c.o
-
-.PHONY : libftprintf/ft_skip_undefined_behavior.o
-
-# target to build an object file
-libftprintf/ft_skip_undefined_behavior.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_skip_undefined_behavior.c.o
-.PHONY : libftprintf/ft_skip_undefined_behavior.c.o
-
-libftprintf/ft_skip_undefined_behavior.i: libftprintf/ft_skip_undefined_behavior.c.i
-
-.PHONY : libftprintf/ft_skip_undefined_behavior.i
-
-# target to preprocess a source file
-libftprintf/ft_skip_undefined_behavior.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_skip_undefined_behavior.c.i
-.PHONY : libftprintf/ft_skip_undefined_behavior.c.i
-
-libftprintf/ft_skip_undefined_behavior.s: libftprintf/ft_skip_undefined_behavior.c.s
-
-.PHONY : libftprintf/ft_skip_undefined_behavior.s
-
-# target to generate assembly for a file
-libftprintf/ft_skip_undefined_behavior.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_skip_undefined_behavior.c.s
-.PHONY : libftprintf/ft_skip_undefined_behavior.c.s
-
-libftprintf/ft_varg_c.o: libftprintf/ft_varg_c.c.o
-
-.PHONY : libftprintf/ft_varg_c.o
-
-# target to build an object file
-libftprintf/ft_varg_c.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_c.c.o
-.PHONY : libftprintf/ft_varg_c.c.o
-
-libftprintf/ft_varg_c.i: libftprintf/ft_varg_c.c.i
-
-.PHONY : libftprintf/ft_varg_c.i
-
-# target to preprocess a source file
-libftprintf/ft_varg_c.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_c.c.i
-.PHONY : libftprintf/ft_varg_c.c.i
-
-libftprintf/ft_varg_c.s: libftprintf/ft_varg_c.c.s
-
-.PHONY : libftprintf/ft_varg_c.s
-
-# target to generate assembly for a file
-libftprintf/ft_varg_c.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_c.c.s
-.PHONY : libftprintf/ft_varg_c.c.s
-
-libftprintf/ft_varg_i.o: libftprintf/ft_varg_i.c.o
-
-.PHONY : libftprintf/ft_varg_i.o
-
-# target to build an object file
-libftprintf/ft_varg_i.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_i.c.o
-.PHONY : libftprintf/ft_varg_i.c.o
-
-libftprintf/ft_varg_i.i: libftprintf/ft_varg_i.c.i
-
-.PHONY : libftprintf/ft_varg_i.i
-
-# target to preprocess a source file
-libftprintf/ft_varg_i.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_i.c.i
-.PHONY : libftprintf/ft_varg_i.c.i
-
-libftprintf/ft_varg_i.s: libftprintf/ft_varg_i.c.s
-
-.PHONY : libftprintf/ft_varg_i.s
-
-# target to generate assembly for a file
-libftprintf/ft_varg_i.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_i.c.s
-.PHONY : libftprintf/ft_varg_i.c.s
-
-libftprintf/ft_varg_l.o: libftprintf/ft_varg_l.c.o
-
-.PHONY : libftprintf/ft_varg_l.o
-
-# target to build an object file
-libftprintf/ft_varg_l.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_l.c.o
-.PHONY : libftprintf/ft_varg_l.c.o
-
-libftprintf/ft_varg_l.i: libftprintf/ft_varg_l.c.i
-
-.PHONY : libftprintf/ft_varg_l.i
-
-# target to preprocess a source file
-libftprintf/ft_varg_l.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_l.c.i
-.PHONY : libftprintf/ft_varg_l.c.i
-
-libftprintf/ft_varg_l.s: libftprintf/ft_varg_l.c.s
-
-.PHONY : libftprintf/ft_varg_l.s
-
-# target to generate assembly for a file
-libftprintf/ft_varg_l.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_l.c.s
-.PHONY : libftprintf/ft_varg_l.c.s
-
-libftprintf/ft_varg_ll.o: libftprintf/ft_varg_ll.c.o
-
-.PHONY : libftprintf/ft_varg_ll.o
-
-# target to build an object file
-libftprintf/ft_varg_ll.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ll.c.o
-.PHONY : libftprintf/ft_varg_ll.c.o
-
-libftprintf/ft_varg_ll.i: libftprintf/ft_varg_ll.c.i
-
-.PHONY : libftprintf/ft_varg_ll.i
-
-# target to preprocess a source file
-libftprintf/ft_varg_ll.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ll.c.i
-.PHONY : libftprintf/ft_varg_ll.c.i
-
-libftprintf/ft_varg_ll.s: libftprintf/ft_varg_ll.c.s
-
-.PHONY : libftprintf/ft_varg_ll.s
-
-# target to generate assembly for a file
-libftprintf/ft_varg_ll.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ll.c.s
-.PHONY : libftprintf/ft_varg_ll.c.s
-
-libftprintf/ft_varg_s.o: libftprintf/ft_varg_s.c.o
-
-.PHONY : libftprintf/ft_varg_s.o
-
-# target to build an object file
-libftprintf/ft_varg_s.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_s.c.o
-.PHONY : libftprintf/ft_varg_s.c.o
-
-libftprintf/ft_varg_s.i: libftprintf/ft_varg_s.c.i
-
-.PHONY : libftprintf/ft_varg_s.i
-
-# target to preprocess a source file
-libftprintf/ft_varg_s.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_s.c.i
-.PHONY : libftprintf/ft_varg_s.c.i
-
-libftprintf/ft_varg_s.s: libftprintf/ft_varg_s.c.s
-
-.PHONY : libftprintf/ft_varg_s.s
-
-# target to generate assembly for a file
-libftprintf/ft_varg_s.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_s.c.s
-.PHONY : libftprintf/ft_varg_s.c.s
-
-libftprintf/ft_varg_u.o: libftprintf/ft_varg_u.c.o
-
-.PHONY : libftprintf/ft_varg_u.o
-
-# target to build an object file
-libftprintf/ft_varg_u.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_u.c.o
-.PHONY : libftprintf/ft_varg_u.c.o
-
-libftprintf/ft_varg_u.i: libftprintf/ft_varg_u.c.i
-
-.PHONY : libftprintf/ft_varg_u.i
-
-# target to preprocess a source file
-libftprintf/ft_varg_u.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_u.c.i
-.PHONY : libftprintf/ft_varg_u.c.i
-
-libftprintf/ft_varg_u.s: libftprintf/ft_varg_u.c.s
-
-.PHONY : libftprintf/ft_varg_u.s
-
-# target to generate assembly for a file
-libftprintf/ft_varg_u.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_u.c.s
-.PHONY : libftprintf/ft_varg_u.c.s
-
-libftprintf/ft_varg_uc.o: libftprintf/ft_varg_uc.c.o
-
-.PHONY : libftprintf/ft_varg_uc.o
-
-# target to build an object file
-libftprintf/ft_varg_uc.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_uc.c.o
-.PHONY : libftprintf/ft_varg_uc.c.o
-
-libftprintf/ft_varg_uc.i: libftprintf/ft_varg_uc.c.i
-
-.PHONY : libftprintf/ft_varg_uc.i
-
-# target to preprocess a source file
-libftprintf/ft_varg_uc.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_uc.c.i
-.PHONY : libftprintf/ft_varg_uc.c.i
-
-libftprintf/ft_varg_uc.s: libftprintf/ft_varg_uc.c.s
-
-.PHONY : libftprintf/ft_varg_uc.s
-
-# target to generate assembly for a file
-libftprintf/ft_varg_uc.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_uc.c.s
-.PHONY : libftprintf/ft_varg_uc.c.s
-
-libftprintf/ft_varg_ul.o: libftprintf/ft_varg_ul.c.o
-
-.PHONY : libftprintf/ft_varg_ul.o
-
-# target to build an object file
-libftprintf/ft_varg_ul.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ul.c.o
-.PHONY : libftprintf/ft_varg_ul.c.o
-
-libftprintf/ft_varg_ul.i: libftprintf/ft_varg_ul.c.i
-
-.PHONY : libftprintf/ft_varg_ul.i
-
-# target to preprocess a source file
-libftprintf/ft_varg_ul.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ul.c.i
-.PHONY : libftprintf/ft_varg_ul.c.i
-
-libftprintf/ft_varg_ul.s: libftprintf/ft_varg_ul.c.s
-
-.PHONY : libftprintf/ft_varg_ul.s
-
-# target to generate assembly for a file
-libftprintf/ft_varg_ul.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ul.c.s
-.PHONY : libftprintf/ft_varg_ul.c.s
-
-libftprintf/ft_varg_ull.o: libftprintf/ft_varg_ull.c.o
-
-.PHONY : libftprintf/ft_varg_ull.o
-
-# target to build an object file
-libftprintf/ft_varg_ull.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ull.c.o
-.PHONY : libftprintf/ft_varg_ull.c.o
-
-libftprintf/ft_varg_ull.i: libftprintf/ft_varg_ull.c.i
-
-.PHONY : libftprintf/ft_varg_ull.i
-
-# target to preprocess a source file
-libftprintf/ft_varg_ull.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ull.c.i
-.PHONY : libftprintf/ft_varg_ull.c.i
-
-libftprintf/ft_varg_ull.s: libftprintf/ft_varg_ull.c.s
-
-.PHONY : libftprintf/ft_varg_ull.s
-
-# target to generate assembly for a file
-libftprintf/ft_varg_ull.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_ull.c.s
-.PHONY : libftprintf/ft_varg_ull.c.s
-
-libftprintf/ft_varg_us.o: libftprintf/ft_varg_us.c.o
-
-.PHONY : libftprintf/ft_varg_us.o
-
-# target to build an object file
-libftprintf/ft_varg_us.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_us.c.o
-.PHONY : libftprintf/ft_varg_us.c.o
-
-libftprintf/ft_varg_us.i: libftprintf/ft_varg_us.c.i
-
-.PHONY : libftprintf/ft_varg_us.i
-
-# target to preprocess a source file
-libftprintf/ft_varg_us.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_us.c.i
-.PHONY : libftprintf/ft_varg_us.c.i
-
-libftprintf/ft_varg_us.s: libftprintf/ft_varg_us.c.s
-
-.PHONY : libftprintf/ft_varg_us.s
-
-# target to generate assembly for a file
-libftprintf/ft_varg_us.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_varg_us.c.s
-.PHONY : libftprintf/ft_varg_us.c.s
-
-libftprintf/ft_write_buf.o: libftprintf/ft_write_buf.c.o
-
-.PHONY : libftprintf/ft_write_buf.o
-
-# target to build an object file
-libftprintf/ft_write_buf.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_write_buf.c.o
-.PHONY : libftprintf/ft_write_buf.c.o
-
-libftprintf/ft_write_buf.i: libftprintf/ft_write_buf.c.i
-
-.PHONY : libftprintf/ft_write_buf.i
-
-# target to preprocess a source file
-libftprintf/ft_write_buf.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_write_buf.c.i
-.PHONY : libftprintf/ft_write_buf.c.i
-
-libftprintf/ft_write_buf.s: libftprintf/ft_write_buf.c.s
-
-.PHONY : libftprintf/ft_write_buf.s
-
-# target to generate assembly for a file
-libftprintf/ft_write_buf.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/ft_write_buf.c.s
-.PHONY : libftprintf/ft_write_buf.c.s
+libftprintf/srcs/sum_arr.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/libftprintf/srcs/sum_arr.c.s
+.PHONY : libftprintf/srcs/sum_arr.c.s
 
 src/add_one_way.o: src/add_one_way.c.o
 
@@ -3984,6 +3363,33 @@ src/add_one_way.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/add_one_way.c.s
 .PHONY : src/add_one_way.c.s
 
+src/add_to_ready_way.o: src/add_to_ready_way.c.o
+
+.PHONY : src/add_to_ready_way.o
+
+# target to build an object file
+src/add_to_ready_way.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/add_to_ready_way.c.o
+.PHONY : src/add_to_ready_way.c.o
+
+src/add_to_ready_way.i: src/add_to_ready_way.c.i
+
+.PHONY : src/add_to_ready_way.i
+
+# target to preprocess a source file
+src/add_to_ready_way.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/add_to_ready_way.c.i
+.PHONY : src/add_to_ready_way.c.i
+
+src/add_to_ready_way.s: src/add_to_ready_way.c.s
+
+.PHONY : src/add_to_ready_way.s
+
+# target to generate assembly for a file
+src/add_to_ready_way.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/add_to_ready_way.c.s
+.PHONY : src/add_to_ready_way.c.s
+
 src/add_to_way.o: src/add_to_way.c.o
 
 .PHONY : src/add_to_way.o
@@ -4011,33 +3417,6 @@ src/add_to_way.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/add_to_way.c.s
 .PHONY : src/add_to_way.c.s
 
-src/add_ways_to_graph.o: src/add_ways_to_graph.c.o
-
-.PHONY : src/add_ways_to_graph.o
-
-# target to build an object file
-src/add_ways_to_graph.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/add_ways_to_graph.c.o
-.PHONY : src/add_ways_to_graph.c.o
-
-src/add_ways_to_graph.i: src/add_ways_to_graph.c.i
-
-.PHONY : src/add_ways_to_graph.i
-
-# target to preprocess a source file
-src/add_ways_to_graph.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/add_ways_to_graph.c.i
-.PHONY : src/add_ways_to_graph.c.i
-
-src/add_ways_to_graph.s: src/add_ways_to_graph.c.s
-
-.PHONY : src/add_ways_to_graph.s
-
-# target to generate assembly for a file
-src/add_ways_to_graph.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/add_ways_to_graph.c.s
-.PHONY : src/add_ways_to_graph.c.s
-
 src/ants.o: src/ants.c.o
 
 .PHONY : src/ants.o
@@ -4064,60 +3443,6 @@ src/ants.s: src/ants.c.s
 src/ants.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/ants.c.s
 .PHONY : src/ants.c.s
-
-src/bfs.o: src/bfs.c.o
-
-.PHONY : src/bfs.o
-
-# target to build an object file
-src/bfs.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/bfs.c.o
-.PHONY : src/bfs.c.o
-
-src/bfs.i: src/bfs.c.i
-
-.PHONY : src/bfs.i
-
-# target to preprocess a source file
-src/bfs.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/bfs.c.i
-.PHONY : src/bfs.c.i
-
-src/bfs.s: src/bfs.c.s
-
-.PHONY : src/bfs.s
-
-# target to generate assembly for a file
-src/bfs.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/bfs.c.s
-.PHONY : src/bfs.c.s
-
-src/bfs_2.o: src/bfs_2.c.o
-
-.PHONY : src/bfs_2.o
-
-# target to build an object file
-src/bfs_2.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/bfs_2.c.o
-.PHONY : src/bfs_2.c.o
-
-src/bfs_2.i: src/bfs_2.c.i
-
-.PHONY : src/bfs_2.i
-
-# target to preprocess a source file
-src/bfs_2.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/bfs_2.c.i
-.PHONY : src/bfs_2.c.i
-
-src/bfs_2.s: src/bfs_2.c.s
-
-.PHONY : src/bfs_2.s
-
-# target to generate assembly for a file
-src/bfs_2.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/bfs_2.c.s
-.PHONY : src/bfs_2.c.s
 
 src/bfs_adj_list.o: src/bfs_adj_list.c.o
 
@@ -4173,6 +3498,33 @@ src/connectivity_matrix.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/connectivity_matrix.c.s
 .PHONY : src/connectivity_matrix.c.s
 
+src/copy_ways_to_sol.o: src/copy_ways_to_sol.c.o
+
+.PHONY : src/copy_ways_to_sol.o
+
+# target to build an object file
+src/copy_ways_to_sol.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/copy_ways_to_sol.c.o
+.PHONY : src/copy_ways_to_sol.c.o
+
+src/copy_ways_to_sol.i: src/copy_ways_to_sol.c.i
+
+.PHONY : src/copy_ways_to_sol.i
+
+# target to preprocess a source file
+src/copy_ways_to_sol.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/copy_ways_to_sol.c.i
+.PHONY : src/copy_ways_to_sol.c.i
+
+src/copy_ways_to_sol.s: src/copy_ways_to_sol.c.s
+
+.PHONY : src/copy_ways_to_sol.s
+
+# target to generate assembly for a file
+src/copy_ways_to_sol.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/copy_ways_to_sol.c.s
+.PHONY : src/copy_ways_to_sol.c.s
+
 src/create_best_sol.o: src/create_best_sol.c.o
 
 .PHONY : src/create_best_sol.o
@@ -4199,6 +3551,33 @@ src/create_best_sol.s: src/create_best_sol.c.s
 src/create_best_sol.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/create_best_sol.c.s
 .PHONY : src/create_best_sol.c.s
+
+src/create_ready_way.o: src/create_ready_way.c.o
+
+.PHONY : src/create_ready_way.o
+
+# target to build an object file
+src/create_ready_way.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/create_ready_way.c.o
+.PHONY : src/create_ready_way.c.o
+
+src/create_ready_way.i: src/create_ready_way.c.i
+
+.PHONY : src/create_ready_way.i
+
+# target to preprocess a source file
+src/create_ready_way.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/create_ready_way.c.i
+.PHONY : src/create_ready_way.c.i
+
+src/create_ready_way.s: src/create_ready_way.c.s
+
+.PHONY : src/create_ready_way.s
+
+# target to generate assembly for a file
+src/create_ready_way.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/create_ready_way.c.s
+.PHONY : src/create_ready_way.c.s
 
 src/create_way.o: src/create_way.c.o
 
@@ -4280,6 +3659,33 @@ src/del_sol.s: src/del_sol.c.s
 src/del_sol.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/del_sol.c.s
 .PHONY : src/del_sol.c.s
+
+src/del_way.o: src/del_way.c.o
+
+.PHONY : src/del_way.o
+
+# target to build an object file
+src/del_way.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/del_way.c.o
+.PHONY : src/del_way.c.o
+
+src/del_way.i: src/del_way.c.i
+
+.PHONY : src/del_way.i
+
+# target to preprocess a source file
+src/del_way.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/del_way.c.i
+.PHONY : src/del_way.c.i
+
+src/del_way.s: src/del_way.c.s
+
+.PHONY : src/del_way.s
+
+# target to generate assembly for a file
+src/del_way.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/del_way.c.s
+.PHONY : src/del_way.c.s
 
 src/delete_intersections.o: src/delete_intersections.c.o
 
@@ -4389,32 +3795,32 @@ src/free_all.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/free_all.c.s
 .PHONY : src/free_all.c.s
 
-src/free_r_ways.o: src/free_r_ways.c.o
+src/free_ready_ways.o: src/free_ready_ways.c.o
 
-.PHONY : src/free_r_ways.o
+.PHONY : src/free_ready_ways.o
 
 # target to build an object file
-src/free_r_ways.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/free_r_ways.c.o
-.PHONY : src/free_r_ways.c.o
+src/free_ready_ways.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/free_ready_ways.c.o
+.PHONY : src/free_ready_ways.c.o
 
-src/free_r_ways.i: src/free_r_ways.c.i
+src/free_ready_ways.i: src/free_ready_ways.c.i
 
-.PHONY : src/free_r_ways.i
+.PHONY : src/free_ready_ways.i
 
 # target to preprocess a source file
-src/free_r_ways.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/free_r_ways.c.i
-.PHONY : src/free_r_ways.c.i
+src/free_ready_ways.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/free_ready_ways.c.i
+.PHONY : src/free_ready_ways.c.i
 
-src/free_r_ways.s: src/free_r_ways.c.s
+src/free_ready_ways.s: src/free_ready_ways.c.s
 
-.PHONY : src/free_r_ways.s
+.PHONY : src/free_ready_ways.s
 
 # target to generate assembly for a file
-src/free_r_ways.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/free_r_ways.c.s
-.PHONY : src/free_r_ways.c.s
+src/free_ready_ways.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/free_ready_ways.c.s
+.PHONY : src/free_ready_ways.c.s
 
 src/ft_exit.o: src/ft_exit.c.o
 
@@ -4470,6 +3876,33 @@ src/functions.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/functions.c.s
 .PHONY : src/functions.c.s
 
+src/get_options.o: src/get_options.c.o
+
+.PHONY : src/get_options.o
+
+# target to build an object file
+src/get_options.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/get_options.c.o
+.PHONY : src/get_options.c.o
+
+src/get_options.i: src/get_options.c.i
+
+.PHONY : src/get_options.i
+
+# target to preprocess a source file
+src/get_options.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/get_options.c.i
+.PHONY : src/get_options.c.i
+
+src/get_options.s: src/get_options.c.s
+
+.PHONY : src/get_options.s
+
+# target to generate assembly for a file
+src/get_options.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/get_options.c.s
+.PHONY : src/get_options.c.s
+
 src/initialize_map.o: src/initialize_map.c.o
 
 .PHONY : src/initialize_map.o
@@ -4497,32 +3930,32 @@ src/initialize_map.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/initialize_map.c.s
 .PHONY : src/initialize_map.c.s
 
-src/lem-in.o: src/lem-in.c.o
+src/lemin.o: src/lemin.c.o
 
-.PHONY : src/lem-in.o
+.PHONY : src/lemin.o
 
 # target to build an object file
-src/lem-in.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/lem-in.c.o
-.PHONY : src/lem-in.c.o
+src/lemin.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/lemin.c.o
+.PHONY : src/lemin.c.o
 
-src/lem-in.i: src/lem-in.c.i
+src/lemin.i: src/lemin.c.i
 
-.PHONY : src/lem-in.i
+.PHONY : src/lemin.i
 
 # target to preprocess a source file
-src/lem-in.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/lem-in.c.i
-.PHONY : src/lem-in.c.i
+src/lemin.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/lemin.c.i
+.PHONY : src/lemin.c.i
 
-src/lem-in.s: src/lem-in.c.s
+src/lemin.s: src/lemin.c.s
 
-.PHONY : src/lem-in.s
+.PHONY : src/lemin.s
 
 # target to generate assembly for a file
-src/lem-in.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/lem-in.c.s
-.PHONY : src/lem-in.c.s
+src/lemin.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/lemin.c.s
+.PHONY : src/lemin.c.s
 
 src/links.o: src/links.c.o
 
@@ -4604,6 +4037,33 @@ src/move_ants.s: src/move_ants.c.s
 src/move_ants.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/move_ants.c.s
 .PHONY : src/move_ants.c.s
+
+src/move_ants_help1.o: src/move_ants_help1.c.o
+
+.PHONY : src/move_ants_help1.o
+
+# target to build an object file
+src/move_ants_help1.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/move_ants_help1.c.o
+.PHONY : src/move_ants_help1.c.o
+
+src/move_ants_help1.i: src/move_ants_help1.c.i
+
+.PHONY : src/move_ants_help1.i
+
+# target to preprocess a source file
+src/move_ants_help1.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/move_ants_help1.c.i
+.PHONY : src/move_ants_help1.c.i
+
+src/move_ants_help1.s: src/move_ants_help1.c.s
+
+.PHONY : src/move_ants_help1.s
+
+# target to generate assembly for a file
+src/move_ants_help1.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/move_ants_help1.c.s
+.PHONY : src/move_ants_help1.c.s
 
 src/parse_map_to_struct.o: src/parse_map_to_struct.c.o
 
@@ -4794,87 +4254,6 @@ src/print_matrix.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/print_matrix.c.s
 .PHONY : src/print_matrix.c.s
 
-src/print_name_index.o: src/print_name_index.c.o
-
-.PHONY : src/print_name_index.o
-
-# target to build an object file
-src/print_name_index.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/print_name_index.c.o
-.PHONY : src/print_name_index.c.o
-
-src/print_name_index.i: src/print_name_index.c.i
-
-.PHONY : src/print_name_index.i
-
-# target to preprocess a source file
-src/print_name_index.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/print_name_index.c.i
-.PHONY : src/print_name_index.c.i
-
-src/print_name_index.s: src/print_name_index.c.s
-
-.PHONY : src/print_name_index.s
-
-# target to generate assembly for a file
-src/print_name_index.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/print_name_index.c.s
-.PHONY : src/print_name_index.c.s
-
-src/print_parents.o: src/print_parents.c.o
-
-.PHONY : src/print_parents.o
-
-# target to build an object file
-src/print_parents.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/print_parents.c.o
-.PHONY : src/print_parents.c.o
-
-src/print_parents.i: src/print_parents.c.i
-
-.PHONY : src/print_parents.i
-
-# target to preprocess a source file
-src/print_parents.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/print_parents.c.i
-.PHONY : src/print_parents.c.i
-
-src/print_parents.s: src/print_parents.c.s
-
-.PHONY : src/print_parents.s
-
-# target to generate assembly for a file
-src/print_parents.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/print_parents.c.s
-.PHONY : src/print_parents.c.s
-
-src/print_ready_ways.o: src/print_ready_ways.c.o
-
-.PHONY : src/print_ready_ways.o
-
-# target to build an object file
-src/print_ready_ways.c.o:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/print_ready_ways.c.o
-.PHONY : src/print_ready_ways.c.o
-
-src/print_ready_ways.i: src/print_ready_ways.c.i
-
-.PHONY : src/print_ready_ways.i
-
-# target to preprocess a source file
-src/print_ready_ways.c.i:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/print_ready_ways.c.i
-.PHONY : src/print_ready_ways.c.i
-
-src/print_ready_ways.s: src/print_ready_ways.c.s
-
-.PHONY : src/print_ready_ways.s
-
-# target to generate assembly for a file
-src/print_ready_ways.c.s:
-	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/print_ready_ways.c.s
-.PHONY : src/print_ready_ways.c.s
-
 src/print_shortest_path.o: src/print_shortest_path.c.o
 
 .PHONY : src/print_shortest_path.o
@@ -5037,6 +4416,33 @@ src/rooms.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/rooms.c.s
 .PHONY : src/rooms.c.s
 
+src/set_ways.o: src/set_ways.c.o
+
+.PHONY : src/set_ways.o
+
+# target to build an object file
+src/set_ways.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/set_ways.c.o
+.PHONY : src/set_ways.c.o
+
+src/set_ways.i: src/set_ways.c.i
+
+.PHONY : src/set_ways.i
+
+# target to preprocess a source file
+src/set_ways.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/set_ways.c.i
+.PHONY : src/set_ways.c.i
+
+src/set_ways.s: src/set_ways.c.s
+
+.PHONY : src/set_ways.s
+
+# target to generate assembly for a file
+src/set_ways.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/set_ways.c.s
+.PHONY : src/set_ways.c.s
+
 src/solve_map.o: src/solve_map.c.o
 
 .PHONY : src/solve_map.o
@@ -5064,6 +4470,33 @@ src/solve_map.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/solve_map.c.s
 .PHONY : src/solve_map.c.s
 
+src/solve_map_help1.o: src/solve_map_help1.c.o
+
+.PHONY : src/solve_map_help1.o
+
+# target to build an object file
+src/solve_map_help1.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/solve_map_help1.c.o
+.PHONY : src/solve_map_help1.c.o
+
+src/solve_map_help1.i: src/solve_map_help1.c.i
+
+.PHONY : src/solve_map_help1.i
+
+# target to preprocess a source file
+src/solve_map_help1.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/solve_map_help1.c.i
+.PHONY : src/solve_map_help1.c.i
+
+src/solve_map_help1.s: src/solve_map_help1.c.s
+
+.PHONY : src/solve_map_help1.s
+
+# target to generate assembly for a file
+src/solve_map_help1.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/solve_map_help1.c.s
+.PHONY : src/solve_map_help1.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -5073,18 +4506,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... lemin_final"
-	@echo "... libft/ft_atoi.o"
-	@echo "... libft/ft_atoi.i"
-	@echo "... libft/ft_atoi.s"
 	@echo "... libft/ft_atoi_base.o"
 	@echo "... libft/ft_atoi_base.i"
 	@echo "... libft/ft_atoi_base.s"
 	@echo "... libft/ft_base_len.o"
 	@echo "... libft/ft_base_len.i"
 	@echo "... libft/ft_base_len.s"
-	@echo "... libft/ft_bzero.o"
-	@echo "... libft/ft_bzero.i"
-	@echo "... libft/ft_bzero.s"
 	@echo "... libft/ft_countchar.o"
 	@echo "... libft/ft_countchar.i"
 	@echo "... libft/ft_countchar.s"
@@ -5103,9 +4530,6 @@ help:
 	@echo "... libft/ft_isascii.o"
 	@echo "... libft/ft_isascii.i"
 	@echo "... libft/ft_isascii.s"
-	@echo "... libft/ft_isdigit.o"
-	@echo "... libft/ft_isdigit.i"
-	@echo "... libft/ft_isdigit.s"
 	@echo "... libft/ft_isprint.o"
 	@echo "... libft/ft_isprint.i"
 	@echo "... libft/ft_isprint.s"
@@ -5160,18 +4584,12 @@ help:
 	@echo "... libft/ft_memmove.o"
 	@echo "... libft/ft_memmove.i"
 	@echo "... libft/ft_memmove.s"
-	@echo "... libft/ft_memset.o"
-	@echo "... libft/ft_memset.i"
-	@echo "... libft/ft_memset.s"
 	@echo "... libft/ft_power.o"
 	@echo "... libft/ft_power.i"
 	@echo "... libft/ft_power.s"
 	@echo "... libft/ft_printbits.o"
 	@echo "... libft/ft_printbits.i"
 	@echo "... libft/ft_printbits.s"
-	@echo "... libft/ft_putchar.o"
-	@echo "... libft/ft_putchar.i"
-	@echo "... libft/ft_putchar.s"
 	@echo "... libft/ft_putchar_fd.o"
 	@echo "... libft/ft_putchar_fd.i"
 	@echo "... libft/ft_putchar_fd.s"
@@ -5181,15 +4599,9 @@ help:
 	@echo "... libft/ft_putendl_fd.o"
 	@echo "... libft/ft_putendl_fd.i"
 	@echo "... libft/ft_putendl_fd.s"
-	@echo "... libft/ft_putnbr.o"
-	@echo "... libft/ft_putnbr.i"
-	@echo "... libft/ft_putnbr.s"
 	@echo "... libft/ft_putnbr_fd.o"
 	@echo "... libft/ft_putnbr_fd.i"
 	@echo "... libft/ft_putnbr_fd.s"
-	@echo "... libft/ft_putstr.o"
-	@echo "... libft/ft_putstr.i"
-	@echo "... libft/ft_putstr.s"
 	@echo "... libft/ft_putstr_fd.o"
 	@echo "... libft/ft_putstr_fd.i"
 	@echo "... libft/ft_putstr_fd.s"
@@ -5238,9 +4650,6 @@ help:
 	@echo "... libft/ft_strlcat.o"
 	@echo "... libft/ft_strlcat.i"
 	@echo "... libft/ft_strlcat.s"
-	@echo "... libft/ft_strlen.o"
-	@echo "... libft/ft_strlen.i"
-	@echo "... libft/ft_strlen.s"
 	@echo "... libft/ft_strlenc.o"
 	@echo "... libft/ft_strlenc.i"
 	@echo "... libft/ft_strlenc.s"
@@ -5304,228 +4713,183 @@ help:
 	@echo "... libft/get_next_line.o"
 	@echo "... libft/get_next_line.i"
 	@echo "... libft/get_next_line.s"
-	@echo "... libftprintf/float/ft_addition_num.o"
-	@echo "... libftprintf/float/ft_addition_num.i"
-	@echo "... libftprintf/float/ft_addition_num.s"
-	@echo "... libftprintf/float/ft_conversion_powers.o"
-	@echo "... libftprintf/float/ft_conversion_powers.i"
-	@echo "... libftprintf/float/ft_conversion_powers.s"
-	@echo "... libftprintf/float/ft_create_tieee754.o"
-	@echo "... libftprintf/float/ft_create_tieee754.i"
-	@echo "... libftprintf/float/ft_create_tieee754.s"
-	@echo "... libftprintf/float/ft_create_treal.o"
-	@echo "... libftprintf/float/ft_create_treal.i"
-	@echo "... libftprintf/float/ft_create_treal.s"
-	@echo "... libftprintf/float/ft_delete_tieee754.o"
-	@echo "... libftprintf/float/ft_delete_tieee754.i"
-	@echo "... libftprintf/float/ft_delete_tieee754.s"
-	@echo "... libftprintf/float/ft_delete_treal.o"
-	@echo "... libftprintf/float/ft_delete_treal.i"
-	@echo "... libftprintf/float/ft_delete_treal.s"
-	@echo "... libftprintf/float/ft_get_frac_part.o"
-	@echo "... libftprintf/float/ft_get_frac_part.i"
-	@echo "... libftprintf/float/ft_get_frac_part.s"
-	@echo "... libftprintf/float/ft_get_integer_part.o"
-	@echo "... libftprintf/float/ft_get_integer_part.i"
-	@echo "... libftprintf/float/ft_get_integer_part.s"
-	@echo "... libftprintf/float/ft_get_real_number.o"
-	@echo "... libftprintf/float/ft_get_real_number.i"
-	@echo "... libftprintf/float/ft_get_real_number.s"
-	@echo "... libftprintf/float/ft_move_digit.o"
-	@echo "... libftprintf/float/ft_move_digit.i"
-	@echo "... libftprintf/float/ft_move_digit.s"
-	@echo "... libftprintf/float/ft_normalize_num.o"
-	@echo "... libftprintf/float/ft_normalize_num.i"
-	@echo "... libftprintf/float/ft_normalize_num.s"
-	@echo "... libftprintf/float/ft_parse_double.o"
-	@echo "... libftprintf/float/ft_parse_double.i"
-	@echo "... libftprintf/float/ft_parse_double.s"
-	@echo "... libftprintf/float/ft_parse_float.o"
-	@echo "... libftprintf/float/ft_parse_float.i"
-	@echo "... libftprintf/float/ft_parse_float.s"
-	@echo "... libftprintf/float/ft_parse_ldouble.o"
-	@echo "... libftprintf/float/ft_parse_ldouble.i"
-	@echo "... libftprintf/float/ft_parse_ldouble.s"
-	@echo "... libftprintf/float/ft_parse_parts_ieee754.o"
-	@echo "... libftprintf/float/ft_parse_parts_ieee754.i"
-	@echo "... libftprintf/float/ft_parse_parts_ieee754.s"
-	@echo "... libftprintf/float/ft_parse_power_mantis.o"
-	@echo "... libftprintf/float/ft_parse_power_mantis.i"
-	@echo "... libftprintf/float/ft_parse_power_mantis.s"
-	@echo "... libftprintf/float/ft_print_tparts.o"
-	@echo "... libftprintf/float/ft_print_tparts.i"
-	@echo "... libftprintf/float/ft_print_tparts.s"
-	@echo "... libftprintf/float/ft_print_tpowers.o"
-	@echo "... libftprintf/float/ft_print_tpowers.i"
-	@echo "... libftprintf/float/ft_print_tpowers.s"
-	@echo "... libftprintf/float/ft_rounding_treal.o"
-	@echo "... libftprintf/float/ft_rounding_treal.i"
-	@echo "... libftprintf/float/ft_rounding_treal.s"
-	@echo "... libftprintf/ft_add_full_format_to_buf.o"
-	@echo "... libftprintf/ft_add_full_format_to_buf.i"
-	@echo "... libftprintf/ft_add_full_format_to_buf.s"
-	@echo "... libftprintf/ft_add_num_to_buf.o"
-	@echo "... libftprintf/ft_add_num_to_buf.i"
-	@echo "... libftprintf/ft_add_num_to_buf.s"
-	@echo "... libftprintf/ft_add_real_num_to_buf.o"
-	@echo "... libftprintf/ft_add_real_num_to_buf.i"
-	@echo "... libftprintf/ft_add_real_num_to_buf.s"
-	@echo "... libftprintf/ft_add_sign_to_buf.o"
-	@echo "... libftprintf/ft_add_sign_to_buf.i"
-	@echo "... libftprintf/ft_add_sign_to_buf.s"
-	@echo "... libftprintf/ft_add_space_to_buf.o"
-	@echo "... libftprintf/ft_add_space_to_buf.i"
-	@echo "... libftprintf/ft_add_space_to_buf.s"
-	@echo "... libftprintf/ft_add_str_to_buf.o"
-	@echo "... libftprintf/ft_add_str_to_buf.i"
-	@echo "... libftprintf/ft_add_str_to_buf.s"
-	@echo "... libftprintf/ft_add_strn_to_buf.o"
-	@echo "... libftprintf/ft_add_strn_to_buf.i"
-	@echo "... libftprintf/ft_add_strn_to_buf.s"
-	@echo "... libftprintf/ft_add_to_buf.o"
-	@echo "... libftprintf/ft_add_to_buf.i"
-	@echo "... libftprintf/ft_add_to_buf.s"
-	@echo "... libftprintf/ft_add_zero_to_buf.o"
-	@echo "... libftprintf/ft_add_zero_to_buf.i"
-	@echo "... libftprintf/ft_add_zero_to_buf.s"
-	@echo "... libftprintf/ft_calculate_precision.o"
-	@echo "... libftprintf/ft_calculate_precision.i"
-	@echo "... libftprintf/ft_calculate_precision.s"
-	@echo "... libftprintf/ft_calculate_width.o"
-	@echo "... libftprintf/ft_calculate_width.i"
-	@echo "... libftprintf/ft_calculate_width.s"
-	@echo "... libftprintf/ft_format.o"
-	@echo "... libftprintf/ft_format.i"
-	@echo "... libftprintf/ft_format.s"
-	@echo "... libftprintf/ft_format_b.o"
-	@echo "... libftprintf/ft_format_b.i"
-	@echo "... libftprintf/ft_format_b.s"
-	@echo "... libftprintf/ft_format_basic.o"
-	@echo "... libftprintf/ft_format_basic.i"
-	@echo "... libftprintf/ft_format_basic.s"
-	@echo "... libftprintf/ft_format_c.o"
-	@echo "... libftprintf/ft_format_c.i"
-	@echo "... libftprintf/ft_format_c.s"
-	@echo "... libftprintf/ft_format_d.o"
-	@echo "... libftprintf/ft_format_d.i"
-	@echo "... libftprintf/ft_format_d.s"
-	@echo "... libftprintf/ft_format_f.o"
-	@echo "... libftprintf/ft_format_f.i"
-	@echo "... libftprintf/ft_format_f.s"
-	@echo "... libftprintf/ft_format_o.o"
-	@echo "... libftprintf/ft_format_o.i"
-	@echo "... libftprintf/ft_format_o.s"
-	@echo "... libftprintf/ft_format_p.o"
-	@echo "... libftprintf/ft_format_p.i"
-	@echo "... libftprintf/ft_format_p.s"
-	@echo "... libftprintf/ft_format_s.o"
-	@echo "... libftprintf/ft_format_s.i"
-	@echo "... libftprintf/ft_format_s.s"
-	@echo "... libftprintf/ft_format_specifer.o"
-	@echo "... libftprintf/ft_format_specifer.i"
-	@echo "... libftprintf/ft_format_specifer.s"
-	@echo "... libftprintf/ft_format_u.o"
-	@echo "... libftprintf/ft_format_u.i"
-	@echo "... libftprintf/ft_format_u.s"
-	@echo "... libftprintf/ft_format_x.o"
-	@echo "... libftprintf/ft_format_x.i"
-	@echo "... libftprintf/ft_format_x.s"
-	@echo "... libftprintf/ft_get_t_real.o"
-	@echo "... libftprintf/ft_get_t_real.i"
-	@echo "... libftprintf/ft_get_t_real.s"
-	@echo "... libftprintf/ft_handling.o"
-	@echo "... libftprintf/ft_handling.i"
-	@echo "... libftprintf/ft_handling.s"
-	@echo "... libftprintf/ft_is_specifer.o"
-	@echo "... libftprintf/ft_is_specifer.i"
-	@echo "... libftprintf/ft_is_specifer.s"
-	@echo "... libftprintf/ft_parse.o"
-	@echo "... libftprintf/ft_parse.i"
-	@echo "... libftprintf/ft_parse.s"
-	@echo "... libftprintf/ft_parse_flags.o"
-	@echo "... libftprintf/ft_parse_flags.i"
-	@echo "... libftprintf/ft_parse_flags.s"
-	@echo "... libftprintf/ft_parse_precision.o"
-	@echo "... libftprintf/ft_parse_precision.i"
-	@echo "... libftprintf/ft_parse_precision.s"
-	@echo "... libftprintf/ft_parse_print.o"
-	@echo "... libftprintf/ft_parse_print.i"
-	@echo "... libftprintf/ft_parse_print.s"
-	@echo "... libftprintf/ft_parse_size.o"
-	@echo "... libftprintf/ft_parse_size.i"
-	@echo "... libftprintf/ft_parse_size.s"
-	@echo "... libftprintf/ft_parse_types.o"
-	@echo "... libftprintf/ft_parse_types.i"
-	@echo "... libftprintf/ft_parse_types.s"
-	@echo "... libftprintf/ft_parse_width.o"
-	@echo "... libftprintf/ft_parse_width.i"
-	@echo "... libftprintf/ft_parse_width.s"
-	@echo "... libftprintf/ft_printf.o"
-	@echo "... libftprintf/ft_printf.i"
-	@echo "... libftprintf/ft_printf.s"
-	@echo "... libftprintf/ft_skip_undefined_behavior.o"
-	@echo "... libftprintf/ft_skip_undefined_behavior.i"
-	@echo "... libftprintf/ft_skip_undefined_behavior.s"
-	@echo "... libftprintf/ft_varg_c.o"
-	@echo "... libftprintf/ft_varg_c.i"
-	@echo "... libftprintf/ft_varg_c.s"
-	@echo "... libftprintf/ft_varg_i.o"
-	@echo "... libftprintf/ft_varg_i.i"
-	@echo "... libftprintf/ft_varg_i.s"
-	@echo "... libftprintf/ft_varg_l.o"
-	@echo "... libftprintf/ft_varg_l.i"
-	@echo "... libftprintf/ft_varg_l.s"
-	@echo "... libftprintf/ft_varg_ll.o"
-	@echo "... libftprintf/ft_varg_ll.i"
-	@echo "... libftprintf/ft_varg_ll.s"
-	@echo "... libftprintf/ft_varg_s.o"
-	@echo "... libftprintf/ft_varg_s.i"
-	@echo "... libftprintf/ft_varg_s.s"
-	@echo "... libftprintf/ft_varg_u.o"
-	@echo "... libftprintf/ft_varg_u.i"
-	@echo "... libftprintf/ft_varg_u.s"
-	@echo "... libftprintf/ft_varg_uc.o"
-	@echo "... libftprintf/ft_varg_uc.i"
-	@echo "... libftprintf/ft_varg_uc.s"
-	@echo "... libftprintf/ft_varg_ul.o"
-	@echo "... libftprintf/ft_varg_ul.i"
-	@echo "... libftprintf/ft_varg_ul.s"
-	@echo "... libftprintf/ft_varg_ull.o"
-	@echo "... libftprintf/ft_varg_ull.i"
-	@echo "... libftprintf/ft_varg_ull.s"
-	@echo "... libftprintf/ft_varg_us.o"
-	@echo "... libftprintf/ft_varg_us.i"
-	@echo "... libftprintf/ft_varg_us.s"
-	@echo "... libftprintf/ft_write_buf.o"
-	@echo "... libftprintf/ft_write_buf.i"
-	@echo "... libftprintf/ft_write_buf.s"
+	@echo "... libftprintf/srcs/add_zeroes.o"
+	@echo "... libftprintf/srcs/add_zeroes.i"
+	@echo "... libftprintf/srcs/add_zeroes.s"
+	@echo "... libftprintf/srcs/check_if_need_zeroes.o"
+	@echo "... libftprintf/srcs/check_if_need_zeroes.i"
+	@echo "... libftprintf/srcs/check_if_need_zeroes.s"
+	@echo "... libftprintf/srcs/clean.o"
+	@echo "... libftprintf/srcs/clean.i"
+	@echo "... libftprintf/srcs/clean.s"
+	@echo "... libftprintf/srcs/extract_float.o"
+	@echo "... libftprintf/srcs/extract_float.i"
+	@echo "... libftprintf/srcs/extract_float.s"
+	@echo "... libftprintf/srcs/format_output.o"
+	@echo "... libftprintf/srcs/format_output.i"
+	@echo "... libftprintf/srcs/format_output.s"
+	@echo "... libftprintf/srcs/ft_atoi.o"
+	@echo "... libftprintf/srcs/ft_atoi.i"
+	@echo "... libftprintf/srcs/ft_atoi.s"
+	@echo "... libftprintf/srcs/ft_bzero.o"
+	@echo "... libftprintf/srcs/ft_bzero.i"
+	@echo "... libftprintf/srcs/ft_bzero.s"
+	@echo "... libftprintf/srcs/ft_isblank.o"
+	@echo "... libftprintf/srcs/ft_isblank.i"
+	@echo "... libftprintf/srcs/ft_isblank.s"
+	@echo "... libftprintf/srcs/ft_isdigit.o"
+	@echo "... libftprintf/srcs/ft_isdigit.i"
+	@echo "... libftprintf/srcs/ft_isdigit.s"
+	@echo "... libftprintf/srcs/ft_memset.o"
+	@echo "... libftprintf/srcs/ft_memset.i"
+	@echo "... libftprintf/srcs/ft_memset.s"
+	@echo "... libftprintf/srcs/ft_print_zero_o.o"
+	@echo "... libftprintf/srcs/ft_print_zero_o.i"
+	@echo "... libftprintf/srcs/ft_print_zero_o.s"
+	@echo "... libftprintf/srcs/ft_printf.o"
+	@echo "... libftprintf/srcs/ft_printf.i"
+	@echo "... libftprintf/srcs/ft_printf.s"
+	@echo "... libftprintf/srcs/ft_putchar.o"
+	@echo "... libftprintf/srcs/ft_putchar.i"
+	@echo "... libftprintf/srcs/ft_putchar.s"
+	@echo "... libftprintf/srcs/ft_putnbr.o"
+	@echo "... libftprintf/srcs/ft_putnbr.i"
+	@echo "... libftprintf/srcs/ft_putnbr.s"
+	@echo "... libftprintf/srcs/ft_putstr.o"
+	@echo "... libftprintf/srcs/ft_putstr.i"
+	@echo "... libftprintf/srcs/ft_putstr.s"
+	@echo "... libftprintf/srcs/ft_strlen.o"
+	@echo "... libftprintf/srcs/ft_strlen.i"
+	@echo "... libftprintf/srcs/ft_strlen.s"
+	@echo "... libftprintf/srcs/get_len_float.o"
+	@echo "... libftprintf/srcs/get_len_float.i"
+	@echo "... libftprintf/srcs/get_len_float.s"
+	@echo "... libftprintf/srcs/get_num_type.o"
+	@echo "... libftprintf/srcs/get_num_type.i"
+	@echo "... libftprintf/srcs/get_num_type.s"
+	@echo "... libftprintf/srcs/handle_float.o"
+	@echo "... libftprintf/srcs/handle_float.i"
+	@echo "... libftprintf/srcs/handle_float.s"
+	@echo "... libftprintf/srcs/handle_fractional.o"
+	@echo "... libftprintf/srcs/handle_fractional.i"
+	@echo "... libftprintf/srcs/handle_fractional.s"
+	@echo "... libftprintf/srcs/handle_whole.o"
+	@echo "... libftprintf/srcs/handle_whole.i"
+	@echo "... libftprintf/srcs/handle_whole.s"
+	@echo "... libftprintf/srcs/len_num_base.o"
+	@echo "... libftprintf/srcs/len_num_base.i"
+	@echo "... libftprintf/srcs/len_num_base.s"
+	@echo "... libftprintf/srcs/nbr_has_frac_part.o"
+	@echo "... libftprintf/srcs/nbr_has_frac_part.i"
+	@echo "... libftprintf/srcs/nbr_has_frac_part.s"
+	@echo "... libftprintf/srcs/nbr_has_whole_part.o"
+	@echo "... libftprintf/srcs/nbr_has_whole_part.i"
+	@echo "... libftprintf/srcs/nbr_has_whole_part.s"
+	@echo "... libftprintf/srcs/normalise_frac.o"
+	@echo "... libftprintf/srcs/normalise_frac.i"
+	@echo "... libftprintf/srcs/normalise_frac.s"
+	@echo "... libftprintf/srcs/normalise_whole.o"
+	@echo "... libftprintf/srcs/normalise_whole.i"
+	@echo "... libftprintf/srcs/normalise_whole.s"
+	@echo "... libftprintf/srcs/output_float.o"
+	@echo "... libftprintf/srcs/output_float.i"
+	@echo "... libftprintf/srcs/output_float.s"
+	@echo "... libftprintf/srcs/parse.o"
+	@echo "... libftprintf/srcs/parse.i"
+	@echo "... libftprintf/srcs/parse.s"
+	@echo "... libftprintf/srcs/parse_flags.o"
+	@echo "... libftprintf/srcs/parse_flags.i"
+	@echo "... libftprintf/srcs/parse_flags.s"
+	@echo "... libftprintf/srcs/parse_prec.o"
+	@echo "... libftprintf/srcs/parse_prec.i"
+	@echo "... libftprintf/srcs/parse_prec.s"
+	@echo "... libftprintf/srcs/parse_size.o"
+	@echo "... libftprintf/srcs/parse_size.i"
+	@echo "... libftprintf/srcs/parse_size.s"
+	@echo "... libftprintf/srcs/parse_type.o"
+	@echo "... libftprintf/srcs/parse_type.i"
+	@echo "... libftprintf/srcs/parse_type.s"
+	@echo "... libftprintf/srcs/parse_width.o"
+	@echo "... libftprintf/srcs/parse_width.i"
+	@echo "... libftprintf/srcs/parse_width.s"
+	@echo "... libftprintf/srcs/print.o"
+	@echo "... libftprintf/srcs/print.i"
+	@echo "... libftprintf/srcs/print.s"
+	@echo "... libftprintf/srcs/print_binary.o"
+	@echo "... libftprintf/srcs/print_binary.i"
+	@echo "... libftprintf/srcs/print_binary.s"
+	@echo "... libftprintf/srcs/print_c.o"
+	@echo "... libftprintf/srcs/print_c.i"
+	@echo "... libftprintf/srcs/print_c.s"
+	@echo "... libftprintf/srcs/print_d.o"
+	@echo "... libftprintf/srcs/print_d.i"
+	@echo "... libftprintf/srcs/print_d.s"
+	@echo "... libftprintf/srcs/print_o.o"
+	@echo "... libftprintf/srcs/print_o.i"
+	@echo "... libftprintf/srcs/print_o.s"
+	@echo "... libftprintf/srcs/print_p.o"
+	@echo "... libftprintf/srcs/print_p.i"
+	@echo "... libftprintf/srcs/print_p.s"
+	@echo "... libftprintf/srcs/print_percentage.o"
+	@echo "... libftprintf/srcs/print_percentage.i"
+	@echo "... libftprintf/srcs/print_percentage.s"
+	@echo "... libftprintf/srcs/print_s.o"
+	@echo "... libftprintf/srcs/print_s.i"
+	@echo "... libftprintf/srcs/print_s.s"
+	@echo "... libftprintf/srcs/print_space.o"
+	@echo "... libftprintf/srcs/print_space.i"
+	@echo "... libftprintf/srcs/print_space.s"
+	@echo "... libftprintf/srcs/print_space_o.o"
+	@echo "... libftprintf/srcs/print_space_o.i"
+	@echo "... libftprintf/srcs/print_space_o.s"
+	@echo "... libftprintf/srcs/print_u.o"
+	@echo "... libftprintf/srcs/print_u.i"
+	@echo "... libftprintf/srcs/print_u.s"
+	@echo "... libftprintf/srcs/print_x.o"
+	@echo "... libftprintf/srcs/print_x.i"
+	@echo "... libftprintf/srcs/print_x.s"
+	@echo "... libftprintf/srcs/print_zero.o"
+	@echo "... libftprintf/srcs/print_zero.i"
+	@echo "... libftprintf/srcs/print_zero.s"
+	@echo "... libftprintf/srcs/putnbr_base.o"
+	@echo "... libftprintf/srcs/putnbr_base.i"
+	@echo "... libftprintf/srcs/putnbr_base.s"
+	@echo "... libftprintf/srcs/putnbr_float.o"
+	@echo "... libftprintf/srcs/putnbr_float.i"
+	@echo "... libftprintf/srcs/putnbr_float.s"
+	@echo "... libftprintf/srcs/round_float.o"
+	@echo "... libftprintf/srcs/round_float.i"
+	@echo "... libftprintf/srcs/round_float.s"
+	@echo "... libftprintf/srcs/sum_arr.o"
+	@echo "... libftprintf/srcs/sum_arr.i"
+	@echo "... libftprintf/srcs/sum_arr.s"
 	@echo "... src/add_one_way.o"
 	@echo "... src/add_one_way.i"
 	@echo "... src/add_one_way.s"
+	@echo "... src/add_to_ready_way.o"
+	@echo "... src/add_to_ready_way.i"
+	@echo "... src/add_to_ready_way.s"
 	@echo "... src/add_to_way.o"
 	@echo "... src/add_to_way.i"
 	@echo "... src/add_to_way.s"
-	@echo "... src/add_ways_to_graph.o"
-	@echo "... src/add_ways_to_graph.i"
-	@echo "... src/add_ways_to_graph.s"
 	@echo "... src/ants.o"
 	@echo "... src/ants.i"
 	@echo "... src/ants.s"
-	@echo "... src/bfs.o"
-	@echo "... src/bfs.i"
-	@echo "... src/bfs.s"
-	@echo "... src/bfs_2.o"
-	@echo "... src/bfs_2.i"
-	@echo "... src/bfs_2.s"
 	@echo "... src/bfs_adj_list.o"
 	@echo "... src/bfs_adj_list.i"
 	@echo "... src/bfs_adj_list.s"
 	@echo "... src/connectivity_matrix.o"
 	@echo "... src/connectivity_matrix.i"
 	@echo "... src/connectivity_matrix.s"
+	@echo "... src/copy_ways_to_sol.o"
+	@echo "... src/copy_ways_to_sol.i"
+	@echo "... src/copy_ways_to_sol.s"
 	@echo "... src/create_best_sol.o"
 	@echo "... src/create_best_sol.i"
 	@echo "... src/create_best_sol.s"
+	@echo "... src/create_ready_way.o"
+	@echo "... src/create_ready_way.i"
+	@echo "... src/create_ready_way.s"
 	@echo "... src/create_way.o"
 	@echo "... src/create_way.i"
 	@echo "... src/create_way.s"
@@ -5535,6 +4899,9 @@ help:
 	@echo "... src/del_sol.o"
 	@echo "... src/del_sol.i"
 	@echo "... src/del_sol.s"
+	@echo "... src/del_way.o"
+	@echo "... src/del_way.i"
+	@echo "... src/del_way.s"
 	@echo "... src/delete_intersections.o"
 	@echo "... src/delete_intersections.i"
 	@echo "... src/delete_intersections.s"
@@ -5547,21 +4914,24 @@ help:
 	@echo "... src/free_all.o"
 	@echo "... src/free_all.i"
 	@echo "... src/free_all.s"
-	@echo "... src/free_r_ways.o"
-	@echo "... src/free_r_ways.i"
-	@echo "... src/free_r_ways.s"
+	@echo "... src/free_ready_ways.o"
+	@echo "... src/free_ready_ways.i"
+	@echo "... src/free_ready_ways.s"
 	@echo "... src/ft_exit.o"
 	@echo "... src/ft_exit.i"
 	@echo "... src/ft_exit.s"
 	@echo "... src/functions.o"
 	@echo "... src/functions.i"
 	@echo "... src/functions.s"
+	@echo "... src/get_options.o"
+	@echo "... src/get_options.i"
+	@echo "... src/get_options.s"
 	@echo "... src/initialize_map.o"
 	@echo "... src/initialize_map.i"
 	@echo "... src/initialize_map.s"
-	@echo "... src/lem-in.o"
-	@echo "... src/lem-in.i"
-	@echo "... src/lem-in.s"
+	@echo "... src/lemin.o"
+	@echo "... src/lemin.i"
+	@echo "... src/lemin.s"
 	@echo "... src/links.o"
 	@echo "... src/links.i"
 	@echo "... src/links.s"
@@ -5571,6 +4941,9 @@ help:
 	@echo "... src/move_ants.o"
 	@echo "... src/move_ants.i"
 	@echo "... src/move_ants.s"
+	@echo "... src/move_ants_help1.o"
+	@echo "... src/move_ants_help1.i"
+	@echo "... src/move_ants_help1.s"
 	@echo "... src/parse_map_to_struct.o"
 	@echo "... src/parse_map_to_struct.i"
 	@echo "... src/parse_map_to_struct.s"
@@ -5592,15 +4965,6 @@ help:
 	@echo "... src/print_matrix.o"
 	@echo "... src/print_matrix.i"
 	@echo "... src/print_matrix.s"
-	@echo "... src/print_name_index.o"
-	@echo "... src/print_name_index.i"
-	@echo "... src/print_name_index.s"
-	@echo "... src/print_parents.o"
-	@echo "... src/print_parents.i"
-	@echo "... src/print_parents.s"
-	@echo "... src/print_ready_ways.o"
-	@echo "... src/print_ready_ways.i"
-	@echo "... src/print_ready_ways.s"
 	@echo "... src/print_shortest_path.o"
 	@echo "... src/print_shortest_path.i"
 	@echo "... src/print_shortest_path.s"
@@ -5619,9 +4983,15 @@ help:
 	@echo "... src/rooms.o"
 	@echo "... src/rooms.i"
 	@echo "... src/rooms.s"
+	@echo "... src/set_ways.o"
+	@echo "... src/set_ways.i"
+	@echo "... src/set_ways.s"
 	@echo "... src/solve_map.o"
 	@echo "... src/solve_map.i"
 	@echo "... src/solve_map.s"
+	@echo "... src/solve_map_help1.o"
+	@echo "... src/solve_map_help1.i"
+	@echo "... src/solve_map_help1.s"
 .PHONY : help
 
 

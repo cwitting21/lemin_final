@@ -12,6 +12,20 @@
 
 #include "lemin.h"
 
+void		free_rooms(char **array, t_map *map)
+{
+	int		i;
+
+	i = 0;
+	if (array[0] == NULL)
+		array[0] = ft_strnew(1);
+	while (array[i])
+		(array[i]) ? free(array[i++]) : 0;
+	if (array && *array)
+		free(array);
+	array = NULL;
+}
+
 void		initialize_map(t_map *map)
 {
 	if (!(map->val = (t_valid*)ft_memalloc(sizeof(t_valid))))
@@ -68,8 +82,8 @@ void		free_map(t_map *map, int code)
 	free(map->in->rooms_list);
 	if (map->val->init_2)
 	{
+		free_rooms(map->rooms, map);
 		free(map->way);
-		free_array(map->rooms, map, 0);
 		i = -1;
 		while (++i < map->rooms_count)
 			free(map->matrix[i]);
