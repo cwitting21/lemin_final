@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/17 03:11:45 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 20:52:13 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 08:54:17 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,26 +15,16 @@
 void				print_name_index(t_map *map)
 {
 	int				i;
-	t_al_node	*tmp;
+	int				c;
+	t_al_node		*tmp;
 
 	i = -1;
-	printf("\n");
-	printf("--------------------\n");
-	printf("\n");
-	printf("      MAP ROOMS\n");
-	printf("\n");
+	c = 0;
+	ft_printf("\n--------------------\n\n      MAP ROOMS\n\n");
 	while (++i < map->rooms_count)
-	{
-		printf("name = %s  ...  ", map->rooms[i]);
-		printf("i = %d\n", i);
-	}
-	printf("\n");
-	printf("--------------------\n");
-	printf("\n");
-	printf("      MAP WAYS\n");
-	printf("\n");
+		ft_printf("name = %s  ...  i = %d\n", map->rooms[i], i);
+	ft_printf("\n--------------------\n\n      MAP WAYS\n\n");
 	i = -1;
-	int c = 0;
 	while (++i < map->rooms_count)
 	{
 		tmp = map->ways[0].way[i].head;
@@ -46,13 +36,10 @@ void				print_name_index(t_map *map)
 			tmp = tmp->next;
 			if (!tmp)
 			{
-				printf("  ...  i = %d", i);
+				printf("  ...  i = %d\n", i);
 				c++;
-				printf("\n");
 			}
 		}
 	}
-	printf("\n");
-	printf("%d Lines\n", c);
-	printf("--------------------\n");
+	printf("\n%d Lines\n--------------------\n", c);
 }

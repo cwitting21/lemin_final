@@ -6,16 +6,16 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/17 01:09:16 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 20:52:13 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 08:38:25 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-void				print_way(t_map *map, int way_i)
+void			print_way(t_map *map, int way_i)
 {
-	int 			k;
-	int 			i;
+	int			k;
+	int			i;
 	t_al_node	*tmp;
 
 	k = -1;

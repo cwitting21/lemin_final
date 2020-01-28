@@ -6,19 +6,20 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 19:11:09 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 20:52:13 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 08:55:31 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-void		print_graph(t_map *map)
+void			print_graph(t_map *map)
 {
-	int			i = -1;
+	int			i;
 	t_al_node	*tmp;
 	t_al_node	*tmp2;
 
-	printf("\n\nGRAPH\n\n");
+	i = -1;
+	ft_printf("\n\nGRAPH\n\n");
 	while (++i < map->rooms_count)
 	{
 		tmp = map->graph[i].head;

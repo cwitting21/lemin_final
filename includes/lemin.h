@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/07 18:01:58 by fculator          #+#    #+#             */
-/*   Updated: 2020/01/27 23:28:40 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 10:09:40 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -179,6 +179,6 @@ t_al			*create_ready_way(t_map *map);
 void			add_to_ready_way(t_map *map, int to, int from, int way_i);
 void			del_way(t_map *map, int *i);
 void			set_ways(int *ants_way, t_solution sol, int size);
-
+void			copy_ways_to_sol(t_solution *sol, t_map *map);
 
 # endif

@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/26 23:15:43 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 21:22:51 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 08:59:47 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,31 +14,29 @@
 
 void				print_solution(t_solution sol, t_map *map)
 {
-	int				i = -1;
-	int				k;
-	int				c;
+	int				i[3];
 	t_al_node		*tmp;
 
+	i[0] = -1;
 	printf("\n-----------------SOLUTION-------------------------\n");
-	while (++i < sol.amount_ways)
+	while (++i[0] < sol.amount_ways)
 	{
-		k = -1;
-		c = 0;
-		printf("\nWAY[%d]\n\n", i);
-		while (++k < map->rooms_count)
+		i[1] = -1;
+		i[2] = 0;
+		printf("\nWAY[%d]\n\n", i[0]);
+		while (++i[1] < map->rooms_count)
 		{
-			tmp = sol.rw[i].way[k].head;
+			tmp = sol.rw[i[0]].way[i[1]].head;
 			if (tmp && tmp->data)
 			{
-				printf("[%s] :", map->rooms[k]);
-				printf(" %s ", map->rooms[tmp->data]);
+				printf("[%s] : %s ", map->rooms[i[1]], map->rooms[tmp->data]);
 				tmp = tmp->next;
-				c++;
+				i[2]++;
 				if (!tmp)
 					printf("\n");
 			}
 		}
-		printf("---%d lines---\n", c);
-		printf("%d ants\n", sol.rw[i].amount_ants);
+		printf("---%d lines---\n", i[2]);
+		printf("%d ants\n", sol.rw[i[0]].amount_ants);
 	}
 }
