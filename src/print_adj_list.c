@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/28 08:54:52 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/28 11:51:16 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 13:29:11 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,10 @@
 
 void		print_adj_list(t_map *map)
 {
-	int			i = -1;
+	int			i;
 	t_al_node	*tmp;
 
+	i = -1;
 	ft_printf("ADJ LIST\n\n");
 	while (++i < map->rooms_count)
 	{

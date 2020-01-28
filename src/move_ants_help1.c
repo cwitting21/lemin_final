@@ -6,16 +6,16 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/28 12:53:02 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/28 12:55:46 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 14:44:48 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-int		get_amount_of_avail_ways(t_solution sol)
+int			get_amount_of_avail_ways(t_solution sol)
 {
-	int			i;
-	int			av_ways;
+	int		i;
+	int		av_ways;
 
 	i = -1;
 	av_ways = 0;
@@ -33,12 +33,13 @@ int		get_amount_of_avail_ways(t_solution sol)
 void		adjust_ants_n_and_print_nl(int *ants_n, t_solution sol,
 											t_map *map, t_ants a)
 {
-	ft_printf("\n");
+	// ft_printf("\n");
+	map->lines_count++;
 	*ants_n += get_amount_of_avail_ways(sol);
 	*ants_n -= get_ants_n_in_end(a.ants_room, map->ants, map->rooms_count - 1);
 }
 
-int		all_ants_in_end(int *ants_room, int size, int end_index)
+int			all_ants_in_end(int *ants_room, int size, int end_index)
 {
 	int		i;
 
@@ -51,7 +52,7 @@ int		all_ants_in_end(int *ants_room, int size, int end_index)
 	return (1);
 }
 
-int		get_ants_n_in_end(int *ants_room, int size, int end_index)
+int			get_ants_n_in_end(int *ants_room, int size, int end_index)
 {
 	int		i;
 	int		count;

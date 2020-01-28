@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 17:41:25 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/28 12:57:01 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 14:44:45 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,8 +36,10 @@ static void		malloc_stuff_and_set_ways(t_ants *a, t_map *map, t_solution sol,
 	set_ways(a->ants_way, sol, map->ants);
 }
 
-static void		del_stuff(t_ants a)
+static void		del_stuff(t_ants a, int lines, int code)
 {
+	if (code == 1)
+		printf("---- %d lines ----\n", lines);
 	ft_memdel((void**)&a.ants_room);
 	ft_memdel((void**)&a.ants_way);
 	ft_memdel((void**)&a.occ_room);
@@ -68,12 +70,12 @@ void			move_ants(t_solution s, t_map *map)
 				a.occ_room[a.ants_room[j]] = 0;
 				a.ants_room[j] =
 							s.rw[a.ants_way[j]].way[a.ants_room[j]].head->data;
-				ft_printf("L%d-%s ", j + 1, map->rooms[a.ants_room[j]]);
+				// ft_printf("L%d-%s ", j + 1, map->rooms[a.ants_room[j]]);
 				if (a.ants_room[j] != map->rooms_count - 1)
 					a.occ_room[a.ants_room[j]] = 1;
 			}
 		}
 		adjust_ants_n_and_print_nl(&ants_n, s, map, a);
 	}
-	del_stuff(a);
+	del_stuff(a, map->lines_count, map->options[0]);
 }

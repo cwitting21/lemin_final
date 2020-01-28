@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/07 18:01:58 by fculator          #+#    #+#             */
-/*   Updated: 2020/01/28 12:56:02 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 14:39:01 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,6 +78,8 @@ typedef struct	s_ways
 **	graph - adjacency list. end graph
 **	ways - stores all found ways
 **	r_ways - ready ways
+**	options[0] - number of lines
+**	options[1] - adjacency list
 */
 
 typedef struct	s_map
@@ -86,6 +88,8 @@ typedef struct	s_map
 	int			rooms_count;
 	int			ants;
 	int			curr_room;
+	int			options[2];
+	int			lines_count;
 	int			w_ind;
 	int			*way;
 	int			**matrix;
@@ -187,8 +191,9 @@ void			set_ways(int *ants_way, t_solution sol, int size);
 void			copy_ways_to_sol(t_solution *sol, t_map *map);
 int				get_ants_n_in_end(int *ants_room, int size, int end_index);
 int				all_ants_in_end(int *ants_room, int size, int end_index);
-void			adjust_ants_n_and_print_nl(int *ants_n, t_solution sol, t_map *map,
-																			t_ants a);
+void			adjust_ants_n_and_print_nl(int *ants_n, t_solution sol,
+													t_map *map, t_ants a);
 int				get_amount_of_avail_ways(t_solution sol);
+void			get_options(t_map *map, int ac, char **av);
 
 #endif
