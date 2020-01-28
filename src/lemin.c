@@ -12,8 +12,6 @@
 
 #include "lemin.h"
 
-// RESTRUCTURE CODE MINDING ALL POSSIBLE ERRORS (malloc, ...)
-
 int		main(int ac, char **av)
 {
 	t_map	*map;
@@ -27,7 +25,7 @@ int		main(int ac, char **av)
 		get_options(map, ac, av);
 	check_coord(map);
 	room_table(map);
-	connectivity_matrix(map); // adj matrix created here?
+	connectivity_matrix(map);
 	part_validation_map(map);
 	matrix_to_adj_list(map);
 	print_map(map);

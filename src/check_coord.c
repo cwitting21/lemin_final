@@ -17,7 +17,7 @@ void	check_coord(t_map *map)
 	int		i;
 	char	**line;
 	char	**r;
-	int 	j;
+	int		j;
 	int		arr[map->rooms_count][map->rooms_count];
 
 	i = -1;

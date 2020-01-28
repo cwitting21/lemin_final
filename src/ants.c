@@ -16,7 +16,7 @@ void	ants(t_map *map, char *line)
 {
 	int			i;
 	char		*str;
-	long long 	d;
+	long long	d;
 
 	i = 0;
 	map->val->part = 1;

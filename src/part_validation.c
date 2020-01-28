@@ -12,14 +12,18 @@
 
 #include "lemin.h"
 
-int		start = 0;
-int		end = 0;
+int		g_start = 0;
+int		g_end = 0;
 
-void	check_links_start_end(t_map *map)
+void		check_links_start_end(t_map *map)
 {
-	int i = -1;
-	int code_s = 0;
-	int code_e = 0;
+	int		i;
+	int		code_e;
+	int		code_s;
+
+	i = -1;
+	code_s = 0;
+	code_e = 0;
 	while (++i < map->rooms_count)
 	{
 		if (map->matrix[0][i] == 1)
@@ -34,9 +38,9 @@ void	check_links_start_end(t_map *map)
 void		start_end_val(char **r)
 {
 	if (ft_strcmp(r[0], "##start") == 0)
-		start++;
+		g_start++;
 	if (ft_strcmp(r[0], "##end") == 0)
-		end++;
+		g_end++;
 }
 
 void		part_validation_map(t_map *map)
@@ -44,7 +48,6 @@ void		part_validation_map(t_map *map)
 	int		i;
 	char	**line;
 	char	**r;
-	// char	**arr;
 
 	i = -1;
 	line = ft_strsplit(map->in->rooms_list, '\n');
@@ -54,7 +57,7 @@ void		part_validation_map(t_map *map)
 		start_end_val(r);
 		free_array(r, map, 0);
 	}
-	if (start > 1 || end > 1 || !start || !end)
+	if (g_start > 1 || g_end > 1 || !g_start || !g_end)
 		free_array(line, map, 1);
 	free_array(line, map, 0);
 	part_validation_map_2(map);
@@ -65,7 +68,7 @@ void		part_validation_map_2(t_map *map)
 {
 	int		i;
 	int		start;
-	int 	end;
+	int		end;
 
 	i = -1;
 	start = 0;
@@ -74,7 +77,7 @@ void		part_validation_map_2(t_map *map)
 	{
 		if (map->matrix[0][i] == 1)
 			start++;
-		if (map->matrix[map->rooms_count -1][i] == 1)
+		if (map->matrix[map->rooms_count - 1][i] == 1)
 			end++;
 	}
 	if (start == 0 || end == 0)
