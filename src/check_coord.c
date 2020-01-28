@@ -34,11 +34,10 @@ void	check_coord(t_map *map)
 		free_array(r, map, 0);
 	}
 	i = -1;
-	while (++i < map->rooms_count)
-	{
-		j = i - 1;
+	while (++i < map->rooms_count) {
+		j = i;
 		while (++j < map->rooms_count)
-			if (arr[i][i] == arr[i][j])
+			if (arr[i][0] == arr[j][0] && arr[i][1] == arr[j][1])
 				free_map(map, 1);
 	}
 }

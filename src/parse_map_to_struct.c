@@ -16,8 +16,8 @@ void	parse_map_to_struct(t_map *map)
 {
 	char	*line;
 
-	//  int fd = open("../maps/invalid/no_start", O_RDONLY);
-	while (get_next_line(0, &line) > 0)
+	int fd = open("../maps/test1", O_RDONLY);
+	while (get_next_line(fd, &line) > 0)
 	{
 		if (map->ants == 0)
 			ants(map, line);
