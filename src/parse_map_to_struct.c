@@ -16,7 +16,7 @@ void	parse_map_to_struct(t_map *map)
 {
 	char	*line;
 
-	 int fd = open("../maps/invalid/no_start", O_RDONLY);
+	 int fd = open("../maps/invalid/tube_has_space", O_RDONLY);
 	while (get_next_line(fd, &line) > 0)
 	{
 		if (map->ants == 0)

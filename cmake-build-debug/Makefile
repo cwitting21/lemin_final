@@ -3471,6 +3471,33 @@ src/bfs_adj_list.c.s:
 	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/bfs_adj_list.c.s
 .PHONY : src/bfs_adj_list.c.s
 
+src/check_coord.o: src/check_coord.c.o
+
+.PHONY : src/check_coord.o
+
+# target to build an object file
+src/check_coord.c.o:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/check_coord.c.o
+.PHONY : src/check_coord.c.o
+
+src/check_coord.i: src/check_coord.c.i
+
+.PHONY : src/check_coord.i
+
+# target to preprocess a source file
+src/check_coord.c.i:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/check_coord.c.i
+.PHONY : src/check_coord.c.i
+
+src/check_coord.s: src/check_coord.c.s
+
+.PHONY : src/check_coord.s
+
+# target to generate assembly for a file
+src/check_coord.c.s:
+	$(MAKE) -f CMakeFiles/lemin_final.dir/build.make CMakeFiles/lemin_final.dir/src/check_coord.c.s
+.PHONY : src/check_coord.c.s
+
 src/connectivity_matrix.o: src/connectivity_matrix.c.o
 
 .PHONY : src/connectivity_matrix.o
@@ -4878,6 +4905,9 @@ help:
 	@echo "... src/bfs_adj_list.o"
 	@echo "... src/bfs_adj_list.i"
 	@echo "... src/bfs_adj_list.s"
+	@echo "... src/check_coord.o"
+	@echo "... src/check_coord.i"
+	@echo "... src/check_coord.s"
 	@echo "... src/connectivity_matrix.o"
 	@echo "... src/connectivity_matrix.i"
 	@echo "... src/connectivity_matrix.s"

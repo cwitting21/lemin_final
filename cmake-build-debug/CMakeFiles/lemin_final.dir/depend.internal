@@ -397,6 +397,12 @@ CMakeFiles/lemin_final.dir/src/bfs_adj_list.c.o
  ../libftprintf/libft/libft.h
  ../libftprintf/libftprintf.h
  /Users/fculator/lemin_final/src/bfs_adj_list.c
+CMakeFiles/lemin_final.dir/src/check_coord.c.o
+ ../includes/lemin.h
+ ../libft/libft.h
+ ../libftprintf/libft/libft.h
+ ../libftprintf/libftprintf.h
+ /Users/fculator/lemin_final/src/check_coord.c
 CMakeFiles/lemin_final.dir/src/connectivity_matrix.c.o
  ../includes/lemin.h
  ../libft/libft.h

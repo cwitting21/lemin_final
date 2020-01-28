@@ -25,6 +25,7 @@ int		main(int ac, char **av)
 	initialize_map_2(map);
 	if (ac > 1)
 		get_options(map, ac, av);
+	check_coord(map);
 	room_table(map);
 	connectivity_matrix(map); // adj matrix created here?
 	part_validation_map(map);

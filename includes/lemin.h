@@ -195,5 +195,6 @@ void			adjust_ants_n_and_print_nl(int *ants_n, t_solution sol,
 													t_map *map, t_ants a);
 int				get_amount_of_avail_ways(t_solution sol);
 void			get_options(t_map *map, int ac, char **av);
+void			check_coord(t_map *map);
 
 #endif

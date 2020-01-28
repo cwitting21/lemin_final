@@ -172,4 +172,4 @@ add_executable(lemin_final
     src/rooms.c
     src/set_ways.c
     src/solve_map.c
-    src/solve_map_help1.c)
+    src/solve_map_help1.c src/check_coord.c)

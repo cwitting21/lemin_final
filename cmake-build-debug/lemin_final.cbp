@@ -467,6 +467,9 @@
 		<Unit filename="/Users/fculator/lemin_final/src/bfs_adj_list.c">
 			<Option target="lemin_final"/>
 		</Unit>
+		<Unit filename="/Users/fculator/lemin_final/src/check_coord.c">
+			<Option target="lemin_final"/>
+		</Unit>
 		<Unit filename="/Users/fculator/lemin_final/src/connectivity_matrix.c">
 			<Option target="lemin_final"/>
 		</Unit>

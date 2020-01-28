@@ -123,6 +123,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/lemin_final.dir/src/add_to_way.c.o"
   "CMakeFiles/lemin_final.dir/src/ants.c.o"
   "CMakeFiles/lemin_final.dir/src/bfs_adj_list.c.o"
+  "CMakeFiles/lemin_final.dir/src/check_coord.c.o"
   "CMakeFiles/lemin_final.dir/src/connectivity_matrix.c.o"
   "CMakeFiles/lemin_final.dir/src/copy_ways_to_sol.c.o"
   "CMakeFiles/lemin_final.dir/src/create_best_sol.c.o"

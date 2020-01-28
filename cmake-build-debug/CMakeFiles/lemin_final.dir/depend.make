@@ -397,6 +397,12 @@ CMakeFiles/lemin_final.dir/src/bfs_adj_list.c.o: ../libftprintf/libft/libft.h
 CMakeFiles/lemin_final.dir/src/bfs_adj_list.c.o: ../libftprintf/libftprintf.h
 CMakeFiles/lemin_final.dir/src/bfs_adj_list.c.o: ../src/bfs_adj_list.c
 
+CMakeFiles/lemin_final.dir/src/check_coord.c.o: ../includes/lemin.h
+CMakeFiles/lemin_final.dir/src/check_coord.c.o: ../libft/libft.h
+CMakeFiles/lemin_final.dir/src/check_coord.c.o: ../libftprintf/libft/libft.h
+CMakeFiles/lemin_final.dir/src/check_coord.c.o: ../libftprintf/libftprintf.h
+CMakeFiles/lemin_final.dir/src/check_coord.c.o: ../src/check_coord.c
+
 CMakeFiles/lemin_final.dir/src/connectivity_matrix.c.o: ../includes/lemin.h
 CMakeFiles/lemin_final.dir/src/connectivity_matrix.c.o: ../libft/libft.h
 CMakeFiles/lemin_final.dir/src/connectivity_matrix.c.o: ../libftprintf/libft/libft.h
