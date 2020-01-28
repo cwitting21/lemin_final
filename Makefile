@@ -23,7 +23,7 @@ SRC_FILES = lemin.c initialize_map.c \
 			distribute_ants.c del_q.c move_ants.c free_ready_ways.c del_sol.c \
 			part_validation.c print_ready_ways.c print_solution.c del_way.c \
 			solve_map_help1.c create_ready_way.c add_to_ready_way.c \
-			create_best_sol.c set_ways.c copy_ways_to_sol.c
+			create_best_sol.c set_ways.c copy_ways_to_sol.c move_ants_help1.c
 
 H_PATH = includes/
 

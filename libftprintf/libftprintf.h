@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/10 13:25:17 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/28 11:57:09 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 12:44:49 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@
 # define INDEX_SHARP	3
 # define INDEX_ZERO 	4
 # define NO_PRECISION	-1
-# define IS_PRECISION(arg) (arg > 0)
 
 typedef struct			s_print
 {
