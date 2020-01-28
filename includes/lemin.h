@@ -6,17 +6,14 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/07 18:01:58 by fculator          #+#    #+#             */
-/*   Updated: 2020/01/28 10:09:40 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 10:31:58 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LEM_IN_H
-# define LEM_IN_H
+#ifndef LEMIN_H
+# define LEMIN_H
 
-// REMOVE!!!
-#include <stdio.h>
-
-// # include "../libprintf/includes/ft_printf.h"
+# include <stdio.h>
 # include <limits.h>
 # include <unistd.h>
 # include <fcntl.h>
@@ -33,12 +30,6 @@
 ** rw - ready_ways
 */
 
-typedef enum    e_bool
-{
-    True = 1,
-    False = !True
-}               t_bool;
-
 typedef struct	s_valid
 {
 	int			part;
@@ -47,32 +38,47 @@ typedef struct	s_valid
 	int			init_2;
 }				t_valid;
 
-typedef struct 	s_input
+typedef struct	s_input
 {
 	char		*rooms_list;
 	char		*ants_list;
 	char		*link_list;
 }				t_input;
 
-typedef struct	s_adj_list_node
+typedef struct	s_al_node
 {
 	int						data;
-	struct s_adj_list_node	*next;
+	struct s_al_node		*next;
 }				t_al_node;
+
+/*
+**	rooms_n - number of rooms in a way
+*/
 
 typedef struct	s_al
 {
-	t_al_node			*head;
-	int						rooms_n; // number of rooms in a way
+	t_al_node	*head;
+	int			rooms_n;
 }				t_al;
+
+/*
+**	n - number of ways
+*/
 
 typedef struct	s_ways
 {
-	t_al	*way;
-	int			n; // number of ways
+	t_al		*way;
+	int			n;
 	int			deleted;
 	int			amount_ants;
 }				t_ways;
+
+/*
+**	array - adjacency list. initial graph
+**	graph - adjacency list. end graph
+**	ways - stores all found ways
+**	r_ways - ready ways
+*/
 
 typedef struct	s_map
 {
@@ -84,13 +90,12 @@ typedef struct	s_map
 	int			*way;
 	int			**matrix;
 	t_valid		*val;
-	t_input 	*in;
+	t_input		*in;
 	int			*in_way;
-	t_al		*array;		// adjacency list. initial graph
-	t_al		*graph;		// adjacency list. end graph
-	t_ways		*ways;		// stores all found ways
-	t_ways		r_ways[60];	// ready ways
-	t_bool		dup_arr[10000]; // change 100 later. array of room indexes that are duplicated
+	t_al		*array;
+	t_al		*graph;
+	t_ways		*ways;
+	t_ways		r_ways[60];
 }				t_map;
 
 typedef struct	s_solution
@@ -115,9 +120,9 @@ typedef struct	s_q
 
 typedef struct	s_ants
 {
-	int		*ants_room;
-	int		*ants_way;
-	int		*occ_room;
+	int			*ants_room;
+	int			*ants_way;
+	int			*occ_room;
 }				t_ants;
 
 int				get_next_line(const int fd, char **line);
@@ -126,7 +131,7 @@ void			free_map(t_map *map, int code);
 void			free_array(char **array, t_map *m, int code);
 void			parse_map_to_struct(t_map *map);
 void			ants(t_map *map, char *line);
-void			add_room_list(t_map *map,char *line);
+void			add_room_list(t_map *map, char *line);
 void			room_table(t_map *m);
 int				is_empty(char *s);
 void			add_link_list(t_map *map, char *line);
@@ -146,7 +151,7 @@ void			reverse_edges(t_map *map, int i);
 t_al_node		*add_to_way(t_ways *ways, int from, int to, int way_i);
 void			ft_exit(char *msg);
 void			print_adj_list(t_map *map);
-void		    print_matrix(t_map *m);
+void			print_matrix(t_map *m);
 void			push_q(t_q *q, int index);
 int				pop_q(t_q *q);
 int				empty_q(t_q *q);
@@ -181,4 +186,4 @@ void			del_way(t_map *map, int *i);
 void			set_ways(int *ants_way, t_solution sol, int size);
 void			copy_ways_to_sol(t_solution *sol, t_map *map);
 
-# endif
+#endif

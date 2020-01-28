@@ -6,15 +6,15 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/03 11:36:36 by wmaykit           #+#    #+#             */
-/*   Updated: 2020/01/15 19:47:11 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/28 10:35:59 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	ft_check_static(char **sta, int size, int fd, char *buf)
+static int		ft_check_static(char **sta, int size, int fd, char *buf)
 {
-	char *addr;
+	char		*addr;
 
 	if (*sta == 0 || ft_strcmp(*sta, "") == 0)
 	{
@@ -36,9 +36,9 @@ static int	ft_check_static(char **sta, int size, int fd, char *buf)
 	return (1);
 }
 
-static int	ft_supporting(char **sta, char *buf, int i, int size)
+static int		ft_supporting(char **sta, char *buf, int i, int size)
 {
-	char	*addr;
+	char		*addr;
 
 	buf[size] = '\0';
 	addr = *sta;
@@ -51,9 +51,9 @@ static int	ft_supporting(char **sta, char *buf, int i, int size)
 	return (--i);
 }
 
-static int	ft_supporting_2(char **sta, char **line, int i)
+static int		ft_supporting_2(char **sta, char **line, int i)
 {
-	char *addr;
+	char		*addr;
 
 	if (!(*line = ft_strsub(*sta, 0, i)))
 		return (-1);
@@ -67,10 +67,10 @@ static int	ft_supporting_2(char **sta, char **line, int i)
 	return (1);
 }
 
-static int	ft_search_n(char **sta, char **line, char *buf, int fd)
+static int		ft_search_n(char **sta, char **line, char *buf, int fd)
 {
-	int		i;
-	int		size;
+	int			i;
+	int			size;
 
 	i = -1;
 	size = 0;
@@ -92,7 +92,7 @@ static int	ft_search_n(char **sta, char **line, char *buf, int fd)
 	return (1);
 }
 
-int			get_next_line(const int fd, char **line)
+int				get_next_line(const int fd, char **line)
 {
 	char		*buf;
 	static char	*sta[10240];
