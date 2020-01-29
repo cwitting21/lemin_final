@@ -6,14 +6,12 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/02 13:15:59 by mwuckert          #+#    #+#             */
-/*   Updated: 2020/01/28 10:34:26 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/29 11:09:32 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-
-# define ABS(x) x < 0 ? -x : x
 
 # include <string.h>
 # include <limits.h>
