@@ -6,13 +6,13 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 17:41:25 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/29 17:41:34 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/29 18:13:23 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-static void		error_exit()
+static void		error_exit(void)
 {
 	ft_printf("ERROR\n");
 	exit(EXIT_FAILURE);
@@ -35,6 +35,7 @@ static void		adjust_starting_pos(int *j, int *ants_n, int *ants_room,
 static void		malloc_stuff_and_set_ways(t_ants *a, t_map *map, t_solution sol,
 																	int *ants_n)
 {
+	(sol.amount_ways == 0) ? error_exit() : print_map(map);
 	*ants_n = sol.amount_ways;
 	a->ants_room = (int*)ft_memalloc(sizeof(int) * map->ants);
 	a->ants_way = (int*)ft_memalloc(sizeof(int) * map->ants);
@@ -64,7 +65,6 @@ void			move_ants(t_solution s, t_map *map)
 	t_ants		a;
 
 	ft_bzero(&a, sizeof(t_ants));
-	(s.amount_ways == 0) ? error_exit() : print_map(map);
 	malloc_stuff_and_set_ways(&a, map, s, &ants_n);
 	while (!all_ants_in_end(a.ants_room, map->ants, map->rooms_count - 1))
 	{

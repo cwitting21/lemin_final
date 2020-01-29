@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/29 12:33:26 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/29 17:50:35 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/29 18:10:40 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ static void		free_exit(t_map *map)
 	exit(EXIT_SUCCESS);
 }
 
-void		print_adj_list_exit(t_map *map)
+void			print_adj_list_exit(t_map *map)
 {
 	int			i;
 	t_al_node	*tmp;
@@ -53,6 +53,5 @@ void		print_adj_list_exit(t_map *map)
 		}
 		ft_printf("\n");
 	}
-	// exit(EXIT_SUCCESS);
 	free_exit(map);
 }
