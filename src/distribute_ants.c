@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 21:07:45 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/28 10:09:13 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/29 21:24:13 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ t_solution		distribute_ants(t_map *map, int ants_n)
 	ways_n = 1;
 	i[1] = (ways_n >= sol.amount_ways ? sol.rw[0].way->rooms_n - 1 :
 										sol.rw[ways_n].way->rooms_n - 1);
-	while (ants_n != 0 && ways_n <= sol.amount_ways)
+	while (ants_n != 0)
 	{
 		i[0] = 0;
 		while (i[0] < ways_n && ants_n != 0)
