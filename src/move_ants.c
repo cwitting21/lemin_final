@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 17:41:25 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/29 18:13:23 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/29 18:45:40 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 static void		error_exit(void)
 {
-	ft_printf("ERROR\n");
+	ft_printf("Error: No possible solution\n");
 	exit(EXIT_FAILURE);
 }
 
