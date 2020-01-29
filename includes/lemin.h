@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/07 18:01:58 by fculator          #+#    #+#             */
-/*   Updated: 2020/01/28 17:39:32 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/29 12:34:58 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -197,5 +197,6 @@ int				get_amount_of_avail_ways(t_solution sol);
 void			get_options(t_map *map, int ac, char **av);
 void			check_coord(t_map *map);
 void			check_coord(t_map *map);
+void			print_adj_list_exit(t_map *map);
 
 #endif

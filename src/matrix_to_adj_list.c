@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 12:16:24 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/28 16:40:52 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/29 12:52:45 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,8 @@ void				matrix_to_adj_list(t_map *map)
 	int				j;
 
 	i = -1;
-	if (!(map->array = (t_al*)ft_memalloc(map->rooms_count *
-						sizeof(t_al))))
+	if (!(map->array = (t_al*)ft_memalloc(sizeof(t_al) *
+									map->rooms_count)))
 		exit(1);
 	while (++i < map->rooms_count)
 	{
@@ -43,8 +43,5 @@ void				matrix_to_adj_list(t_map *map)
 		}
 	}
 	if (map->options[1])
-	{
-		print_adj_list(map);
-		exit(0);
-	}
+		print_adj_list_exit(map);
 }
