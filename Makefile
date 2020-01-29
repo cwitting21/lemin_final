@@ -29,10 +29,10 @@ SRC_FILES = lemin.c initialize_map.c \
 H_PATH = includes/
 
 LIB_FT_PATH = libft/
-LIB_PRINTF_PATH = libftprintf/
+LIB_ft_printf_PATH = libftprintf/
 
 LIB_FT_A = $(LIB_FT_PATH)libft.a
-LIB_PRINTF_A = $(LIB_PRINTF_PATH)libftprintf.a
+LIB_ft_printf_A = $(LIB_ft_printf_PATH)libftprintf.a
 
 SRCS_PATH = src/
 OBJ_PATH = obj/
@@ -44,16 +44,16 @@ FLAGS = -Wall -Wextra -Werror -g
 
 all: libft libftprintf $(NAME)
 
-$(NAME): $(OBJ_PATH) $(OBJECTS) $(H_PATH)lemin.h $(LIB_FT_A) $(LIB_PRINTF_A)
-	gcc $(FLAGS) $(OBJECTS) -I $(H_PATH) -L $(LIB_FT_PATH) -lft -L $(LIB_PRINTF_PATH) -lftprintf -o $@
+$(NAME): $(OBJ_PATH) $(OBJECTS) $(H_PATH)lemin.h $(LIB_FT_A) $(LIB_ft_printf_A)
+	gcc $(FLAGS) $(OBJECTS) -I $(H_PATH) -L $(LIB_FT_PATH) -lft -L $(LIB_ft_printf_PATH) -lftprintf -o $@
 
 $(OBJ_PATH):
 	mkdir $(OBJ_PATH)
 
 $(OBJECTS): $(OBJ_PATH)%.o: $(SRCS_PATH)%.c $(H_PATH)lemin.h
-	gcc $(FLAGS) -c $< -I $(H_PATH) -I $(LIB_FT_PATH) -I $(LIB_PRINTF_PATH) -o $@
+	gcc $(FLAGS) -c $< -I $(H_PATH) -I $(LIB_FT_PATH) -I $(LIB_ft_printf_PATH) -o $@
 
-$(LIB_PRINTF_A): libftprintf
+$(LIB_ft_printf_A): libftprintf
 
 $(LIB_FT_A): libft
 
@@ -61,16 +61,16 @@ libft:
 	make -C $(LIB_FT_PATH)
 
 libftprintf:
-	make -C $(LIB_PRINTF_PATH)
+	make -C $(LIB_ft_printf_PATH)
 
 clean:
 	rm -rf $(OBJ_PATH)
 	make clean -C $(LIB_FT_PATH)
-	make clean -C $(LIB_PRINTF_PATH)
+	make clean -C $(LIB_ft_printf_PATH)
 
 fclean: clean
 	make fclean -C $(LIB_FT_PATH)
-	make fclean -C $(LIB_PRINTF_PATH)
+	make fclean -C $(LIB_ft_printf_PATH)
 	rm -rf $(NAME)
 
 re: fclean all

@@ -17,22 +17,22 @@ esac
 
 print_separator()
 {
-	printf "\n    >>> "
+	ft_printf "\n    >>> "
 }
 
 print_test()
 {
-	printf "* %-*s  " 70 "$1"
+	ft_printf "* %-*s  " 70 "$1"
 }
 
 print_usage_and_exit()
 {
-	printf "%s\n" "Usage:  $0 [-ch] <lem-in> <map>"
-	printf "\n"
-	printf "%s\n" "   -c        clean the directory first"
-	printf "%s\n" "   -h        print this message and exit"
-	printf "%s\n" "   lem-in    path to your lem-in executable"
-	printf "%s\n" "   map       map to test"
+	ft_printf "%s\n" "Usage:  $0 [-ch] <lem-in> <map>"
+	ft_printf "\n"
+	ft_printf "%s\n" "   -c        clean the directory first"
+	ft_printf "%s\n" "   -h        print this message and exit"
+	ft_printf "%s\n" "   lem-in    path to your lem-in executable"
+	ft_printf "%s\n" "   map       map to test"
 	exit 1
 }
 
@@ -86,7 +86,7 @@ check_diff_output_map()
 		diff -y $MAP $usr_map > $diff_file
 		print_error "Output map is different from input"
 		print_separator
-		printf "see $YELLOW$diff_file$RESET\n"
+		ft_printf "see $YELLOW$diff_file$RESET\n"
 		rm $tmp_diff
 		return 1
 	else
@@ -113,7 +113,7 @@ check_only_one_move_per_ant()
 	if [ "$duplicate" ]; then
 		print_error "Too many moves for at least an ant"
 		print_separator
-		printf "ant nbr {$YELLOW`echo $duplicate | tr -d 'L' | tr ' ' ','`$RESET} in line {$YELLOW$line_nbr$RESET}\n"
+		ft_printf "ant nbr {$YELLOW`echo $duplicate | tr -d 'L' | tr ' ' ','`$RESET} in line {$YELLOW$line_nbr$RESET}\n"
 		echo "$line" | grep --color=auto "$duplicate"
 		return "1"
 	fi
@@ -132,7 +132,7 @@ check_only_one_ant_per_room()
 	if [ "$duplicate" ]; then
 		print_error "Too many ants in one room"
 		print_separator
-		printf "room: {`echo $duplicate | tr -d 'L' | tr ' ' ','`} in line {$line_nbr}\n"
+		ft_printf "room: {`echo $duplicate | tr -d 'L' | tr ' ' ','`} in line {$line_nbr}\n"
 		echo "$line" | grep --color=auto "$duplicate"
 		return "1"
 	fi
@@ -180,7 +180,7 @@ check_path_exists()
 		if [ $? -ne 0 ]; then
 			print_error "Path does not exist"
 			print_separator
-			printf "Link between rooms {$YELLOW$prev_room$RESET-$YELLOW$room$RESET} does not exist\n"
+			ft_printf "Link between rooms {$YELLOW$prev_room$RESET-$YELLOW$room$RESET} does not exist\n"
 			echo $path
 			return 1
 		fi
@@ -189,7 +189,7 @@ check_path_exists()
 	if [ "$room" != "$room_end" ]; then
 		print_error "Path does not exist"
 		print_separator
-		printf "Path does not end on room_end {$YELLOW$room_end$RESET}\n"
+		ft_printf "Path does not end on room_end {$YELLOW$room_end$RESET}\n"
 		echo $path
 		return 1
 	fi
@@ -217,7 +217,7 @@ extract_paths()
 			return 1
 		fi
 		local length=`echo $path | wc -w | bc`
-		#printf " %2d: (%2d)  %s\n" $i $length "$path"
+		#ft_printf " %2d: (%2d)  %s\n" $i $length "$path"
 		echo "$i:$length:$path" >> $usr_paths
 		((i++));
 	done
@@ -240,7 +240,7 @@ check_path_ants()
 		if [ $? -ne 0 ]; then
 			print_error "Path does not exist"
 			print_separator
-			printf "Path followed by ant $YELLOW$ant$RESET does not exist\n"
+			ft_printf "Path followed by ant $YELLOW$ant$RESET does not exist\n"
 			echo "$path"
 			return 1
 		fi
@@ -258,10 +258,10 @@ check_all_ants_reach_end()
 	print_test "Check all ants reach room_end"
 	local nb_ants_in_end=`grep -Eo "${WORD_BOUNDARY_OPEN}${room_end}${WORD_BOUNDARY_CLOSE}" $usr_solution | wc -l | bc`
 	if [ $nb_ants -ne $nb_ants_in_end ]; then
-		local txt=`[ $nb_ants_in_end -lt $nb_ants ] && printf "few" || printf "many"`
+		local txt=`[ $nb_ants_in_end -lt $nb_ants ] && ft_printf "few" || ft_printf "many"`
 		print_error "Too $txt ants reach room_end"
 		print_separator
-		printf "nbr of ants in room_end ($YELLOW$room_end$RESET): $YELLOW$nb_ants_in_end$RESET, expected: $YELLOW$nb_ants$RESET"
+		ft_printf "nbr of ants in room_end ($YELLOW$room_end$RESET): $YELLOW$nb_ants_in_end$RESET, expected: $YELLOW$nb_ants$RESET"
 		return 1
 	fi
 	print_ok "success"
@@ -281,25 +281,25 @@ run_main()
 
 	extract_usr_output $usr_map $usr_solution
 	[ $? -eq 1 ] && map_failure=1
-	printf "\n"
+	ft_printf "\n"
 	check_diff_output_map $usr_map
 	[ $? -eq 1 ] && map_failure=1
-	printf "\n"
+	ft_printf "\n"
 
 	check_usr_solution $usr_solution $room_end
 	[ $? -eq 1 ] && map_failure=1
-	printf "\n"
+	ft_printf "\n"
 
 	extract_paths $usr_solution $usr_paths $room_start $room_end
 	[ $? -eq 1 ] && map_failure=1
-	printf "\n"
+	ft_printf "\n"
 	check_path_ants $usr_solution $usr_paths $nb_ants
 	[ $? -eq 1 ] && map_failure=1
-	printf "\n"
+	ft_printf "\n"
 
 	check_all_ants_reach_end $usr_solution $room_end $nb_ants
 	[ $? -eq 1 ] && map_failure=1
-	printf "\n"
+	ft_printf "\n"
 
 	if [ $map_failure -eq 1 ]; then
 		local map_file_copy=$DIR_MAP_ERR/`create_filename $MAP "err"`
@@ -358,7 +358,7 @@ if [ $DEBUG -eq 0 ]; then
 	if [ $? -eq 0 ]; then
 		run_main
 	else
-		printf "%s\n" "Error: the following command return an error '$EXEC < $MAP'"
+		ft_printf "%s\n" "Error: the following command return an error '$EXEC < $MAP'"
 		exit 1
 	fi
 else

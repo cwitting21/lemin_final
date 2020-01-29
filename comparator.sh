@@ -41,7 +41,7 @@ print_usage_and_exit()
 
 print_usage_error_and_exit()
 {
-	printf "error: %s\n\n" "$1"
+	ft_printf "error: %s\n\n" "$1"
 	print_usage_and_exit
 }
 
@@ -81,12 +81,12 @@ generate_new_map()
 
 print_header()
 {
-	printf "%*s${UNDERLINE} %*s exp  ${NC}" 7 "" $((2*${#@}))""
+	ft_printf "%*s${UNDERLINE} %*s exp  ${NC}" 7 "" $((2*${#@}))""
 	for bin in $@
 	do
-		printf "${UNDERLINE}%*s  ${RESET}" $OUTPUT_LENGTH $bin
+		ft_printf "${UNDERLINE}%*s  ${RESET}" $OUTPUT_LENGTH $bin
 	done
-	printf "\n"
+	ft_printf "\n"
 }
 
 get_value_winner_diff()
@@ -101,7 +101,7 @@ get_value_winner_diff()
 			fi
 		fi
 	done
-	printf "%d" $min
+	ft_printf "%d" $min
 }
 
 get_value_winner_time()
@@ -117,7 +117,7 @@ get_value_winner_time()
 			fi
 		fi
 	done
-	printf "%.3f" $min
+	ft_printf "%.3f" $min
 }
 
 print_result_line()
@@ -143,20 +143,20 @@ print_result_line()
 				marker_time=${NC}
 			fi
 			if [ ${#COMP_BIN[$i]} -lt $OUTPUT_LENGTH ]; then
-				printf "%4d ${marker_diff}(%+3d)${NC} ${marker_time}0m%.3fs${NC}"  ${COMP_NB_LINES[$i]} ${COMP_DIFF[$i]} ${COMP_TIME[$i]}
+				ft_printf "%4d ${marker_diff}(%+3d)${NC} ${marker_time}0m%.3fs${NC}"  ${COMP_NB_LINES[$i]} ${COMP_DIFF[$i]} ${COMP_TIME[$i]}
 			else
-				printf "%*s%4d ${marker_diff}(%+3d)${NC} ${marker_time}0m%.3fs${NC}" $((${#COMP_BIN[$i]} - $OUTPUT_LENGTH)) "" ${COMP_NB_LINES[$i]} ${COMP_DIFF[$i]} ${COMP_TIME[$i]}
+				ft_printf "%*s%4d ${marker_diff}(%+3d)${NC} ${marker_time}0m%.3fs${NC}" $((${#COMP_BIN[$i]} - $OUTPUT_LENGTH)) "" ${COMP_NB_LINES[$i]} ${COMP_DIFF[$i]} ${COMP_TIME[$i]}
 			fi
 		else
 			local width
 			local msg="error"
 			[ ${ERROR[$i]} -eq 2 ] && msg="timeout"
 			[ ${#COMP_BIN[$i]} -lt $OUTPUT_LENGTH ] && width=$OUTPUT_LENGTH || width=${#COMP_BIN[$i]}
-			printf "${RED}%*s${NC}" $width "$msg"
+			ft_printf "${RED}%*s${NC}" $width "$msg"
 		fi
-		printf "  "
+		ft_printf "  "
 	done
-	printf "\n"
+	ft_printf "\n"
 }
 
 timeout_fct()
@@ -184,9 +184,9 @@ timeout_fct()
 print_status_program()
 {
 	if [ $1 -eq 0 ]; then
-		printf "${GREEN}✔ ${NC}"
+		ft_printf "${GREEN}✔ ${NC}"
 	else
-		printf "${RED}✗ ${NC}"
+		ft_printf "${RED}✗ ${NC}"
 	fi
 }
 
@@ -203,7 +203,7 @@ run()
 	do
 		generate_new_map
 		max=`tail -n 1 $MAP | cut -d ':' -f 2 | bc`
-		printf "%4d : " $test_i
+		ft_printf "%4d : " $test_i
 		COMP_NB_LINES[0]=$max
 		for bin_j in `seq_start_at_zero ${#@}`
 		do
@@ -232,7 +232,7 @@ run()
 				RESULTS[$bin_j]+="${ERROR[$bin_j]}:0:0:0 "
 			fi
 		done
-		printf " %4d  " $max
+		ft_printf " %4d  " $max
 		print_result_line $@
 		mv $MAP ${MAP_BFR}
 	done
@@ -249,26 +249,26 @@ print_graph()
 		for j in {0..20}
 		do
 			rank=`echo "$big - $i + 1" | bc`
-			printf " "
-			[ "${COMP[$j]}" -ge $rank ] &&  printf "   ." || printf "    "
+			ft_printf " "
+			[ "${COMP[$j]}" -ge $rank ] &&  ft_printf "   ." || ft_printf "    "
 		done
-		printf " $d\n" $((big - i))
+		ft_printf " $d\n" $((big - i))
 	done
 }
 
 print_axis()
 {
-	printf "\n"
+	ft_printf "\n"
 	for i in {-10..10}
 	do
-		printf " %+4d" $i
+		ft_printf " %+4d" $i
 	done
-	printf "\n"
+	ft_printf "\n"
 	for i in {0..20}
 	do
-		printf " %4d" ${COMP[$i]}
+		ft_printf " %4d" ${COMP[$i]}
 	done
-	printf "\n"
+	ft_printf "\n"
 }
 
 get_value_winner()
@@ -280,7 +280,7 @@ get_value_winner()
 			max="${COMP_WIN_DIFF[$i]}"
 		fi
 	done
-	printf "%d" $max
+	ft_printf "%d" $max
 }
 
 print_winners()
@@ -288,22 +288,22 @@ print_winners()
 	local	value_winner=`get_value_winner $@`
 	local	is_tie=`is_this_a_tie $value_winner $@`
 
-	printf "\n"
+	ft_printf "\n"
 	if [ $is_tie -eq 1 ]; then
-		printf "🏆  THIS IS A TIE! THE WINNERS ARE "
+		ft_printf "🏆  THIS IS A TIE! THE WINNERS ARE "
 	else
-		printf "🏆  THE WINNER IS"
+		ft_printf "🏆  THE WINNER IS"
 	fi
 	for i in `seq_start_at_zero ${#@}`
 	do
 		if [ "${COMP_WIN_DIFF[$i]}" -eq "$value_winner" ];then
-			printf " ${GREEN}%s${NC}" "${COMP_BIN[$i]}"
+			ft_printf " ${GREEN}%s${NC}" "${COMP_BIN[$i]}"
 			if [ $is_tie -eq 0 ]; then
 				break
 			fi
 		fi
 	done
-	printf " 🏆 \n"
+	ft_printf " 🏆 \n"
 }
 
 is_this_a_tie()
@@ -317,11 +317,11 @@ is_this_a_tie()
 			((nb_occur++))
 		fi
 		if [ $nb_occur -gt 1 ]; then
-			printf "%d" 1
+			ft_printf "%d" 1
 			return
 		fi
 	done
-	printf "%d" 0
+	ft_printf "%d" 0
 }
 
 print_summary()
@@ -329,11 +329,11 @@ print_summary()
 	print_graph
 	print_axis
 
-	printf "\nResults\n"
-	printf "  ⤷ Time average: %.3fs\n" "$AVERAGE_TIME"
-	printf "  ⤷ Average: %.2f\n" "$AVERAGE_DIFF_LINES"
-	printf "  ⤷ Min: %d\n" "$MIN_DIFF_LINES"
-	printf "  ⤷ Max: %d\n" "$MAX_DIFF_LINES"
+	ft_printf "\nResults\n"
+	ft_printf "  ⤷ Time average: %.3fs\n" "$AVERAGE_TIME"
+	ft_printf "  ⤷ Average: %.2f\n" "$AVERAGE_DIFF_LINES"
+	ft_printf "  ⤷ Min: %d\n" "$MIN_DIFF_LINES"
+	ft_printf "  ⤷ Max: %d\n" "$MAX_DIFF_LINES"
 }
 
 print_average()

@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 19:11:09 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/28 08:55:31 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/29 17:24:13 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,13 +25,13 @@ void			print_graph(t_map *map)
 		tmp = map->graph[i].head;
 		tmp2 = tmp;
 		if (tmp)
-			printf("[%s] :", map->rooms[i]);
+			ft_printf("[%s] :", map->rooms[i]);
 		while (tmp)
 		{
-			printf(" %s ", map->rooms[tmp->data]);
+			ft_printf(" %s ", map->rooms[tmp->data]);
 			tmp = tmp->next;
 		}
 		if (tmp2)
-			printf("\n");
+			ft_printf("\n");
 	}
 }

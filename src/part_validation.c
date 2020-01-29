@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/17 13:52:35 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 22:34:36 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/29 17:14:03 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ void		start_end_val(char **r)
 	if (ft_strcmp(r[0], "##start") == 0)
 		g_start++;
 	if (ft_strcmp(r[0], "##end") == 0)
-		g_end++;
+		g_end++;	
 }
 
 void		part_validation_map(t_map *map)

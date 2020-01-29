@@ -22,17 +22,17 @@ esac
 
 print_ok()
 {
-	printf "${GREEN}%s${RESET}" "$1"
+	ft_printf "${GREEN}%s${RESET}" "$1"
 }
 
 print_error()
 {
-	printf "${RED}%s${RESET}" "$1"
+	ft_printf "${RED}%s${RESET}" "$1"
 }
 
 print_warning()
 {
-	printf "${YELLOW}%s${RESET}" "$1"
+	ft_printf "${YELLOW}%s${RESET}" "$1"
 }
 
 check_valid_file()
@@ -40,7 +40,7 @@ check_valid_file()
 	for file in $@
 	do
 		if [ ! -f $file ]; then
-			printf "%s\n" "File '$file' not found"
+			ft_printf "%s\n" "File '$file' not found"
 			return 1
 		fi
 	done
@@ -53,7 +53,7 @@ check_executable()
 	for exe in $@
 	do
 		if [ ! -x $exe ];then
-			printf "%s\n" "Executable '$1' not executable"
+			ft_printf "%s\n" "Executable '$1' not executable"
 			return 1
 		fi
 	done
@@ -65,9 +65,9 @@ add_prefix_if_current_dir()
 	local file=$1
 
 	if [ "`dirname $file`" = "." -a ${file:0:2} != "./" ]; then
-		printf "./$file"
+		ft_printf "./$file"
 	else
-		printf "$file"
+		ft_printf "$file"
 	fi
 }
 
@@ -84,7 +84,7 @@ initialize_dir()
 	for dir in $@
 	do
 		if [ ! -d $dir ]; then
-			printf "Create directory $dir\n"
+			ft_printf "Create directory $dir\n"
 			mkdir $dir
 		fi
 	done
@@ -107,7 +107,7 @@ get_basename()
 		output+=`basename $file | tr -d '\n'`
 		output+="  "
 	done
-	printf "$output" | sed 's/ +$//'
+	ft_printf "$output" | sed 's/ +$//'
 }
 
 compute_column_width()
@@ -131,7 +131,7 @@ cmd_check_leaks()
 	local leak_file=$1
 
 	if [ $CHECK_LEAKS -ne 0 ]; then
-		printf "valgrind --log-file=$leak_file --leak-check=full"
+		ft_printf "valgrind --log-file=$leak_file --leak-check=full"
 	fi
 }
 
@@ -181,9 +181,9 @@ get_status()
 print_status()
 {
 	if [ $1 -eq $STATUS_SUCCESS ]; then
-		printf "${GREEN}✔ $RESET"
+		ft_printf "${GREEN}✔ $RESET"
 	else
-		printf "${RED}✗ $RESET"
+		ft_printf "${RED}✗ $RESET"
 	fi
 }
 
@@ -191,12 +191,12 @@ print_summary()
 {
 	local nbr_of_players=$1
 
-	printf "Success: ${GREEN}%4d/%d${RESET}\n" $count_success $nbr_of_players
-	printf "Failure: ${RED}%4d/%d${RESET}\n" $count_failure $nbr_of_players
+	ft_printf "Success: ${GREEN}%4d/%d${RESET}\n" $count_success $nbr_of_players
+	ft_printf "Failure: ${RED}%4d/%d${RESET}\n" $count_failure $nbr_of_players
 	if [ $CHECK_LEAKS -ne 0 ]; then
-		printf "Leaks  : ${RED}%4d/%d${RESET}\n" $count_leaks $nbr_of_players
+		ft_printf "Leaks  : ${RED}%4d/%d${RESET}\n" $count_leaks $nbr_of_players
 	fi
 	if [ $KILL_TIMEOUT -ne 0 ]; then
-		printf "Timeout: ${YELLOW}%4d/%d${RESET}\n" $count_timeout $nbr_of_players
+		ft_printf "Timeout: ${YELLOW}%4d/%d${RESET}\n" $count_timeout $nbr_of_players
 	fi
 }

@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/10 17:10:04 by fculator          #+#    #+#             */
-/*   Updated: 2020/01/27 22:42:50 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/29 18:01:57 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,12 @@
 **	r[1] - r2
 */
 
+static void	set_to_1(int *r, t_map *map)
+{
+	map->matrix[*r][*(r + 1)] = 1;
+	map->matrix[*(r + 1)][*r] = 1;
+}
+
 void		connectivity_matrix(t_map *map)
 {
 	int		i;
@@ -25,6 +31,7 @@ void		connectivity_matrix(t_map *map)
 	char	**links;
 
 	i = -1;
+	(ft_strstr(map->in->link_list, "\n\n")) ? free_map(map, 1) : 0;
 	links = ft_strsplit(map->in->link_list, '\n');
 	while (links[++i])
 	{
@@ -39,8 +46,7 @@ void		connectivity_matrix(t_map *map)
 			free_array(l, map, 0);
 			free_array(links, map, 1);
 		}
-		map->matrix[r[0]][r[1]] = 1;
-		map->matrix[r[1]][r[0]] = 1;
+		set_to_1(r, map);
 		free_array(l, map, 0);
 	}
 	free_array(links, map, 0);
