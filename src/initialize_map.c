@@ -6,24 +6,24 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/11 17:05:33 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/29 10:43:10 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/29 15:40:38 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lemin.h"
 
-void		free_rooms(char **array)
+void       free_rooms(t_map *map, char **array)
 {
-	int		i;
-
-	i = 0;
-	if (array[0] == NULL)
-		array[0] = ft_strnew(1);
-	while (array[i])
-		(array[i]) ? free(array[i++]) : 0;
-	if (array && *array)
-		free(array);
-	array = NULL;
+   int       i;
+   i = -1;
+   while (++i < map->rooms_count)
+      if (array[i] == NULL)
+         array[i] = ft_strnew(1);
+   i = -1;
+   while (array[++i])
+      (array[i]) ? free(array[i]) : 0;
+   free(array);
+   array = NULL;
 }
 
 void		initialize_map(t_map *map)
@@ -82,7 +82,7 @@ void		free_map(t_map *map, int code)
 	free(map->in->rooms_list);
 	if (map->val->init_2)
 	{
-		free_rooms(map->rooms);
+		free_rooms(map, map->rooms);
 		free(map->way);
 		i = -1;
 		while (++i < map->rooms_count)

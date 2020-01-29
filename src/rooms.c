@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/09 19:25:22 by fculator          #+#    #+#             */
-/*   Updated: 2020/01/27 23:36:07 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/29 15:47:36 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,8 @@ void	validate_room(t_map *map, char *line)
 	char **r;
 
 	r = ft_strsplit(line, ' ');
+	if (r[1] == NULL || r[2] == NULL)
+		free_array(r, map, 1);
 	if (r[0][0] == 'L' || r[3] != NULL)
 		free_array(r, map, 1);
 	is_number(r, map, r[1]);
