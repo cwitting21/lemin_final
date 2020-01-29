@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/22 19:32:23 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/28 21:16:36 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/29 09:46:15 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,31 +14,15 @@
 
 void			free_ready_ways(t_map *map)
 {
-	t_al		*way_del;
-	// t_al_node	*del;
-	// t_al_node	*tmp;
 	int			i;
 	int			k;
 
 	i = -1;
 	while (++i < map->r_ways->n)
 	{
-		way_del = map->r_ways[i].way;
 		k = -1;
 		while (++k < map->rooms_count)
-		{
 			ft_memdel((void**)&map->r_ways[i].way[k].head);
-			ft_memdel((void**)&map->r_ways[i].way[k]);
-			// while (tmp)
-			// {
-				// del = tmp;
-				// tmp = tmp->next;
-				// ft_memdel((void**)&del);
-				// free(del);
-				// del = NULL;
-			// }
-		}
 		ft_memdel((void**)&map->r_ways[i].way);
-		ft_memdel((void**)&map->r_ways[i]);
 	}
 }

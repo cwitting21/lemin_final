@@ -6,7 +6,7 @@
 /*   By: cwitting <cwitting@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/27 21:03:02 by cwitting          #+#    #+#             */
-/*   Updated: 2020/01/27 21:04:10 by cwitting         ###   ########.fr       */
+/*   Updated: 2020/01/29 09:43:20 by cwitting         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void			del_way(t_map *map, int *i)
 	t_al_node	*del;
 	t_al_node	*del_tmp;
 
-	j = 0;
+	j = -1;
 	map->r_ways[(*i)].deleted = 1;
 	while (++j < map->rooms_count)
 	{
